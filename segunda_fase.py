@@ -234,14 +234,22 @@ def jogo_html(times, a, b, pa, pb):
             f'<span class="{cb}">{fmt(pb)} {html.escape(times[b]["nome"])}</span></div>')
 
 
+def agora_brasilia():
+    return dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M")
+
+
+NAV = ("<nav style='margin-top:8px'><a style='color:var(--acc);margin-right:14px' href='index.html'>Classificação</a>"
+       "<a style='color:var(--acc)' href='sugestoes.html'>Sugestões</a></nav>")
+
+
 def gerar_html(cfg, chaves, ultima, em_andamento):
-    agora = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M")
+    agora = agora_brasilia()
     situacao = f"Rodada {em_andamento} em andamento" if em_andamento else f"Última rodada encerrada: {ultima}"
     out = [f"<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'>"
            f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
            f"<title>{html.escape(cfg['nome_torneio'])}</title><style>{CSS}</style></head><body>"
            f"<header><h1>{html.escape(cfg['nome_torneio'])}</h1>"
-           f"<div class='sub'>{situacao} · atualizado em {agora} (Brasília)</div></header><main>"]
+           f"<div class='sub'>{situacao} · atualizado em {agora} (Brasília)</div>{NAV}</header><main>"]
     for c in chaves:
         times = c["times"]
         out.append(f"<h2>{html.escape(c['nome'])}</h2>")
@@ -316,6 +324,20 @@ def cmd_atualizar(cfg):
     pontos = buscar_pontuacoes(cfg, ultima)
     publicar(cfg, calcular(cfg, pontos), ultima, em_andamento)
     print(f"docs/ atualizado (última rodada encerrada: {ultima}).")
+    gerar_sugestoes(cfg, get_publico, SAIDA)
+
+
+def gerar_sugestoes(cfg, fonte, saida):
+    """Não derruba a classificação se a parte de sugestões falhar."""
+    try:
+        import sugestoes
+        d = sugestoes.gerar(fonte, saida, CSS, cfg["nome_torneio"], agora_brasilia(),
+                            cfg.get("orcamentos", [100, 140, 180]))
+        print(f"Sugestões geradas: {d['jogadores_avaliados']} jogadores avaliados.")
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"aviso: sugestões não geradas ({e})")
 
 
 def cmd_simular(cfg, ate=38):

@@ -22,3 +22,10 @@ disputas de 3º, 5º e 7º lugar. Empate na rodada 38 favorece o melhor colocado
 3. A action `.github/workflows/segunda_fase.yml` roda a cada 2 h, busca as pontuações em endpoints públicos (sem token) e atualiza `docs/index.html`.
 
 Outros comandos: `python segunda_fase.py tabela` (confrontos) e `python segunda_fase.py simular 34` (teste offline).
+
+### Sugestões de escalação
+
+A mesma action gera `docs/sugestoes.html` com dados públicos do Cartola (`atletas/mercado`, `partidas`):
+melhor time por orçamento (lista `orcamentos` no `segunda_fase/config_fase2.json`), os 5 melhores por posição
+e opções de custo-benefício. Só entram jogadores com status Provável. A nota é a média ajustada × mando ×
+força do adversário (detalhes no topo de `sugestoes.py`).
