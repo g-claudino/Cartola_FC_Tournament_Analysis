@@ -13,7 +13,7 @@ import datetime as dt
 import json
 from pathlib import Path
 
-ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{liga}/scoreboard?dates={ini}-{fim}&limit=900"
+ESPN = "https://site.api.espn.com/apis/site/v2/sports/soccer/{liga}/scoreboard?dates={dia}"  # só aceita um dia por vez
 LIGA_BR = "bra.1"
 OUTRAS = {
     "bra.copa_do_brazil": "Copa do Brasil",
@@ -23,15 +23,22 @@ OUTRAS = {
 TEMPORADA_INICIO = dt.date(2026, 1, 1)
 
 
+_SESSAO = None
+
+
 def _get(url):
+    global _SESSAO
     import requests
-    r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
+    if _SESSAO is None:
+        _SESSAO = requests.Session()
+        _SESSAO.headers["User-Agent"] = "Mozilla/5.0"
+    r = _SESSAO.get(url, timeout=30)
     r.raise_for_status()
     return r.json()
 
 
-def _eventos(liga, ini, fim):
-    d = _get(ESPN.format(liga=liga, ini=ini.strftime("%Y%m%d"), fim=fim.strftime("%Y%m%d")))
+def _eventos(liga, dia):
+    d = _get(ESPN.format(liga=liga, dia=dia.strftime("%Y%m%d")))
     out = {}
     for ev in d.get("events", []):
         comp = (ev.get("competitions") or [{}])[0]
@@ -54,25 +61,33 @@ def _eventos(liga, ini, fim):
 
 
 def atualizar_cache(cache_path, hoje=None):
-    """Baixa a temporada inteira na primeira vez; depois só a janela recente e as próximas 3 semanas."""
+    """Baixa a temporada inteira na primeira vez (um pedido por dia e competição);
+    depois só os últimos 10 dias e as próximas 3 semanas."""
+    from concurrent.futures import ThreadPoolExecutor
     cache_path = Path(cache_path)
     cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
     hoje = hoje or dt.date.today()
     fim = hoje + dt.timedelta(days=21)
     meta = cache.setdefault("_meta", {})
+    tarefas = []
     for liga in [LIGA_BR, *OUTRAS]:
-        jogos = cache.setdefault(liga, {})
-        ini = TEMPORADA_INICIO if not jogos else hoje - dt.timedelta(days=14)
-        a = ini
-        while a <= fim:
-            b = min(a + dt.timedelta(days=30), fim)
-            try:
-                jogos.update(_eventos(liga, a, b))
-                meta[liga] = "ok"
-            except Exception as e:
-                meta[liga] = f"erro: {e}"[:200]
-                print(f"  aviso ESPN {liga} {a}..{b}: {e}")
-            a = b + dt.timedelta(days=1)
+        cache.setdefault(liga, {})
+        ini = TEMPORADA_INICIO if meta.get(liga) != "ok" else hoje - dt.timedelta(days=10)
+        tarefas += [(liga, ini + dt.timedelta(days=i)) for i in range((fim - ini).days + 1)]
+    erros = {}
+    def baixar(t):
+        try:
+            return t, _eventos(*t), None
+        except Exception as e:
+            return t, {}, str(e)[:120]
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        for (liga, dia), evs, err in ex.map(baixar, tarefas):
+            cache[liga].update(evs)
+            if err:
+                erros.setdefault(liga, []).append(f"{dia}: {err}")
+    for liga in [LIGA_BR, *OUTRAS]:
+        n_err = len(erros.get(liga, []))
+        meta[liga] = "ok" if n_err == 0 else f"{n_err} dias com erro, ex.: {erros[liga][0]}"
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(json.dumps(cache, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8")
     return cache
