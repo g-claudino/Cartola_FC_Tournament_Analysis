@@ -240,8 +240,10 @@ def agora_brasilia():
     return dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M")
 
 
-NAV = ("<nav style='margin-top:8px'><a style='color:var(--acc);margin-right:14px' href='index.html'>Classificação</a>"
-       "<a style='color:var(--acc)' href='sugestoes.html'>Sugestões</a></nav>")
+NAV = ("<nav style='margin-top:8px'>"
+       "<a style='color:var(--acc);margin-right:14px' href='index.html'>Classificação</a>"
+       "<a style='color:var(--acc);margin-right:14px' href='sugestoes.html'>Sugestões</a>"
+       "<a style='color:var(--acc)' href='palpites.html'>Palpites</a></nav>")
 
 
 def gerar_html(cfg, chaves, ultima, em_andamento):
@@ -329,6 +331,19 @@ def cmd_atualizar(cfg):
     publicar(cfg, calcular(cfg, pontos), ultima, em_andamento)
     print(f"docs/ atualizado (última rodada encerrada: {ultima}).")
     gerar_sugestoes(cfg, get_publico, SAIDA)
+    gerar_palpites(cfg, get_publico, SAIDA)
+
+
+def gerar_palpites(cfg, fonte, saida):
+    try:
+        import palpites
+        d = palpites.gerar(fonte, saida, CSS, cfg["nome_torneio"], agora_brasilia(),
+                           BASE / "segunda_fase" / "partidas_cache.json", NAV)
+        print(f"Palpites gerados: {len(d['jogos'])} jogos, histórico {d['historico']}.")
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"aviso: palpites não gerados ({e})")
 
 
 def gerar_sugestoes(cfg, fonte, saida):
@@ -336,7 +351,7 @@ def gerar_sugestoes(cfg, fonte, saida):
     try:
         import sugestoes
         d = sugestoes.gerar(fonte, saida, CSS, cfg["nome_torneio"], agora_brasilia(),
-                            cfg.get("orcamentos", [100, 140, 180]))
+                            cfg.get("orcamentos", [100, 140, 180]), NAV)
         print(f"Sugestões geradas: {d['jogadores_avaliados']} jogadores avaliados.")
     except Exception as e:
         import traceback

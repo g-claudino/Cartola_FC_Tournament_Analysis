@@ -29,3 +29,11 @@ A mesma action gera `docs/sugestoes.html` com dados públicos do Cartola (`atlet
 melhor time por orçamento (lista `orcamentos` no `segunda_fase/config_fase2.json`), os 5 melhores por posição
 e opções de custo-benefício. Só entram jogadores com status Provável. A nota é a média ajustada × mando ×
 força do adversário (detalhes no topo de `sugestoes.py`).
+
+### Palpites e valorização
+
+- `palpites.py`: probabilidade de vitória, empate e derrota e placar mais provável de cada jogo da rodada
+  (Poisson com força de ataque/defesa em casa e fora). Placares vêm de `partidas/{rodada}` e ficam em
+  `segunda_fase/partidas_cache.json`. A página mostra o acerto do modelo nas rodadas já jogadas.
+- `valorizacao.py`: fórmula da variação de preço obtida dos dados históricos (2024–2026). Usada para a
+  coluna "Mín." (mínimo para valorizar) das sugestões. `python valorizacao.py ajustar <pasta caRtola>` refaz o ajuste.

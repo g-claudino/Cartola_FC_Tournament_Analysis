@@ -44,6 +44,22 @@ def jogos_da_rodada(partidas):
     return jogo
 
 
+def minimo_valorizar(a):
+    """Pontuação mínima para o preço subir no próximo jogo. Usa o valor oficial do
+    Cartola quando a API o traz; senão, a fórmula de valorizacao.py (pontos da última
+    rodada como pontuação anterior)."""
+    oficial = a.get("minimo_para_valorizar")
+    if isinstance(oficial, (int, float)):
+        return round(float(oficial), 2)
+    try:
+        import valorizacao
+        return round(valorizacao.minimo_para_valorizar(float(a.get("preco_num") or 0),
+                                                       float(a.get("pontos_num") or 0),
+                                                       int(a.get("jogos_num") or 0) + 1), 2)
+    except Exception:
+        return None
+
+
 def avaliar(mercado, partidas):
     clubes = {int(k): v for k, v in (mercado.get("clubes") or partidas.get("clubes") or {}).items()}
     jogo = jogos_da_rodada(partidas)
@@ -68,7 +84,7 @@ def avaliar(mercado, partidas):
             id=a["atleta_id"], nome=a.get("apelido") or a.get("nome"), pos=pos,
             clube=sigla(cid), adv=sigla(g["adv"]), casa=g["casa"], adv_pos=g.get("adv_pos"),
             preco=round(float(a.get("preco_num") or 0), 2), media=round(float(a["media_num"]), 2),
-            jogos=j, nota=round(base * mando * adv, 2)))
+            jogos=j, nota=round(base * mando * adv, 2), minimo=minimo_valorizar(a)))
     return jogadores
 
 
@@ -144,14 +160,18 @@ def _linha(j, capitao=None):
     c = " <span class='tag'>C</span>" if capitao == j["id"] else ""
     return (f"<tr><td>{POS[j['pos']]}</td><td class='n'>{html.escape(j['nome'])}{c}"
             f"<small>{html.escape(j['clube'])} · vs {html.escape(j['adv'])}{pos_adv} · {mando}</small></td>"
-            f"<td>{j['preco']:.2f}</td><td>{j['media']:.2f}</td><td><b>{j['nota']:.2f}</b></td></tr>")
+            f"<td>{j['preco']:.2f}</td><td>{j['media']:.2f}</td><td>{_fmt(j.get('minimo'))}</td><td><b>{j['nota']:.2f}</b></td></tr>")
+
+
+def _fmt(v):
+    return "–" if v is None else f"{v:.1f}"
 
 
 CABECALHO = ("<div class='scroll'><table><tr><th>Pos</th><th style='text-align:left'>Jogador</th>"
-             "<th>C$</th><th>Média</th><th>Nota</th></tr>")
+             "<th>C$</th><th>Média</th><th>Mín.</th><th>Nota</th></tr>")
 
 
-def gerar_html(dados, css, titulo, agora):
+def gerar_html(dados, css, titulo, agora, nav=""):
     estado = (f"Mercado aberto · rodada {dados['rodada']}" if dados["mercado_aberto"]
               else f"Mercado fechado · rodada {dados['rodada']}")
     out = [f"<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'>"
@@ -159,7 +179,7 @@ def gerar_html(dados, css, titulo, agora):
            f"<style>{css} details{{background:var(--card);border-radius:10px;margin:10px 0;padding:4px 12px}}"
            f"summary{{cursor:pointer;padding:10px 0;font-weight:600}} nav a{{color:var(--acc);margin-right:14px}}</style></head><body>"
            f"<header><h1>Sugestões da rodada</h1><div class='sub'>{estado} · atualizado em {agora} (Brasília)</div>"
-           f"<nav style='margin-top:8px'><a href='index.html'>Classificação</a><a href='sugestoes.html'>Sugestões</a></nav></header><main>"]
+           f"{nav}</header><main>"]
     out.append("<h2>Time sugerido por orçamento</h2>")
     for b, t in dados["times"].items():
         if not t:
@@ -175,15 +195,16 @@ def gerar_html(dados, css, titulo, agora):
     out.append(f"<p class='sub'>Só jogadores com status Provável ({dados['jogadores_avaliados']} avaliados). "
                "Nota = média ajustada pelo número de jogos × mando (casa 1,08, fora 0,95) × força do adversário "
                "(0,90 contra o 1º da tabela até 1,10 contra o 20º). É uma estimativa para comparar opções, não uma previsão. "
-               "C = capitão sugerido.</p></main></body></html>")
+               "C = capitão sugerido. Mín. = pontuação mínima para o jogador valorizar no próximo jogo "
+               "(fórmula estimada a partir do histórico de preços; erro típico de C$ 0,05).</p></main></body></html>")
     return "".join(out)
 
 
-def gerar(get_publico, saida, css, titulo, agora, orcamentos):
+def gerar(get_publico, saida, css, titulo, agora, orcamentos, nav=""):
     status = get_publico("mercado/status")
     dados = montar(get_publico("atletas/mercado"), get_publico("partidas"), status, orcamentos)
     saida = Path(saida)
     saida.mkdir(parents=True, exist_ok=True)
-    (saida / "sugestoes.html").write_text(gerar_html(dados, css, titulo, agora), encoding="utf-8")
+    (saida / "sugestoes.html").write_text(gerar_html(dados, css, titulo, agora, nav), encoding="utf-8")
     (saida / "sugestoes.json").write_text(json.dumps(dados, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return dados
