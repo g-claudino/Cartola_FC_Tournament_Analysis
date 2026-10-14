@@ -1,0 +1,43 @@
+name: Atualizar segunda fase
+
+on:
+  schedule:
+    # A cada 2 horas (UTC). Só baixa rodadas novas; as já salvas ficam em cache.
+    - cron: "17 */2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: segunda-fase
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Buscar pontuações e gerar a página
+        run: python segunda_fase.py atualizar
+
+      - name: Salvar mudanças
+        if: always()
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
+          git add -A .
+          # Só commita quando os dados mudam (o horário na página muda sempre).
+          if git diff --cached --quiet -- docs/fase2.json segunda_fase/pontuacoes.json segunda_fase/config_fase2.json; then
+            echo "Nada novo."
+          else
+            git commit -m "Segunda fase: atualiza classificação"
+            git push
+          fi

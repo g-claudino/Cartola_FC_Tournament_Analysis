@@ -1,0 +1,36 @@
+{
+  "nome_torneio": "LIGA – Segunda Fase 2026",
+  "rodadas_grupo": [31, 32, 33, 34, 35, 36, 37],
+  "rodada_final": 38,
+  "pontos": { "vitoria": 3, "empate": 1, "derrota": 0 },
+  "chaves": [
+    {
+      "id": "principal",
+      "nome": "Chave Principal",
+      "times": [
+        { "seed": 1, "nome": "Idosolludido", "cartoleiro": "Daniel", "time_id": null },
+        { "seed": 2, "nome": "FC Aerodynamics", "cartoleiro": "Thiago Mathe", "time_id": null },
+        { "seed": 3, "nome": "CRV Vasco da Bra", "cartoleiro": "Estevan", "time_id": null },
+        { "seed": 4, "nome": "Soul Edge", "cartoleiro": "Vinícius L. Kripka", "time_id": null },
+        { "seed": 5, "nome": "HABZ", "cartoleiro": "Henrique Bett", "time_id": null },
+        { "seed": 6, "nome": "The Little Tiger", "cartoleiro": "Lucas", "time_id": null },
+        { "seed": 7, "nome": "davOLUTION", "cartoleiro": "Pedro Davim", "time_id": null },
+        { "seed": 8, "nome": "SC Ventures", "cartoleiro": "ContentTV", "time_id": null }
+      ]
+    },
+    {
+      "id": "perdedores",
+      "nome": "Chave dos Perdedores",
+      "times": [
+        { "seed": 1, "nome": "SC dos Mano", "cartoleiro": "MKripka", "time_id": null },
+        { "seed": 2, "nome": "Alegria26 FC", "cartoleiro": "Dirce", "time_id": null },
+        { "seed": 3, "nome": "Trabalhador EC", "cartoleiro": "Victor M M Andrade", "time_id": null },
+        { "seed": 4, "nome": "Filhos de Ronielson", "cartoleiro": "Thiago Cestari", "time_id": null },
+        { "seed": 5, "nome": "Boia FC", "cartoleiro": "Boia", "time_id": null },
+        { "seed": 6, "nome": "TimedoBagulho", "cartoleiro": "Vitor Balbuglio", "time_id": null },
+        { "seed": 7, "nome": "Surpreendente A", "cartoleiro": "Jogador Surpresa", "time_id": null },
+        { "seed": 8, "nome": "Kaneluduss FC", "cartoleiro": "Brunão", "time_id": null }
+      ]
+    }
+  ]
+}
