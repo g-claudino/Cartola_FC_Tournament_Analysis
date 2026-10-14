@@ -30,7 +30,7 @@ def resultados(get_publico, rodada_atual, cache_path):
     cache_path = Path(cache_path)
     cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
     for r in range(1, rodada_atual):
-        if str(r) in cache:
+        if str(r) in cache and all("data" in j for j in cache[str(r)]):
             continue
         try:
             d = get_publico(f"partidas/{r}")
@@ -42,7 +42,8 @@ def resultados(get_publico, rodada_atual, cache_path):
             gm, gv = p.get("placar_oficial_mandante"), p.get("placar_oficial_visitante")
             if gm is None or gv is None:
                 continue
-            jogos.append(dict(casa=p["clube_casa_id"], fora=p["clube_visitante_id"], gm=int(gm), gv=int(gv)))
+            jogos.append(dict(casa=p["clube_casa_id"], fora=p["clube_visitante_id"], gm=int(gm), gv=int(gv),
+                              data=p.get("partida_data")))
         if jogos:
             cache[str(r)] = jogos
     cache_path.parent.mkdir(parents=True, exist_ok=True)
@@ -213,6 +214,12 @@ def gerar_html(dados, css, titulo, agora, nav=""):
 
 def gerar(get_publico, saida, css, titulo, agora, cache_path, nav=""):
     status = get_publico("mercado/status")
+    try:
+        import fontes_externas
+        ext = fontes_externas.atualizar_cache(Path(cache_path).parent / "outras_competicoes.json")
+        print("  ESPN:", ext.get("_meta"), {k: len(v) for k, v in ext.items() if k != "_meta"})
+    except Exception as e:
+        print(f"  aviso: dados ESPN indisponíveis ({e})")
     dados = montar(get_publico, status, cache_path)
     saida = Path(saida)
     saida.mkdir(parents=True, exist_ok=True)
