@@ -179,6 +179,13 @@ def montar(get_publico, status, cache_path, ext=None):
         if ext:
             mapa = fe.mapear_times(ext, hist)
             agenda = fe.agenda_outras(ext, mapa)
+            completos = {}
+            for j in ext.get(fe.LIGA_BR, {}).values():
+                for lado in ("casa", "fora"):
+                    if j[lado] in mapa and j.get(lado + "_nome"):
+                        completos[mapa[j[lado]]] = j[lado + "_nome"]
+            curto = nome
+            nome = lambda cid: completos.get(cid) or curto(cid)  # noqa: E731
         des = fe.desfalques(get_publico("atletas/mercado").get("atletas", []), max(rodada - 1, 1))
     except Exception as e:
         print(f"  aviso: contexto indisponível ({e})")
