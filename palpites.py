@@ -215,6 +215,10 @@ def gerar_html(dados, css, titulo, agora, nav=""):
 def gerar(get_publico, saida, css, titulo, agora, cache_path, nav=""):
     status = get_publico("mercado/status")
     try:
+        import sonda_espn  # noqa: F401  (diagnóstico temporário)
+    except Exception as e:
+        print("sonda falhou", e)
+    try:
         import fontes_externas
         ext = fontes_externas.atualizar_cache(Path(cache_path).parent / "outras_competicoes.json")
         print("  ESPN:", ext.get("_meta"), {k: len(v) for k, v in ext.items() if k != "_meta"})
