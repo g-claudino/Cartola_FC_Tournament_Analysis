@@ -15,7 +15,11 @@
         "fora": 0.216,
         "placar": "1 x 1",
         "placar_prob": 0.109
-      }
+      },
+      "contexto": [
+        "BOT sem: Edenílson",
+        "CHA sem: Marcinho, Rafael Carvalheira"
+      ]
     },
     {
       "casa": "CAM",
@@ -31,7 +35,12 @@
         "fora": 0.233,
         "placar": "1 x 1",
         "placar_prob": 0.106
-      }
+      },
+      "contexto": [
+        "CAM sem: Alan Franco, Gustavo Scarpa, Everson, Ruan",
+        "CAM jogou Sul-Americana 3 dias antes",
+        "CFC sem: Lucas Ronier"
+      ]
     },
     {
       "casa": "CAP",
@@ -47,7 +56,12 @@
         "fora": 0.347,
         "placar": "1 x 1",
         "placar_prob": 0.13
-      }
+      },
+      "contexto": [
+        "CAP sem: Vargas, Benavídez",
+        "PAL sem: Gustavo Gómez, Giay",
+        "PAL jogou Libertadores 3 dias antes"
+      ]
     },
     {
       "casa": "SAO",
@@ -63,7 +77,13 @@
         "fora": 0.21,
         "placar": "1 x 0",
         "placar_prob": 0.121
-      }
+      },
+      "contexto": [
+        "SAO sem: Danielzinho, Luciano, Domingos Duarte",
+        "VAS sem: Barros",
+        "VAS jogou Sul-Americana 4 dias antes",
+        "VAS joga Sul-Americana 3 dias depois"
+      ]
     },
     {
       "casa": "FLU",
@@ -79,7 +99,13 @@
         "fora": 0.26,
         "placar": "1 x 1",
         "placar_prob": 0.107
-      }
+      },
+      "contexto": [
+        "FLU sem: John Kennedy, Guilherme Arana",
+        "FLU jogou Libertadores 4 dias antes",
+        "FLU joga Libertadores 3 dias depois",
+        "SAN sem: Arthur Melo, Willian Arão, Gabriel Brazão"
+      ]
     },
     {
       "casa": "GRE",
@@ -95,7 +121,11 @@
         "fora": 0.27,
         "placar": "1 x 1",
         "placar_prob": 0.111
-      }
+      },
+      "contexto": [
+        "GRE sem: Wallace",
+        "CRU sem: Felipe Morais"
+      ]
     },
     {
       "casa": "BAH",
@@ -111,7 +141,12 @@
         "fora": 0.401,
         "placar": "1 x 1",
         "placar_prob": 0.123
-      }
+      },
+      "contexto": [
+        "BAH sem: Léo Vieira",
+        "FLA sem: Arrascaeta, Danilo",
+        "FLA jogou Libertadores 3 dias antes"
+      ]
     },
     {
       "casa": "REM",
@@ -127,7 +162,11 @@
         "fora": 0.326,
         "placar": "1 x 1",
         "placar_prob": 0.132
-      }
+      },
+      "contexto": [
+        "REM sem: Marcelo Rangel",
+        "RBB sem: Henry Mosquera, Rodriguinho"
+      ]
     },
     {
       "casa": "COR",
@@ -143,6 +182,44 @@
         "fora": 0.215,
         "placar": "1 x 0",
         "placar_prob": 0.138
+      },
+      "contexto": [
+        "COR sem: Raniele, Memphis Depay",
+        "VIT sem: Baralhas, Nathan Mendes, Cacá, Ramon"
+      ]
+    }
+  ],
+  "outros_hoje": [
+    {
+      "competicao": "Sul-Americana",
+      "hora": "19:00",
+      "casa": "Atlético-MG",
+      "fora": "Montevideo City Torque",
+      "casa_id": 282,
+      "fora_id": null,
+      "gc": null,
+      "gf": null,
+      "encerrado": false,
+      "previsao": null
+    },
+    {
+      "competicao": "Libertadores",
+      "hora": "21:30",
+      "casa": "Fluminense",
+      "fora": "Palmeiras",
+      "casa_id": 266,
+      "fora_id": 275,
+      "gc": null,
+      "gf": null,
+      "encerrado": false,
+      "previsao": {
+        "gols_casa": 1.26,
+        "gols_fora": 1.25,
+        "casa": 0.357,
+        "empate": 0.29,
+        "fora": 0.353,
+        "placar": "1 x 1",
+        "placar_prob": 0.128
       }
     }
   ],
