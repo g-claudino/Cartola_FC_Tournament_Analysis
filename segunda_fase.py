@@ -215,6 +215,8 @@ td.n{text-align:left}td.n small{display:block;color:var(--sub)}tr.z td{backgroun
 .tag{font-size:11px;color:var(--bg);background:var(--acc);border-radius:4px;padding:1px 6px;margin-left:6px}
 .camp{background:linear-gradient(135deg,#3a2a12,#24272e);border:1px solid var(--acc);border-radius:12px;padding:14px;margin:10px 0}
 .scroll{overflow-x:auto}
+.cta{display:block;margin:4px 0 8px;padding:14px 16px;border-radius:12px;background:var(--acc);color:#111;font-weight:700;text-decoration:none;font-size:16px}
+.cta small{display:block;font-weight:500;font-size:13px;opacity:.8}
 """
 
 
@@ -249,7 +251,9 @@ def gerar_html(cfg, chaves, ultima, em_andamento):
            f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
            f"<title>{html.escape(cfg['nome_torneio'])}</title><style>{CSS}</style></head><body>"
            f"<header><h1>{html.escape(cfg['nome_torneio'])}</h1>"
-           f"<div class='sub'>{situacao} · atualizado em {agora} (Brasília)</div>{NAV}</header><main>"]
+           f"<div class='sub'>{situacao} · atualizado em {agora} (Brasília)</div>{NAV}</header><main>"
+           f"<a class='cta' href='sugestoes.html'>Ver sugestões de escalação →"
+           f"<small>Melhor time por orçamento, destaques por posição e custo-benefício</small></a>"]
     for c in chaves:
         times = c["times"]
         out.append(f"<h2>{html.escape(c['nome'])}</h2>")
