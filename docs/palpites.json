@@ -2,8 +2,8 @@
   "rodada": 31,
   "jogos": [
     {
-      "casa": "BOT",
-      "fora": "CHA",
+      "casa": "Botafogo",
+      "fora": "Chapecoense",
       "data": "2026-10-17 18:00",
       "hoje": false,
       "local": "Nilton Santos (Engenhão)",
@@ -17,13 +17,13 @@
         "placar_prob": 0.109
       },
       "contexto": [
-        "BOT sem: Edenílson",
-        "CHA sem: Marcinho, Rafael Carvalheira"
+        "Botafogo sem: Edenílson",
+        "Chapecoense sem: Marcinho, Rafael Carvalheira"
       ]
     },
     {
-      "casa": "CAM",
-      "fora": "CFC",
+      "casa": "Atlético-MG",
+      "fora": "Coritiba",
       "data": "2026-10-17 18:30",
       "hoje": false,
       "local": "Arena MRV",
@@ -37,14 +37,14 @@
         "placar_prob": 0.106
       },
       "contexto": [
-        "CAM sem: Alan Franco, Gustavo Scarpa, Everson, Ruan",
-        "CAM jogou Sul-Americana 3 dias antes",
-        "CFC sem: Lucas Ronier"
+        "Atlético-MG sem: Alan Franco, Gustavo Scarpa, Everson, Ruan",
+        "Atlético-MG jogou Sul-Americana 3 dias antes",
+        "Coritiba sem: Lucas Ronier"
       ]
     },
     {
-      "casa": "CAP",
-      "fora": "PAL",
+      "casa": "Athletico-PR",
+      "fora": "Palmeiras",
       "data": "2026-10-17 19:30",
       "hoje": false,
       "local": "Arena da Baixada",
@@ -58,14 +58,14 @@
         "placar_prob": 0.13
       },
       "contexto": [
-        "CAP sem: Vargas, Benavídez",
-        "PAL sem: Gustavo Gómez, Giay",
-        "PAL jogou Libertadores 3 dias antes"
+        "Athletico-PR sem: Vargas, Benavídez",
+        "Palmeiras sem: Gustavo Gómez, Giay",
+        "Palmeiras jogou Libertadores 3 dias antes"
       ]
     },
     {
-      "casa": "SAO",
-      "fora": "VAS",
+      "casa": "São Paulo",
+      "fora": "Vasco da Gama",
       "data": "2026-10-17 21:00",
       "hoje": false,
       "local": "Morumbis",
@@ -79,15 +79,15 @@
         "placar_prob": 0.121
       },
       "contexto": [
-        "SAO sem: Danielzinho, Luciano, Domingos Duarte",
-        "VAS sem: Barros",
-        "VAS jogou Sul-Americana 4 dias antes",
-        "VAS joga Sul-Americana 3 dias depois"
+        "São Paulo sem: Danielzinho, Luciano, Domingos Duarte",
+        "Vasco da Gama sem: Barros",
+        "Vasco da Gama jogou Sul-Americana 4 dias antes",
+        "Vasco da Gama joga Sul-Americana 3 dias depois"
       ]
     },
     {
-      "casa": "FLU",
-      "fora": "SAN",
+      "casa": "Fluminense",
+      "fora": "Santos",
       "data": "2026-10-18 16:00",
       "hoje": false,
       "local": "Maracanã",
@@ -101,15 +101,15 @@
         "placar_prob": 0.107
       },
       "contexto": [
-        "FLU sem: John Kennedy, Guilherme Arana",
-        "FLU jogou Libertadores 4 dias antes",
-        "FLU joga Libertadores 3 dias depois",
-        "SAN sem: Arthur Melo, Willian Arão, Gabriel Brazão"
+        "Fluminense sem: John Kennedy, Guilherme Arana",
+        "Fluminense jogou Libertadores 4 dias antes",
+        "Fluminense joga Libertadores 3 dias depois",
+        "Santos sem: Arthur Melo, Willian Arão, Gabriel Brazão"
       ]
     },
     {
-      "casa": "GRE",
-      "fora": "CRU",
+      "casa": "Grêmio",
+      "fora": "Cruzeiro",
       "data": "2026-10-18 16:00",
       "hoje": false,
       "local": "Arena do Grêmio",
@@ -123,13 +123,13 @@
         "placar_prob": 0.111
       },
       "contexto": [
-        "GRE sem: Wallace",
-        "CRU sem: Felipe Morais"
+        "Grêmio sem: Wallace",
+        "Cruzeiro sem: Felipe Morais"
       ]
     },
     {
-      "casa": "BAH",
-      "fora": "FLA",
+      "casa": "Bahia",
+      "fora": "Flamengo",
       "data": "2026-10-18 18:30",
       "hoje": false,
       "local": "Arena Fonte Nova",
@@ -143,14 +143,14 @@
         "placar_prob": 0.123
       },
       "contexto": [
-        "BAH sem: Léo Vieira",
-        "FLA sem: Arrascaeta, Danilo",
-        "FLA jogou Libertadores 3 dias antes"
+        "Bahia sem: Léo Vieira",
+        "Flamengo sem: Arrascaeta, Danilo",
+        "Flamengo jogou Libertadores 3 dias antes"
       ]
     },
     {
-      "casa": "REM",
-      "fora": "RBB",
+      "casa": "Remo",
+      "fora": "Red Bull Bragantino",
       "data": "2026-10-18 19:30",
       "hoje": false,
       "local": "Mangueirão",
@@ -164,13 +164,13 @@
         "placar_prob": 0.132
       },
       "contexto": [
-        "REM sem: Marcelo Rangel",
-        "RBB sem: Henry Mosquera, Rodriguinho"
+        "Remo sem: Marcelo Rangel",
+        "Red Bull Bragantino sem: Henry Mosquera, Rodriguinho"
       ]
     },
     {
-      "casa": "COR",
-      "fora": "VIT",
+      "casa": "Corinthians",
+      "fora": "Vitória",
       "data": "2026-10-19 20:00",
       "hoje": false,
       "local": "Neo Química Arena",
@@ -184,8 +184,8 @@
         "placar_prob": 0.138
       },
       "contexto": [
-        "COR sem: Raniele, Memphis Depay",
-        "VIT sem: Baralhas, Nathan Mendes, Cacá, Ramon"
+        "Corinthians sem: Raniele, Memphis Depay",
+        "Vitória sem: Baralhas, Nathan Mendes, Cacá, Ramon"
       ]
     }
   ],
