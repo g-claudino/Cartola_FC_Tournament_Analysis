@@ -8,8 +8,10 @@ separada em casa e fora:
   gols esperados do mandante  = média de gols do mandante na liga × ataque_casa(M) × defesa_fora(V)
   gols esperados do visitante = média de gols do visitante na liga × ataque_fora(V) × defesa_casa(M)
 
-As forças são puxadas para 1,0 quando há poucos jogos (encolhimento) e os jogos
-recentes pesam mais (meia-vida de 10 rodadas). Os placares saem de `partidas/{rodada}`.
+As forças são puxadas para 1,0 quando há poucos jogos (encolhimento). Os placares
+saem de `partidas/{rodada}`. Desfalques e jogos em outras competições entram só como
+contexto na página: testados em 2026 (rodadas 8–30, validação deixando uma rodada de
+fora), não melhoraram as probabilidades.
 """
 import datetime as dt
 import html
@@ -30,7 +32,7 @@ def resultados(get_publico, rodada_atual, cache_path):
     cache_path = Path(cache_path)
     cache = json.loads(cache_path.read_text(encoding="utf-8")) if cache_path.exists() else {}
     for r in range(1, rodada_atual):
-        if str(r) in cache:
+        if str(r) in cache and all("data" in j for j in cache[str(r)]):
             continue
         try:
             d = get_publico(f"partidas/{r}")
@@ -42,7 +44,8 @@ def resultados(get_publico, rodada_atual, cache_path):
             gm, gv = p.get("placar_oficial_mandante"), p.get("placar_oficial_visitante")
             if gm is None or gv is None:
                 continue
-            jogos.append(dict(casa=p["clube_casa_id"], fora=p["clube_visitante_id"], gm=int(gm), gv=int(gv)))
+            jogos.append(dict(casa=p["clube_casa_id"], fora=p["clube_visitante_id"], gm=int(gm), gv=int(gv),
+                              data=p.get("partida_data")))
         if jogos:
             cache[str(r)] = jogos
     cache_path.parent.mkdir(parents=True, exist_ok=True)
@@ -141,24 +144,67 @@ def avaliar_historico(jogos_por_rodada, a_partir_de=8):
 
 # ---------------------------------------------------------------- página
 
-def montar(get_publico, status, cache_path):
+def _dias(h):
+    d = round(h / 24)
+    return "hoje" if d == 0 else "1 dia" if d == 1 else f"{d} dias"
+
+
+def contexto_jogo(fe, agenda, des, clube, nome_clube, quando):
+    linhas = []
+    if des and des.get(clube, {}).get("nomes"):
+        linhas.append(f"{nome_clube} sem: {', '.join(des[clube]['nomes'][:5])}")
+    if agenda is not None:
+        c = fe.calendario(agenda, clube, quando)
+        if c["antes"]:
+            linhas.append(f"{nome_clube} jogou {c['antes']} {_dias(c['antes_h'])} antes")
+        if c["depois"]:
+            linhas.append(f"{nome_clube} joga {c['depois']} {_dias(c['depois_h'])} depois")
+    return linhas
+
+
+def montar(get_publico, status, cache_path, ext=None):
     rodada = status["rodada_atual"]
     hist = resultados(get_publico, rodada, cache_path)
     modelo = forcas(hist, rodada)
     atual = get_publico("partidas")
     clubes = {int(k): v for k, v in (atual.get("clubes") or {}).items()}
-    nome = lambda cid: (clubes.get(cid) or {}).get("nome") or str(cid)  # noqa: E731
-    hoje = dt.datetime.now(dt.timezone(dt.timedelta(hours=-3))).date().isoformat()
+    nome = lambda cid: ((clubes.get(cid) or {}).get("nome_fantasia")  # noqa: E731
+                        or (clubes.get(cid) or {}).get("nome") or str(cid))
+    brt = dt.timezone(dt.timedelta(hours=-3))
+    hoje = dt.datetime.now(brt).date().isoformat()
+
+    fe = agenda = mapa = des = None
+    try:
+        import fontes_externas as fe
+        if ext:
+            mapa = fe.mapear_times(ext, hist)
+            agenda = fe.agenda_outras(ext, mapa)
+        des = fe.desfalques(get_publico("atletas/mercado").get("atletas", []), max(rodada - 1, 1))
+    except Exception as e:
+        print(f"  aviso: contexto indisponível ({e})")
+
     jogos = []
     for p in atual.get("partidas", []):
         if p.get("valida") is False:
             continue
         prev = prever(modelo, p["clube_casa_id"], p["clube_visitante_id"]) if modelo else None
         data = (p.get("partida_data") or "")[:16]
+        ctx = []
+        if fe and data:
+            quando = dt.datetime.fromisoformat(data.replace(" ", "T")).replace(tzinfo=brt)
+            for cid in (p["clube_casa_id"], p["clube_visitante_id"]):
+                ctx += contexto_jogo(fe, agenda, des, cid, nome(cid), quando)
         jogos.append(dict(casa=nome(p["clube_casa_id"]), fora=nome(p["clube_visitante_id"]), data=data,
-                          hoje=data[:10] == hoje, local=p.get("local"), previsao=prev))
+                          hoje=data[:10] == hoje, local=p.get("local"), previsao=prev, contexto=ctx))
     jogos.sort(key=lambda j: j["data"])
-    return dict(rodada=atual.get("rodada", rodada), hoje=hoje, jogos=jogos,
+
+    outros = []
+    if fe and ext and mapa is not None:
+        for j in fe.jogos_do_dia(ext, mapa, hoje):
+            j["previsao"] = (prever(modelo, j["casa_id"], j["fora_id"])
+                             if modelo and j["casa_id"] and j["fora_id"] else None)
+            outros.append(j)
+    return dict(rodada=atual.get("rodada", rodada), hoje=hoje, jogos=jogos, outros_hoje=outros,
                 historico=avaliar_historico(hist), rodadas_usadas=len(hist))
 
 
@@ -183,6 +229,21 @@ def gerar_html(dados, css, titulo, agora, nav=""):
                    f"o resultado em <b>{_pct(h['acerto'])}</b> de {h['jogos']} jogos. {compara} usar só a frequência "
                    f"de vitórias, empates e derrotas do campeonato (log-loss {h['logloss']} do modelo contra "
                    f"{h['logloss_base']}; menor é melhor).</p>")
+    if dados.get("outros_hoje"):
+        out.append("<h2>Hoje em outras competições</h2>")
+        for j in dados["outros_hoje"]:
+            placar = f" · {j['gc']} x {j['gf']}" if j.get("encerrado") and j.get("gc") is not None else ""
+            out.append(f"<div class='jg h'><div class='tt'><span>{html.escape(j['casa'])}</span>"
+                       f"<span>{html.escape(j['fora'])}</span></div>")
+            p = j.get("previsao")
+            if p:
+                out.append(f"<div class='barra'><div class='bc' style='width:{100*p['casa']:.0f}%'></div>"
+                           f"<div class='be' style='width:{100*p['empate']:.0f}%'></div><div class='bf' style='width:{100*p['fora']:.0f}%'></div></div>"
+                           f"<div class='lin'><span>Vitória {_pct(p['casa'])}</span><span>Empate {_pct(p['empate'])}</span>"
+                           f"<span>Vitória {_pct(p['fora'])}</span></div>"
+                           f"<div class='lin' style='margin-top:4px'><span>Estimativa pela campanha no Brasileirão</span></div>")
+            out.append(f"<div class='lin' style='margin-top:6px'><span>{j['hora']}{placar}</span>"
+                       f"<span>{html.escape(j['competicao'])}</span></div></div>")
     dia_atual = None
     for j in dados["jogos"]:
         dia = j["data"][:10]
@@ -204,16 +265,27 @@ def gerar_html(dados, css, titulo, agora, nav=""):
                        f"<span>Vitória {_pct(p['fora'])}</span></div>"
                        f"<div class='lin' style='margin-top:6px'><span>Placar mais provável: <b style='color:var(--txt)'>{p['placar']}</b></span>"
                        f"<span>Gols esperados {p['gols_casa']:.1f} – {p['gols_fora']:.1f}</span></div>")
+        for linha in j.get("contexto", []):
+            out.append(f"<div class='lin' style='margin-top:4px'><span>• {html.escape(linha)}</span></div>")
         out.append(f"<div class='lin' style='margin-top:6px'><span>{hora}</span><span>{html.escape(j.get('local') or '')}</span></div></div>")
     out.append("<p class='sub'>Modelo de Poisson com força de ataque e defesa de cada time em casa e fora, relativa à média "
-               "do campeonato, com mais peso para jogos recentes. Não considera desfalques, escalações nem calendário.</p>"
+               "do campeonato. Desfalques (status do Cartola: contundido ou suspenso, só titulares habituais) e jogos em outras "
+               "competições (ESPN) aparecem como contexto, mas não mudam as porcentagens: testados na temporada 2026, "
+               "não melhoraram o acerto.</p>"
                "</main></body></html>")
     return "".join(out)
 
 
 def gerar(get_publico, saida, css, titulo, agora, cache_path, nav=""):
     status = get_publico("mercado/status")
-    dados = montar(get_publico, status, cache_path)
+    ext = None
+    try:
+        import fontes_externas
+        ext = fontes_externas.atualizar_cache(Path(cache_path).parent / "outras_competicoes.json")
+        print("  ESPN:", ext.get("_meta"), {k: len(v) for k, v in ext.items() if k != "_meta"})
+    except Exception as e:
+        print(f"  aviso: dados ESPN indisponíveis ({e})")
+    dados = montar(get_publico, status, cache_path, ext)
     saida = Path(saida)
     saida.mkdir(parents=True, exist_ok=True)
     (saida / "palpites.html").write_text(gerar_html(dados, css, titulo, agora, nav), encoding="utf-8")
