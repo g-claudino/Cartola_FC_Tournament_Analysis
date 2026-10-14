@@ -18,8 +18,9 @@ import math
 from pathlib import Path
 
 MAX_GOLS = 8
-ENCOLHIMENTO = 4.0      # "jogos fantasmas" na média da liga
-MEIA_VIDA = 10.0        # rodadas
+ENCOLHIMENTO = 12.0     # "jogos fantasmas" na média da liga (ajustado nos jogos de 2026)
+MEIA_VIDA = 1000.0      # rodadas; peso por recência não melhorou o acerto em 2026
+EMPATE_EXTRA = 0.03     # Poisson independente subestima empates (25% previsto x 28% real em 2026)
 
 
 # ---------------------------------------------------------------- dados
@@ -102,6 +103,7 @@ def prever(modelo, casa, fora):
                 pf += p
             if p > melhor[0]:
                 melhor = (p, a, b)
+    pe += EMPATE_EXTRA * (pc + pe + pf)
     tot = pc + pe + pf
     return dict(gols_casa=round(lc, 2), gols_fora=round(lf, 2), casa=round(pc / tot, 3), empate=round(pe / tot, 3),
                 fora=round(pf / tot, 3), placar=f"{melhor[1]} x {melhor[2]}", placar_prob=round(melhor[0], 3))
@@ -119,6 +121,7 @@ def avaliar_historico(jogos_por_rodada, a_partir_de=8):
             continue
         m = forcas(jogos_por_rodada, r)
         nb = sum(freq.values())
+        reais = []
         for j in jogos_por_rodada[r]:
             p = prever(m, j["casa"], j["fora"])
             real = "casa" if j["gm"] > j["gv"] else "empate" if j["gm"] == j["gv"] else "fora"
@@ -127,6 +130,8 @@ def avaliar_historico(jogos_por_rodada, a_partir_de=8):
             total += 1
             logloss -= math.log(max(p[real], 1e-9))
             base_ll -= math.log(max(freq[real] / nb, 1e-9))
+            reais.append(real)
+        for real in reais:  # só depois da rodada inteira: a referência não pode ver o resultado
             freq[real] += 1
     if not total:
         return None
