@@ -96,7 +96,14 @@ def atualizar_cache(cache_path, hoje=None):
 # ---------------------------------------------------------------- ligação ESPN → Cartola
 
 def _dia(iso):
-    return (iso or "")[:10]
+    """Dia no horário de Brasília (a ESPN usa UTC: jogo às 21h30 cai no dia seguinte)."""
+    try:
+        t = dt.datetime.fromisoformat(iso.replace("Z", "+00:00"))
+    except (AttributeError, ValueError):
+        return (iso or "")[:10]
+    if t.tzinfo is None:
+        return t.date().isoformat()
+    return t.astimezone(dt.timezone(dt.timedelta(hours=-3))).date().isoformat()
 
 
 def mapear_times(cache, jogos_cartola):
@@ -153,13 +160,28 @@ def agenda_outras(cache, mapa):
 def calendario(agenda, clube, quando, janela_h=96):
     """Jogo de outra competição até `janela_h` horas antes e depois do jogo do Brasileirão."""
     antes = depois = None
+    antes_h = depois_h = None
     for t, nome in agenda.get(clube, []):
         h = (t - quando).total_seconds() / 3600
         if -janela_h <= h < -2:
-            antes = nome
+            antes, antes_h = nome, -h
         elif 2 < h <= janela_h and depois is None:
-            depois = nome
-    return dict(antes=antes, depois=depois)
+            depois, depois_h = nome, h
+    return dict(antes=antes, antes_h=antes_h, depois=depois, depois_h=depois_h)
+
+
+def jogos_do_dia(cache, mapa, dia_iso):
+    """Jogos de outras competições num dia (horário de Brasília)."""
+    out = []
+    for liga, nome in OUTRAS.items():
+        for j in cache.get(liga, {}).values():
+            if _dia(j["data"]) != dia_iso:
+                continue
+            t = dt.datetime.fromisoformat(j["data"].replace("Z", "+00:00")).astimezone(dt.timezone(dt.timedelta(hours=-3)))
+            out.append(dict(competicao=nome, hora=t.strftime("%H:%M"), casa=j["casa_nome"], fora=j["fora_nome"],
+                            casa_id=mapa.get(j["casa"]), fora_id=mapa.get(j["fora"]), gc=j.get("gc"), gf=j.get("gf"),
+                            encerrado=j.get("encerrado")))
+    return sorted(out, key=lambda x: x["hora"])
 
 
 # ---------------------------------------------------------------- desfalques (status do Cartola)
