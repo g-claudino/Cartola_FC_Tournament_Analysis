@@ -181,8 +181,8 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.14,
-      "nota": 80.05,
+      "custo": 138.77,
+      "nota": 80.96,
       "capitao": 143193,
       "time": [
         {
@@ -214,32 +214,18 @@
           "minimo": -0.32
         },
         {
-          "id": 116065,
-          "nome": "Cuiabano",
+          "id": 101727,
+          "nome": "Matheuzinho",
           "pos": 2,
-          "clube": "VAS",
-          "adv": "SAO",
-          "casa": false,
-          "adv_pos": 10,
-          "preco": 13.02,
-          "media": 7.75,
-          "jogos": 18,
-          "nota": 6.78,
-          "minimo": 8.51
-        },
-        {
-          "id": 99274,
-          "nome": "Alexander Barboza",
-          "pos": 3,
-          "clube": "PAL",
-          "adv": "CAP",
-          "casa": false,
-          "adv_pos": 3,
-          "preco": 11.4,
-          "media": 6.11,
-          "jogos": 19,
-          "nota": 4.99,
-          "minimo": 9.3
+          "clube": "COR",
+          "adv": "VIT",
+          "casa": true,
+          "adv_pos": 12,
+          "preco": 10.46,
+          "media": 6.1,
+          "jogos": 24,
+          "nota": 6.41,
+          "minimo": 3.71
         },
         {
           "id": 63008,
@@ -254,6 +240,34 @@
           "jogos": 10,
           "nota": 4.91,
           "minimo": 1.31
+        },
+        {
+          "id": 141131,
+          "nome": "Vitão",
+          "pos": 3,
+          "clube": "CAM",
+          "adv": "CFC",
+          "casa": true,
+          "adv_pos": 11,
+          "preco": 4.68,
+          "media": 4.52,
+          "jogos": 6,
+          "nota": 4.4,
+          "minimo": 1.16
+        },
+        {
+          "id": 63007,
+          "nome": "Neymar",
+          "pos": 4,
+          "clube": "SAN",
+          "adv": "FLU",
+          "casa": false,
+          "adv_pos": 4,
+          "preco": 20.23,
+          "media": 10.24,
+          "jogos": 13,
+          "nota": 7.8,
+          "minimo": 3.01
         },
         {
           "id": 107231,
@@ -282,20 +296,6 @@
           "jogos": 27,
           "nota": 7.17,
           "minimo": 7.22
-        },
-        {
-          "id": 124552,
-          "nome": "Lescano",
-          "pos": 4,
-          "clube": "VAS",
-          "adv": "SAO",
-          "casa": false,
-          "adv_pos": 10,
-          "preco": 11.32,
-          "media": 9.0,
-          "jogos": 4,
-          "nota": 5.93,
-          "minimo": 7.03
         },
         {
           "id": 143193,
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 146.93,
-      "nota": 80.12,
+      "custo": 155.84,
+      "nota": 81.99,
       "capitao": 143193,
       "time": [
         {
@@ -432,6 +432,20 @@
           "minimo": 1.31
         },
         {
+          "id": 63007,
+          "nome": "Neymar",
+          "pos": 4,
+          "clube": "SAN",
+          "adv": "FLU",
+          "casa": false,
+          "adv_pos": 4,
+          "preco": 20.23,
+          "media": 10.24,
+          "jogos": 13,
+          "nota": 7.8,
+          "minimo": 3.01
+        },
+        {
           "id": 107231,
           "nome": "Danilo",
           "pos": 4,
@@ -458,20 +472,6 @@
           "jogos": 27,
           "nota": 7.17,
           "minimo": 7.22
-        },
-        {
-          "id": 124552,
-          "nome": "Lescano",
-          "pos": 4,
-          "clube": "VAS",
-          "adv": "SAO",
-          "casa": false,
-          "adv_pos": 10,
-          "preco": 11.32,
-          "media": 9.0,
-          "jogos": 4,
-          "nota": 5.93,
-          "minimo": 7.03
         },
         {
           "id": 143193,
@@ -751,6 +751,20 @@
     ],
     "MEI": [
       {
+        "id": 63007,
+        "nome": "Neymar",
+        "pos": 4,
+        "clube": "SAN",
+        "adv": "FLU",
+        "casa": false,
+        "adv_pos": 4,
+        "preco": 20.23,
+        "media": 10.24,
+        "jogos": 13,
+        "nota": 7.8,
+        "minimo": 3.01
+      },
+      {
         "id": 107231,
         "nome": "Danilo",
         "pos": 4,
@@ -805,20 +819,6 @@
         "jogos": 22,
         "nota": 5.68,
         "minimo": 10.94
-      },
-      {
-        "id": 94930,
-        "nome": "Lucas Paquetá",
-        "pos": 4,
-        "clube": "FLA",
-        "adv": "BAH",
-        "casa": false,
-        "adv_pos": 5,
-        "preco": 14.67,
-        "media": 6.84,
-        "jogos": 19,
-        "nota": 5.61,
-        "minimo": 10.86
       }
     ],
     "ATA": [
