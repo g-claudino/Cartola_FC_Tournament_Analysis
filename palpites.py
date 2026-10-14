@@ -168,7 +168,8 @@ def montar(get_publico, status, cache_path, ext=None):
     modelo = forcas(hist, rodada)
     atual = get_publico("partidas")
     clubes = {int(k): v for k, v in (atual.get("clubes") or {}).items()}
-    nome = lambda cid: (clubes.get(cid) or {}).get("nome") or str(cid)  # noqa: E731
+    nome = lambda cid: ((clubes.get(cid) or {}).get("nome_fantasia")  # noqa: E731
+                        or (clubes.get(cid) or {}).get("nome") or str(cid))
     brt = dt.timezone(dt.timedelta(hours=-3))
     hoje = dt.datetime.now(brt).date().isoformat()
 
