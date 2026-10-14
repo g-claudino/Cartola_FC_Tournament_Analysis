@@ -83,12 +83,47 @@ def rodadas_encerradas(status):
     return ultima, em_andamento
 
 
+def buscar_ids_publico(cfg):
+    """Preenche time_id pela busca pública do Cartola (times?q=), sem token.
+    Só aceita um resultado cujo nome do time E do cartoleiro batam com o config."""
+    from urllib.parse import quote
+    mudou = False
+    for chave in cfg["chaves"]:
+        for t in chave["times"]:
+            if t.get("time_id"):
+                continue
+            nome, dono = normalizar(t["nome"]), normalizar(t.get("cartoleiro", ""))
+            consultas = [t["nome"], " ".join(t["nome"].split()[:2]), t["nome"].split()[0]]
+            for q in dict.fromkeys(consultas):
+                try:
+                    res = get_publico("times?q=" + quote(q))
+                except Exception as e:
+                    print(f"  busca '{q}' falhou: {e}")
+                    continue
+                res = res if isinstance(res, list) else res.get("times", [])
+                achou = [m for m in res if normalizar(m.get("nome")).startswith(nome)
+                         and normalizar(m.get("nome_cartola")).startswith(dono)]
+                if len(achou) == 1:
+                    m = achou[0]
+                    t.update(time_id=m["time_id"], nome=m["nome"], cartoleiro=m.get("nome_cartola", t["cartoleiro"]))
+                    print(f"  ok  {t['nome']:<28} {t['time_id']}")
+                    mudou = True
+                    break
+            else:
+                print(f"  ??  {t['nome']}: não encontrado na busca pública")
+    if mudou:
+        salvar(CONFIG, cfg)
+
+
 def buscar_pontuacoes(cfg, ultima):
     cache = carregar(CACHE, {})
     times = [t for c in cfg["chaves"] for t in c["times"]]
+    if any(not t.get("time_id") for t in times):
+        buscar_ids_publico(cfg)
     sem_id = [t["nome"] for t in times if not t.get("time_id")]
     if sem_id:
-        sys.exit(f"Faltam time_id para: {', '.join(sem_id)}. Rode 'python segunda_fase.py ids'.")
+        sys.exit(f"Faltam time_id para: {', '.join(sem_id)}. Preencha à mão em "
+                 f"segunda_fase/config_fase2.json ou rode 'python segunda_fase.py ids'.")
     rodadas = cfg["rodadas_grupo"] + [cfg["rodada_final"]]
     for r in rodadas:
         if r > ultima:

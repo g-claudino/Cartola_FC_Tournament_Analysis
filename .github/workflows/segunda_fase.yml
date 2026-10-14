@@ -29,12 +29,13 @@ jobs:
         run: python segunda_fase.py atualizar
 
       - name: Salvar mudanças
+        if: always()
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
-          git add docs segunda_fase/pontuacoes.json
+          git add -A .
           # Só commita quando os dados mudam (o horário na página muda sempre).
-          if git diff --cached --quiet -- docs/fase2.json segunda_fase/pontuacoes.json; then
+          if git diff --cached --quiet -- docs/fase2.json segunda_fase/pontuacoes.json segunda_fase/config_fase2.json; then
             echo "Nada novo."
           else
             git commit -m "Segunda fase: atualiza classificação"
