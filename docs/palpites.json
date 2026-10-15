@@ -79,7 +79,7 @@
         "placar_prob": 0.121
       },
       "contexto": [
-        "São Paulo sem: Danielzinho, Ferreira, Domingos Duarte",
+        "São Paulo sem: Ferreira, Danielzinho, Domingos Duarte",
         "Vasco da Gama sem: Barros",
         "Vasco da Gama jogou Sul-Americana 4 dias antes",
         "Vasco da Gama joga Sul-Americana 3 dias depois"
@@ -191,36 +191,16 @@
   ],
   "outros_hoje": [
     {
-      "competicao": "Sul-Americana",
-      "hora": "19:00",
-      "casa": "Atlético-MG",
-      "fora": "Montevideo City Torque",
-      "casa_id": 282,
-      "fora_id": null,
+      "competicao": "Libertadores",
+      "hora": "21:30",
+      "casa": "Estudiantes de La Plata",
+      "fora": "Flamengo",
+      "casa_id": null,
+      "fora_id": 262,
       "gc": null,
       "gf": null,
       "encerrado": false,
       "previsao": null
-    },
-    {
-      "competicao": "Libertadores",
-      "hora": "21:30",
-      "casa": "Fluminense",
-      "fora": "Palmeiras",
-      "casa_id": 266,
-      "fora_id": 275,
-      "gc": null,
-      "gf": null,
-      "encerrado": false,
-      "previsao": {
-        "gols_casa": 1.26,
-        "gols_fora": 1.25,
-        "casa": 0.357,
-        "empate": 0.29,
-        "fora": 0.353,
-        "placar": "1 x 1",
-        "placar_prob": 0.128
-      }
     }
   ],
   "historico": {
