@@ -5,9 +5,9 @@
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.42,
-      "nota": 69.12,
-      "capitao": 107231,
+      "custo": 99.43,
+      "nota": 68.83,
+      "capitao": 143193,
       "time": [
         {
           "id": 98333,
@@ -52,20 +52,6 @@
           "minimo": 3.65
         },
         {
-          "id": 63008,
-          "nome": "Rafael Tolói",
-          "pos": 3,
-          "clube": "SAO",
-          "adv": "VAS",
-          "casa": true,
-          "adv_pos": 14,
-          "preco": 7.26,
-          "media": 4.77,
-          "jogos": 10,
-          "nota": 4.91,
-          "minimo": 1.31
-        },
-        {
           "id": 141131,
           "nome": "Vitão",
           "pos": 3,
@@ -80,18 +66,32 @@
           "minimo": 1.16
         },
         {
-          "id": 107231,
-          "nome": "Danilo",
+          "id": 124912,
+          "nome": "Jonathan Jesus",
+          "pos": 3,
+          "clube": "CRU",
+          "adv": "GRE",
+          "casa": false,
+          "adv_pos": 18,
+          "preco": 6.41,
+          "media": 4.46,
+          "jogos": 19,
+          "nota": 4.38,
+          "minimo": 2.31
+        },
+        {
+          "id": 104783,
+          "nome": "Acevedo",
           "pos": 4,
-          "clube": "BOT",
-          "adv": "CHA",
+          "clube": "BAH",
+          "adv": "FLA",
           "casa": true,
-          "adv_pos": 20,
-          "preco": 14.18,
-          "media": 6.99,
-          "jogos": 21,
-          "nota": 7.66,
-          "minimo": 8.92
+          "adv_pos": 1,
+          "preco": 6.78,
+          "media": 4.88,
+          "jogos": 26,
+          "nota": 4.52,
+          "minimo": 0.59
         },
         {
           "id": 105068,
@@ -122,6 +122,20 @@
           "minimo": -0.04
         },
         {
+          "id": 143193,
+          "nome": "Viveros",
+          "pos": 5,
+          "clube": "CAP",
+          "adv": "PAL",
+          "casa": true,
+          "adv_pos": 2,
+          "preco": 14.96,
+          "media": 9.41,
+          "jogos": 25,
+          "nota": 8.57,
+          "minimo": 16.96
+        },
+        {
           "id": 98909,
           "nome": "Cuello",
           "pos": 5,
@@ -150,20 +164,6 @@
           "minimo": 3.14
         },
         {
-          "id": 100695,
-          "nome": "Fernando",
-          "pos": 5,
-          "clube": "RBB",
-          "adv": "REM",
-          "casa": false,
-          "adv_pos": 19,
-          "preco": 6.7,
-          "media": 5.42,
-          "jogos": 15,
-          "nota": 5.19,
-          "minimo": 7.16
-        },
-        {
           "id": 73476,
           "nome": "Marcão",
           "pos": 6,
@@ -181,8 +181,8 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 138.77,
-      "nota": 80.96,
+      "custo": 139.78,
+      "nota": 80.58,
       "capitao": 143193,
       "time": [
         {
@@ -214,32 +214,18 @@
           "minimo": -0.32
         },
         {
-          "id": 101727,
-          "nome": "Matheuzinho",
+          "id": 107093,
+          "nome": "Luciano Juba",
           "pos": 2,
-          "clube": "COR",
-          "adv": "VIT",
+          "clube": "BAH",
+          "adv": "FLA",
           "casa": true,
-          "adv_pos": 12,
-          "preco": 10.46,
-          "media": 6.1,
-          "jogos": 24,
-          "nota": 6.41,
-          "minimo": 3.71
-        },
-        {
-          "id": 63008,
-          "nome": "Rafael Tolói",
-          "pos": 3,
-          "clube": "SAO",
-          "adv": "VAS",
-          "casa": true,
-          "adv_pos": 14,
-          "preco": 7.26,
-          "media": 4.77,
-          "jogos": 10,
-          "nota": 4.91,
-          "minimo": 1.31
+          "adv_pos": 1,
+          "preco": 12.32,
+          "media": 7.09,
+          "jogos": 26,
+          "nota": 6.56,
+          "minimo": 12.67
         },
         {
           "id": 141131,
@@ -254,6 +240,20 @@
           "jogos": 6,
           "nota": 4.4,
           "minimo": 1.16
+        },
+        {
+          "id": 124912,
+          "nome": "Jonathan Jesus",
+          "pos": 3,
+          "clube": "CRU",
+          "adv": "GRE",
+          "casa": false,
+          "adv_pos": 18,
+          "preco": 6.41,
+          "media": 4.46,
+          "jogos": 19,
+          "nota": 4.38,
+          "minimo": 2.31
         },
         {
           "id": 63007,
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 155.84,
-      "nota": 81.99,
+      "custo": 157.62,
+      "nota": 81.71,
       "capitao": 143193,
       "time": [
         {
@@ -418,18 +418,18 @@
           "minimo": 9.3
         },
         {
-          "id": 63008,
-          "nome": "Rafael Tolói",
+          "id": 78248,
+          "nome": "Gustavo Henrique",
           "pos": 3,
-          "clube": "SAO",
-          "adv": "VAS",
+          "clube": "COR",
+          "adv": "VIT",
           "casa": true,
-          "adv_pos": 14,
-          "preco": 7.26,
-          "media": 4.77,
-          "jogos": 10,
-          "nota": 4.91,
-          "minimo": 1.31
+          "adv_pos": 12,
+          "preco": 9.04,
+          "media": 4.36,
+          "jogos": 24,
+          "nota": 4.63,
+          "minimo": 7.23
         },
         {
           "id": 63007,
@@ -693,20 +693,6 @@
         "minimo": 9.3
       },
       {
-        "id": 63008,
-        "nome": "Rafael Tolói",
-        "pos": 3,
-        "clube": "SAO",
-        "adv": "VAS",
-        "casa": true,
-        "adv_pos": 14,
-        "preco": 7.26,
-        "media": 4.77,
-        "jogos": 10,
-        "nota": 4.91,
-        "minimo": 1.31
-      },
-      {
         "id": 78248,
         "nome": "Gustavo Henrique",
         "pos": 3,
@@ -747,6 +733,20 @@
         "jogos": 19,
         "nota": 4.38,
         "minimo": 2.31
+      },
+      {
+        "id": 105300,
+        "nome": "Ferraresi",
+        "pos": 3,
+        "clube": "BOT",
+        "adv": "CHA",
+        "casa": true,
+        "adv_pos": 20,
+        "preco": 6.49,
+        "media": 3.71,
+        "jogos": 24,
+        "nota": 4.33,
+        "minimo": 3.01
       }
     ],
     "MEI": [
@@ -807,18 +807,18 @@
         "minimo": 7.03
       },
       {
-        "id": 105436,
-        "nome": "Carrascal",
+        "id": 99815,
+        "nome": "Arias",
         "pos": 4,
-        "clube": "FLA",
-        "adv": "BAH",
+        "clube": "PAL",
+        "adv": "CAP",
         "casa": false,
-        "adv_pos": 5,
-        "preco": 12.15,
-        "media": 6.85,
-        "jogos": 22,
-        "nota": 5.68,
-        "minimo": 10.94
+        "adv_pos": 3,
+        "preco": 14.68,
+        "media": 7.01,
+        "jogos": 24,
+        "nota": 5.71,
+        "minimo": 10.32
       }
     ],
     "ATA": [
