@@ -1,168 +1,250 @@
 {
   "ultima_rodada": 30,
-  "em_andamento": null,
+  "em_andamento": 31,
+  "parciais": {
+    "26350318": {
+      "pontos": 23.41,
+      "jogaram": 4,
+      "escalados": 12
+    },
+    "19429362": {
+      "pontos": 5.0,
+      "jogaram": 1,
+      "escalados": 12
+    },
+    "29436742": {
+      "pontos": 15.41,
+      "jogaram": 4,
+      "escalados": 12
+    },
+    "300778": {
+      "pontos": 15.79,
+      "jogaram": 4,
+      "escalados": 12
+    },
+    "283417": {
+      "pontos": 10.41,
+      "jogaram": 4,
+      "escalados": 12
+    },
+    "1380145": {
+      "pontos": 18.41,
+      "jogaram": 4,
+      "escalados": 12
+    },
+    "45022741": {
+      "pontos": 0.0,
+      "jogaram": 1,
+      "escalados": 12
+    },
+    "46075154": {
+      "pontos": 6.2,
+      "jogaram": 2,
+      "escalados": 12
+    },
+    "1061200": {
+      "pontos": 18.41,
+      "jogaram": 4,
+      "escalados": 12
+    },
+    "28924680": {
+      "pontos": 0.0,
+      "jogaram": 0,
+      "escalados": 12
+    },
+    "18271822": {
+      "pontos": 5.0,
+      "jogaram": 2,
+      "escalados": 12
+    },
+    "49327835": {
+      "pontos": 0.9,
+      "jogaram": 1,
+      "escalados": 12
+    },
+    "25313159": {
+      "pontos": 20.51,
+      "jogaram": 5,
+      "escalados": 12
+    },
+    "51076565": {
+      "pontos": 11.2,
+      "jogaram": 2,
+      "escalados": 12
+    },
+    "9490259": {
+      "pontos": 19.88,
+      "jogaram": 6,
+      "escalados": 12
+    },
+    "51069766": {
+      "pontos": 2.29,
+      "jogaram": 1,
+      "escalados": 12
+    }
+  },
   "chaves": {
     "principal": [
       {
         "pos": 1,
         "nome": "IdosoIludido",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 23.41
       },
       {
         "pos": 2,
-        "nome": "FC Aerodynamics",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "nome": "The Little Tiger",
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 18.41
       },
       {
         "pos": 3,
-        "nome": "CRV Vasco da Brahma ",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "nome": "Soul Edge",
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 15.79
       },
       {
         "pos": 4,
-        "nome": "Soul Edge",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "nome": "FC Aerodynamics",
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 5.0
       },
       {
         "pos": 5,
-        "nome": "HABZ",
+        "nome": "CRV Vasco da Brahma ",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
-        "PC": 0.0
+        "D": 1,
+        "PC": 15.41
       },
       {
         "pos": 6,
-        "nome": "The Little Tiger",
+        "nome": "HABZ",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
-        "PC": 0.0
+        "D": 1,
+        "PC": 10.41
       },
       {
         "pos": 7,
-        "nome": "davOLUTION",
+        "nome": "SC Ventures",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
-        "PC": 0.0
+        "D": 1,
+        "PC": 6.2
       },
       {
         "pos": 8,
-        "nome": "SC Ventures",
+        "nome": "davOLUTION",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
+        "D": 1,
         "PC": 0.0
       }
     ],
     "perdedores": [
       {
         "pos": 1,
-        "nome": "SC dos Mano",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "nome": "Boia FC",
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 20.51
       },
       {
         "pos": 2,
-        "nome": "Alegria26 FC",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "nome": "Surpreendente A.F.C.",
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 19.88
       },
       {
         "pos": 3,
-        "nome": "Trabalhador EC",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "nome": "SC dos Mano",
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 18.41
       },
       {
         "pos": 4,
-        "nome": "Filhos de Ronielson",
-        "P": 0,
-        "J": 0,
-        "V": 0,
+        "nome": "TimedoBagulho",
+        "P": 3,
+        "J": 1,
+        "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 0.0
+        "PC": 11.2
       },
       {
         "pos": 5,
-        "nome": "Boia FC",
+        "nome": "Trabalhador EC",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
-        "PC": 0.0
+        "D": 1,
+        "PC": 5.0
       },
       {
         "pos": 6,
-        "nome": "TimedoBagulho",
+        "nome": " Kaneluduss FC",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
-        "PC": 0.0
+        "D": 1,
+        "PC": 2.29
       },
       {
         "pos": 7,
-        "nome": "Surpreendente A.F.C.",
+        "nome": "Filhos de Ronielson",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
-        "PC": 0.0
+        "D": 1,
+        "PC": 0.9
       },
       {
         "pos": 8,
-        "nome": " Kaneluduss FC",
+        "nome": "Alegria26 FC",
         "P": 0,
-        "J": 0,
+        "J": 1,
         "V": 0,
         "E": 0,
-        "D": 0,
+        "D": 1,
         "PC": 0.0
       }
     ]

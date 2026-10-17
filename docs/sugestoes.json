@@ -1,7 +1,7 @@
 {
   "rodada": 31,
-  "mercado_aberto": true,
-  "jogadores_avaliados": 193,
+  "mercado_aberto": false,
+  "jogadores_avaliados": 195,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -21,7 +21,7 @@
           "media": 4.76,
           "jogos": 7,
           "nota": 5.35,
-          "minimo": 3.0
+          "minimo": 1.29
         },
         {
           "id": 111879,
@@ -35,7 +35,7 @@
           "media": 6.22,
           "jogos": 9,
           "nota": 5.63,
-          "minimo": 3.65
+          "minimo": 1.45
         },
         {
           "id": 97868,
@@ -49,7 +49,7 @@
           "media": 4.59,
           "jogos": 11,
           "nota": 4.99,
-          "minimo": 4.61
+          "minimo": 1.08
         },
         {
           "id": 124912,
@@ -63,7 +63,7 @@
           "media": 4.46,
           "jogos": 19,
           "nota": 4.38,
-          "minimo": 2.31
+          "minimo": 0.72
         },
         {
           "id": 105300,
@@ -77,7 +77,7 @@
           "media": 3.71,
           "jogos": 24,
           "nota": 4.33,
-          "minimo": 3.01
+          "minimo": 0.6
         },
         {
           "id": 107231,
@@ -91,7 +91,7 @@
           "media": 6.99,
           "jogos": 21,
           "nota": 7.66,
-          "minimo": 8.92
+          "minimo": 1.46
         },
         {
           "id": 104783,
@@ -119,7 +119,7 @@
           "media": 4.46,
           "jogos": 25,
           "nota": 4.29,
-          "minimo": -0.04
+          "minimo": 0.55
         },
         {
           "id": 143193,
@@ -133,7 +133,7 @@
           "media": 9.41,
           "jogos": 25,
           "nota": 8.57,
-          "minimo": 16.96
+          "minimo": 1.34
         },
         {
           "id": 130209,
@@ -147,7 +147,7 @@
           "media": 6.8,
           "jogos": 21,
           "nota": 6.35,
-          "minimo": 3.14
+          "minimo": 0.95
         },
         {
           "id": 100695,
@@ -161,7 +161,7 @@
           "media": 5.42,
           "jogos": 15,
           "nota": 5.19,
-          "minimo": 7.16
+          "minimo": 0.9
         },
         {
           "id": 106147,
@@ -175,14 +175,14 @@
           "media": 5.55,
           "jogos": 3,
           "nota": 5.96,
-          "minimo": 6.07
+          "minimo": 3.99
         }
       ]
     },
     "140": {
       "formacao": "4-3-3",
       "custo": 139.47,
-      "nota": 80.08,
+      "nota": 80.22,
       "capitao": 143193,
       "time": [
         {
@@ -206,12 +206,12 @@
           "clube": "COR",
           "adv": "VIT",
           "casa": true,
-          "adv_pos": 12,
+          "adv_pos": 13,
           "preco": 11.21,
           "media": 6.81,
           "jogos": 23,
-          "nota": 7.08,
-          "minimo": -0.32
+          "nota": 7.16,
+          "minimo": 1.08
         },
         {
           "id": 101727,
@@ -220,12 +220,12 @@
           "clube": "COR",
           "adv": "VIT",
           "casa": true,
-          "adv_pos": 12,
+          "adv_pos": 13,
           "preco": 10.46,
           "media": 6.1,
           "jogos": 24,
-          "nota": 6.41,
-          "minimo": 3.71
+          "nota": 6.47,
+          "minimo": 0.97
         },
         {
           "id": 124912,
@@ -239,7 +239,7 @@
           "media": 4.46,
           "jogos": 19,
           "nota": 4.38,
-          "minimo": 2.31
+          "minimo": 0.72
         },
         {
           "id": 105300,
@@ -253,7 +253,7 @@
           "media": 3.71,
           "jogos": 24,
           "nota": 4.33,
-          "minimo": 3.01
+          "minimo": 0.6
         },
         {
           "id": 63007,
@@ -281,7 +281,7 @@
           "media": 6.99,
           "jogos": 21,
           "nota": 7.66,
-          "minimo": 8.92
+          "minimo": 1.46
         },
         {
           "id": 96610,
@@ -295,7 +295,7 @@
           "media": 7.48,
           "jogos": 27,
           "nota": 7.17,
-          "minimo": 7.22
+          "minimo": 1.21
         },
         {
           "id": 143193,
@@ -309,7 +309,7 @@
           "media": 9.41,
           "jogos": 25,
           "nota": 8.57,
-          "minimo": 16.96
+          "minimo": 1.34
         },
         {
           "id": 98873,
@@ -323,7 +323,7 @@
           "media": 8.63,
           "jogos": 27,
           "nota": 7.22,
-          "minimo": 6.02
+          "minimo": 1.03
         },
         {
           "id": 130209,
@@ -337,7 +337,7 @@
           "media": 6.8,
           "jogos": 21,
           "nota": 6.35,
-          "minimo": 3.14
+          "minimo": 0.95
         },
         {
           "id": 73476,
@@ -351,14 +351,14 @@
           "media": 7.4,
           "jogos": 8,
           "nota": 7.29,
-          "minimo": 4.67
+          "minimo": 2.49
         }
       ]
     },
     "180": {
       "formacao": "4-3-3",
       "custo": 156.92,
-      "nota": 81.49,
+      "nota": 81.62,
       "capitao": 143193,
       "time": [
         {
@@ -373,7 +373,7 @@
           "media": 7.14,
           "jogos": 5,
           "nota": 5.83,
-          "minimo": 6.67
+          "minimo": 2.56
         },
         {
           "id": 105531,
@@ -382,12 +382,12 @@
           "clube": "COR",
           "adv": "VIT",
           "casa": true,
-          "adv_pos": 12,
+          "adv_pos": 13,
           "preco": 11.21,
           "media": 6.81,
           "jogos": 23,
-          "nota": 7.08,
-          "minimo": -0.32
+          "nota": 7.16,
+          "minimo": 1.08
         },
         {
           "id": 107093,
@@ -401,7 +401,7 @@
           "media": 7.09,
           "jogos": 26,
           "nota": 6.56,
-          "minimo": 12.67
+          "minimo": 1.07
         },
         {
           "id": 99274,
@@ -415,7 +415,7 @@
           "media": 6.11,
           "jogos": 19,
           "nota": 4.99,
-          "minimo": 9.3
+          "minimo": 1.28
         },
         {
           "id": 78248,
@@ -424,12 +424,12 @@
           "clube": "COR",
           "adv": "VIT",
           "casa": true,
-          "adv_pos": 12,
+          "adv_pos": 13,
           "preco": 9.04,
           "media": 4.36,
           "jogos": 24,
-          "nota": 4.63,
-          "minimo": 7.23
+          "nota": 4.68,
+          "minimo": 0.84
         },
         {
           "id": 63007,
@@ -457,7 +457,7 @@
           "media": 6.99,
           "jogos": 21,
           "nota": 7.66,
-          "minimo": 8.92
+          "minimo": 1.46
         },
         {
           "id": 96610,
@@ -471,7 +471,7 @@
           "media": 7.48,
           "jogos": 27,
           "nota": 7.17,
-          "minimo": 7.22
+          "minimo": 1.21
         },
         {
           "id": 143193,
@@ -485,7 +485,7 @@
           "media": 9.41,
           "jogos": 25,
           "nota": 8.57,
-          "minimo": 16.96
+          "minimo": 1.34
         },
         {
           "id": 98873,
@@ -499,7 +499,7 @@
           "media": 8.63,
           "jogos": 27,
           "nota": 7.22,
-          "minimo": 6.02
+          "minimo": 1.03
         },
         {
           "id": 94583,
@@ -513,7 +513,7 @@
           "media": 7.96,
           "jogos": 28,
           "nota": 6.69,
-          "minimo": 2.77
+          "minimo": 1.24
         },
         {
           "id": 73476,
@@ -527,7 +527,7 @@
           "media": 7.4,
           "jogos": 8,
           "nota": 7.29,
-          "minimo": 4.67
+          "minimo": 2.49
         }
       ]
     }
@@ -546,7 +546,7 @@
         "media": 7.14,
         "jogos": 5,
         "nota": 5.83,
-        "minimo": 6.67
+        "minimo": 2.56
       },
       {
         "id": 88136,
@@ -574,7 +574,7 @@
         "media": 5.85,
         "jogos": 24,
         "nota": 5.66,
-        "minimo": 3.52
+        "minimo": 0.86
       },
       {
         "id": 72018,
@@ -588,7 +588,7 @@
         "media": 5.68,
         "jogos": 21,
         "nota": 5.65,
-        "minimo": 12.15
+        "minimo": 1.13
       },
       {
         "id": 71631,
@@ -602,7 +602,7 @@
         "media": 5.42,
         "jogos": 26,
         "nota": 5.42,
-        "minimo": 3.15
+        "minimo": 0.71
       }
     ],
     "LAT": [
@@ -613,12 +613,12 @@
         "clube": "COR",
         "adv": "VIT",
         "casa": true,
-        "adv_pos": 12,
+        "adv_pos": 13,
         "preco": 11.21,
         "media": 6.81,
         "jogos": 23,
-        "nota": 7.08,
-        "minimo": -0.32
+        "nota": 7.16,
+        "minimo": 1.08
       },
       {
         "id": 107093,
@@ -632,7 +632,7 @@
         "media": 7.09,
         "jogos": 26,
         "nota": 6.56,
-        "minimo": 12.67
+        "minimo": 1.07
       },
       {
         "id": 94968,
@@ -646,7 +646,7 @@
         "media": 6.64,
         "jogos": 25,
         "nota": 6.55,
-        "minimo": 5.47
+        "minimo": 1.13
       },
       {
         "id": 101727,
@@ -655,12 +655,12 @@
         "clube": "COR",
         "adv": "VIT",
         "casa": true,
-        "adv_pos": 12,
+        "adv_pos": 13,
         "preco": 10.46,
         "media": 6.1,
         "jogos": 24,
-        "nota": 6.41,
-        "minimo": 3.71
+        "nota": 6.47,
+        "minimo": 0.97
       },
       {
         "id": 78445,
@@ -690,7 +690,7 @@
         "media": 6.11,
         "jogos": 19,
         "nota": 4.99,
-        "minimo": 9.3
+        "minimo": 1.28
       },
       {
         "id": 78248,
@@ -699,12 +699,12 @@
         "clube": "COR",
         "adv": "VIT",
         "casa": true,
-        "adv_pos": 12,
+        "adv_pos": 13,
         "preco": 9.04,
         "media": 4.36,
         "jogos": 24,
-        "nota": 4.63,
-        "minimo": 7.23
+        "nota": 4.68,
+        "minimo": 0.84
       },
       {
         "id": 124912,
@@ -718,7 +718,7 @@
         "media": 4.46,
         "jogos": 19,
         "nota": 4.38,
-        "minimo": 2.31
+        "minimo": 0.72
       },
       {
         "id": 105300,
@@ -732,7 +732,7 @@
         "media": 3.71,
         "jogos": 24,
         "nota": 4.33,
-        "minimo": 3.01
+        "minimo": 0.6
       },
       {
         "id": 104075,
@@ -746,7 +746,7 @@
         "media": 3.86,
         "jogos": 22,
         "nota": 4.27,
-        "minimo": 5.79
+        "minimo": 0.73
       }
     ],
     "MEI": [
@@ -776,7 +776,7 @@
         "media": 6.99,
         "jogos": 21,
         "nota": 7.66,
-        "minimo": 8.92
+        "minimo": 1.46
       },
       {
         "id": 96610,
@@ -790,7 +790,7 @@
         "media": 7.48,
         "jogos": 27,
         "nota": 7.17,
-        "minimo": 7.22
+        "minimo": 1.21
       },
       {
         "id": 124552,
@@ -799,12 +799,12 @@
         "clube": "VAS",
         "adv": "SAO",
         "casa": false,
-        "adv_pos": 10,
+        "adv_pos": 11,
         "preco": 11.32,
         "media": 9.0,
         "jogos": 4,
-        "nota": 5.93,
-        "minimo": 7.03
+        "nota": 5.99,
+        "minimo": 4.63
       },
       {
         "id": 105436,
@@ -818,7 +818,7 @@
         "media": 6.85,
         "jogos": 22,
         "nota": 5.68,
-        "minimo": 10.94
+        "minimo": 1.21
       }
     ],
     "ATA": [
@@ -834,7 +834,7 @@
         "media": 9.41,
         "jogos": 25,
         "nota": 8.57,
-        "minimo": 16.96
+        "minimo": 1.34
       },
       {
         "id": 98873,
@@ -848,7 +848,7 @@
         "media": 8.63,
         "jogos": 27,
         "nota": 7.22,
-        "minimo": 6.02
+        "minimo": 1.03
       },
       {
         "id": 94583,
@@ -862,7 +862,21 @@
         "media": 7.96,
         "jogos": 28,
         "nota": 6.69,
-        "minimo": 2.77
+        "minimo": 1.24
+      },
+      {
+        "id": 116706,
+        "nome": "Andrés Gómez",
+        "pos": 5,
+        "clube": "VAS",
+        "adv": "SAO",
+        "casa": false,
+        "adv_pos": 11,
+        "preco": 12.22,
+        "media": 7.18,
+        "jogos": 24,
+        "nota": 6.41,
+        "minimo": 1.13
       },
       {
         "id": 130209,
@@ -876,21 +890,7 @@
         "media": 6.8,
         "jogos": 21,
         "nota": 6.35,
-        "minimo": 3.14
-      },
-      {
-        "id": 116706,
-        "nome": "Andrés Gómez",
-        "pos": 5,
-        "clube": "VAS",
-        "adv": "SAO",
-        "casa": false,
-        "adv_pos": 10,
-        "preco": 12.22,
-        "media": 7.18,
-        "jogos": 24,
-        "nota": 6.34,
-        "minimo": 6.36
+        "minimo": 0.95
       }
     ],
     "TEC": [
@@ -906,7 +906,7 @@
         "media": 7.4,
         "jogos": 8,
         "nota": 7.29,
-        "minimo": 4.67
+        "minimo": 2.49
       },
       {
         "id": 127273,
@@ -920,7 +920,7 @@
         "media": 6.6,
         "jogos": 22,
         "nota": 6.65,
-        "minimo": 5.56
+        "minimo": 1.17
       },
       {
         "id": 88963,
@@ -934,7 +934,7 @@
         "media": 7.37,
         "jogos": 26,
         "nota": 6.44,
-        "minimo": 8.77
+        "minimo": 1.17
       },
       {
         "id": 128177,
@@ -943,12 +943,12 @@
         "clube": "VAS",
         "adv": "SAO",
         "casa": false,
-        "adv_pos": 10,
+        "adv_pos": 11,
         "preco": 10.95,
         "media": 6.52,
         "jogos": 10,
-        "nota": 5.98,
-        "minimo": 6.92
+        "nota": 6.04,
+        "minimo": 1.96
       },
       {
         "id": 106147,
@@ -962,7 +962,7 @@
         "media": 5.55,
         "jogos": 3,
         "nota": 5.96,
-        "minimo": 6.07
+        "minimo": 3.99
       }
     ]
   },
@@ -979,7 +979,7 @@
       "media": 4.15,
       "jogos": 17,
       "nota": 4.22,
-      "minimo": 4.51
+      "minimo": 0.55
     },
     {
       "id": 147090,
@@ -988,12 +988,12 @@
       "clube": "CAM",
       "adv": "CFC",
       "casa": true,
-      "adv_pos": 11,
+      "adv_pos": 10,
       "preco": 4.48,
       "media": 3.43,
       "jogos": 10,
-      "nota": 3.8,
-      "minimo": 3.63
+      "nota": 3.76,
+      "minimo": 0.81
     },
     {
       "id": 148125,
@@ -1007,7 +1007,7 @@
       "media": 3.47,
       "jogos": 8,
       "nota": 3.67,
-      "minimo": 1.91
+      "minimo": 0.85
     },
     {
       "id": 113690,
@@ -1021,7 +1021,7 @@
       "media": 3.56,
       "jogos": 5,
       "nota": 3.26,
-      "minimo": 2.16
+      "minimo": 1.2
     },
     {
       "id": 115674,
@@ -1030,12 +1030,12 @@
       "clube": "CAM",
       "adv": "CFC",
       "casa": true,
-      "adv_pos": 11,
+      "adv_pos": 10,
       "preco": 3.25,
       "media": 2.52,
       "jogos": 6,
-      "nota": 3.24,
-      "minimo": 1.97
+      "nota": 3.2,
+      "minimo": 0.81
     },
     {
       "id": 102911,
@@ -1049,7 +1049,7 @@
       "media": 3.05,
       "jogos": 28,
       "nota": 3.2,
-      "minimo": 1.31
+      "minimo": 0.38
     },
     {
       "id": 87342,
@@ -1063,7 +1063,7 @@
       "media": 2.9,
       "jogos": 6,
       "nota": 3.06,
-      "minimo": 2.29
+      "minimo": 1.13
     },
     {
       "id": 86859,
@@ -1077,7 +1077,7 @@
       "media": 2.69,
       "jogos": 24,
       "nota": 2.85,
-      "minimo": 4.03
+      "minimo": 0.38
     }
   ]
 }
