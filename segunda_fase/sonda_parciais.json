@@ -1,0 +1,740 @@
+{
+ "status": {
+  "rodada_atual": 31,
+  "status_mercado": 2,
+  "esquema_default_id": 4,
+  "cartoleta_inicial": 100,
+  "max_ligas_free": 1,
+  "max_ligas_pro": 10,
+  "max_ligas_matamata_free": 5,
+  "max_criar_ligas_matamata_free": 5,
+  "max_ligas_matamata_pro": 10,
+  "max_ligas_patrocinadas_free": 2,
+  "max_ligas_patrocinadas_pro_num": 2,
+  "max_atletas_favoritos_free": 5,
+  "max_atletas_favoritos_pro": 20,
+  "max_amigos_free": 10,
+  "max_amigos_pro": 20,
+  "game_over": false,
+  "temporada": 2026,
+  "reativar": true,
+  "exibe_sorteio_pro": false,
+  "fechamento": {
+   "dia": 17,
+   "mes": 10,
+   "ano": 2026,
+   "hora": 17,
+   "minuto": 59,
+   "timestamp": 1792270740
+  },
+  "limites_competicao": {},
+  "times_escalados": 733801,
+  "mercado_pos_rodada": false,
+  "novo_mes_ranking": false,
+  "degustacao_gatomestre": false,
+  "bola_rolando": true,
+  "nome_rodada": "Rodada 31",
+  "limites_competicoes": {
+   "pontos_corridos": {
+    "free": {
+     "criacao": 3,
+     "participacao": 4
+    },
+    "pro": {
+     "criacao": 10,
+     "participacao": 10
+    }
+   }
+  },
+  "rodada_final": 38
+ },
+ "pontuados": {
+  "chaves": [
+   "atletas",
+   "clubes",
+   "posicoes",
+   "rodada",
+   "total_atletas"
+  ],
+  "rodada": 31,
+  "n": 64,
+  "exemplo": [
+   [
+    "100084",
+    {
+     "scout": {},
+     "apelido": "Igor Gomes",
+     "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/FORMATO.png",
+     "pontuacao": 0,
+     "posicao_id": 4,
+     "clube_id": 282,
+     "entrou_em_campo": true
+    }
+   ],
+   [
+    "100898",
+    {
+     "scout": {
+      "DS": 1,
+      "FC": 1,
+      "SG": 1
+     },
+     "apelido": "Vitinho",
+     "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/BOT/FORMATO.png",
+     "pontuacao": 6.2,
+     "posicao_id": 2,
+     "clube_id": 263,
+     "entrou_em_campo": true
+    }
+   ]
+  ]
+ },
+ "partidas": [
+  {
+   "clube_casa_id": 2305,
+   "clube_visitante_id": 285,
+   "partida_data": "2026-10-16 20:00:00",
+   "status_transmissao_tr": "ENCERRADA",
+   "periodo_tr": "POS_JOGO",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": 2,
+   "placar_oficial_visitante": 0,
+   "valida": false
+  },
+  {
+   "clube_casa_id": 263,
+   "clube_visitante_id": 315,
+   "partida_data": "2026-10-17 18:00:00",
+   "status_transmissao_tr": "EM_ANDAMENTO",
+   "periodo_tr": "PRIMEIRO_TEMPO",
+   "status_cronometro_tr": "INICIADO",
+   "placar_oficial_mandante": 1,
+   "placar_oficial_visitante": 0,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 282,
+   "clube_visitante_id": 294,
+   "partida_data": "2026-10-17 18:30:00",
+   "status_transmissao_tr": "EM_ANDAMENTO",
+   "periodo_tr": "PRIMEIRO_TEMPO",
+   "status_cronometro_tr": "INICIADO",
+   "placar_oficial_mandante": 0,
+   "placar_oficial_visitante": 0,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 293,
+   "clube_visitante_id": 275,
+   "partida_data": "2026-10-17 19:30:00",
+   "status_transmissao_tr": "EM_ANDAMENTO",
+   "periodo_tr": "PRE_JOGO",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": null,
+   "placar_oficial_visitante": null,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 276,
+   "clube_visitante_id": 267,
+   "partida_data": "2026-10-17 21:00:00",
+   "status_transmissao_tr": "CRIADA",
+   "periodo_tr": "",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": null,
+   "placar_oficial_visitante": null,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 266,
+   "clube_visitante_id": 277,
+   "partida_data": "2026-10-18 16:00:00",
+   "status_transmissao_tr": "CRIADA",
+   "periodo_tr": "",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": null,
+   "placar_oficial_visitante": null,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 284,
+   "clube_visitante_id": 283,
+   "partida_data": "2026-10-18 16:00:00",
+   "status_transmissao_tr": "CRIADA",
+   "periodo_tr": "",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": null,
+   "placar_oficial_visitante": null,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 265,
+   "clube_visitante_id": 262,
+   "partida_data": "2026-10-18 18:30:00",
+   "status_transmissao_tr": "CRIADA",
+   "periodo_tr": "",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": null,
+   "placar_oficial_visitante": null,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 364,
+   "clube_visitante_id": 280,
+   "partida_data": "2026-10-18 19:30:00",
+   "status_transmissao_tr": "CRIADA",
+   "periodo_tr": "",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": null,
+   "placar_oficial_visitante": null,
+   "valida": true
+  },
+  {
+   "clube_casa_id": 264,
+   "clube_visitante_id": 287,
+   "partida_data": "2026-10-19 20:00:00",
+   "status_transmissao_tr": "CRIADA",
+   "periodo_tr": "",
+   "status_cronometro_tr": "PAUSADO",
+   "placar_oficial_mandante": null,
+   "placar_oficial_visitante": null,
+   "valida": true
+  }
+ ],
+ "time_26350318_atual": {
+  "chaves": [
+   "time",
+   "atletas",
+   "reservas",
+   "pontos_campeonato",
+   "capitao_id",
+   "reserva_luxo_id",
+   "extra_id",
+   "pontos",
+   "variacao_patrimonio",
+   "esquema_id",
+   "rodada_atual",
+   "patrimonio",
+   "valor_time",
+   "ranking"
+  ],
+  "pontos": 96.85986328125,
+  "pontos_campeonato": 2427.46875,
+  "capitao_id": 98873,
+  "reserva_luxo_id": 112886,
+  "rodada_atual": 31,
+  "n_atletas": 12,
+  "atleta0": {
+   "scout": {},
+   "jogos_num": 27,
+   "atleta_id": 96610,
+   "rodada_id": 30,
+   "clube_id": 283,
+   "posicao_id": 4,
+   "status_id": 7,
+   "pontos_num": 0,
+   "media_num": 7.48,
+   "variacao_num": 0.02,
+   "preco_num": 14.48,
+   "entrou_em_campo": true,
+   "slug": "",
+   "apelido": "Matheus Pereira",
+   "apelido_abreviado": "M. Pereira",
+   "nome": "Matheus Fellipe Costa Pereira",
+   "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CRU/FORMATO.png",
+   "craque": 0
+  },
+  "reservas": [
+   {
+    "atleta_id": 141754,
+    "posicao_id": 4,
+    "apelido": "Gabriel Bontempo"
+   },
+   {
+    "atleta_id": 103523,
+    "posicao_id": 3,
+    "apelido": "Ignácio"
+   },
+   {
+    "atleta_id": 112886,
+    "posicao_id": 5,
+    "apelido": "Lucas Barbosa"
+   },
+   {
+    "atleta_id": 122670,
+    "posicao_id": 2,
+    "apelido": "Diego Caito"
+   },
+   {
+    "atleta_id": 117404,
+    "posicao_id": 1,
+    "apelido": "Otávio"
+   }
+  ],
+  "titulares": [
+   {
+    "atleta_id": 96610,
+    "posicao_id": 4,
+    "apelido": "Matheus Pereira",
+    "clube_id": 283,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 78248,
+    "posicao_id": 3,
+    "apelido": "Gustavo Henrique",
+    "clube_id": 264,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 45125,
+    "posicao_id": 6,
+    "apelido": "Tite",
+    "clube_id": 263,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 94968,
+    "posicao_id": 2,
+    "apelido": "Juninho Capixaba",
+    "clube_id": 280,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 113103,
+    "posicao_id": 5,
+    "apelido": "Flaco López",
+    "clube_id": 275,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 98873,
+    "posicao_id": 5,
+    "apelido": "Samuel Lino",
+    "clube_id": 262,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 105436,
+    "posicao_id": 4,
+    "apelido": "Carrascal",
+    "clube_id": 262,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 98333,
+    "posicao_id": 1,
+    "apelido": "Gabriel Batista",
+    "clube_id": 263,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 72493,
+    "posicao_id": 2,
+    "apelido": "Alex Telles",
+    "clube_id": 263,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 105300,
+    "posicao_id": 3,
+    "apelido": "Ferraresi",
+    "clube_id": 263,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 143193,
+    "posicao_id": 5,
+    "apelido": "Viveros",
+    "clube_id": 293,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 104783,
+    "posicao_id": 4,
+    "apelido": "Acevedo",
+    "clube_id": 265,
+    "pontos_num": 0
+   }
+  ]
+ },
+ "time_26350318_r30": {
+  "pontos": 96.85986328125,
+  "capitao_id": 143193,
+  "reserva_luxo_id": 127871,
+  "titulares": [
+   {
+    "atleta_id": 107231,
+    "posicao_id": 4,
+    "pontos_num": 9.2,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 71684,
+    "posicao_id": 3,
+    "pontos_num": 4.2,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 98517,
+    "posicao_id": 4,
+    "pontos_num": 9.4,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 103445,
+    "posicao_id": 5,
+    "pontos_num": 6.5,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 107093,
+    "posicao_id": 2,
+    "pontos_num": 13.8,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 91101,
+    "posicao_id": 1,
+    "pontos_num": 7.6,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 96610,
+    "posicao_id": 4,
+    "pontos_num": 7.1,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 124912,
+    "posicao_id": 3,
+    "pontos_num": 2,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 110668,
+    "posicao_id": 2,
+    "pontos_num": -0.1,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 42411,
+    "posicao_id": 6,
+    "pontos_num": 4.11,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 143193,
+    "posicao_id": 5,
+    "pontos_num": 18.7,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 114802,
+    "posicao_id": 5,
+    "pontos_num": 5,
+    "entrou_em_campo": true
+   }
+  ],
+  "reservas": [
+   {
+    "atleta_id": 127871,
+    "posicao_id": 5,
+    "pontos_num": 0,
+    "entrou_em_campo": false
+   },
+   {
+    "atleta_id": 89256,
+    "posicao_id": 4,
+    "pontos_num": 6.2,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 97101,
+    "posicao_id": 2,
+    "pontos_num": 0.5,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 105300,
+    "posicao_id": 3,
+    "pontos_num": 2.9,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 87008,
+    "posicao_id": 1,
+    "pontos_num": 8.9,
+    "entrou_em_campo": true
+   }
+  ]
+ },
+ "time_300778_atual": {
+  "chaves": [
+   "time",
+   "atletas",
+   "reservas",
+   "pontos_campeonato",
+   "capitao_id",
+   "reserva_luxo_id",
+   "extra_id",
+   "pontos",
+   "variacao_patrimonio",
+   "esquema_id",
+   "rodada_atual",
+   "patrimonio",
+   "valor_time",
+   "ranking"
+  ],
+  "pontos": 94,
+  "pontos_campeonato": 2411.953125,
+  "capitao_id": 107231,
+  "reserva_luxo_id": 117314,
+  "rodada_atual": 31,
+  "n_atletas": 12,
+  "atleta0": {
+   "scout": {},
+   "jogos_num": 25,
+   "atleta_id": 92747,
+   "rodada_id": 30,
+   "clube_id": 282,
+   "posicao_id": 6,
+   "status_id": 7,
+   "pontos_num": 0,
+   "media_num": 5.42,
+   "variacao_num": 0.22,
+   "preco_num": 10.38,
+   "entrou_em_campo": true,
+   "slug": "",
+   "apelido": "Eduardo Domínguez",
+   "apelido_abreviado": "E. Domínguez",
+   "nome": "Eduardo Rodrigo Domínguez",
+   "foto": "https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/clubes_2026/silhuetas/CAM/FORMATO.png",
+   "craque": 0
+  },
+  "reservas": [
+   {
+    "atleta_id": 71631,
+    "posicao_id": 1,
+    "apelido": "Weverton"
+   },
+   {
+    "atleta_id": 124912,
+    "posicao_id": 3,
+    "apelido": "Jonathan Jesus"
+   },
+   {
+    "atleta_id": 117314,
+    "posicao_id": 5,
+    "apelido": "Thiago Borbas"
+   },
+   {
+    "atleta_id": 84816,
+    "posicao_id": 2,
+    "apelido": "Varela"
+   },
+   {
+    "atleta_id": 90703,
+    "posicao_id": 4,
+    "apelido": "Matheuzinho"
+   }
+  ],
+  "titulares": [
+   {
+    "atleta_id": 92747,
+    "posicao_id": 6,
+    "apelido": "Eduardo Domínguez",
+    "clube_id": 282,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 83528,
+    "posicao_id": 3,
+    "apelido": "Léo Pereira",
+    "clube_id": 262,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 96610,
+    "posicao_id": 4,
+    "apelido": "Matheus Pereira",
+    "clube_id": 283,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 107554,
+    "posicao_id": 2,
+    "apelido": "Natanael",
+    "clube_id": 282,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 124552,
+    "posicao_id": 4,
+    "apelido": "Lescano",
+    "clube_id": 267,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 91706,
+    "posicao_id": 2,
+    "apelido": "Marlon",
+    "clube_id": 284,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 105300,
+    "posicao_id": 3,
+    "apelido": "Ferraresi",
+    "clube_id": 263,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 98873,
+    "posicao_id": 5,
+    "apelido": "Samuel Lino",
+    "clube_id": 262,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 130209,
+    "posicao_id": 5,
+    "apelido": "Renê",
+    "clube_id": 287,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 104118,
+    "posicao_id": 1,
+    "apelido": "Lucas Arcanjo",
+    "clube_id": 287,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 143193,
+    "posicao_id": 5,
+    "apelido": "Viveros",
+    "clube_id": 293,
+    "pontos_num": 0
+   },
+   {
+    "atleta_id": 107231,
+    "posicao_id": 4,
+    "apelido": "Danilo",
+    "clube_id": 263,
+    "pontos_num": 0
+   }
+  ]
+ },
+ "time_300778_r30": {
+  "pontos": 94,
+  "capitao_id": 143193,
+  "reserva_luxo_id": 114323,
+  "titulares": [
+   {
+    "atleta_id": 71684,
+    "posicao_id": 3,
+    "pontos_num": 4.2,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 96610,
+    "posicao_id": 4,
+    "pontos_num": 7.1,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 113103,
+    "posicao_id": 5,
+    "pontos_num": 3.6,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 107231,
+    "posicao_id": 4,
+    "pontos_num": 9.2,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 110668,
+    "posicao_id": 2,
+    "pontos_num": -0.1,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 124552,
+    "posicao_id": 4,
+    "pontos_num": 6.6,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 107093,
+    "posicao_id": 2,
+    "pontos_num": 13.8,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 130307,
+    "posicao_id": 3,
+    "pontos_num": 9.5,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 143193,
+    "posicao_id": 5,
+    "pontos_num": 18.7,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 94583,
+    "posicao_id": 5,
+    "pontos_num": 1.8,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 71631,
+    "posicao_id": 1,
+    "pontos_num": 2.9,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 110506,
+    "posicao_id": 6,
+    "pontos_num": 7.35,
+    "entrou_em_campo": true
+   }
+  ],
+  "reservas": [
+   {
+    "atleta_id": 98517,
+    "posicao_id": 4,
+    "pontos_num": 9.4,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 110698,
+    "posicao_id": 1,
+    "pontos_num": 8.1,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 124526,
+    "posicao_id": 2,
+    "pontos_num": 20.7,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 114323,
+    "posicao_id": 5,
+    "pontos_num": 1.3,
+    "entrou_em_campo": true
+   },
+   {
+    "atleta_id": 118655,
+    "posicao_id": 3,
+    "pontos_num": 10.2,
+    "entrou_em_campo": true
+   }
+  ]
+ }
+}
