@@ -79,7 +79,7 @@ def rodadas_encerradas(status):
     andamento), 4 manutenção, 6 temporada encerrada."""
     atual, mercado = status["rodada_atual"], status["status_mercado"]
     ultima = atual if mercado == 6 else atual - 1
-    em_andamento = atual if mercado == 2 else None
+    em_andamento = atual if mercado in (2, 4) else None   # 4 = rodada acabando de ser fechada
     return ultima, em_andamento
 
 
@@ -246,9 +246,42 @@ NAV = ("<nav style='margin-top:8px'>"
        "<a style='color:var(--acc)' href='palpites.html'>Palpites</a></nav>")
 
 
-def gerar_html(cfg, chaves, ultima, em_andamento):
+def ao_vivo_html(c, rodada, parciais):
+    """Cartão da rodada em andamento, no topo da chave."""
+    r = next((x for x in c["rodadas"] if x["rodada"] == rodada), None)
+    if r is None:
+        jogos = [dict(a=d["a"], b=d["b"], pa=d["pa"], pb=d["pb"]) for d in c["decisoes"] if d["a"]]
+        titulo = f"Rodada {rodada} · decisões ao vivo"
+    else:
+        jogos, titulo = r["jogos"], f"Rodada {rodada} · ao vivo"
+    if not jogos:
+        return ""
+    times = c["times"]
+    def linha(seed, pts, classe):
+        p = parciais.get(str(times[seed].get("time_id")))
+        jog = f"<small class='sub'> {p['jogaram']}/{p['escalados']}</small>" if p else ""
+        return (f"<div style='display:flex;justify-content:space-between;gap:8px'>"
+                f"<span class='{classe}'>{html.escape(times[seed]['nome'])}</span>"
+                f"<span style='white-space:nowrap'><span class='{classe}'>{fmt(pts)}</span>{jog}</span></div>")
+    out = [f"<div class='r' style='border:1px solid var(--acc);margin-bottom:14px'><b>{titulo}</b>"]
+    for j in jogos:
+        a, b, pa, pb = j["a"], j["b"], j["pa"], j["pb"]
+        ca = cb = ""
+        if pa is not None and pb is not None and pa != pb:
+            ca, cb = ("w", "l") if pa > pb else ("l", "w")
+        out.append("<div style='padding:6px 0;border-top:1px solid var(--line)'>"
+                   + linha(a, pa, ca) + linha(b, pb, cb) + "</div>")
+    out.append("<div class='sub' style='margin-top:6px'>Parcial calculada com os pontos ao vivo do Cartola "
+               "(capitão 1,5× e reservas). O número menor mostra quantos titulares já jogaram. "
+               "O total oficial sai quando a rodada fecha.</div></div>")
+    return "".join(out)
+
+
+def gerar_html(cfg, chaves, ultima, em_andamento, parciais=None):
     agora = agora_brasilia()
-    situacao = f"Rodada {em_andamento} em andamento" if em_andamento else f"Última rodada encerrada: {ultima}"
+    parciais = parciais or {}
+    situacao = (f"Rodada {em_andamento} em andamento · classificação com parciais ao vivo" if em_andamento and parciais
+                else f"Rodada {em_andamento} em andamento" if em_andamento else f"Última rodada encerrada: {ultima}")
     out = [f"<!doctype html><html lang='pt-BR'><head><meta charset='utf-8'>"
            f"<meta name='viewport' content='width=device-width,initial-scale=1'>"
            f"<title>{html.escape(cfg['nome_torneio'])}</title><style>{CSS}</style></head><body>"
@@ -259,6 +292,8 @@ def gerar_html(cfg, chaves, ultima, em_andamento):
     for c in chaves:
         times = c["times"]
         out.append(f"<h2>{html.escape(c['nome'])}</h2>")
+        if em_andamento and parciais:
+            out.append(ao_vivo_html(c, em_andamento, parciais))
         if c["final"]:
             camp = times[c["final"][0]]
             out.append(f"<div class='camp'>🏆 Campeão: <b>{html.escape(camp['nome'])}</b> "
@@ -288,12 +323,13 @@ def gerar_html(cfg, chaves, ultima, em_andamento):
     return "".join(out)
 
 
-def publicar(cfg, chaves, ultima, em_andamento):
+def publicar(cfg, chaves, ultima, em_andamento, parciais=None):
     SAIDA.mkdir(exist_ok=True)
-    (SAIDA / "index.html").write_text(gerar_html(cfg, chaves, ultima, em_andamento), encoding="utf-8")
+    (SAIDA / "index.html").write_text(gerar_html(cfg, chaves, ultima, em_andamento, parciais), encoding="utf-8")
     resumo = {c["id"]: [dict(pos=t["pos"], nome=t["time"]["nome"], P=t["P"], J=t["J"], V=t["V"], E=t["E"],
                              D=t["D"], PC=t["PC"]) for t in c["classificacao"]] for c in chaves}
-    salvar(SAIDA / "fase2.json", dict(ultima_rodada=ultima, em_andamento=em_andamento, chaves=resumo))
+    salvar(SAIDA / "fase2.json", dict(ultima_rodada=ultima, em_andamento=em_andamento, parciais=parciais or {},
+                                      chaves=resumo))
 
 
 # ---------------------------------------------------------------- comandos
@@ -328,7 +364,19 @@ def cmd_tabela(cfg):
 def cmd_atualizar(cfg):
     ultima, em_andamento = rodadas_encerradas(get_publico("mercado/status"))
     pontos = buscar_pontuacoes(cfg, ultima)
-    publicar(cfg, calcular(cfg, pontos), ultima, em_andamento)
+    parc = {}
+    rodadas_fase = cfg["rodadas_grupo"] + [cfg["rodada_final"]]
+    if em_andamento in rodadas_fase:
+        import parciais
+        ids = [t["time_id"] for c in cfg["chaves"] for t in c["times"] if t.get("time_id")]
+        try:
+            parc, acabou = parciais.calcular(get_publico, ids)
+            # parciais não vão para o cache: só a pontuação oficial fica salva
+            pontos = {**pontos, str(em_andamento): {k: v["pontos"] for k, v in parc.items()}}
+            print(f"Parciais da rodada {em_andamento}: {len(parc)} times" + (" (todos os jogos encerrados)" if acabou else ""))
+        except Exception as e:
+            print(f"aviso: parciais indisponíveis ({e})")
+    publicar(cfg, calcular(cfg, pontos), ultima, em_andamento, parc)
     print(f"docs/ atualizado (última rodada encerrada: {ultima}).")
     gerar_sugestoes(cfg, get_publico, SAIDA)
     gerar_palpites(cfg, get_publico, SAIDA)

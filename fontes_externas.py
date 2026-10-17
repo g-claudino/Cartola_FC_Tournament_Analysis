@@ -69,6 +69,14 @@ def atualizar_cache(cache_path, hoje=None):
     hoje = hoje or dt.date.today()
     fim = hoje + dt.timedelta(days=21)
     meta = cache.setdefault("_meta", {})
+    agora = dt.datetime.now(dt.timezone.utc)
+    try:
+        ultima = dt.datetime.fromisoformat(meta.get("_baixado_em", ""))
+        if (agora - ultima).total_seconds() < 3 * 3600 and all(meta.get(l) == "ok" for l in [LIGA_BR, *OUTRAS]):
+            return cache   # a agenda muda pouco: no máximo uma atualização a cada 3 horas
+    except ValueError:
+        pass
+    meta["_baixado_em"] = agora.isoformat(timespec="seconds")
     tarefas = []
     for liga in [LIGA_BR, *OUTRAS]:
         cache.setdefault(liga, {})

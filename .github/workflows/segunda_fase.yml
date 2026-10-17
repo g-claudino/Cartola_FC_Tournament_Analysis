@@ -2,8 +2,9 @@ name: Atualizar segunda fase
 
 on:
   schedule:
-    # A cada 2 horas (UTC). Só baixa rodadas novas; as já salvas ficam em cache.
-    - cron: "17 */2 * * *"
+    # A cada 15 minutos: parciais ao vivo durante a rodada. Fora da rodada quase nada
+    # muda e o commit só acontece quando algum dado muda.
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
