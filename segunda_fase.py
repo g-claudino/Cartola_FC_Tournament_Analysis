@@ -326,6 +326,8 @@ def cmd_tabela(cfg):
 
 
 def cmd_atualizar(cfg):
+    import sonda_parciais
+    sonda_parciais.rodar(get_publico)
     ultima, em_andamento = rodadas_encerradas(get_publico("mercado/status"))
     pontos = buscar_pontuacoes(cfg, ultima)
     publicar(cfg, calcular(cfg, pontos), ultima, em_andamento)
