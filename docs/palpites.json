@@ -5,7 +5,7 @@
       "casa": "Botafogo",
       "fora": "Chapecoense",
       "data": "2026-10-17 18:00",
-      "hoje": false,
+      "hoje": true,
       "local": "Nilton Santos (Engenhão)",
       "previsao": {
         "gols_casa": 1.8,
@@ -25,7 +25,7 @@
       "casa": "Atlético-MG",
       "fora": "Coritiba",
       "data": "2026-10-17 18:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Arena MRV",
       "previsao": {
         "gols_casa": 1.84,
@@ -46,7 +46,7 @@
       "casa": "Athletico-PR",
       "fora": "Palmeiras",
       "data": "2026-10-17 19:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Arena da Baixada",
       "previsao": {
         "gols_casa": 1.24,
@@ -67,7 +67,7 @@
       "casa": "São Paulo",
       "fora": "Vasco da Gama",
       "data": "2026-10-17 21:00",
-      "hoje": false,
+      "hoje": true,
       "local": "Morumbis",
       "previsao": {
         "gols_casa": 1.67,
@@ -184,7 +184,7 @@
         "placar_prob": 0.138
       },
       "contexto": [
-        "Corinthians sem: Raniele, Memphis Depay",
+        "Corinthians sem: Memphis Depay, Raniele",
         "Vitória sem: Baralhas, Nathan Mendes, Cacá, Ramon"
       ]
     }
