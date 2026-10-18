@@ -3,68 +3,68 @@
   "em_andamento": 31,
   "parciais": {
     "26350318": {
-      "pontos": 48.64,
-      "jogaram": 6,
-      "escalados": 12
-    },
-    "19429362": {
-      "pontos": 23.9,
-      "jogaram": 4,
-      "escalados": 12
-    },
-    "29436742": {
-      "pontos": 35.04,
-      "jogaram": 6,
-      "escalados": 12
-    },
-    "300778": {
-      "pontos": 45.86,
-      "jogaram": 6,
-      "escalados": 12
-    },
-    "283417": {
-      "pontos": 40.09,
+      "pontos": 60.04,
       "jogaram": 7,
       "escalados": 12
     },
+    "19429362": {
+      "pontos": 45.28,
+      "jogaram": 8,
+      "escalados": 12
+    },
+    "29436742": {
+      "pontos": 46.44,
+      "jogaram": 7,
+      "escalados": 12
+    },
+    "300778": {
+      "pontos": 62.36,
+      "jogaram": 8,
+      "escalados": 12
+    },
+    "283417": {
+      "pontos": 43.19,
+      "jogaram": 8,
+      "escalados": 12
+    },
     "1380145": {
-      "pontos": 45.84,
-      "jogaram": 6,
+      "pontos": 67.14,
+      "jogaram": 8,
       "escalados": 12
     },
     "45022741": {
-      "pontos": 2.7,
-      "jogaram": 1,
-      "escalados": 12
-    },
-    "46075154": {
-      "pontos": 15.8,
+      "pontos": 37.9,
       "jogaram": 3,
       "escalados": 12
     },
-    "1061200": {
-      "pontos": 46.34,
+    "46075154": {
+      "pontos": 34.8,
       "jogaram": 6,
       "escalados": 12
     },
+    "1061200": {
+      "pontos": 51.54,
+      "jogaram": 8,
+      "escalados": 12
+    },
     "28924680": {
-      "pontos": 2.4,
-      "jogaram": 1,
+      "pontos": 15.9,
+      "jogaram": 4,
       "escalados": 12
     },
     "18271822": {
-      "pontos": 14.9,
-      "jogaram": 4,
+      "pontos": 23.68,
+      "jogaram": 9,
       "escalados": 12
     },
     "49327835": {
-      "pontos": 22.88,
-      "jogaram": 4,
+      "pontos": 21.48,
+      "jogaram": 5,
       "escalados": 12
     },
     "25313159": {
-      "pontos": 65.74,
-      "jogaram": 8,
+      "pontos": 67.74,
+      "jogaram": 9,
       "escalados": 12
     },
     "51076565": {
@@ -79,7 +79,7 @@
     },
     "51069766": {
       "pontos": 18.41,
-      "jogaram": 3,
+      "jogaram": 4,
       "escalados": 12
     }
   },
@@ -87,13 +87,13 @@
     "principal": [
       {
         "pos": 1,
-        "nome": "IdosoIludido",
+        "nome": "The Little Tiger",
         "P": 3,
         "J": 1,
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 48.64
+        "PC": 67.14
       },
       {
         "pos": 2,
@@ -103,17 +103,17 @@
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 45.86
+        "PC": 62.36
       },
       {
         "pos": 3,
-        "nome": "The Little Tiger",
+        "nome": "IdosoIludido",
         "P": 3,
         "J": 1,
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 45.84
+        "PC": 60.04
       },
       {
         "pos": 4,
@@ -123,47 +123,47 @@
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 23.9
+        "PC": 45.28
       },
       {
         "pos": 5,
-        "nome": "HABZ",
-        "P": 0,
-        "J": 1,
-        "V": 0,
-        "E": 0,
-        "D": 1,
-        "PC": 40.09
-      },
-      {
-        "pos": 6,
         "nome": "CRV Vasco da Brahma ",
         "P": 0,
         "J": 1,
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 35.04
+        "PC": 46.44
       },
       {
-        "pos": 7,
-        "nome": "SC Ventures",
+        "pos": 6,
+        "nome": "HABZ",
         "P": 0,
         "J": 1,
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 15.8
+        "PC": 43.19
       },
       {
-        "pos": 8,
+        "pos": 7,
         "nome": "davOLUTION",
         "P": 0,
         "J": 1,
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 2.7
+        "PC": 37.9
+      },
+      {
+        "pos": 8,
+        "nome": "SC Ventures",
+        "P": 0,
+        "J": 1,
+        "V": 0,
+        "E": 0,
+        "D": 1,
+        "PC": 34.8
       }
     ],
     "perdedores": [
@@ -175,7 +175,7 @@
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 65.74
+        "PC": 67.74
       },
       {
         "pos": 2,
@@ -185,7 +185,7 @@
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 46.34
+        "PC": 51.54
       },
       {
         "pos": 3,
@@ -209,16 +209,26 @@
       },
       {
         "pos": 5,
+        "nome": "Trabalhador EC",
+        "P": 0,
+        "J": 1,
+        "V": 0,
+        "E": 0,
+        "D": 1,
+        "PC": 23.68
+      },
+      {
+        "pos": 6,
         "nome": "Filhos de Ronielson",
         "P": 0,
         "J": 1,
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 22.88
+        "PC": 21.48
       },
       {
-        "pos": 6,
+        "pos": 7,
         "nome": " Kaneluduss FC",
         "P": 0,
         "J": 1,
@@ -228,16 +238,6 @@
         "PC": 18.41
       },
       {
-        "pos": 7,
-        "nome": "Trabalhador EC",
-        "P": 0,
-        "J": 1,
-        "V": 0,
-        "E": 0,
-        "D": 1,
-        "PC": 14.9
-      },
-      {
         "pos": 8,
         "nome": "Alegria26 FC",
         "P": 0,
@@ -245,7 +245,7 @@
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 2.4
+        "PC": 15.9
       }
     ]
   }
