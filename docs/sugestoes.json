@@ -1,7 +1,7 @@
 {
   "rodada": 31,
   "mercado_aberto": false,
-  "jogadores_avaliados": 201,
+  "jogadores_avaliados": 210,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -721,6 +721,20 @@
         "minimo": 0.84
       },
       {
+        "id": 89493,
+        "nome": "Igor Rabello",
+        "pos": 3,
+        "clube": "FLU",
+        "adv": "SAN",
+        "casa": true,
+        "adv_pos": 9,
+        "preco": 7.78,
+        "media": 5.43,
+        "jogos": 3,
+        "nota": 4.54,
+        "minimo": 3.29
+      },
+      {
         "id": 124912,
         "nome": "Jonathan Jesus",
         "pos": 3,
@@ -733,20 +747,6 @@
         "jogos": 19,
         "nota": 4.38,
         "minimo": 0.72
-      },
-      {
-        "id": 105300,
-        "nome": "Ferraresi",
-        "pos": 3,
-        "clube": "BOT",
-        "adv": "CHA",
-        "casa": true,
-        "adv_pos": 20,
-        "preco": 6.49,
-        "media": 3.71,
-        "jogos": 24,
-        "nota": 4.33,
-        "minimo": 0.6
       }
     ],
     "MEI": [
@@ -865,6 +865,20 @@
         "minimo": 1.24
       },
       {
+        "id": 102928,
+        "nome": "Canobbio",
+        "pos": 5,
+        "clube": "FLU",
+        "adv": "SAN",
+        "casa": true,
+        "adv_pos": 9,
+        "preco": 10.47,
+        "media": 6.56,
+        "jogos": 21,
+        "nota": 6.5,
+        "minimo": 1.08
+      },
+      {
         "id": 130209,
         "nome": "Renê",
         "pos": 5,
@@ -877,20 +891,6 @@
         "jogos": 21,
         "nota": 6.35,
         "minimo": 0.95
-      },
-      {
-        "id": 116706,
-        "nome": "Andrés Gómez",
-        "pos": 5,
-        "clube": "VAS",
-        "adv": "SAO",
-        "casa": false,
-        "adv_pos": 8,
-        "preco": 12.22,
-        "media": 7.18,
-        "jogos": 24,
-        "nota": 6.21,
-        "minimo": 1.13
       }
     ],
     "TEC": [
