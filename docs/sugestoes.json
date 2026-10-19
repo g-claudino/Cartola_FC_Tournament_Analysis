@@ -182,7 +182,7 @@
     "140": {
       "formacao": "4-3-3",
       "custo": 139.9,
-      "nota": 80.95,
+      "nota": 81.02,
       "capitao": 143193,
       "time": [
         {
@@ -192,11 +192,11 @@
           "clube": "REM",
           "adv": "RBB",
           "casa": true,
-          "adv_pos": 9,
+          "adv_pos": 10,
           "preco": 7.58,
           "media": 10.2,
           "jogos": 1,
-          "nota": 5.82,
+          "nota": 5.89,
           "minimo": 3.5
         },
         {
@@ -357,23 +357,23 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 155.84,
-      "nota": 82.52,
+      "custo": 153.89,
+      "nota": 82.51,
       "capitao": 143193,
       "time": [
         {
-          "id": 110698,
-          "nome": "Mycael",
+          "id": 88136,
+          "nome": "Ivan",
           "pos": 1,
-          "clube": "CAP",
-          "adv": "PAL",
+          "clube": "REM",
+          "adv": "RBB",
           "casa": true,
-          "adv_pos": 2,
-          "preco": 9.53,
-          "media": 7.14,
-          "jogos": 5,
-          "nota": 5.83,
-          "minimo": 2.56
+          "adv_pos": 10,
+          "preco": 7.58,
+          "media": 10.2,
+          "jogos": 1,
+          "nota": 5.89,
+          "minimo": 3.5
         },
         {
           "id": 105531,
@@ -396,11 +396,11 @@
           "clube": "VAS",
           "adv": "SAO",
           "casa": false,
-          "adv_pos": 10,
+          "adv_pos": 9,
           "preco": 13.02,
           "media": 7.75,
           "jogos": 18,
-          "nota": 6.78,
+          "nota": 6.71,
           "minimo": 1.52
         },
         {
@@ -535,6 +535,20 @@
   "top_por_posicao": {
     "GOL": [
       {
+        "id": 88136,
+        "nome": "Ivan",
+        "pos": 1,
+        "clube": "REM",
+        "adv": "RBB",
+        "casa": true,
+        "adv_pos": 10,
+        "preco": 7.58,
+        "media": 10.2,
+        "jogos": 1,
+        "nota": 5.89,
+        "minimo": 3.5
+      },
+      {
         "id": 110698,
         "nome": "Mycael",
         "pos": 1,
@@ -547,20 +561,6 @@
         "jogos": 5,
         "nota": 5.83,
         "minimo": 2.56
-      },
-      {
-        "id": 88136,
-        "nome": "Ivan",
-        "pos": 1,
-        "clube": "REM",
-        "adv": "RBB",
-        "casa": true,
-        "adv_pos": 9,
-        "preco": 7.58,
-        "media": 10.2,
-        "jogos": 1,
-        "nota": 5.82,
-        "minimo": 3.5
       },
       {
         "id": 104118,
@@ -627,11 +627,11 @@
         "clube": "VAS",
         "adv": "SAO",
         "casa": false,
-        "adv_pos": 10,
+        "adv_pos": 9,
         "preco": 13.02,
         "media": 7.75,
         "jogos": 18,
-        "nota": 6.78,
+        "nota": 6.71,
         "minimo": 1.52
       },
       {
@@ -799,11 +799,11 @@
         "clube": "VAS",
         "adv": "SAO",
         "casa": false,
-        "adv_pos": 10,
+        "adv_pos": 9,
         "preco": 11.32,
         "media": 9.0,
         "jogos": 4,
-        "nota": 5.93,
+        "nota": 5.86,
         "minimo": 4.63
       },
       {
@@ -937,18 +937,18 @@
         "minimo": 1.17
       },
       {
-        "id": 128177,
-        "nome": "Pedro Emanuel",
+        "id": 106147,
+        "nome": "Thiago Carpini",
         "pos": 6,
-        "clube": "VAS",
-        "adv": "SAO",
-        "casa": false,
+        "clube": "REM",
+        "adv": "RBB",
+        "casa": true,
         "adv_pos": 10,
-        "preco": 10.95,
-        "media": 6.52,
-        "jogos": 10,
-        "nota": 5.98,
-        "minimo": 1.96
+        "preco": 9.52,
+        "media": 5.55,
+        "jogos": 3,
+        "nota": 6.03,
+        "minimo": 3.99
       },
       {
         "id": 92747,
@@ -1044,11 +1044,11 @@
       "clube": "REM",
       "adv": "RBB",
       "casa": true,
-      "adv_pos": 9,
+      "adv_pos": 10,
       "preco": 4.56,
       "media": 3.05,
       "jogos": 28,
-      "nota": 3.2,
+      "nota": 3.23,
       "minimo": 0.38
     },
     {
@@ -1072,11 +1072,11 @@
       "clube": "REM",
       "adv": "RBB",
       "casa": true,
-      "adv_pos": 9,
+      "adv_pos": 10,
       "preco": 4.04,
       "media": 2.69,
       "jogos": 24,
-      "nota": 2.85,
+      "nota": 2.88,
       "minimo": 0.38
     }
   ]
