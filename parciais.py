@@ -71,16 +71,54 @@ def calcular_time(time, pontuados, status_clubes, rodada_acabou):
                 if valor(luxo) > pior["pontos"]:
                     pior.update(efetivo=luxo, pontos=valor(luxo))
 
+    def nome(a):
+        p = pts.get(int(a["atleta_id"])) or {}
+        return a.get("apelido") or p.get("apelido") or str(a["atleta_id"])
+
+    def situacao(a):
+        if jogou(a):
+            return "jogou"
+        s = status_clubes.get(a.get("clube_id"))
+        return "nao_jogou" if s in ("encerrado", "invalido") else "a_jogar"
+
     total = 0.0
+    jogadores = []
     for l in linhas:
-        mult = CAPITAO if l["titular"]["atleta_id"] == capitao and l["efetivo"] is l["titular"] else 1.0
+        cap = l["titular"]["atleta_id"] == capitao and l["efetivo"] is l["titular"]
+        mult = CAPITAO if cap else 1.0
         total += l["pontos"] * mult
+        t, e = l["titular"], l["efetivo"]
+        jogadores.append(dict(
+            nome=nome(t), pos=t.get("posicao_id"), clube=t.get("clube_id"), capitao=t["atleta_id"] == capitao,
+            situacao=situacao(t), pontos=round(valor(t) * (CAPITAO if cap else 1.0), 2),
+            entrou=None if e is t else dict(nome=nome(e), clube=e.get("clube_id"), pontos=round(l["pontos"], 2),
+                                            luxo=e["atleta_id"] == luxo_id)))
+    ids_entraram = {l["efetivo"]["atleta_id"] for l in linhas}
+    banco = [dict(nome=nome(r), pos=r.get("posicao_id"), clube=r.get("clube_id"), luxo=r["atleta_id"] == luxo_id,
+                  situacao=situacao(r), pontos=round(valor(r), 2), entrou=r["atleta_id"] in ids_entraram)
+             for r in reservas]
     jogaram = sum(1 for l in linhas if jogou(l["efetivo"]))
-    return dict(pontos=round(total, 2), jogaram=jogaram, escalados=len(titulares))
+    return dict(pontos=round(total, 2), jogaram=jogaram, escalados=len(titulares),
+                jogadores=jogadores, banco=banco)
+
+
+def de_rodada_fechada(time):
+    """Mesma análise para uma rodada já fechada (resposta de time/id/{id}/{rodada}),
+    que traz os pontos e se cada jogador entrou em campo."""
+    pts = {"atletas": {str(a["atleta_id"]): dict(pontuacao=a.get("pontos_num") or 0, apelido=a.get("apelido"),
+                                                 entrou_em_campo=bool(a.get("entrou_em_campo")))
+                       for a in (time.get("atletas") or []) + (time.get("reservas") or [])
+                       if a.get("entrou_em_campo")}}
+    clubes = {a.get("clube_id"): "encerrado" for a in (time.get("atletas") or []) + (time.get("reservas") or [])}
+    return calcular_time(time, pts, clubes, True)
+
+
+def clubes_abrev(partidas):
+    return {int(k): (v.get("abreviacao") or v.get("nome") or k) for k, v in (partidas.get("clubes") or {}).items()}
 
 
 def calcular(get_publico, time_ids):
-    """{time_id: {pontos, jogaram, escalados}} para os times informados."""
+    """({time_id: {pontos, jogaram, escalados, jogadores, banco}}, rodada_acabou, siglas dos clubes)."""
     pontuados = get_publico("atletas/pontuados")
     partidas = get_publico("partidas")
     st = _status_clubes(partidas)
@@ -92,4 +130,4 @@ def calcular(get_publico, time_ids):
             out[str(tid)] = calcular_time(get_publico(f"time/id/{tid}"), pontuados, st, acabou)
         except Exception as e:
             print(f"  aviso: parcial do time {tid}: {e}")
-    return out, acabou
+    return out, acabou, clubes_abrev(partidas)

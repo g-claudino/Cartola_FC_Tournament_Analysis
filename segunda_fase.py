@@ -25,6 +25,8 @@ from pathlib import Path
 BASE = Path(__file__).resolve().parent
 CONFIG = BASE / "segunda_fase" / "config_fase2.json"
 CACHE = BASE / "segunda_fase" / "pontuacoes.json"
+ESCALACOES = BASE / "segunda_fase" / "escalacoes.json"      # rodadas fechadas: {rodada: {time_id: escalação}}
+EXECUCAO = BASE / "segunda_fase" / "ultima_execucao.json"
 SAIDA = BASE / "docs"
 API = "https://api.cartola.globo.com/"
 HEADERS = {
@@ -116,7 +118,9 @@ def buscar_ids_publico(cfg):
 
 
 def buscar_pontuacoes(cfg, ultima):
+    import parciais
     cache = carregar(CACHE, {})
+    escalacoes = carregar(ESCALACOES, {})
     times = [t for c in cfg["chaves"] for t in c["times"]]
     if any(not t.get("time_id") for t in times):
         buscar_ids_publico(cfg)
@@ -129,15 +133,27 @@ def buscar_pontuacoes(cfg, ultima):
         if r > ultima:
             continue
         ja = cache.setdefault(str(r), {})
+        esc = escalacoes.setdefault(str(r), {})
         for t in times:
             tid = str(t["time_id"])
-            if tid in ja:
+            if tid in ja and tid in esc:
                 continue
             try:
-                ja[tid] = round(float(get_publico(f"time/id/{tid}/{r}").get("pontos") or 0), 2)
+                d = get_publico(f"time/id/{tid}/{r}")
+                ja[tid] = round(float(d.get("pontos") or 0), 2)
+                esc[tid] = parciais.de_rodada_fechada(d)
+                esc[tid]["pontos"] = ja[tid]          # vale o total oficial
             except Exception as e:  # time não escalado / erro pontual: tenta de novo na próxima execução
                 print(f"  aviso: rodada {r}, {t['nome']}: {e}")
+        if esc and str(r) not in escalacoes.get("_clubes_rodadas", []):
+            try:
+                escalacoes.setdefault("_clubes", {}).update(
+                    {str(k): v for k, v in parciais.clubes_abrev(get_publico(f"partidas/{r}")).items()})
+                escalacoes.setdefault("_clubes_rodadas", []).append(str(r))
+            except Exception as e:
+                print(f"  aviso: clubes da rodada {r}: {e}")
     salvar(CACHE, cache)
+    salvar(ESCALACOES, escalacoes)
     return cache
 
 
@@ -215,13 +231,15 @@ td.n{text-align:left}td.n small{display:block;color:var(--sub)}tr.z td{backgroun
 .tag{font-size:11px;color:var(--bg);background:var(--acc);border-radius:4px;padding:1px 6px;margin-left:6px}
 .camp{background:linear-gradient(135deg,#3a2a12,#24272e);border:1px solid var(--acc);border-radius:12px;padding:14px;margin:10px 0}
 .scroll{overflow-x:auto}
+a.tl{color:inherit;text-decoration:none;border-bottom:1px dotted var(--sub)}
 .cta{display:block;margin:4px 0 8px;padding:14px 16px;border-radius:12px;background:var(--acc);color:#111;font-weight:700;text-decoration:none;font-size:16px}
 .cta small{display:block;font-weight:500;font-size:13px;opacity:.8}
 """
 
 
 def nome(t):
-    return f"{html.escape(t['nome'])}<small>{html.escape(t.get('cartoleiro', ''))}</small>"
+    from escalacoes import link
+    return f"{link(t)}<small>{html.escape(t.get('cartoleiro', ''))}</small>"
 
 
 def fmt(p):
@@ -232,8 +250,9 @@ def jogo_html(times, a, b, pa, pb):
     ca = cb = ""
     if pa is not None and pb is not None:
         ca, cb = ("w", "l") if pa > pb else (("l", "w") if pb > pa else ("", ""))
-    return (f'<div class="j"><span class="{ca}">{html.escape(times[a]["nome"])} {fmt(pa)}</span>'
-            f'<span class="{cb}">{fmt(pb)} {html.escape(times[b]["nome"])}</span></div>')
+    from escalacoes import link
+    return (f'<div class="j"><span class="{ca}">{link(times[a])} {fmt(pa)}</span>'
+            f'<span class="{cb}">{fmt(pb)} {link(times[b])}</span></div>')
 
 
 def agora_brasilia():
@@ -257,11 +276,13 @@ def ao_vivo_html(c, rodada, parciais):
     if not jogos:
         return ""
     times = c["times"]
+    from escalacoes import link
+
     def linha(seed, pts, classe):
         p = parciais.get(str(times[seed].get("time_id")))
         jog = f"<small class='sub'> {p['jogaram']}/{p['escalados']}</small>" if p else ""
         return (f"<div style='display:flex;justify-content:space-between;gap:8px'>"
-                f"<span class='{classe}'>{html.escape(times[seed]['nome'])}</span>"
+                f"<span class='{classe}'>{link(times[seed])}</span>"
                 f"<span style='white-space:nowrap'><span class='{classe}'>{fmt(pts)}</span>{jog}</span></div>")
     out = [f"<div class='r' style='border:1px solid var(--acc);margin-bottom:14px'><b>{titulo}</b>"]
     for j in jogos:
@@ -319,7 +340,8 @@ def gerar_html(cfg, chaves, ultima, em_andamento, parciais=None):
             out.append("</div>")
         out.append("</div>")
     out.append("<p class='sub'>Vitória 3, empate 1. Desempate: pontos, vitórias, pontos do Cartola na fase, "
-               "campanha na 1ª fase. Na rodada 38, empate favorece o melhor colocado da chave.</p></main></body></html>")
+               "campanha na 1ª fase. Na rodada 38, empate favorece o melhor colocado da chave. "
+               "Toque no nome de um time para ver a escalação de cada rodada.</p></main></body></html>")
     return "".join(out)
 
 
@@ -353,6 +375,47 @@ def cmd_ids(cfg):
     salvar(CONFIG, cfg)
 
 
+BRT = dt.timezone(dt.timedelta(hours=-3))
+JANELA_JOGO = dt.timedelta(hours=4)       # ~2 h de jogo + 2 h depois que acaba
+INTERVALO_SEM_JOGO = dt.timedelta(hours=3)
+
+
+def cmd_decidir(agora=None):
+    """Decide se esta execução agendada (a cada 15 min) deve atualizar:
+    sim durante jogos (do apito inicial até 4 h depois); fora disso, a cada 3 h."""
+    agora = agora or dt.datetime.now(dt.timezone.utc)
+    motivo = None
+    try:
+        for p in get_publico("partidas").get("partidas", []):
+            if p.get("valida") is False:
+                continue
+            if p.get("status_transmissao_tr") == "EM_ANDAMENTO":
+                motivo = "jogo em andamento"
+                break
+            if p.get("partida_data"):
+                ini = dt.datetime.fromisoformat(p["partida_data"].replace(" ", "T")).replace(tzinfo=BRT)
+                if ini - dt.timedelta(minutes=15) <= agora <= ini + JANELA_JOGO:
+                    motivo = f"horário de jogo ({ini:%d/%m %H:%M})"
+                    break
+    except Exception as e:
+        motivo = f"não foi possível ler os jogos ({e})"
+    if motivo is None:
+        try:
+            ultima = dt.datetime.fromisoformat(carregar(EXECUCAO, {})["em"])
+        except (KeyError, ValueError, TypeError):
+            ultima = None
+        # 10 min de folga: o agendador do GitHub costuma atrasar alguns minutos
+        if ultima is None or agora - ultima >= INTERVALO_SEM_JOGO - dt.timedelta(minutes=10):
+            motivo = "3 horas desde a última atualização"
+    rodar = motivo is not None
+    print(f"rodar={'sim' if rodar else 'não'} ({motivo or 'sem jogos, última atualização recente'})")
+    import os
+    if os.environ.get("GITHUB_OUTPUT"):
+        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+            f.write(f"rodar={'true' if rodar else 'false'}\n")
+    return rodar
+
+
 def cmd_tabela(cfg):
     for c in cfg["chaves"]:
         t = {x["seed"]: x["nome"] for x in c["times"]}
@@ -364,22 +427,25 @@ def cmd_tabela(cfg):
 def cmd_atualizar(cfg):
     ultima, em_andamento = rodadas_encerradas(get_publico("mercado/status"))
     pontos = buscar_pontuacoes(cfg, ultima)
-    parc = {}
+    parc, clubes = {}, {}
     rodadas_fase = cfg["rodadas_grupo"] + [cfg["rodada_final"]]
     if em_andamento in rodadas_fase:
         import parciais
         ids = [t["time_id"] for c in cfg["chaves"] for t in c["times"] if t.get("time_id")]
         try:
-            parc, acabou = parciais.calcular(get_publico, ids)
+            parc, acabou, clubes = parciais.calcular(get_publico, ids)
             # parciais não vão para o cache: só a pontuação oficial fica salva
             pontos = {**pontos, str(em_andamento): {k: v["pontos"] for k, v in parc.items()}}
             print(f"Parciais da rodada {em_andamento}: {len(parc)} times" + (" (todos os jogos encerrados)" if acabou else ""))
         except Exception as e:
             print(f"aviso: parciais indisponíveis ({e})")
-    publicar(cfg, calcular(cfg, pontos), ultima, em_andamento, parc)
+    resumo_parc = {k: {c: v[c] for c in ("pontos", "jogaram", "escalados")} for k, v in parc.items()}
+    publicar(cfg, calcular(cfg, pontos), ultima, em_andamento, resumo_parc)
+    gerar_paginas_times(cfg, parc, clubes, em_andamento)
     print(f"docs/ atualizado (última rodada encerrada: {ultima}).")
     gerar_sugestoes(cfg, get_publico, SAIDA)
     gerar_palpites(cfg, get_publico, SAIDA)
+    salvar(EXECUCAO, {"em": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")})
 
 
 def gerar_palpites(cfg, fonte, saida):
@@ -392,6 +458,22 @@ def gerar_palpites(cfg, fonte, saida):
         import traceback
         traceback.print_exc()
         print(f"aviso: palpites não gerados ({e})")
+
+
+def gerar_paginas_times(cfg, parc, clubes, em_andamento):
+    try:
+        import escalacoes
+        fechadas = carregar(ESCALACOES, {})
+        mapa_clubes = {**fechadas.get("_clubes", {}), **{str(k): v for k, v in clubes.items()}}
+        por_rodada = {r: v for r, v in fechadas.items() if not r.startswith("_")}
+        if parc and em_andamento:
+            por_rodada[str(em_andamento)] = parc
+        escalacoes.gerar(cfg, por_rodada, mapa_clubes, SAIDA, CSS, NAV, em_andamento, agora_brasilia())
+        salvar(SAIDA / "escalacoes.json", {"ao_vivo": em_andamento, "rodadas": por_rodada})
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        print(f"aviso: páginas dos times não geradas ({e})")
 
 
 def gerar_sugestoes(cfg, fonte, saida):
@@ -424,7 +506,9 @@ def cmd_simular(cfg, ate=38):
 if __name__ == "__main__":
     cfg = carregar(CONFIG)
     acao = sys.argv[1] if len(sys.argv) > 1 else "atualizar"
-    if acao == "ids":
+    if acao == "decidir":
+        cmd_decidir()
+    elif acao == "ids":
         cmd_ids(cfg)
     elif acao == "tabela":
         cmd_tabela(cfg)

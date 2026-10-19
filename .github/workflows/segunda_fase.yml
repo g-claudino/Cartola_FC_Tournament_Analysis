@@ -2,8 +2,8 @@ name: Atualizar segunda fase
 
 on:
   schedule:
-    # A cada 15 minutos: parciais ao vivo durante a rodada. Fora da rodada quase nada
-    # muda e o commit só acontece quando algum dado muda.
+    # Acorda a cada 15 min; o passo "decidir" só segue se houver jogo (do início
+    # até 4 h depois) ou se já passaram 3 h desde a última atualização.
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
@@ -26,11 +26,16 @@ jobs:
 
       - run: pip install requests
 
+      - name: Decidir se atualiza agora
+        id: decidir
+        run: python segunda_fase.py decidir
+
       - name: Buscar pontuações e gerar a página
+        if: steps.decidir.outputs.rodar == 'true' || github.event_name == 'workflow_dispatch'
         run: python segunda_fase.py atualizar
 
       - name: Salvar mudanças
-        if: always()
+        if: always() && (steps.decidir.outputs.rodar == 'true' || github.event_name == 'workflow_dispatch')
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
