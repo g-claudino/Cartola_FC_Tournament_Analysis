@@ -1,12 +1,12 @@
 {
   "rodada": 31,
   "mercado_aberto": false,
-  "jogadores_avaliados": 212,
+  "jogadores_avaliados": 214,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.73,
-      "nota": 67.74,
+      "custo": 99.81,
+      "nota": 67.83,
       "capitao": 107231,
       "time": [
         {
@@ -24,20 +24,6 @@
           "minimo": 1.29
         },
         {
-          "id": 105531,
-          "nome": "Matheus Bidu",
-          "pos": 2,
-          "clube": "COR",
-          "adv": "VIT",
-          "casa": true,
-          "adv_pos": 13,
-          "preco": 11.21,
-          "media": 6.81,
-          "jogos": 23,
-          "nota": 7.16,
-          "minimo": 1.08
-        },
-        {
           "id": 111879,
           "nome": "Mateus Silva",
           "pos": 2,
@@ -50,6 +36,20 @@
           "jogos": 9,
           "nota": 5.63,
           "minimo": 1.45
+        },
+        {
+          "id": 97868,
+          "nome": "Iago",
+          "pos": 2,
+          "clube": "SAO",
+          "adv": "VAS",
+          "casa": true,
+          "adv_pos": 15,
+          "preco": 6.38,
+          "media": 4.59,
+          "jogos": 11,
+          "nota": 4.99,
+          "minimo": 1.08
         },
         {
           "id": 63008,
@@ -66,18 +66,18 @@
           "minimo": 1.31
         },
         {
-          "id": 103523,
-          "nome": "Ignácio",
+          "id": 124912,
+          "nome": "Jonathan Jesus",
           "pos": 3,
-          "clube": "FLU",
-          "adv": "SAN",
-          "casa": true,
-          "adv_pos": 8,
-          "preco": 6.07,
-          "media": 4.22,
-          "jogos": 14,
-          "nota": 4.23,
-          "minimo": 0.86
+          "clube": "CRU",
+          "adv": "GRE",
+          "casa": false,
+          "adv_pos": 18,
+          "preco": 6.41,
+          "media": 4.46,
+          "jogos": 19,
+          "nota": 4.38,
+          "minimo": 0.72
         },
         {
           "id": 107231,
@@ -94,18 +94,18 @@
           "minimo": 1.46
         },
         {
-          "id": 104783,
-          "nome": "Acevedo",
+          "id": 145744,
+          "nome": "André",
           "pos": 4,
-          "clube": "BAH",
-          "adv": "FLA",
+          "clube": "COR",
+          "adv": "VIT",
           "casa": true,
-          "adv_pos": 1,
-          "preco": 6.78,
-          "media": 4.88,
-          "jogos": 26,
-          "nota": 4.52,
-          "minimo": 0.59
+          "adv_pos": 13,
+          "preco": 6.11,
+          "media": 4.14,
+          "jogos": 19,
+          "nota": 4.36,
+          "minimo": 0.69
         },
         {
           "id": 90703,
@@ -120,6 +120,20 @@
           "jogos": 25,
           "nota": 4.29,
           "minimo": 0.55
+        },
+        {
+          "id": 98873,
+          "nome": "Samuel Lino",
+          "pos": 5,
+          "clube": "FLA",
+          "adv": "BAH",
+          "casa": false,
+          "adv_pos": 7,
+          "preco": 12.28,
+          "media": 8.63,
+          "jogos": 27,
+          "nota": 7.38,
+          "minimo": 1.03
         },
         {
           "id": 130209,
@@ -150,20 +164,6 @@
           "minimo": 0.9
         },
         {
-          "id": 117314,
-          "nome": "Thiago Borbas",
-          "pos": 5,
-          "clube": "CAM",
-          "adv": "CFC",
-          "casa": true,
-          "adv_pos": 12,
-          "preco": 7.04,
-          "media": 5.68,
-          "jogos": 5,
-          "nota": 5.11,
-          "minimo": 1.9
-        },
-        {
           "id": 73476,
           "nome": "Marcão",
           "pos": 6,
@@ -181,8 +181,8 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.9,
-      "nota": 81.02,
+      "custo": 138.71,
+      "nota": 80.16,
       "capitao": 143193,
       "time": [
         {
@@ -200,20 +200,6 @@
           "minimo": 3.5
         },
         {
-          "id": 105531,
-          "nome": "Matheus Bidu",
-          "pos": 2,
-          "clube": "COR",
-          "adv": "VIT",
-          "casa": true,
-          "adv_pos": 13,
-          "preco": 11.21,
-          "media": 6.81,
-          "jogos": 23,
-          "nota": 7.16,
-          "minimo": 1.08
-        },
-        {
           "id": 101727,
           "nome": "Matheuzinho",
           "pos": 2,
@@ -226,6 +212,20 @@
           "jogos": 24,
           "nota": 6.47,
           "minimo": 0.97
+        },
+        {
+          "id": 78445,
+          "nome": "Renê",
+          "pos": 2,
+          "clube": "FLU",
+          "adv": "SAN",
+          "casa": true,
+          "adv_pos": 8,
+          "preco": 9.68,
+          "media": 6.18,
+          "jogos": 19,
+          "nota": 6.15,
+          "minimo": 1.09
         },
         {
           "id": 63008,
@@ -242,18 +242,18 @@
           "minimo": 1.31
         },
         {
-          "id": 103523,
-          "nome": "Ignácio",
+          "id": 124912,
+          "nome": "Jonathan Jesus",
           "pos": 3,
-          "clube": "FLU",
-          "adv": "SAN",
-          "casa": true,
-          "adv_pos": 8,
-          "preco": 6.07,
-          "media": 4.22,
-          "jogos": 14,
-          "nota": 4.23,
-          "minimo": 0.86
+          "clube": "CRU",
+          "adv": "GRE",
+          "casa": false,
+          "adv_pos": 18,
+          "preco": 6.41,
+          "media": 4.46,
+          "jogos": 19,
+          "nota": 4.38,
+          "minimo": 0.72
         },
         {
           "id": 63007,
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 153.89,
-      "nota": 82.51,
+      "custo": 155.0,
+      "nota": 81.91,
       "capitao": 143193,
       "time": [
         {
@@ -376,20 +376,6 @@
           "minimo": 3.5
         },
         {
-          "id": 105531,
-          "nome": "Matheus Bidu",
-          "pos": 2,
-          "clube": "COR",
-          "adv": "VIT",
-          "casa": true,
-          "adv_pos": 13,
-          "preco": 11.21,
-          "media": 6.81,
-          "jogos": 23,
-          "nota": 7.16,
-          "minimo": 1.08
-        },
-        {
           "id": 116065,
           "nome": "Cuiabano",
           "pos": 2,
@@ -402,6 +388,20 @@
           "jogos": 18,
           "nota": 6.71,
           "minimo": 1.52
+        },
+        {
+          "id": 107093,
+          "nome": "Luciano Juba",
+          "pos": 2,
+          "clube": "BAH",
+          "adv": "FLA",
+          "casa": true,
+          "adv_pos": 1,
+          "preco": 12.32,
+          "media": 7.09,
+          "jogos": 26,
+          "nota": 6.56,
+          "minimo": 1.07
         },
         {
           "id": 99274,
@@ -607,20 +607,6 @@
     ],
     "LAT": [
       {
-        "id": 105531,
-        "nome": "Matheus Bidu",
-        "pos": 2,
-        "clube": "COR",
-        "adv": "VIT",
-        "casa": true,
-        "adv_pos": 13,
-        "preco": 11.21,
-        "media": 6.81,
-        "jogos": 23,
-        "nota": 7.16,
-        "minimo": 1.08
-      },
-      {
         "id": 116065,
         "nome": "Cuiabano",
         "pos": 2,
@@ -675,6 +661,20 @@
         "jogos": 24,
         "nota": 6.47,
         "minimo": 0.97
+      },
+      {
+        "id": 78445,
+        "nome": "Renê",
+        "pos": 2,
+        "clube": "FLU",
+        "adv": "SAN",
+        "casa": true,
+        "adv_pos": 8,
+        "preco": 9.68,
+        "media": 6.18,
+        "jogos": 19,
+        "nota": 6.15,
+        "minimo": 1.09
       }
     ],
     "ZAG": [
@@ -1052,6 +1052,20 @@
       "minimo": 0.38
     },
     {
+      "id": 143153,
+      "nome": "Tarzia",
+      "pos": 5,
+      "clube": "VIT",
+      "adv": "COR",
+      "casa": false,
+      "adv_pos": 16,
+      "preco": 4.34,
+      "media": 3.16,
+      "jogos": 22,
+      "nota": 3.15,
+      "minimo": 0.44
+    },
+    {
       "id": 87342,
       "nome": "Kannemann",
       "pos": 3,
@@ -1064,20 +1078,6 @@
       "jogos": 6,
       "nota": 2.99,
       "minimo": 1.13
-    },
-    {
-      "id": 86859,
-      "nome": "José Welison",
-      "pos": 4,
-      "clube": "REM",
-      "adv": "RBB",
-      "casa": true,
-      "adv_pos": 10,
-      "preco": 4.04,
-      "media": 2.69,
-      "jogos": 24,
-      "nota": 2.88,
-      "minimo": 0.38
     }
   ]
 }

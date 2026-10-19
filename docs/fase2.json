@@ -3,33 +3,33 @@
   "em_andamento": 31,
   "parciais": {
     "26350318": {
-      "pontos": 87.39,
-      "jogaram": 11,
+      "pontos": 92.39,
+      "jogaram": 12,
       "escalados": 12
     },
     "19429362": {
-      "pontos": 72.3,
-      "jogaram": 11,
+      "pontos": 81.5,
+      "jogaram": 12,
       "escalados": 12
     },
     "29436742": {
-      "pontos": 57.74,
-      "jogaram": 9,
+      "pontos": 71.24,
+      "jogaram": 12,
       "escalados": 12
     },
     "300778": {
-      "pontos": 76.16,
-      "jogaram": 10,
+      "pontos": 85.66,
+      "jogaram": 12,
       "escalados": 12
     },
     "283417": {
-      "pontos": 56.59,
-      "jogaram": 11,
+      "pontos": 64.19,
+      "jogaram": 12,
       "escalados": 12
     },
     "1380145": {
-      "pontos": 77.14,
-      "jogaram": 10,
+      "pontos": 84.74,
+      "jogaram": 11,
       "escalados": 12
     },
     "45022741": {
@@ -43,8 +43,8 @@
       "escalados": 12
     },
     "1061200": {
-      "pontos": 74.39,
-      "jogaram": 11,
+      "pontos": 80.89,
+      "jogaram": 12,
       "escalados": 12
     },
     "28924680": {
@@ -53,8 +53,8 @@
       "escalados": 12
     },
     "18271822": {
-      "pontos": 32.85,
-      "jogaram": 10,
+      "pontos": 37.15,
+      "jogaram": 11,
       "escalados": 12
     },
     "49327835": {
@@ -63,13 +63,13 @@
       "escalados": 12
     },
     "25313159": {
-      "pontos": 77.19,
-      "jogaram": 10,
+      "pontos": 92.59,
+      "jogaram": 12,
       "escalados": 12
     },
     "51076565": {
-      "pontos": 36.6,
-      "jogaram": 6,
+      "pontos": 37.0,
+      "jogaram": 7,
       "escalados": 12
     },
     "9490259": {
@@ -103,30 +103,40 @@
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 87.39
+        "PC": 92.39
       },
       {
         "pos": 3,
-        "nome": "The Little Tiger",
-        "P": 3,
-        "J": 1,
-        "V": 1,
-        "E": 0,
-        "D": 0,
-        "PC": 77.14
-      },
-      {
-        "pos": 4,
         "nome": "Soul Edge",
         "P": 3,
         "J": 1,
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 76.16
+        "PC": 85.66
+      },
+      {
+        "pos": 4,
+        "nome": "The Little Tiger",
+        "P": 3,
+        "J": 1,
+        "V": 1,
+        "E": 0,
+        "D": 0,
+        "PC": 84.74
       },
       {
         "pos": 5,
+        "nome": "FC Aerodynamics",
+        "P": 0,
+        "J": 1,
+        "V": 0,
+        "E": 0,
+        "D": 1,
+        "PC": 81.5
+      },
+      {
+        "pos": 6,
         "nome": "SC Ventures",
         "P": 0,
         "J": 1,
@@ -136,16 +146,6 @@
         "PC": 77.73
       },
       {
-        "pos": 6,
-        "nome": "FC Aerodynamics",
-        "P": 0,
-        "J": 1,
-        "V": 0,
-        "E": 0,
-        "D": 1,
-        "PC": 72.3
-      },
-      {
         "pos": 7,
         "nome": "CRV Vasco da Brahma ",
         "P": 0,
@@ -153,7 +153,7 @@
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 57.74
+        "PC": 71.24
       },
       {
         "pos": 8,
@@ -163,7 +163,7 @@
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 56.59
+        "PC": 64.19
       }
     ],
     "perdedores": [
@@ -175,7 +175,7 @@
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 77.19
+        "PC": 92.59
       },
       {
         "pos": 2,
@@ -185,7 +185,7 @@
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 74.39
+        "PC": 80.89
       },
       {
         "pos": 3,
@@ -199,13 +199,13 @@
       },
       {
         "pos": 4,
-        "nome": "TimedoBagulho",
+        "nome": "Trabalhador EC",
         "P": 3,
         "J": 1,
         "V": 1,
         "E": 0,
         "D": 0,
-        "PC": 36.6
+        "PC": 37.15
       },
       {
         "pos": 5,
@@ -219,13 +219,13 @@
       },
       {
         "pos": 6,
-        "nome": "Trabalhador EC",
+        "nome": "TimedoBagulho",
         "P": 0,
         "J": 1,
         "V": 0,
         "E": 0,
         "D": 1,
-        "PC": 32.85
+        "PC": 37.0
       },
       {
         "pos": 7,
