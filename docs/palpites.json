@@ -1,191 +1,187 @@
 {
-  "rodada": 31,
+  "rodada": 32,
   "jogos": [
     {
-      "casa": "Botafogo",
-      "fora": "Chapecoense",
-      "data": "2026-10-17 18:00",
+      "casa": "Mirassol",
+      "fora": "São Paulo",
+      "data": "2026-10-24 16:30",
       "hoje": false,
-      "local": "Nilton Santos (Engenhão)",
+      "local": "Maião",
       "previsao": {
-        "gols_casa": 1.8,
-        "gols_fora": 1.06,
-        "casa": 0.53,
-        "empate": 0.254,
-        "fora": 0.216,
-        "placar": "1 x 1",
-        "placar_prob": 0.109
-      },
-      "contexto": [
-        "Botafogo sem: Edenílson",
-        "Chapecoense sem: Marcinho, Rafael Carvalheira"
-      ]
-    },
-    {
-      "casa": "Atlético-MG",
-      "fora": "Coritiba",
-      "data": "2026-10-17 18:30",
-      "hoje": false,
-      "local": "Arena MRV",
-      "previsao": {
-        "gols_casa": 1.84,
-        "gols_fora": 1.17,
-        "casa": 0.516,
-        "empate": 0.25,
-        "fora": 0.233,
-        "placar": "1 x 1",
-        "placar_prob": 0.106
-      },
-      "contexto": [
-        "Atlético-MG sem: Alan Franco, Gustavo Scarpa, Cassierra, Everson, Ruan",
-        "Atlético-MG jogou Sul-Americana 3 dias antes",
-        "Coritiba sem: Lucas Ronier"
-      ]
-    },
-    {
-      "casa": "Athletico-PR",
-      "fora": "Palmeiras",
-      "data": "2026-10-17 19:30",
-      "hoje": false,
-      "local": "Arena da Baixada",
-      "previsao": {
-        "gols_casa": 1.24,
-        "gols_fora": 1.21,
-        "casa": 0.359,
-        "empate": 0.295,
-        "fora": 0.347,
-        "placar": "1 x 1",
-        "placar_prob": 0.13
-      },
-      "contexto": [
-        "Athletico-PR sem: Vargas, Benavídez",
-        "Palmeiras sem: Vitor Roque, Gustavo Gómez, Giay",
-        "Palmeiras jogou Libertadores 3 dias antes"
-      ]
-    },
-    {
-      "casa": "São Paulo",
-      "fora": "Vasco da Gama",
-      "data": "2026-10-17 21:00",
-      "hoje": false,
-      "local": "Morumbis",
-      "previsao": {
-        "gols_casa": 1.67,
-        "gols_fora": 0.96,
-        "casa": 0.525,
-        "empate": 0.265,
-        "fora": 0.21,
+        "gols_casa": 1.45,
+        "gols_fora": 0.99,
+        "casa": 0.462,
+        "empate": 0.287,
+        "fora": 0.252,
         "placar": "1 x 0",
-        "placar_prob": 0.121
+        "placar_prob": 0.126
       },
       "contexto": [
-        "São Paulo sem: Danielzinho, Domingos Duarte",
+        "Mirassol sem: Negueba",
+        "São Paulo sem: Danielzinho"
+      ]
+    },
+    {
+      "casa": "Internacional",
+      "fora": "Botafogo",
+      "data": "2026-10-24 16:30",
+      "hoje": false,
+      "local": "Beira-Rio",
+      "previsao": {
+        "gols_casa": 1.45,
+        "gols_fora": 1.17,
+        "casa": 0.422,
+        "empate": 0.282,
+        "fora": 0.296,
+        "placar": "1 x 1",
+        "placar_prob": 0.124
+      },
+      "contexto": [
+        "Internacional sem: Alan Patrick, Vitinho, Villagra, Rochet, Matheus Cunha",
+        "Botafogo sem: Edenílson"
+      ]
+    },
+    {
+      "casa": "Vitória",
+      "fora": "Athletico-PR",
+      "data": "2026-10-24 16:30",
+      "hoje": false,
+      "local": "Barradão",
+      "previsao": {
+        "gols_casa": 1.46,
+        "gols_fora": 1.11,
+        "casa": 0.44,
+        "empate": 0.282,
+        "fora": 0.278,
+        "placar": "1 x 1",
+        "placar_prob": 0.124
+      },
+      "contexto": [
+        "Vitória sem: Baralhas, Nathan Mendes, Ramon",
+        "Athletico-PR sem: Vargas, Benavídez"
+      ]
+    },
+    {
+      "casa": "Vasco da Gama",
+      "fora": "Corinthians",
+      "data": "2026-10-24 18:30",
+      "hoje": false,
+      "local": "São Januário",
+      "previsao": {
+        "gols_casa": 1.43,
+        "gols_fora": 1.13,
+        "casa": 0.426,
+        "empate": 0.284,
+        "fora": 0.29,
+        "placar": "1 x 1",
+        "placar_prob": 0.125
+      },
+      "contexto": [
         "Vasco da Gama sem: Barros",
         "Vasco da Gama jogou Sul-Americana 4 dias antes",
-        "Vasco da Gama joga Sul-Americana 3 dias depois"
+        "Corinthians sem: Raniele"
       ]
     },
     {
-      "casa": "Fluminense",
-      "fora": "Santos",
-      "data": "2026-10-18 16:00",
-      "hoje": false,
-      "local": "Maracanã",
-      "previsao": {
-        "gols_casa": 1.8,
-        "gols_fora": 1.26,
-        "casa": 0.487,
-        "empate": 0.254,
-        "fora": 0.26,
-        "placar": "1 x 1",
-        "placar_prob": 0.107
-      },
-      "contexto": [
-        "Fluminense sem: Martinelli, John Kennedy, Guilherme Arana",
-        "Fluminense jogou Libertadores 4 dias antes",
-        "Fluminense joga Libertadores 3 dias depois",
-        "Santos sem: Arthur Melo, Willian Arão, Gabriel Brazão"
-      ]
-    },
-    {
-      "casa": "Grêmio",
-      "fora": "Cruzeiro",
-      "data": "2026-10-18 16:00",
-      "hoje": false,
-      "local": "Arena do Grêmio",
-      "previsao": {
-        "gols_casa": 1.71,
-        "gols_fora": 1.24,
-        "casa": 0.47,
-        "empate": 0.26,
-        "fora": 0.27,
-        "placar": "1 x 1",
-        "placar_prob": 0.111
-      },
-      "contexto": [
-        "Grêmio sem: Nardoni, Wallace",
-        "Cruzeiro sem: Felipe Morais"
-      ]
-    },
-    {
-      "casa": "Bahia",
-      "fora": "Flamengo",
-      "data": "2026-10-18 18:30",
-      "hoje": false,
-      "local": "Arena Fonte Nova",
-      "previsao": {
-        "gols_casa": 1.24,
-        "gols_fora": 1.42,
-        "casa": 0.318,
-        "empate": 0.281,
-        "fora": 0.401,
-        "placar": "1 x 1",
-        "placar_prob": 0.123
-      },
-      "contexto": [
-        "Bahia sem: Léo Vieira",
-        "Flamengo sem: Arrascaeta, Danilo",
-        "Flamengo jogou Libertadores 3 dias antes"
-      ]
-    },
-    {
-      "casa": "Remo",
+      "casa": "Palmeiras",
       "fora": "Red Bull Bragantino",
-      "data": "2026-10-18 19:30",
+      "data": "2026-10-24 18:30",
       "hoje": false,
-      "local": "Mangueirão",
+      "local": "Arena Barueri",
       "previsao": {
-        "gols_casa": 1.22,
-        "gols_fora": 1.12,
-        "casa": 0.372,
-        "empate": 0.301,
-        "fora": 0.326,
-        "placar": "1 x 1",
-        "placar_prob": 0.132
+        "gols_casa": 1.5,
+        "gols_fora": 0.79,
+        "casa": 0.525,
+        "empate": 0.284,
+        "fora": 0.192,
+        "placar": "1 x 0",
+        "placar_prob": 0.152
       },
       "contexto": [
-        "Remo sem: Marcelo Rangel",
+        "Palmeiras sem: Andreas Pereira, Vitor Roque, Piquerez",
+        "Palmeiras jogou Libertadores 3 dias antes",
         "Red Bull Bragantino sem: Henry Mosquera, Rodriguinho"
       ]
     },
     {
-      "casa": "Corinthians",
-      "fora": "Vitória",
-      "data": "2026-10-19 20:00",
+      "casa": "Chapecoense",
+      "fora": "Fluminense",
+      "data": "2026-10-24 19:30",
       "hoje": false,
-      "local": "Neo Química Arena",
+      "local": "Arena Condá",
       "previsao": {
-        "gols_casa": 1.51,
-        "gols_fora": 0.88,
-        "casa": 0.503,
-        "empate": 0.282,
-        "fora": 0.215,
-        "placar": "1 x 0",
-        "placar_prob": 0.138
+        "gols_casa": 1.44,
+        "gols_fora": 1.96,
+        "casa": 0.275,
+        "empate": 0.242,
+        "fora": 0.483,
+        "placar": "1 x 1",
+        "placar_prob": 0.094
       },
       "contexto": [
-        "Corinthians sem: Memphis Depay, Raniele",
-        "Vitória sem: Baralhas, Nathan Mendes, Cacá, Ramon"
+        "Chapecoense sem: Rafael Carvalheira",
+        "Fluminense sem: Martinelli, Savarino, John Kennedy",
+        "Fluminense jogou Libertadores 3 dias antes"
+      ]
+    },
+    {
+      "casa": "Santos",
+      "fora": "Bahia",
+      "data": "2026-10-24 21:00",
+      "hoje": false,
+      "local": "Vila Belmiro",
+      "previsao": {
+        "gols_casa": 1.46,
+        "gols_fora": 1.4,
+        "casa": 0.377,
+        "empate": 0.271,
+        "fora": 0.352,
+        "placar": "1 x 1",
+        "placar_prob": 0.117
+      },
+      "contexto": [
+        "Santos sem: Arthur Melo, Gabriel Brazão",
+        "Bahia sem: Jean Lucas, Léo Vieira, Román Gómez"
+      ]
+    },
+    {
+      "casa": "Coritiba",
+      "fora": "Grêmio",
+      "data": "2026-10-26 19:30",
+      "hoje": false,
+      "local": "Couto Pereira",
+      "previsao": {
+        "gols_casa": 1.42,
+        "gols_fora": 0.92,
+        "casa": 0.473,
+        "empate": 0.29,
+        "fora": 0.236,
+        "placar": "1 x 0",
+        "placar_prob": 0.136
+      },
+      "contexto": [
+        "Coritiba sem: Lucas Ronier, Thiago Santos"
+      ]
+    },
+    {
+      "casa": "Flamengo",
+      "fora": "Atlético-MG",
+      "data": "2026-10-26 20:00",
+      "hoje": false,
+      "local": "Maracanã",
+      "previsao": {
+        "gols_casa": 1.54,
+        "gols_fora": 0.82,
+        "casa": 0.529,
+        "empate": 0.278,
+        "fora": 0.193,
+        "placar": "1 x 0",
+        "placar_prob": 0.145
+      },
+      "contexto": [
+        "Flamengo sem: Arrascaeta",
+        "Flamengo jogou Libertadores 4 dias antes",
+        "Atlético-MG sem: Gustavo Scarpa, Cassierra, Everson, Ruan"
       ]
     }
   ],
@@ -204,10 +200,10 @@
     }
   ],
   "historico": {
-    "jogos": 229,
-    "acerto": 0.472,
-    "logloss": 1.04,
-    "logloss_base": 1.062
+    "jogos": 239,
+    "acerto": 0.473,
+    "logloss": 1.038,
+    "logloss_base": 1.064
   },
-  "rodadas_usadas": 30
+  "rodadas_usadas": 31
 }

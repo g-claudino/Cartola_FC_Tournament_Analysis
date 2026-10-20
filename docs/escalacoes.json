@@ -1,5 +1,5 @@
 {
-  "ao_vivo": 31,
+  "ao_vivo": null,
   "rodadas": {
     "31": {
       "26350318": {
@@ -8,89 +8,12 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Tite",
-            "pos": 6,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.14,
-            "entrou": null
-          },
-          {
-            "nome": "Ferraresi",
-            "pos": 3,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 13.5,
-            "entrou": null
-          },
-          {
             "nome": "Acevedo",
             "pos": 4,
             "clube": 265,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 3.5,
-            "entrou": null
-          },
-          {
-            "nome": "Gustavo Henrique",
-            "pos": 3,
-            "clube": 264,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 0.5,
-            "entrou": null
-          },
-          {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": {
-              "nome": "Lucas Barbosa",
-              "clube": 280,
-              "pontos": 9.2,
-              "luxo": true
-            }
-          },
-          {
-            "nome": "Alex Telles",
-            "pos": 2,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 7.6,
-            "entrou": null
-          },
-          {
-            "nome": "Matheus Pereira",
-            "pos": 4,
-            "clube": 283,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 11.4,
-            "entrou": null
-          },
-          {
-            "nome": "Flaco López",
-            "pos": 5,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 11.0,
-            "entrou": null
-          },
-          {
-            "nome": "Carrascal",
-            "pos": 4,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.5,
             "entrou": null
           },
           {
@@ -119,16 +42,88 @@
             "situacao": "jogou",
             "pontos": 3.7,
             "entrou": null
+          },
+          {
+            "nome": "Gustavo Henrique",
+            "pos": 3,
+            "clube": 264,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 0.5,
+            "entrou": null
+          },
+          {
+            "nome": "Flaco López",
+            "pos": 5,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.0,
+            "entrou": null
+          },
+          {
+            "nome": "Carrascal",
+            "pos": 4,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.5,
+            "entrou": null
+          },
+          {
+            "nome": "Alex Telles",
+            "pos": 2,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 7.6,
+            "entrou": null
+          },
+          {
+            "nome": "Matheus Pereira",
+            "pos": 4,
+            "clube": 283,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.4,
+            "entrou": null
+          },
+          {
+            "nome": "Lucas Barbosa",
+            "pos": 5,
+            "clube": 280,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.2,
+            "entrou": null
+          },
+          {
+            "nome": "Tite",
+            "pos": 6,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.14,
+            "entrou": null
+          },
+          {
+            "nome": "Ferraresi",
+            "pos": 3,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 13.5,
+            "entrou": null
           }
         ],
         "banco": [
           {
-            "nome": "Otávio",
-            "pos": 1,
-            "clube": 283,
+            "nome": "Gabriel Bontempo",
+            "pos": 4,
+            "clube": 277,
             "luxo": false,
             "situacao": "jogou",
-            "pontos": 3.2,
+            "pontos": 6.4,
             "entrou": false
           },
           {
@@ -141,22 +136,13 @@
             "entrou": false
           },
           {
-            "nome": "Gabriel Bontempo",
-            "pos": 4,
-            "clube": 277,
+            "nome": "Otávio",
+            "pos": 1,
+            "clube": 283,
             "luxo": false,
             "situacao": "jogou",
-            "pontos": 6.4,
+            "pontos": 3.2,
             "entrou": false
-          },
-          {
-            "nome": "Lucas Barbosa",
-            "pos": 5,
-            "clube": 280,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 9.2,
-            "entrou": true
           },
           {
             "nome": "Diego Caito",
@@ -165,6 +151,15 @@
             "luxo": false,
             "situacao": "jogou",
             "pontos": 1.8,
+            "entrou": false
+          },
+          {
+            "nome": "Viveros",
+            "pos": 5,
+            "clube": 293,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 2.4,
             "entrou": false
           }
         ]
@@ -175,6 +170,15 @@
         "escalados": 12,
         "jogadores": [
           {
+            "nome": "Marcão",
+            "pos": 6,
+            "clube": 266,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 5.35,
+            "entrou": null
+          },
+          {
             "nome": "Neymar",
             "pos": 4,
             "clube": 277,
@@ -184,21 +188,21 @@
             "entrou": null
           },
           {
+            "nome": "Yuri Alberto",
+            "pos": 5,
+            "clube": 264,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.3,
+            "entrou": null
+          },
+          {
             "nome": "Léo Pereira",
             "pos": 3,
             "clube": 262,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 6.7,
-            "entrou": null
-          },
-          {
-            "nome": "Marcão",
-            "pos": 6,
-            "clube": 266,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 5.35,
             "entrou": null
           },
           {
@@ -220,18 +224,13 @@
             "entrou": null
           },
           {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
+            "nome": "Alex Telles",
+            "pos": 2,
+            "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": {
-              "nome": "Yuri Alberto",
-              "clube": 264,
-              "pontos": 9.3,
-              "luxo": true
-            }
+            "pontos": 7.6,
+            "entrou": null
           },
           {
             "nome": "Pedro",
@@ -240,15 +239,6 @@
             "capitao": true,
             "situacao": "jogou",
             "pontos": 9.45,
-            "entrou": null
-          },
-          {
-            "nome": "Alex Telles",
-            "pos": 2,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 7.6,
             "entrou": null
           },
           {
@@ -270,15 +260,6 @@
             "entrou": null
           },
           {
-            "nome": "Matheuzinho",
-            "pos": 2,
-            "clube": 264,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.2,
-            "entrou": null
-          },
-          {
             "nome": "Weverton",
             "pos": 1,
             "clube": 284,
@@ -286,9 +267,27 @@
             "situacao": "jogou",
             "pontos": -0.6,
             "entrou": null
+          },
+          {
+            "nome": "Matheuzinho",
+            "pos": 2,
+            "clube": 264,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.2,
+            "entrou": null
           }
         ],
         "banco": [
+          {
+            "nome": "Murilo",
+            "pos": 3,
+            "clube": 275,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 9.4,
+            "entrou": false
+          },
           {
             "nome": "Alex Sandro",
             "pos": 2,
@@ -297,15 +296,6 @@
             "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": false
-          },
-          {
-            "nome": "Yuri Alberto",
-            "pos": 5,
-            "clube": 264,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 9.3,
-            "entrou": true
           },
           {
             "nome": "Lucho Acosta",
@@ -317,21 +307,21 @@
             "entrou": false
           },
           {
-            "nome": "Murilo",
-            "pos": 3,
-            "clube": 275,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 9.4,
-            "entrou": false
-          },
-          {
             "nome": "Rafael",
             "pos": 1,
             "clube": 276,
             "luxo": false,
             "situacao": "jogou",
             "pontos": 7.6,
+            "entrou": false
+          },
+          {
+            "nome": "Viveros",
+            "pos": 5,
+            "clube": 293,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 2.4,
             "entrou": false
           }
         ]
@@ -342,12 +332,21 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Samuel Lino",
+            "nome": "Matheus Martins",
             "pos": 5,
-            "clube": 262,
+            "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 7.1,
+            "pontos": 9.6,
+            "entrou": null
+          },
+          {
+            "nome": "Yuri Alberto",
+            "pos": 5,
+            "clube": 264,
+            "capitao": true,
+            "situacao": "jogou",
+            "pontos": 13.95,
             "entrou": null
           },
           {
@@ -369,24 +368,6 @@
             "entrou": null
           },
           {
-            "nome": "Danilo",
-            "pos": 4,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.7,
-            "entrou": null
-          },
-          {
-            "nome": "Tiago Volpi",
-            "pos": 1,
-            "clube": 280,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 4.2,
-            "entrou": null
-          },
-          {
             "nome": "Matheus Pereira",
             "pos": 4,
             "clube": 283,
@@ -396,44 +377,30 @@
             "entrou": null
           },
           {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": {
-              "nome": "Matheus Martins",
-              "clube": 263,
-              "pontos": 9.6,
-              "luxo": true
-            }
-          },
-          {
-            "nome": "Alex Telles",
-            "pos": 2,
+            "nome": "Danilo",
+            "pos": 4,
             "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 7.6,
+            "pontos": 2.7,
             "entrou": null
           },
           {
-            "nome": "Yuri Alberto",
+            "nome": "Samuel Lino",
             "pos": 5,
-            "clube": 264,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 13.95,
-            "entrou": null
-          },
-          {
-            "nome": "Tite",
-            "pos": 6,
-            "clube": 263,
+            "clube": 262,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 9.14,
+            "pontos": 7.1,
+            "entrou": null
+          },
+          {
+            "nome": "Tiago Volpi",
+            "pos": 1,
+            "clube": 280,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 4.2,
             "entrou": null
           },
           {
@@ -453,18 +420,27 @@
             "situacao": "jogou",
             "pontos": 4.8,
             "entrou": null
+          },
+          {
+            "nome": "Tite",
+            "pos": 6,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.14,
+            "entrou": null
+          },
+          {
+            "nome": "Alex Telles",
+            "pos": 2,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 7.6,
+            "entrou": null
           }
         ],
         "banco": [
-          {
-            "nome": "Matheus Martins",
-            "pos": 5,
-            "clube": 263,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 9.6,
-            "entrou": true
-          },
           {
             "nome": "Ferraresi",
             "pos": 3,
@@ -484,21 +460,30 @@
             "entrou": false
           },
           {
-            "nome": "Ziyech",
-            "pos": 4,
-            "clube": 263,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 5.9,
-            "entrou": false
-          },
-          {
             "nome": "Vitinho",
             "pos": 2,
             "clube": 263,
             "luxo": false,
             "situacao": "jogou",
             "pontos": 7.3,
+            "entrou": false
+          },
+          {
+            "nome": "Viveros",
+            "pos": 5,
+            "clube": 293,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 2.4,
+            "entrou": false
+          },
+          {
+            "nome": "Ziyech",
+            "pos": 4,
+            "clube": 263,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 5.9,
             "entrou": false
           }
         ]
@@ -508,24 +493,6 @@
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
-          {
-            "nome": "Danilo",
-            "pos": 4,
-            "clube": 263,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 4.05,
-            "entrou": null
-          },
-          {
-            "nome": "Léo Pereira",
-            "pos": 3,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 6.7,
-            "entrou": null
-          },
           {
             "nome": "Lucas Arcanjo",
             "pos": 1,
@@ -554,12 +521,30 @@
             "entrou": null
           },
           {
+            "nome": "Renê",
+            "pos": 5,
+            "clube": 287,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 8.6,
+            "entrou": null
+          },
+          {
             "nome": "Matheus Pereira",
             "pos": 4,
             "clube": 283,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 11.4,
+            "entrou": null
+          },
+          {
+            "nome": "Léo Pereira",
+            "pos": 3,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 6.7,
             "entrou": null
           },
           {
@@ -581,12 +566,12 @@
             "entrou": null
           },
           {
-            "nome": "Renê",
-            "pos": 5,
-            "clube": 287,
-            "capitao": false,
+            "nome": "Danilo",
+            "pos": 4,
+            "clube": 263,
+            "capitao": true,
             "situacao": "jogou",
-            "pontos": 8.6,
+            "pontos": 4.05,
             "entrou": null
           },
           {
@@ -599,15 +584,6 @@
             "entrou": null
           },
           {
-            "nome": "Eduardo Domínguez",
-            "pos": 6,
-            "clube": 282,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.01,
-            "entrou": null
-          },
-          {
             "nome": "Natanael",
             "pos": 2,
             "clube": 282,
@@ -615,18 +591,18 @@
             "situacao": "jogou",
             "pontos": 13.4,
             "entrou": null
+          },
+          {
+            "nome": "Eduardo Domínguez",
+            "pos": 6,
+            "clube": 282,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.01,
+            "entrou": null
           }
         ],
         "banco": [
-          {
-            "nome": "Matheuzinho",
-            "pos": 4,
-            "clube": 287,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 0.3,
-            "entrou": false
-          },
           {
             "nome": "Varela",
             "pos": 2,
@@ -646,12 +622,12 @@
             "entrou": false
           },
           {
-            "nome": "Weverton",
-            "pos": 1,
-            "clube": 284,
+            "nome": "Matheuzinho",
+            "pos": 4,
+            "clube": 287,
             "luxo": false,
             "situacao": "jogou",
-            "pontos": -0.6,
+            "pontos": 0.3,
             "entrou": false
           },
           {
@@ -662,6 +638,15 @@
             "situacao": "jogou",
             "pontos": 3.5,
             "entrou": false
+          },
+          {
+            "nome": "Weverton",
+            "pos": 1,
+            "clube": 284,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": -0.6,
+            "entrou": false
           }
         ]
       },
@@ -671,35 +656,21 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Bruno Fuchs",
-            "pos": 3,
-            "clube": 275,
-            "capitao": false,
+            "nome": "Danilo",
+            "pos": 4,
+            "clube": 263,
+            "capitao": true,
             "situacao": "jogou",
-            "pontos": 5.5,
+            "pontos": 4.05,
             "entrou": null
           },
           {
-            "nome": "Minda",
-            "pos": 5,
-            "clube": 282,
+            "nome": "Tite",
+            "pos": 6,
+            "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 1.7,
-            "entrou": {
-              "nome": "Tiquinho Soares",
-              "clube": 263,
-              "pontos": 12.2,
-              "luxo": true
-            }
-          },
-          {
-            "nome": "Maurício",
-            "pos": 4,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 8.5,
+            "pontos": 9.14,
             "entrou": null
           },
           {
@@ -712,21 +683,21 @@
             "entrou": null
           },
           {
-            "nome": "Danilo",
-            "pos": 4,
-            "clube": 263,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 4.05,
-            "entrou": null
-          },
-          {
             "nome": "Ignácio",
             "pos": 3,
             "clube": 266,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 3.1,
+            "entrou": null
+          },
+          {
+            "nome": "Luciano Juba",
+            "pos": 2,
+            "clube": 265,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.1,
             "entrou": null
           },
           {
@@ -739,12 +710,21 @@
             "entrou": null
           },
           {
-            "nome": "Luciano Juba",
-            "pos": 2,
-            "clube": 265,
+            "nome": "Tiquinho Soares",
+            "pos": 5,
+            "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 11.1,
+            "pontos": 12.2,
+            "entrou": null
+          },
+          {
+            "nome": "Bruno Fuchs",
+            "pos": 3,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 5.5,
             "entrou": null
           },
           {
@@ -766,6 +746,15 @@
             "entrou": null
           },
           {
+            "nome": "Maurício",
+            "pos": 4,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 8.5,
+            "entrou": null
+          },
+          {
             "nome": "Jean Lucas",
             "pos": 4,
             "clube": 265,
@@ -773,27 +762,9 @@
             "situacao": "jogou",
             "pontos": -1.4,
             "entrou": null
-          },
-          {
-            "nome": "Tite",
-            "pos": 6,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.14,
-            "entrou": null
           }
         ],
         "banco": [
-          {
-            "nome": "Tiquinho Soares",
-            "pos": 5,
-            "clube": 263,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 12.2,
-            "entrou": true
-          },
           {
             "nome": "Montoro",
             "pos": 4,
@@ -801,6 +772,15 @@
             "luxo": false,
             "situacao": "jogou",
             "pontos": 3.0,
+            "entrou": false
+          },
+          {
+            "nome": "Minda",
+            "pos": 5,
+            "clube": 282,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 1.7,
             "entrou": false
           },
           {
@@ -838,29 +818,6 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Tite",
-            "pos": 6,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.14,
-            "entrou": null
-          },
-          {
-            "nome": "Luciano",
-            "pos": 5,
-            "clube": 276,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.6,
-            "entrou": {
-              "nome": "Yuri Alberto",
-              "clube": 264,
-              "pontos": 9.3,
-              "luxo": true
-            }
-          },
-          {
             "nome": "Matheus Pereira",
             "pos": 4,
             "clube": 283,
@@ -870,12 +827,12 @@
             "entrou": null
           },
           {
-            "nome": "Juninho Capixaba",
-            "pos": 2,
-            "clube": 280,
+            "nome": "Tite",
+            "pos": 6,
+            "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 3.7,
+            "pontos": 9.14,
             "entrou": null
           },
           {
@@ -888,30 +845,12 @@
             "entrou": null
           },
           {
-            "nome": "Ferraresi",
-            "pos": 3,
-            "clube": 263,
+            "nome": "Matheus Bidu",
+            "pos": 2,
+            "clube": 264,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 13.5,
-            "entrou": null
-          },
-          {
-            "nome": "Neymar",
-            "pos": 4,
-            "clube": 277,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 9.9,
-            "entrou": null
-          },
-          {
-            "nome": "Vitor Hugo",
-            "pos": 3,
-            "clube": 282,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 5.9,
+            "pontos": 1.4,
             "entrou": null
           },
           {
@@ -924,50 +863,14 @@
             "entrou": null
           },
           {
-            "nome": "Danilo",
+            "nome": "Neymar",
             "pos": 4,
-            "clube": 263,
-            "capitao": false,
+            "clube": 277,
+            "capitao": true,
             "situacao": "jogou",
-            "pontos": 2.7,
+            "pontos": 9.9,
             "entrou": null
           },
-          {
-            "nome": "Matheus Bidu",
-            "pos": 2,
-            "clube": 264,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 1.4,
-            "entrou": null
-          },
-          {
-            "nome": "Lucas Arcanjo",
-            "pos": 1,
-            "clube": 287,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 5.5,
-            "entrou": null
-          }
-        ],
-        "banco": [
-          {
-            "nome": "Yuri Alberto",
-            "pos": 5,
-            "clube": 264,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 9.3,
-            "entrou": true
-          }
-        ]
-      },
-      "45022741": {
-        "pontos": 104.73,
-        "jogaram": 12,
-        "escalados": 12,
-        "jogadores": [
           {
             "nome": "Juninho Capixaba",
             "pos": 2,
@@ -978,76 +881,75 @@
             "entrou": null
           },
           {
+            "nome": "Ferraresi",
+            "pos": 3,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 13.5,
+            "entrou": null
+          },
+          {
             "nome": "Danilo",
             "pos": 4,
             "clube": 263,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 2.7,
-            "entrou": {
-              "nome": "Carrascal",
-              "clube": 262,
-              "pontos": 9.5,
-              "luxo": true
-            }
+            "entrou": null
           },
           {
-            "nome": "Alex Sandro",
-            "pos": 2,
-            "clube": 262,
+            "nome": "Yuri Alberto",
+            "pos": 5,
+            "clube": 264,
             "capitao": false,
-            "situacao": "nao_jogou",
-            "pontos": 0.0,
-            "entrou": {
-              "nome": "Varela",
-              "clube": 262,
-              "pontos": 10.0,
-              "luxo": false
-            }
+            "situacao": "jogou",
+            "pontos": 9.3,
+            "entrou": null
           },
           {
-            "nome": "Léo Pereira",
+            "nome": "Lucas Arcanjo",
+            "pos": 1,
+            "clube": 287,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 5.5,
+            "entrou": null
+          },
+          {
+            "nome": "Vitor Hugo",
             "pos": 3,
-            "clube": 262,
+            "clube": 282,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 6.7,
+            "pontos": 5.9,
             "entrou": null
-          },
+          }
+        ],
+        "banco": [
           {
-            "nome": "Samuel Lino",
+            "nome": "Luciano",
             "pos": 5,
-            "clube": 262,
-            "capitao": true,
+            "clube": 276,
+            "luxo": false,
             "situacao": "jogou",
-            "pontos": 10.65,
-            "entrou": null
-          },
+            "pontos": 3.6,
+            "entrou": false
+          }
+        ]
+      },
+      "45022741": {
+        "pontos": 104.73,
+        "jogaram": 12,
+        "escalados": 12,
+        "jogadores": [
           {
-            "nome": "Leonardo Jardim",
-            "pos": 6,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 11.08,
-            "entrou": null
-          },
-          {
-            "nome": "Lucas Paquetá",
-            "pos": 4,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 8.9,
-            "entrou": null
-          },
-          {
-            "nome": "Fernando",
+            "nome": "Kaio Jorge",
             "pos": 5,
-            "clube": 280,
+            "clube": 283,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 5.1,
+            "pontos": 23.8,
             "entrou": null
           },
           {
@@ -1060,12 +962,66 @@
             "entrou": null
           },
           {
-            "nome": "Kaio Jorge",
-            "pos": 5,
-            "clube": 283,
+            "nome": "Lucas Paquetá",
+            "pos": 4,
+            "clube": 262,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 23.8,
+            "pontos": 8.9,
+            "entrou": null
+          },
+          {
+            "nome": "Gustavo Marques",
+            "pos": 3,
+            "clube": 280,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": -0.3,
+            "entrou": null
+          },
+          {
+            "nome": "Carrascal",
+            "pos": 4,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.5,
+            "entrou": null
+          },
+          {
+            "nome": "Samuel Lino",
+            "pos": 5,
+            "clube": 262,
+            "capitao": true,
+            "situacao": "jogou",
+            "pontos": 10.65,
+            "entrou": null
+          },
+          {
+            "nome": "Léo Pereira",
+            "pos": 3,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 6.7,
+            "entrou": null
+          },
+          {
+            "nome": "Varela",
+            "pos": 2,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 10.0,
+            "entrou": null
+          },
+          {
+            "nome": "Leonardo Jardim",
+            "pos": 6,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.08,
             "entrou": null
           },
           {
@@ -1078,41 +1034,50 @@
             "entrou": null
           },
           {
-            "nome": "Gustavo Marques",
-            "pos": 3,
+            "nome": "Fernando",
+            "pos": 5,
             "clube": 280,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": -0.3,
+            "pontos": 5.1,
+            "entrou": null
+          },
+          {
+            "nome": "Juninho Capixaba",
+            "pos": 2,
+            "clube": 280,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.7,
             "entrou": null
           }
         ],
         "banco": [
           {
-            "nome": "Carrascal",
+            "nome": "Danilo",
             "pos": 4,
-            "clube": 262,
-            "luxo": true,
+            "clube": 263,
+            "luxo": false,
             "situacao": "jogou",
-            "pontos": 9.5,
-            "entrou": true
+            "pontos": 2.7,
+            "entrou": false
           },
           {
-            "nome": "Varela",
+            "nome": "Ferraresi",
+            "pos": 3,
+            "clube": 263,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 13.5,
+            "entrou": false
+          },
+          {
+            "nome": "Alex Sandro",
             "pos": 2,
             "clube": 262,
             "luxo": false,
-            "situacao": "jogou",
-            "pontos": 10.0,
-            "entrou": true
-          },
-          {
-            "nome": "Hugo Souza",
-            "pos": 1,
-            "clube": 264,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 4.2,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
             "entrou": false
           },
           {
@@ -1125,12 +1090,12 @@
             "entrou": false
           },
           {
-            "nome": "Ferraresi",
-            "pos": 3,
-            "clube": 263,
+            "nome": "Hugo Souza",
+            "pos": 1,
+            "clube": 264,
             "luxo": false,
             "situacao": "jogou",
-            "pontos": 13.5,
+            "pontos": 4.2,
             "entrou": false
           }
         ]
@@ -1140,6 +1105,33 @@
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
+          {
+            "nome": "Kaio Jorge",
+            "pos": 5,
+            "clube": 283,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 23.8,
+            "entrou": null
+          },
+          {
+            "nome": "Danilo",
+            "pos": 4,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 2.7,
+            "entrou": null
+          },
+          {
+            "nome": "Marçal",
+            "pos": 2,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 10.7,
+            "entrou": null
+          },
           {
             "nome": "Otávio",
             "pos": 1,
@@ -1159,35 +1151,12 @@
             "entrou": null
           },
           {
-            "nome": "Ignácio",
-            "pos": 3,
-            "clube": 266,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.1,
-            "entrou": null
-          },
-          {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": {
-              "nome": "Kaio Jorge",
-              "clube": 283,
-              "pontos": 23.8,
-              "luxo": true
-            }
-          },
-          {
-            "nome": "Marçal",
+            "nome": "Ryan Augusto",
             "pos": 2,
-            "clube": 263,
+            "clube": 280,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 10.7,
+            "pontos": 1.2,
             "entrou": null
           },
           {
@@ -1197,6 +1166,24 @@
             "capitao": true,
             "situacao": "jogou",
             "pontos": 9.45,
+            "entrou": null
+          },
+          {
+            "nome": "Samuel Lino",
+            "pos": 5,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 7.1,
+            "entrou": null
+          },
+          {
+            "nome": "Ignácio",
+            "pos": 3,
+            "clube": 266,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.1,
             "entrou": null
           },
           {
@@ -1225,52 +1212,25 @@
             "situacao": "jogou",
             "pontos": 6.5,
             "entrou": null
-          },
-          {
-            "nome": "Samuel Lino",
-            "pos": 5,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 7.1,
-            "entrou": null
-          },
-          {
-            "nome": "Ryan Augusto",
-            "pos": 2,
-            "clube": 280,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 1.2,
-            "entrou": null
-          },
-          {
-            "nome": "Danilo",
-            "pos": 4,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.7,
-            "entrou": null
           }
         ],
         "banco": [
           {
-            "nome": "Kaio Jorge",
+            "nome": "Viveros",
             "pos": 5,
-            "clube": 283,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 23.8,
-            "entrou": true
-          },
-          {
-            "nome": "Léo Duarte",
-            "pos": 3,
-            "clube": 282,
+            "clube": 293,
             "luxo": false,
             "situacao": "jogou",
-            "pontos": 9.4,
+            "pontos": 2.4,
+            "entrou": false
+          },
+          {
+            "nome": "Carrascal",
+            "pos": 4,
+            "clube": 262,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 9.5,
             "entrou": false
           },
           {
@@ -1283,21 +1243,21 @@
             "entrou": false
           },
           {
-            "nome": "Carrascal",
-            "pos": 4,
-            "clube": 262,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 9.5,
-            "entrou": false
-          },
-          {
             "nome": "Fernando",
             "pos": 2,
             "clube": 315,
             "luxo": false,
             "situacao": "jogou",
             "pontos": 0.5,
+            "entrou": false
+          },
+          {
+            "nome": "Léo Duarte",
+            "pos": 3,
+            "clube": 282,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 9.4,
             "entrou": false
           }
         ]
@@ -1308,83 +1268,6 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Weverton",
-            "pos": 1,
-            "clube": 284,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": -0.6,
-            "entrou": null
-          },
-          {
-            "nome": "Tite",
-            "pos": 6,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.14,
-            "entrou": null
-          },
-          {
-            "nome": "Pedro",
-            "pos": 5,
-            "clube": 262,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 9.45,
-            "entrou": null
-          },
-          {
-            "nome": "Alex Telles",
-            "pos": 2,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 7.6,
-            "entrou": null
-          },
-          {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": {
-              "nome": "Samuel Lino",
-              "clube": 262,
-              "pontos": 7.1,
-              "luxo": true
-            }
-          },
-          {
-            "nome": "Ferraresi",
-            "pos": 3,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 13.5,
-            "entrou": null
-          },
-          {
-            "nome": "Neymar",
-            "pos": 4,
-            "clube": 277,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 6.6,
-            "entrou": null
-          },
-          {
-            "nome": "Lucas Paquetá",
-            "pos": 4,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 8.9,
-            "entrou": null
-          },
-          {
             "nome": "Juninho Capixaba",
             "pos": 2,
             "clube": 280,
@@ -1394,12 +1277,12 @@
             "entrou": null
           },
           {
-            "nome": "Danilo",
-            "pos": 4,
-            "clube": 263,
+            "nome": "Flaco López",
+            "pos": 5,
+            "clube": 275,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 2.7,
+            "pontos": 11.0,
             "entrou": null
           },
           {
@@ -1412,23 +1295,95 @@
             "entrou": null
           },
           {
-            "nome": "Flaco López",
+            "nome": "Samuel Lino",
             "pos": 5,
-            "clube": 275,
+            "clube": 262,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 11.0,
+            "pontos": 7.1,
+            "entrou": null
+          },
+          {
+            "nome": "Lucas Paquetá",
+            "pos": 4,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 8.9,
+            "entrou": null
+          },
+          {
+            "nome": "Neymar",
+            "pos": 4,
+            "clube": 277,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 6.6,
+            "entrou": null
+          },
+          {
+            "nome": "Pedro",
+            "pos": 5,
+            "clube": 262,
+            "capitao": true,
+            "situacao": "jogou",
+            "pontos": 9.45,
+            "entrou": null
+          },
+          {
+            "nome": "Ferraresi",
+            "pos": 3,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 13.5,
+            "entrou": null
+          },
+          {
+            "nome": "Alex Telles",
+            "pos": 2,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 7.6,
+            "entrou": null
+          },
+          {
+            "nome": "Danilo",
+            "pos": 4,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 2.7,
+            "entrou": null
+          },
+          {
+            "nome": "Tite",
+            "pos": 6,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.14,
+            "entrou": null
+          },
+          {
+            "nome": "Weverton",
+            "pos": 1,
+            "clube": 284,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": -0.6,
             "entrou": null
           }
         ],
         "banco": [
           {
-            "nome": "Vitinho",
-            "pos": 2,
+            "nome": "Gabriel Batista",
+            "pos": 1,
             "clube": 263,
             "luxo": false,
             "situacao": "jogou",
-            "pontos": 7.3,
+            "pontos": 5.0,
             "entrou": false
           },
           {
@@ -1441,30 +1396,30 @@
             "entrou": false
           },
           {
-            "nome": "Samuel Lino",
-            "pos": 5,
-            "clube": 262,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 7.1,
-            "entrou": true
-          },
-          {
-            "nome": "Gabriel Batista",
-            "pos": 1,
-            "clube": 263,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 5.0,
-            "entrou": false
-          },
-          {
             "nome": "Carrascal",
             "pos": 4,
             "clube": 262,
             "luxo": false,
             "situacao": "jogou",
             "pontos": 9.5,
+            "entrou": false
+          },
+          {
+            "nome": "Vitinho",
+            "pos": 2,
+            "clube": 263,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 7.3,
+            "entrou": false
+          },
+          {
+            "nome": "Viveros",
+            "pos": 5,
+            "clube": 293,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 2.4,
             "entrou": false
           }
         ]
@@ -1475,12 +1430,12 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Carrascal",
-            "pos": 4,
+            "nome": "Samuel Lino",
+            "pos": 5,
             "clube": 262,
-            "capitao": false,
+            "capitao": true,
             "situacao": "jogou",
-            "pontos": 9.5,
+            "pontos": 10.65,
             "entrou": null
           },
           {
@@ -1493,18 +1448,9 @@
             "entrou": null
           },
           {
-            "nome": "Samuel Lino",
+            "nome": "Vitor Roque",
             "pos": 5,
-            "clube": 262,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 10.65,
-            "entrou": null
-          },
-          {
-            "nome": "Alan Patrick",
-            "pos": 4,
-            "clube": 285,
+            "clube": 275,
             "capitao": false,
             "situacao": "nao_jogou",
             "pontos": 0.0,
@@ -1520,15 +1466,6 @@
             "entrou": null
           },
           {
-            "nome": "Gustavo Gómez",
-            "pos": 3,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "nao_jogou",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
             "nome": "Reinaldo",
             "pos": 2,
             "clube": 2305,
@@ -1538,30 +1475,12 @@
             "entrou": null
           },
           {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
+            "nome": "Gustavo Gómez",
+            "pos": 3,
+            "clube": 275,
             "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": null
-          },
-          {
-            "nome": "Luciano Juba",
-            "pos": 2,
-            "clube": 265,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 11.1,
-            "entrou": null
-          },
-          {
-            "nome": "Weverton",
-            "pos": 1,
-            "clube": 284,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": -0.6,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
             "entrou": null
           },
           {
@@ -1574,9 +1493,45 @@
             "entrou": null
           },
           {
-            "nome": "Vitor Roque",
+            "nome": "Carrascal",
+            "pos": 4,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.5,
+            "entrou": null
+          },
+          {
+            "nome": "Luciano Juba",
+            "pos": 2,
+            "clube": 265,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.1,
+            "entrou": null
+          },
+          {
+            "nome": "Viveros",
             "pos": 5,
-            "clube": 275,
+            "clube": 293,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 2.4,
+            "entrou": null
+          },
+          {
+            "nome": "Weverton",
+            "pos": 1,
+            "clube": 284,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": -0.6,
+            "entrou": null
+          },
+          {
+            "nome": "Alan Patrick",
+            "pos": 4,
+            "clube": 285,
             "capitao": false,
             "situacao": "nao_jogou",
             "pontos": 0.0,
@@ -1586,26 +1541,17 @@
         "banco": []
       },
       "18271822": {
-        "pontos": 38.95,
+        "pontos": 43.2,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Matheus Bidu",
-            "pos": 2,
-            "clube": 264,
+            "nome": "Marcão",
+            "pos": 6,
+            "clube": 266,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 1.4,
-            "entrou": null
-          },
-          {
-            "nome": "Danilo",
-            "pos": 4,
-            "clube": 263,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.7,
+            "pontos": 5.35,
             "entrou": null
           },
           {
@@ -1618,21 +1564,21 @@
             "entrou": null
           },
           {
-            "nome": "Renê",
-            "pos": 2,
-            "clube": 266,
+            "nome": "Samuel Lino",
+            "pos": 5,
+            "clube": 262,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 2.9,
+            "pontos": 7.1,
             "entrou": null
           },
           {
-            "nome": "Marcão",
-            "pos": 6,
-            "clube": 266,
+            "nome": "Matheus Bidu",
+            "pos": 2,
+            "clube": 264,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 5.35,
+            "pontos": 1.4,
             "entrou": null
           },
           {
@@ -1645,12 +1591,12 @@
             "entrou": null
           },
           {
-            "nome": "Luciano",
-            "pos": 5,
-            "clube": 276,
+            "nome": "Renê",
+            "pos": 2,
+            "clube": 266,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 3.6,
+            "pontos": 2.9,
             "entrou": null
           },
           {
@@ -1668,18 +1614,22 @@
             }
           },
           {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
-            "capitao": true,
+            "nome": "Danilo",
+            "pos": 4,
+            "clube": 263,
+            "capitao": false,
             "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": {
-              "nome": "Canobbio",
-              "clube": 266,
-              "pontos": 3.5,
-              "luxo": true
-            }
+            "pontos": 2.7,
+            "entrou": null
+          },
+          {
+            "nome": "Luciano",
+            "pos": 5,
+            "clube": 276,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.6,
+            "entrou": null
           },
           {
             "nome": "Lucho Acosta",
@@ -1691,12 +1641,12 @@
             "entrou": null
           },
           {
-            "nome": "Samuel Lino",
+            "nome": "Canobbio",
             "pos": 5,
-            "clube": 262,
-            "capitao": false,
+            "clube": 266,
+            "capitao": true,
             "situacao": "jogou",
-            "pontos": 7.1,
+            "pontos": 5.25,
             "entrou": null
           },
           {
@@ -1717,15 +1667,6 @@
             "luxo": false,
             "situacao": "jogou",
             "pontos": -2.5,
-            "entrou": true
-          },
-          {
-            "nome": "Canobbio",
-            "pos": 5,
-            "clube": 266,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 3.5,
             "entrou": true
           },
           {
@@ -1754,6 +1695,15 @@
             "situacao": "jogou",
             "pontos": 13.4,
             "entrou": false
+          },
+          {
+            "nome": "Viveros",
+            "pos": 5,
+            "clube": 293,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 2.4,
+            "entrou": false
           }
         ]
       },
@@ -1763,30 +1713,12 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Maurício",
-            "pos": 4,
+            "nome": "Abel Ferreira",
+            "pos": 6,
             "clube": 275,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 8.5,
-            "entrou": null
-          },
-          {
-            "nome": "Samuel Lino",
-            "pos": 5,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 7.1,
-            "entrou": null
-          },
-          {
-            "nome": "Breno Lopes",
-            "pos": 5,
-            "clube": 294,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 1.3,
+            "pontos": 10.48,
             "entrou": null
           },
           {
@@ -1799,48 +1731,21 @@
             "entrou": null
           },
           {
-            "nome": "Alejo Véliz",
-            "pos": 5,
-            "clube": 265,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 5.55,
-            "entrou": null
-          },
-          {
-            "nome": "Abel Ferreira",
-            "pos": 6,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 10.48,
-            "entrou": null
-          },
-          {
-            "nome": "Yago Felipe",
-            "pos": 4,
-            "clube": 315,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.6,
-            "entrou": null
-          },
-          {
-            "nome": "Acevedo",
-            "pos": 4,
-            "clube": 265,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.5,
-            "entrou": null
-          },
-          {
             "nome": "Gustavo Gómez",
             "pos": 3,
             "clube": 275,
             "capitao": false,
             "situacao": "nao_jogou",
             "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Maurício",
+            "pos": 4,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 8.5,
             "entrou": null
           },
           {
@@ -1853,12 +1758,48 @@
             "entrou": null
           },
           {
-            "nome": "Weverton",
-            "pos": 1,
-            "clube": 284,
+            "nome": "Yago Felipe",
+            "pos": 4,
+            "clube": 315,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": -0.6,
+            "pontos": 2.6,
+            "entrou": null
+          },
+          {
+            "nome": "Breno Lopes",
+            "pos": 5,
+            "clube": 294,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 1.3,
+            "entrou": null
+          },
+          {
+            "nome": "Alejo Véliz",
+            "pos": 5,
+            "clube": 265,
+            "capitao": true,
+            "situacao": "jogou",
+            "pontos": 5.55,
+            "entrou": null
+          },
+          {
+            "nome": "Samuel Lino",
+            "pos": 5,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 7.1,
+            "entrou": null
+          },
+          {
+            "nome": "Acevedo",
+            "pos": 4,
+            "clube": 265,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.5,
             "entrou": null
           },
           {
@@ -1868,6 +1809,15 @@
             "capitao": false,
             "situacao": "nao_jogou",
             "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Weverton",
+            "pos": 1,
+            "clube": 284,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": -0.6,
             "entrou": null
           }
         ],
@@ -1888,44 +1838,12 @@
             "entrou": null
           },
           {
-            "nome": "Matheuzinho",
-            "pos": 2,
-            "clube": 264,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.2,
-            "entrou": {
-              "nome": "Marçal",
-              "clube": 263,
-              "pontos": 10.7,
-              "luxo": true
-            }
-          },
-          {
             "nome": "Tite",
             "pos": 6,
             "clube": 263,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 9.14,
-            "entrou": null
-          },
-          {
-            "nome": "Gabriel Paulista",
-            "pos": 3,
-            "clube": 264,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 1.7,
-            "entrou": null
-          },
-          {
-            "nome": "Pedro",
-            "pos": 5,
-            "clube": 262,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 9.45,
             "entrou": null
           },
           {
@@ -1938,39 +1856,21 @@
             "entrou": null
           },
           {
-            "nome": "Lucho Acosta",
-            "pos": 4,
-            "clube": 266,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.0,
-            "entrou": null
-          },
-          {
-            "nome": "Artur",
+            "nome": "Pedro",
             "pos": 5,
-            "clube": 276,
-            "capitao": false,
+            "clube": 262,
+            "capitao": true,
             "situacao": "jogou",
-            "pontos": 11.4,
+            "pontos": 9.45,
             "entrou": null
           },
           {
-            "nome": "Gabriel Batista",
-            "pos": 1,
+            "nome": "Danilo",
+            "pos": 4,
             "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 5.0,
-            "entrou": null
-          },
-          {
-            "nome": "Flaco López",
-            "pos": 5,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 11.0,
+            "pontos": 2.7,
             "entrou": null
           },
           {
@@ -1983,16 +1883,70 @@
             "entrou": null
           },
           {
-            "nome": "Danilo",
-            "pos": 4,
+            "nome": "Marçal",
+            "pos": 2,
             "clube": 263,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 2.7,
+            "pontos": 10.7,
+            "entrou": null
+          },
+          {
+            "nome": "Lucho Acosta",
+            "pos": 4,
+            "clube": 266,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 2.0,
+            "entrou": null
+          },
+          {
+            "nome": "Flaco López",
+            "pos": 5,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.0,
+            "entrou": null
+          },
+          {
+            "nome": "Gabriel Paulista",
+            "pos": 3,
+            "clube": 264,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 1.7,
+            "entrou": null
+          },
+          {
+            "nome": "Gabriel Batista",
+            "pos": 1,
+            "clube": 263,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 5.0,
+            "entrou": null
+          },
+          {
+            "nome": "Artur",
+            "pos": 5,
+            "clube": 276,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.4,
             "entrou": null
           }
         ],
         "banco": [
+          {
+            "nome": "Matheuzinho",
+            "pos": 2,
+            "clube": 264,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 3.2,
+            "entrou": false
+          },
           {
             "nome": "Serna",
             "pos": 5,
@@ -2001,15 +1955,6 @@
             "situacao": "jogou",
             "pontos": 0.0,
             "entrou": false
-          },
-          {
-            "nome": "Marçal",
-            "pos": 2,
-            "clube": 263,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 10.7,
-            "entrou": true
           },
           {
             "nome": "Villasanti",
@@ -2046,12 +1991,39 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Artur",
-            "pos": 5,
-            "clube": 276,
-            "capitao": true,
+            "nome": "Léo Vieira",
+            "pos": 1,
+            "clube": 265,
+            "capitao": false,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Bruno Fuchs",
+            "pos": 3,
+            "clube": 275,
+            "capitao": false,
             "situacao": "jogou",
-            "pontos": 17.1,
+            "pontos": 5.5,
+            "entrou": null
+          },
+          {
+            "nome": "Luís Castro",
+            "pos": 6,
+            "clube": 1,
+            "capitao": false,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Acevedo",
+            "pos": 4,
+            "clube": 265,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.5,
             "entrou": null
           },
           {
@@ -2064,9 +2036,18 @@
             "entrou": null
           },
           {
-            "nome": "Léo Vieira",
-            "pos": 1,
-            "clube": 265,
+            "nome": "Artur",
+            "pos": 5,
+            "clube": 276,
+            "capitao": true,
+            "situacao": "jogou",
+            "pontos": 17.1,
+            "entrou": null
+          },
+          {
+            "nome": "Isidro Pitta",
+            "pos": 5,
+            "clube": 280,
             "capitao": false,
             "situacao": "nao_jogou",
             "pontos": 0.0,
@@ -2082,21 +2063,12 @@
             "entrou": null
           },
           {
-            "nome": "Bruno Fuchs",
+            "nome": "Jacy",
             "pos": 3,
-            "clube": 275,
+            "clube": 294,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 5.5,
-            "entrou": null
-          },
-          {
-            "nome": "Isidro Pitta",
-            "pos": 5,
-            "clube": 280,
-            "capitao": false,
-            "situacao": "nao_jogou",
-            "pontos": 0.0,
+            "pontos": 3.2,
             "entrou": null
           },
           {
@@ -2109,39 +2081,12 @@
             "entrou": null
           },
           {
-            "nome": "Luís Castro",
-            "pos": 6,
-            "clube": 1,
-            "capitao": false,
-            "situacao": "a_jogar",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Acevedo",
-            "pos": 4,
-            "clube": 265,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.5,
-            "entrou": null
-          },
-          {
             "nome": "Everton Ribeiro",
             "pos": 4,
             "clube": 265,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Jacy",
-            "pos": 3,
-            "clube": 294,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.2,
             "entrou": null
           },
           {
@@ -2175,14 +2120,14 @@
             "pos": 4,
             "clube": 1,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
           {
-            "nome": "Maicon",
-            "pos": 3,
-            "clube": 294,
+            "nome": "Wallisson",
+            "pos": 4,
+            "clube": 2305,
             "capitao": false,
             "situacao": "nao_jogou",
             "pontos": 0.0,
@@ -2198,21 +2143,12 @@
             "entrou": null
           },
           {
-            "nome": "Fernando Seabra",
-            "pos": 6,
+            "nome": "Pedro Rocha",
+            "pos": 5,
             "clube": 294,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 3.94,
-            "entrou": null
-          },
-          {
-            "nome": "Wallisson",
-            "pos": 4,
-            "clube": 2305,
-            "capitao": false,
-            "situacao": "nao_jogou",
-            "pontos": 0.0,
+            "pontos": 4.0,
             "entrou": null
           },
           {
@@ -2225,12 +2161,39 @@
             "entrou": null
           },
           {
-            "nome": "Pedro Rocha",
-            "pos": 5,
+            "nome": "Pedro Morisco",
+            "pos": 1,
             "clube": 294,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 4.0,
+            "pontos": 10.7,
+            "entrou": null
+          },
+          {
+            "nome": "Fernando Seabra",
+            "pos": 6,
+            "clube": 294,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.94,
+            "entrou": null
+          },
+          {
+            "nome": "Maicon",
+            "pos": 3,
+            "clube": 294,
+            "capitao": false,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Josué",
+            "pos": 4,
+            "clube": 294,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 6.3,
             "entrou": null
           },
           {
@@ -2250,24 +2213,6 @@
             "situacao": "jogou",
             "pontos": -0.5,
             "entrou": null
-          },
-          {
-            "nome": "Josué",
-            "pos": 4,
-            "clube": 294,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 6.3,
-            "entrou": null
-          },
-          {
-            "nome": "Pedro Morisco",
-            "pos": 1,
-            "clube": 294,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 10.7,
-            "entrou": null
           }
         ],
         "banco": []
@@ -2278,54 +2223,36 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Eduardo Domínguez",
-            "pos": 6,
-            "clube": 282,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.01,
-            "entrou": null
-          },
-          {
-            "nome": "Henry Mosquera",
-            "pos": 5,
-            "clube": 280,
-            "capitao": false,
-            "situacao": "nao_jogou",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Alan Patrick",
-            "pos": 4,
-            "clube": 285,
-            "capitao": false,
-            "situacao": "nao_jogou",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Victor Hugo",
-            "pos": 4,
-            "clube": 282,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": null
-          },
-          {
-            "nome": "Gabriel Xavier",
+            "nome": "Alan Franco",
             "pos": 3,
             "clube": 1,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
           {
-            "nome": "Everson",
-            "pos": 1,
+            "nome": "Renan Lodi",
+            "pos": 2,
             "clube": 282,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 7.0,
+            "entrou": null
+          },
+          {
+            "nome": "João Pedro",
+            "pos": 5,
+            "clube": 1,
+            "capitao": false,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Jean Carlos",
+            "pos": 4,
+            "clube": 1,
             "capitao": false,
             "situacao": "nao_jogou",
             "pontos": 0.0,
@@ -2350,39 +2277,57 @@
             "entrou": null
           },
           {
-            "nome": "Renan Lodi",
-            "pos": 2,
+            "nome": "Everson",
+            "pos": 1,
+            "clube": 282,
+            "capitao": false,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Victor Hugo",
+            "pos": 4,
             "clube": 282,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 7.0,
+            "pontos": 2.4,
             "entrou": null
           },
           {
-            "nome": "Jean Carlos",
-            "pos": 4,
-            "clube": 1,
-            "capitao": false,
-            "situacao": "a_jogar",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "João Pedro",
+            "nome": "Henry Mosquera",
             "pos": 5,
-            "clube": 1,
+            "clube": 280,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
           {
-            "nome": "Alan Franco",
+            "nome": "Alan Patrick",
+            "pos": 4,
+            "clube": 285,
+            "capitao": false,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Gabriel Xavier",
             "pos": 3,
             "clube": 1,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Eduardo Domínguez",
+            "pos": 6,
+            "clube": 282,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.01,
             "entrou": null
           }
         ],
