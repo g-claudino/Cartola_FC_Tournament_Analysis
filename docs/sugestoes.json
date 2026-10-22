@@ -181,8 +181,8 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.48,
-      "nota": 85.14,
+      "custo": 139.16,
+      "nota": 85.24,
       "capitao": 63007,
       "time": [
         {
@@ -214,18 +214,18 @@
           "minimo": 9.33
         },
         {
-          "id": 106708,
-          "nome": "Igor Formiga",
+          "id": 130525,
+          "nome": "Pedro Lima",
           "pos": 2,
-          "clube": "MIR",
-          "adv": "SAO",
-          "casa": true,
-          "adv_pos": 9,
-          "preco": 8.04,
-          "media": 5.76,
-          "jogos": 24,
-          "nota": 5.89,
-          "minimo": 0.75
+          "clube": "SAO",
+          "adv": "MIR",
+          "casa": false,
+          "adv_pos": 14,
+          "preco": 11.05,
+          "media": 9.17,
+          "jogos": 4,
+          "nota": 6.76,
+          "minimo": 11.19
         },
         {
           "id": 99274,
@@ -242,18 +242,18 @@
           "minimo": 8.6
         },
         {
-          "id": 71684,
-          "nome": "Gustavo Gómez",
+          "id": 97878,
+          "nome": "Jacy",
           "pos": 3,
-          "clube": "PAL",
-          "adv": "RBB",
+          "clube": "CFC",
+          "adv": "GRE",
           "casa": true,
-          "adv_pos": 10,
-          "preco": 10.49,
-          "media": 5.58,
-          "jogos": 27,
-          "nota": 5.73,
-          "minimo": 0.88
+          "adv_pos": 18,
+          "preco": 5.57,
+          "media": 3.89,
+          "jogos": 26,
+          "nota": 4.44,
+          "minimo": 3.18
         },
         {
           "id": 63007,
@@ -326,18 +326,18 @@
           "minimo": 7.04
         },
         {
-          "id": 114323,
-          "nome": "Colidio",
+          "id": 116706,
+          "nome": "Andrés Gómez",
           "pos": 5,
           "clube": "VAS",
           "adv": "COR",
           "casa": true,
           "adv_pos": 16,
-          "preco": 10.17,
-          "media": 7.23,
-          "jogos": 9,
-          "nota": 7.04,
-          "minimo": 4.42
+          "preco": 11.76,
+          "media": 7.06,
+          "jogos": 25,
+          "nota": 7.56,
+          "minimo": 4.48
         },
         {
           "id": 128177,
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 154.05,
-      "nota": 87.02,
+      "custo": 153.13,
+      "nota": 87.4,
       "capitao": 63007,
       "time": [
         {
@@ -390,18 +390,18 @@
           "minimo": 9.33
         },
         {
-          "id": 107093,
-          "nome": "Luciano Juba",
+          "id": 130525,
+          "nome": "Pedro Lima",
           "pos": 2,
-          "clube": "BAH",
-          "adv": "SAN",
+          "clube": "SAO",
+          "adv": "MIR",
           "casa": false,
-          "adv_pos": 8,
-          "preco": 11.97,
-          "media": 7.24,
-          "jogos": 27,
-          "nota": 6.38,
-          "minimo": 10.39
+          "adv_pos": 14,
+          "preco": 11.05,
+          "media": 9.17,
+          "jogos": 4,
+          "nota": 6.76,
+          "minimo": 11.19
         },
         {
           "id": 99274,
@@ -621,6 +621,20 @@
         "minimo": 9.33
       },
       {
+        "id": 130525,
+        "nome": "Pedro Lima",
+        "pos": 2,
+        "clube": "SAO",
+        "adv": "MIR",
+        "casa": false,
+        "adv_pos": 14,
+        "preco": 11.05,
+        "media": 9.17,
+        "jogos": 4,
+        "nota": 6.76,
+        "minimo": 11.19
+      },
+      {
         "id": 107093,
         "nome": "Luciano Juba",
         "pos": 2,
@@ -661,20 +675,6 @@
         "jogos": 26,
         "nota": 5.89,
         "minimo": 0.82
-      },
-      {
-        "id": 106708,
-        "nome": "Igor Formiga",
-        "pos": 2,
-        "clube": "MIR",
-        "adv": "SAO",
-        "casa": true,
-        "adv_pos": 9,
-        "preco": 8.04,
-        "media": 5.76,
-        "jogos": 24,
-        "nota": 5.89,
-        "minimo": 0.75
       }
     ],
     "ZAG": [
