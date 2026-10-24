@@ -2,13 +2,16 @@ name: Atualizar segunda fase
 
 on:
   schedule:
-    # Acorda a cada 15 min; o passo "decidir" só segue se houver jogo (do início
-    # até 4 h depois) ou se já passaram 3 h desde a última atualização.
+    # O GitHub costuma atrasar ou pular execuções agendadas (na prática roda a cada
+    # 3-5 h). Por isso o modo vigia: em horário de jogo a execução fica ativa e
+    # atualiza a cada 15 min; se o próximo jogo começa nas próximas horas, espera
+    # por ele. Fora de jogos, atualiza a cada 3 h.
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  actions: write     # para iniciar a próxima execução quando bater o limite de 6 h
 
 concurrency:
   group: segunda-fase
@@ -17,6 +20,7 @@ concurrency:
 jobs:
   atualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
 
@@ -26,24 +30,12 @@ jobs:
 
       - run: pip install requests
 
-      - name: Decidir se atualiza agora
-        id: decidir
-        run: python segunda_fase.py decidir
-
-      - name: Buscar pontuações e gerar a página
-        if: steps.decidir.outputs.rodar == 'true' || github.event_name == 'workflow_dispatch'
-        run: python segunda_fase.py atualizar
-
-      - name: Salvar mudanças
-        if: always() && (steps.decidir.outputs.rodar == 'true' || github.event_name == 'workflow_dispatch')
+      - name: Configurar git
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898732+github-actions[bot]@users.noreply.github.com"
-          git add -A .
-          # Só commita quando os dados mudam (o horário na página muda sempre).
-          if git diff --cached --quiet -- 'docs/*.json' 'segunda_fase/*.json'; then
-            echo "Nada novo."
-          else
-            git commit -m "Segunda fase: atualiza classificação, sugestões e palpites"
-            git push
-          fi
+
+      - name: Vigiar e atualizar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python segunda_fase.py vigiar ${{ github.event_name == 'workflow_dispatch' && '--forcar' || '' }}

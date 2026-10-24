@@ -380,23 +380,35 @@ JANELA_JOGO = dt.timedelta(hours=4)       # ~2 h de jogo + 2 h depois que acaba
 INTERVALO_SEM_JOGO = dt.timedelta(hours=3)
 
 
+def janela_de_jogo(agora=None, partidas=None):
+    """(está em horário de jogo?, próximo início de jogo depois de agora ou None).
+    Horário de jogo = de 15 min antes do apito até 4 h depois (jogo + 2 h)."""
+    agora = agora or dt.datetime.now(dt.timezone.utc)
+    partidas = partidas if partidas is not None else get_publico("partidas")
+    em_jogo, proximo = False, None
+    for p in partidas.get("partidas", []):
+        if p.get("valida") is False:
+            continue
+        if p.get("status_transmissao_tr") == "EM_ANDAMENTO":
+            em_jogo = True
+        if p.get("partida_data"):
+            ini = dt.datetime.fromisoformat(p["partida_data"].replace(" ", "T")).replace(tzinfo=BRT)
+            if ini - dt.timedelta(minutes=15) <= agora <= ini + JANELA_JOGO:
+                em_jogo = True
+            if ini > agora and (proximo is None or ini < proximo):
+                proximo = ini
+    return em_jogo, proximo
+
+
 def cmd_decidir(agora=None):
-    """Decide se esta execução agendada (a cada 15 min) deve atualizar:
-    sim durante jogos (do apito inicial até 4 h depois); fora disso, a cada 3 h."""
+    """Decide se deve atualizar agora: sim durante jogos (do apito até 4 h depois);
+    fora disso, a cada 3 h."""
     agora = agora or dt.datetime.now(dt.timezone.utc)
     motivo = None
     try:
-        for p in get_publico("partidas").get("partidas", []):
-            if p.get("valida") is False:
-                continue
-            if p.get("status_transmissao_tr") == "EM_ANDAMENTO":
-                motivo = "jogo em andamento"
-                break
-            if p.get("partida_data"):
-                ini = dt.datetime.fromisoformat(p["partida_data"].replace(" ", "T")).replace(tzinfo=BRT)
-                if ini - dt.timedelta(minutes=15) <= agora <= ini + JANELA_JOGO:
-                    motivo = f"horário de jogo ({ini:%d/%m %H:%M})"
-                    break
+        em_jogo, _ = janela_de_jogo(agora)
+        if em_jogo:
+            motivo = "horário de jogo"
     except Exception as e:
         motivo = f"não foi possível ler os jogos ({e})"
     if motivo is None:
@@ -408,12 +420,78 @@ def cmd_decidir(agora=None):
         if ultima is None or agora - ultima >= INTERVALO_SEM_JOGO - dt.timedelta(minutes=10):
             motivo = "3 horas desde a última atualização"
     rodar = motivo is not None
-    print(f"rodar={'sim' if rodar else 'não'} ({motivo or 'sem jogos, última atualização recente'})")
-    import os
-    if os.environ.get("GITHUB_OUTPUT"):
-        with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-            f.write(f"rodar={'true' if rodar else 'false'}\n")
+    print(f"[{agora.astimezone(BRT):%d/%m %H:%M}] rodar={'sim' if rodar else 'não'} "
+          f"({motivo or 'sem jogos, última atualização recente'})", flush=True)
     return rodar
+
+
+def git_salvar():
+    """Commita e envia as mudanças de dados (usado pelo modo vigia no GitHub Actions)."""
+    import subprocess
+    run = lambda *c: subprocess.run(list(c), cwd=BASE, capture_output=True, text=True)  # noqa: E731
+    run("git", "add", "-A", ".")
+    if run("git", "diff", "--cached", "--quiet", "--", "docs/*.json", "segunda_fase/*.json").returncode == 0:
+        print("  nada novo para salvar", flush=True)
+        return
+    run("git", "commit", "-q", "-m", "Segunda fase: atualiza classificação, sugestões e palpites")
+    for _ in range(3):
+        if run("git", "push", "-q").returncode == 0:
+            print("  salvo e publicado", flush=True)
+            return
+        run("git", "pull", "-q", "--rebase", "-X", "theirs")
+    print("  aviso: não consegui enviar as mudanças", flush=True)
+
+
+def disparar_de_novo():
+    """Inicia outra execução deste workflow (o GitHub limita cada uma a 6 h)."""
+    import os
+    import requests
+    repo, token = os.environ.get("GITHUB_REPOSITORY"), os.environ.get("GH_TOKEN")
+    if not (repo and token):
+        return
+    r = requests.post(f"https://api.github.com/repos/{repo}/actions/workflows/segunda_fase.yml/dispatches",
+                      json={"ref": os.environ.get("GITHUB_REF_NAME", "main")},
+                      headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json"}, timeout=30)
+    print(f"  nova execução agendada (HTTP {r.status_code})", flush=True)
+
+
+def cmd_vigiar(cfg, forcar=False, limite=dt.timedelta(hours=5, minutes=40)):
+    """Modo vigia: o agendador do GitHub atrasa ou pula execuções, então em horário de
+    jogo a própria execução fica ativa e atualiza a cada 15 min. Se o próximo jogo
+    começa dentro do limite, espera por ele; ao bater o limite (6 h no GitHub) em
+    horário de jogo, inicia a próxima execução."""
+    import time
+    inicio = dt.datetime.now(dt.timezone.utc)
+    primeira = True
+    while True:
+        agora = dt.datetime.now(dt.timezone.utc)
+        if (primeira and forcar) or cmd_decidir(agora):
+            try:
+                cmd_atualizar(cfg)
+                git_salvar()
+            except Exception as e:
+                import traceback
+                traceback.print_exc()
+                print(f"aviso: atualização falhou ({e})", flush=True)
+        primeira = False
+        try:
+            em_jogo, proximo = janela_de_jogo()
+        except Exception:
+            em_jogo, proximo = False, None
+        agora = dt.datetime.now(dt.timezone.utc)
+        if em_jogo:
+            alvo = agora + dt.timedelta(minutes=15)
+        elif proximo is not None:
+            alvo = proximo - dt.timedelta(minutes=15)
+        else:
+            break
+        if alvo > inicio + limite:
+            if em_jogo or (proximo and proximo - agora < dt.timedelta(minutes=45)):
+                disparar_de_novo()
+            break
+        espera = max((alvo - agora).total_seconds(), 60)
+        print(f"  próxima verificação às {alvo.astimezone(BRT):%H:%M}", flush=True)
+        time.sleep(espera)
 
 
 def cmd_tabela(cfg):
@@ -508,6 +586,8 @@ if __name__ == "__main__":
     acao = sys.argv[1] if len(sys.argv) > 1 else "atualizar"
     if acao == "decidir":
         cmd_decidir()
+    elif acao == "vigiar":
+        cmd_vigiar(cfg, forcar="--forcar" in sys.argv)
     elif acao == "ids":
         cmd_ids(cfg)
     elif acao == "tabela":
