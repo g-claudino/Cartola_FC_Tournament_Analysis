@@ -1,27 +1,27 @@
 {
   "rodada": 32,
   "mercado_aberto": true,
-  "jogadores_avaliados": 194,
+  "jogadores_avaliados": 197,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.96,
-      "nota": 71.04,
+      "custo": 99.83,
+      "nota": 71.07,
       "capitao": 116065,
       "time": [
         {
-          "id": 113690,
-          "nome": "Diógenes",
+          "id": 98333,
+          "nome": "Gabriel Batista",
           "pos": 1,
-          "clube": "SAN",
-          "adv": "BAH",
-          "casa": true,
-          "adv_pos": 7,
-          "preco": 4.38,
-          "media": 3.35,
-          "jogos": 6,
-          "nota": 3.66,
-          "minimo": 2.35
+          "clube": "BOT",
+          "adv": "INT",
+          "casa": false,
+          "adv_pos": 17,
+          "preco": 6.04,
+          "media": 4.79,
+          "jogos": 8,
+          "nota": 4.6,
+          "minimo": 4.36
         },
         {
           "id": 116065,
@@ -38,18 +38,18 @@
           "minimo": 9.33
         },
         {
-          "id": 145404,
-          "nome": "Arthur",
+          "id": 111879,
+          "nome": "Mateus Silva",
           "pos": 2,
-          "clube": "PAL",
-          "adv": "RBB",
+          "clube": "VIT",
+          "adv": "CAP",
           "casa": true,
-          "adv_pos": 10,
-          "preco": 5.19,
-          "media": 4.46,
-          "jogos": 21,
-          "nota": 4.7,
-          "minimo": 4.59
+          "adv_pos": 4,
+          "preco": 7.6,
+          "media": 6.06,
+          "jogos": 10,
+          "nota": 5.57,
+          "minimo": 4.45
         },
         {
           "id": 97878,
@@ -150,32 +150,32 @@
           "minimo": 7.04
         },
         {
-          "id": 116706,
-          "nome": "Andrés Gómez",
+          "id": 114323,
+          "nome": "Colidio",
           "pos": 5,
           "clube": "VAS",
           "adv": "COR",
           "casa": true,
           "adv_pos": 16,
-          "preco": 11.76,
-          "media": 7.06,
-          "jogos": 25,
-          "nota": 7.56,
-          "minimo": 4.48
+          "preco": 10.17,
+          "media": 7.23,
+          "jogos": 9,
+          "nota": 7.04,
+          "minimo": 4.42
         },
         {
-          "id": 128177,
-          "nome": "Pedro Emanuel",
+          "id": 126977,
+          "nome": "Fernando Seabra",
           "pos": 6,
-          "clube": "VAS",
-          "adv": "COR",
+          "clube": "CFC",
+          "adv": "GRE",
           "casa": true,
-          "adv_pos": 16,
-          "preco": 10.25,
-          "media": 6.25,
-          "jogos": 11,
-          "nota": 6.99,
-          "minimo": 4.15
+          "adv_pos": 18,
+          "preco": 7.64,
+          "media": 4.84,
+          "jogos": 30,
+          "nota": 5.73,
+          "minimo": 3.97
         }
       ]
     },
@@ -1038,20 +1038,6 @@
       "minimo": 0.77
     },
     {
-      "id": 141382,
-      "nome": "Gustavo Santana",
-      "pos": 5,
-      "clube": "SAO",
-      "adv": "MIR",
-      "casa": false,
-      "adv_pos": 14,
-      "preco": 4.13,
-      "media": 3.82,
-      "jogos": 6,
-      "nota": 3.48,
-      "minimo": 1.85
-    },
-    {
       "id": 115537,
       "nome": "Marcos Victor",
       "pos": 3,
@@ -1078,6 +1064,20 @@
       "jogos": 6,
       "nota": 3.46,
       "minimo": 1.16
+    },
+    {
+      "id": 144255,
+      "nome": "João Alencar",
+      "pos": 3,
+      "clube": "SAN",
+      "adv": "BAH",
+      "casa": true,
+      "adv_pos": 7,
+      "preco": 2.03,
+      "media": 3.0,
+      "jogos": 1,
+      "nota": 3.2,
+      "minimo": 0.74
     }
   ]
 }
