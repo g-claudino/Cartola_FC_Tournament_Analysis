@@ -1,7 +1,7 @@
 {
   "rodada": 32,
   "mercado_aberto": false,
-  "jogadores_avaliados": 197,
+  "jogadores_avaliados": 202,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -649,6 +649,20 @@
         "minimo": 1.0
       },
       {
+        "id": 105531,
+        "nome": "Matheus Bidu",
+        "pos": 2,
+        "clube": "COR",
+        "adv": "VAS",
+        "casa": false,
+        "adv_pos": 15,
+        "preco": 11.35,
+        "media": 6.58,
+        "jogos": 24,
+        "nota": 6.24,
+        "minimo": 1.05
+      },
+      {
         "id": 110426,
         "nome": "Bernabei",
         "pos": 2,
@@ -661,20 +675,6 @@
         "jogos": 26,
         "nota": 5.89,
         "minimo": 0.82
-      },
-      {
-        "id": 106708,
-        "nome": "Igor Formiga",
-        "pos": 2,
-        "clube": "MIR",
-        "adv": "SAO",
-        "casa": true,
-        "adv_pos": 9,
-        "preco": 8.04,
-        "media": 5.76,
-        "jogos": 24,
-        "nota": 5.89,
-        "minimo": 0.75
       }
     ],
     "ZAG": [
@@ -735,18 +735,18 @@
         "minimo": 0.89
       },
       {
-        "id": 130307,
-        "nome": "Wallace",
+        "id": 118655,
+        "nome": "Saldivia",
         "pos": 3,
-        "clube": "GRE",
-        "adv": "CFC",
-        "casa": false,
-        "adv_pos": 12,
-        "preco": 7.28,
-        "media": 5.22,
-        "jogos": 9,
-        "nota": 4.53,
-        "minimo": 1.4
+        "clube": "VAS",
+        "adv": "COR",
+        "casa": true,
+        "adv_pos": 17,
+        "preco": 7.06,
+        "media": 4.22,
+        "jogos": 14,
+        "nota": 4.64,
+        "minimo": 1.0
       }
     ],
     "MEI": [
@@ -879,18 +879,18 @@
         "minimo": 1.05
       },
       {
-        "id": 113103,
-        "nome": "Flaco López",
+        "id": 114323,
+        "nome": "Colidio",
         "pos": 5,
-        "clube": "PAL",
-        "adv": "RBB",
+        "clube": "VAS",
+        "adv": "COR",
         "casa": true,
-        "adv_pos": 10,
-        "preco": 14.27,
-        "media": 7.08,
-        "jogos": 28,
-        "nota": 7.18,
-        "minimo": 1.16
+        "adv_pos": 17,
+        "preco": 10.17,
+        "media": 7.23,
+        "jogos": 9,
+        "nota": 7.11,
+        "minimo": 1.95
       }
     ],
     "TEC": [
