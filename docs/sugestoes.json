@@ -1,12 +1,12 @@
 {
   "rodada": 32,
   "mercado_aberto": false,
-  "jogadores_avaliados": 202,
+  "jogadores_avaliados": 205,
   "times": {
     "100": {
       "formacao": "4-3-3",
       "custo": 99.96,
-      "nota": 71.34,
+      "nota": 71.42,
       "capitao": 116065,
       "time": [
         {
@@ -128,11 +128,11 @@
           "clube": "CAP",
           "adv": "VIT",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 14,
           "preco": 12.69,
           "media": 9.14,
           "jogos": 26,
-          "nota": 8.29,
+          "nota": 8.37,
           "minimo": 1.1
         },
         {
@@ -182,7 +182,7 @@
     "140": {
       "formacao": "4-3-3",
       "custo": 139.16,
-      "nota": 85.54,
+      "nota": 85.69,
       "capitao": 63007,
       "time": [
         {
@@ -220,11 +220,11 @@
           "clube": "SAO",
           "adv": "MIR",
           "casa": false,
-          "adv_pos": 14,
+          "adv_pos": 15,
           "preco": 11.05,
           "media": 9.17,
           "jogos": 4,
-          "nota": 6.76,
+          "nota": 6.83,
           "minimo": 4.52
         },
         {
@@ -304,11 +304,11 @@
           "clube": "CAP",
           "adv": "VIT",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 14,
           "preco": 12.69,
           "media": 9.14,
           "jogos": 26,
-          "nota": 8.29,
+          "nota": 8.37,
           "minimo": 1.1
         },
         {
@@ -358,7 +358,7 @@
     "180": {
       "formacao": "4-3-3",
       "custo": 153.13,
-      "nota": 87.55,
+      "nota": 87.7,
       "capitao": 63007,
       "time": [
         {
@@ -396,11 +396,11 @@
           "clube": "SAO",
           "adv": "MIR",
           "casa": false,
-          "adv_pos": 14,
+          "adv_pos": 15,
           "preco": 11.05,
           "media": 9.17,
           "jogos": 4,
-          "nota": 6.76,
+          "nota": 6.83,
           "minimo": 4.52
         },
         {
@@ -480,11 +480,11 @@
           "clube": "CAP",
           "adv": "VIT",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 14,
           "preco": 12.69,
           "media": 9.14,
           "jogos": 26,
-          "nota": 8.29,
+          "nota": 8.37,
           "minimo": 1.1
         },
         {
@@ -627,11 +627,11 @@
         "clube": "SAO",
         "adv": "MIR",
         "casa": false,
-        "adv_pos": 14,
+        "adv_pos": 15,
         "preco": 11.05,
         "media": 9.17,
         "jogos": 4,
-        "nota": 6.76,
+        "nota": 6.83,
         "minimo": 4.52
       },
       {
@@ -655,11 +655,11 @@
         "clube": "COR",
         "adv": "VAS",
         "casa": false,
-        "adv_pos": 15,
+        "adv_pos": 13,
         "preco": 11.35,
         "media": 6.58,
         "jogos": 24,
-        "nota": 6.24,
+        "nota": 6.11,
         "minimo": 1.05
       },
       {
@@ -829,11 +829,11 @@
         "clube": "CAP",
         "adv": "VIT",
         "casa": false,
-        "adv_pos": 13,
+        "adv_pos": 14,
         "preco": 12.69,
         "media": 9.14,
         "jogos": 26,
-        "nota": 8.29,
+        "nota": 8.37,
         "minimo": 1.1
       },
       {
@@ -1038,20 +1038,6 @@
       "minimo": 0.77
     },
     {
-      "id": 141131,
-      "nome": "Vitão",
-      "pos": 3,
-      "clube": "CAM",
-      "adv": "FLA",
-      "casa": false,
-      "adv_pos": 2,
-      "preco": 4.68,
-      "media": 4.52,
-      "jogos": 6,
-      "nota": 3.5,
-      "minimo": 1.16
-    },
-    {
       "id": 115537,
       "nome": "Marcos Victor",
       "pos": 3,
@@ -1064,6 +1050,20 @@
       "jogos": 8,
       "nota": 3.47,
       "minimo": 1.0
+    },
+    {
+      "id": 141131,
+      "nome": "Vitão",
+      "pos": 3,
+      "clube": "CAM",
+      "adv": "FLA",
+      "casa": false,
+      "adv_pos": 1,
+      "preco": 4.68,
+      "media": 4.52,
+      "jogos": 6,
+      "nota": 3.46,
+      "minimo": 1.16
     },
     {
       "id": 144255,
