@@ -1,13 +1,13 @@
 {
   "rodada": 32,
-  "mercado_aberto": true,
+  "mercado_aberto": false,
   "jogadores_avaliados": 197,
   "times": {
     "100": {
       "formacao": "4-3-3",
       "custo": 99.83,
-      "nota": 71.07,
-      "capitao": 116065,
+      "nota": 71.15,
+      "capitao": 143193,
       "time": [
         {
           "id": 98333,
@@ -128,11 +128,11 @@
           "clube": "CAP",
           "adv": "VIT",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 14,
           "preco": 12.69,
           "media": 9.14,
           "jogos": 26,
-          "nota": 8.29,
+          "nota": 8.37,
           "minimo": 3.12
         },
         {
@@ -181,8 +181,8 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.16,
-      "nota": 85.24,
+      "custo": 139.48,
+      "nota": 85.22,
       "capitao": 63007,
       "time": [
         {
@@ -214,18 +214,18 @@
           "minimo": 9.33
         },
         {
-          "id": 130525,
-          "nome": "Pedro Lima",
+          "id": 106708,
+          "nome": "Igor Formiga",
           "pos": 2,
-          "clube": "SAO",
-          "adv": "MIR",
-          "casa": false,
-          "adv_pos": 14,
-          "preco": 11.05,
-          "media": 9.17,
-          "jogos": 4,
-          "nota": 6.76,
-          "minimo": 11.19
+          "clube": "MIR",
+          "adv": "SAO",
+          "casa": true,
+          "adv_pos": 9,
+          "preco": 8.04,
+          "media": 5.76,
+          "jogos": 24,
+          "nota": 5.89,
+          "minimo": 0.75
         },
         {
           "id": 99274,
@@ -242,18 +242,18 @@
           "minimo": 8.6
         },
         {
-          "id": 97878,
-          "nome": "Jacy",
+          "id": 71684,
+          "nome": "Gustavo Gómez",
           "pos": 3,
-          "clube": "CFC",
-          "adv": "GRE",
+          "clube": "PAL",
+          "adv": "RBB",
           "casa": true,
-          "adv_pos": 18,
-          "preco": 5.57,
-          "media": 3.89,
-          "jogos": 26,
-          "nota": 4.44,
-          "minimo": 3.18
+          "adv_pos": 10,
+          "preco": 10.49,
+          "media": 5.58,
+          "jogos": 27,
+          "nota": 5.73,
+          "minimo": 0.88
         },
         {
           "id": 63007,
@@ -304,11 +304,11 @@
           "clube": "CAP",
           "adv": "VIT",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 14,
           "preco": 12.69,
           "media": 9.14,
           "jogos": 26,
-          "nota": 8.29,
+          "nota": 8.37,
           "minimo": 3.12
         },
         {
@@ -326,18 +326,18 @@
           "minimo": 7.04
         },
         {
-          "id": 116706,
-          "nome": "Andrés Gómez",
+          "id": 114323,
+          "nome": "Colidio",
           "pos": 5,
           "clube": "VAS",
           "adv": "COR",
           "casa": true,
           "adv_pos": 16,
-          "preco": 11.76,
-          "media": 7.06,
-          "jogos": 25,
-          "nota": 7.56,
-          "minimo": 4.48
+          "preco": 10.17,
+          "media": 7.23,
+          "jogos": 9,
+          "nota": 7.04,
+          "minimo": 4.42
         },
         {
           "id": 128177,
@@ -358,7 +358,7 @@
     "180": {
       "formacao": "4-3-3",
       "custo": 153.13,
-      "nota": 87.4,
+      "nota": 87.34,
       "capitao": 63007,
       "time": [
         {
@@ -396,11 +396,11 @@
           "clube": "SAO",
           "adv": "MIR",
           "casa": false,
-          "adv_pos": 14,
+          "adv_pos": 12,
           "preco": 11.05,
           "media": 9.17,
           "jogos": 4,
-          "nota": 6.76,
+          "nota": 6.62,
           "minimo": 11.19
         },
         {
@@ -480,11 +480,11 @@
           "clube": "CAP",
           "adv": "VIT",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 14,
           "preco": 12.69,
           "media": 9.14,
           "jogos": 26,
-          "nota": 8.29,
+          "nota": 8.37,
           "minimo": 3.12
         },
         {
@@ -627,11 +627,11 @@
         "clube": "SAO",
         "adv": "MIR",
         "casa": false,
-        "adv_pos": 14,
+        "adv_pos": 12,
         "preco": 11.05,
         "media": 9.17,
         "jogos": 4,
-        "nota": 6.76,
+        "nota": 6.62,
         "minimo": 11.19
       },
       {
@@ -741,11 +741,11 @@
         "clube": "GRE",
         "adv": "CFC",
         "casa": false,
-        "adv_pos": 12,
+        "adv_pos": 13,
         "preco": 7.28,
         "media": 5.22,
         "jogos": 9,
-        "nota": 4.53,
+        "nota": 4.57,
         "minimo": 1.4
       }
     ],
@@ -829,11 +829,11 @@
         "clube": "CAP",
         "adv": "VIT",
         "casa": false,
-        "adv_pos": 13,
+        "adv_pos": 14,
         "preco": 12.69,
         "media": 9.14,
         "jogos": 26,
-        "nota": 8.29,
+        "nota": 8.37,
         "minimo": 3.12
       },
       {
