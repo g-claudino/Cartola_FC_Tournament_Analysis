@@ -1,7 +1,7 @@
 {
   "rodada": 32,
   "mercado_aberto": true,
-  "jogadores_avaliados": 202,
+  "jogadores_avaliados": 195,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -555,11 +555,11 @@
         "clube": "VIT",
         "adv": "CAP",
         "casa": true,
-        "adv_pos": 3,
+        "adv_pos": 4,
         "preco": 9.5,
         "media": 5.84,
         "jogos": 25,
-        "nota": 5.6,
+        "nota": 5.66,
         "minimo": 5.45
       },
       {
@@ -707,6 +707,20 @@
         "minimo": 0.88
       },
       {
+        "id": 89493,
+        "nome": "Igor Rabello",
+        "pos": 3,
+        "clube": "FLU",
+        "adv": "CHA",
+        "casa": false,
+        "adv_pos": 20,
+        "preco": 8.43,
+        "media": 5.75,
+        "jogos": 4,
+        "nota": 4.82,
+        "minimo": 5.93
+      },
+      {
         "id": 83528,
         "nome": "Léo Pereira",
         "pos": 3,
@@ -733,20 +747,6 @@
         "jogos": 9,
         "nota": 4.53,
         "minimo": 1.4
-      },
-      {
-        "id": 97878,
-        "nome": "Jacy",
-        "pos": 3,
-        "clube": "CFC",
-        "adv": "GRE",
-        "casa": true,
-        "adv_pos": 18,
-        "preco": 5.57,
-        "media": 3.89,
-        "jogos": 26,
-        "nota": 4.44,
-        "minimo": 3.18
       }
     ],
     "MEI": [
@@ -807,18 +807,18 @@
         "minimo": 8.96
       },
       {
-        "id": 94930,
-        "nome": "Lucas Paquetá",
+        "id": 107231,
+        "nome": "Danilo",
         "pos": 4,
-        "clube": "FLA",
-        "adv": "CAM",
-        "casa": true,
-        "adv_pos": 6,
-        "preco": 14.23,
-        "media": 6.94,
-        "jogos": 20,
-        "nota": 6.56,
-        "minimo": 8.67
+        "clube": "BOT",
+        "adv": "INT",
+        "casa": false,
+        "adv_pos": 17,
+        "preco": 13.11,
+        "media": 6.79,
+        "jogos": 22,
+        "nota": 6.39,
+        "minimo": 3.51
       }
     ],
     "ATA": [
