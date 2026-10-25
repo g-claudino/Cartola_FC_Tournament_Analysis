@@ -5,23 +5,23 @@
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.96,
-      "nota": 71.42,
+      "custo": 99.66,
+      "nota": 71.28,
       "capitao": 116065,
       "time": [
         {
-          "id": 113690,
-          "nome": "Diógenes",
+          "id": 98333,
+          "nome": "Gabriel Batista",
           "pos": 1,
-          "clube": "SAN",
-          "adv": "BAH",
-          "casa": true,
-          "adv_pos": 7,
-          "preco": 4.38,
-          "media": 3.35,
-          "jogos": 6,
-          "nota": 3.66,
-          "minimo": 1.08
+          "clube": "BOT",
+          "adv": "INT",
+          "casa": false,
+          "adv_pos": 16,
+          "preco": 6.04,
+          "media": 4.79,
+          "jogos": 8,
+          "nota": 4.56,
+          "minimo": 1.26
         },
         {
           "id": 116065,
@@ -72,11 +72,11 @@
           "clube": "SAN",
           "adv": "BAH",
           "casa": true,
-          "adv_pos": 7,
+          "adv_pos": 5,
           "preco": 2.03,
           "media": 3.0,
           "jogos": 1,
-          "nota": 3.2,
+          "nota": 3.13,
           "minimo": 0.78
         },
         {
@@ -94,18 +94,18 @@
           "minimo": 2.83
         },
         {
-          "id": 84626,
-          "nome": "Josué",
+          "id": 90703,
+          "nome": "Matheuzinho",
           "pos": 4,
-          "clube": "CFC",
-          "adv": "GRE",
+          "clube": "VIT",
+          "adv": "CAP",
           "casa": true,
-          "adv_pos": 18,
-          "preco": 6.44,
-          "media": 4.08,
-          "jogos": 27,
-          "nota": 4.59,
-          "minimo": 0.54
+          "adv_pos": 4,
+          "preco": 6.07,
+          "media": 4.3,
+          "jogos": 26,
+          "nota": 4.15,
+          "minimo": 0.53
         },
         {
           "id": 141776,
@@ -114,11 +114,11 @@
           "clube": "SAN",
           "adv": "BAH",
           "casa": true,
-          "adv_pos": 7,
+          "adv_pos": 5,
           "preco": 5.69,
           "media": 4.31,
           "jogos": 17,
-          "nota": 4.22,
+          "nota": 4.13,
           "minimo": 0.7
         },
         {
@@ -142,26 +142,26 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 12.32,
           "media": 8.58,
           "jogos": 28,
-          "nota": 8.27,
+          "nota": 8.36,
           "minimo": 1.0
         },
         {
-          "id": 116706,
-          "nome": "Andrés Gómez",
+          "id": 114323,
+          "nome": "Colidio",
           "pos": 5,
           "clube": "VAS",
           "adv": "COR",
           "casa": true,
           "adv_pos": 17,
-          "preco": 11.76,
-          "media": 7.06,
-          "jogos": 25,
-          "nota": 7.64,
-          "minimo": 1.05
+          "preco": 10.17,
+          "media": 7.23,
+          "jogos": 9,
+          "nota": 7.11,
+          "minimo": 1.95
         },
         {
           "id": 128177,
@@ -182,7 +182,7 @@
     "140": {
       "formacao": "4-3-3",
       "custo": 139.16,
-      "nota": 85.69,
+      "nota": 85.65,
       "capitao": 63007,
       "time": [
         {
@@ -262,11 +262,11 @@
           "clube": "SAN",
           "adv": "BAH",
           "casa": true,
-          "adv_pos": 7,
+          "adv_pos": 5,
           "preco": 19.0,
           "media": 9.98,
           "jogos": 14,
-          "nota": 9.04,
+          "nota": 8.84,
           "minimo": 2.68
         },
         {
@@ -290,11 +290,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 11.82,
           "media": 6.97,
           "jogos": 23,
-          "nota": 6.66,
+          "nota": 6.73,
           "minimo": 1.13
         },
         {
@@ -318,11 +318,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 12.32,
           "media": 8.58,
           "jogos": 28,
-          "nota": 8.27,
+          "nota": 8.36,
           "minimo": 1.0
         },
         {
@@ -358,7 +358,7 @@
     "180": {
       "formacao": "4-3-3",
       "custo": 153.13,
-      "nota": 87.7,
+      "nota": 87.76,
       "capitao": 63007,
       "time": [
         {
@@ -438,11 +438,11 @@
           "clube": "SAN",
           "adv": "BAH",
           "casa": true,
-          "adv_pos": 7,
+          "adv_pos": 5,
           "preco": 19.0,
           "media": 9.98,
           "jogos": 14,
-          "nota": 9.04,
+          "nota": 8.84,
           "minimo": 2.68
         },
         {
@@ -494,11 +494,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 12.32,
           "media": 8.58,
           "jogos": 28,
-          "nota": 8.27,
+          "nota": 8.36,
           "minimo": 1.0
         },
         {
@@ -508,11 +508,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 15.6,
           "media": 7.9,
           "jogos": 29,
-          "nota": 7.65,
+          "nota": 7.74,
           "minimo": 1.23
         },
         {
@@ -522,11 +522,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 13.75,
           "media": 7.51,
           "jogos": 27,
-          "nota": 7.54,
+          "nota": 7.62,
           "minimo": 1.15
         }
       ]
@@ -597,11 +597,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 6,
+        "adv_pos": 7,
         "preco": 9.17,
         "media": 5.03,
         "jogos": 29,
-        "nota": 5.06,
+        "nota": 5.12,
         "minimo": 0.73
       }
     ],
@@ -707,6 +707,20 @@
         "minimo": 0.88
       },
       {
+        "id": 83528,
+        "nome": "Léo Pereira",
+        "pos": 3,
+        "clube": "FLA",
+        "adv": "CAM",
+        "casa": true,
+        "adv_pos": 7,
+        "preco": 9.61,
+        "media": 4.83,
+        "jogos": 24,
+        "nota": 4.82,
+        "minimo": 0.89
+      },
+      {
         "id": 89493,
         "nome": "Igor Rabello",
         "pos": 3,
@@ -719,20 +733,6 @@
         "jogos": 4,
         "nota": 4.82,
         "minimo": 3.49
-      },
-      {
-        "id": 83528,
-        "nome": "Léo Pereira",
-        "pos": 3,
-        "clube": "FLA",
-        "adv": "CAM",
-        "casa": true,
-        "adv_pos": 6,
-        "preco": 9.61,
-        "media": 4.83,
-        "jogos": 24,
-        "nota": 4.77,
-        "minimo": 0.89
       },
       {
         "id": 118655,
@@ -757,11 +757,11 @@
         "clube": "SAN",
         "adv": "BAH",
         "casa": true,
-        "adv_pos": 7,
+        "adv_pos": 5,
         "preco": 19.0,
         "media": 9.98,
         "jogos": 14,
-        "nota": 9.04,
+        "nota": 8.84,
         "minimo": 2.68
       },
       {
@@ -799,11 +799,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 6,
+        "adv_pos": 7,
         "preco": 11.82,
         "media": 6.97,
         "jogos": 23,
-        "nota": 6.66,
+        "nota": 6.73,
         "minimo": 1.13
       },
       {
@@ -843,11 +843,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 6,
+        "adv_pos": 7,
         "preco": 12.32,
         "media": 8.58,
         "jogos": 28,
-        "nota": 8.27,
+        "nota": 8.36,
         "minimo": 1.0
       },
       {
@@ -857,11 +857,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 6,
+        "adv_pos": 7,
         "preco": 15.6,
         "media": 7.9,
         "jogos": 29,
-        "nota": 7.65,
+        "nota": 7.74,
         "minimo": 1.23
       },
       {
@@ -901,11 +901,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 6,
+        "adv_pos": 7,
         "preco": 13.75,
         "media": 7.51,
         "jogos": 27,
-        "nota": 7.54,
+        "nota": 7.62,
         "minimo": 1.15
       },
       {
@@ -957,11 +957,11 @@
         "clube": "SAN",
         "adv": "BAH",
         "casa": true,
-        "adv_pos": 7,
+        "adv_pos": 5,
         "preco": 10.55,
         "media": 6.11,
         "jogos": 22,
-        "nota": 6.3,
+        "nota": 6.16,
         "minimo": 1.05
       }
     ]
@@ -974,11 +974,11 @@
       "clube": "CHA",
       "adv": "FLU",
       "casa": true,
-      "adv_pos": 5,
+      "adv_pos": 6,
       "preco": 4.96,
       "media": 4.26,
       "jogos": 16,
-      "nota": 4.12,
+      "nota": 4.17,
       "minimo": 0.64
     },
     {
@@ -988,11 +988,11 @@
       "clube": "CHA",
       "adv": "FLU",
       "casa": true,
-      "adv_pos": 5,
+      "adv_pos": 6,
       "preco": 4.8,
       "media": 3.93,
       "jogos": 27,
-      "nota": 3.9,
+      "nota": 3.94,
       "minimo": 0.41
     },
     {
@@ -1010,20 +1010,6 @@
       "minimo": 0.42
     },
     {
-      "id": 113690,
-      "nome": "Diógenes",
-      "pos": 1,
-      "clube": "SAN",
-      "adv": "BAH",
-      "casa": true,
-      "adv_pos": 7,
-      "preco": 4.38,
-      "media": 3.35,
-      "jogos": 6,
-      "nota": 3.66,
-      "minimo": 1.08
-    },
-    {
       "id": 103967,
       "nome": "Bruno Santos",
       "pos": 5,
@@ -1036,6 +1022,20 @@
       "jogos": 11,
       "nota": 3.63,
       "minimo": 0.77
+    },
+    {
+      "id": 113690,
+      "nome": "Diógenes",
+      "pos": 1,
+      "clube": "SAN",
+      "adv": "BAH",
+      "casa": true,
+      "adv_pos": 5,
+      "preco": 4.38,
+      "media": 3.35,
+      "jogos": 6,
+      "nota": 3.58,
+      "minimo": 1.08
     },
     {
       "id": 141131,
@@ -1066,18 +1066,18 @@
       "minimo": 1.0
     },
     {
-      "id": 144255,
-      "nome": "João Alencar",
-      "pos": 3,
-      "clube": "SAN",
-      "adv": "BAH",
+      "id": 104204,
+      "nome": "Edson Carioca",
+      "pos": 5,
+      "clube": "MIR",
+      "adv": "SAO",
       "casa": true,
-      "adv_pos": 7,
-      "preco": 2.03,
-      "media": 3.0,
-      "jogos": 1,
-      "nota": 3.2,
-      "minimo": 0.78
+      "adv_pos": 9,
+      "preco": 4.71,
+      "media": 2.97,
+      "jogos": 18,
+      "nota": 3.15,
+      "minimo": 0.56
     }
   ]
 }
