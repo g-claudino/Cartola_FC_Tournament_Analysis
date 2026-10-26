@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 153.13,
-      "nota": 87.7,
+      "custo": 149.29,
+      "nota": 87.69,
       "capitao": 63007,
       "time": [
         {
@@ -502,18 +502,18 @@
           "minimo": 1.0
         },
         {
-          "id": 94583,
-          "nome": "Pedro",
+          "id": 116706,
+          "nome": "Andrés Gómez",
           "pos": 5,
-          "clube": "FLA",
-          "adv": "CAM",
+          "clube": "VAS",
+          "adv": "COR",
           "casa": true,
-          "adv_pos": 6,
-          "preco": 15.6,
-          "media": 7.9,
-          "jogos": 29,
-          "nota": 7.65,
-          "minimo": 1.23
+          "adv_pos": 17,
+          "preco": 11.76,
+          "media": 7.06,
+          "jogos": 25,
+          "nota": 7.64,
+          "minimo": 1.05
         },
         {
           "id": 88963,
@@ -851,20 +851,6 @@
         "minimo": 1.0
       },
       {
-        "id": 94583,
-        "nome": "Pedro",
-        "pos": 5,
-        "clube": "FLA",
-        "adv": "CAM",
-        "casa": true,
-        "adv_pos": 6,
-        "preco": 15.6,
-        "media": 7.9,
-        "jogos": 29,
-        "nota": 7.65,
-        "minimo": 1.23
-      },
-      {
         "id": 116706,
         "nome": "Andrés Gómez",
         "pos": 5,
@@ -891,6 +877,20 @@
         "jogos": 9,
         "nota": 7.11,
         "minimo": 1.95
+      },
+      {
+        "id": 39148,
+        "nome": "Hulk",
+        "pos": 5,
+        "clube": "FLU",
+        "adv": "CHA",
+        "casa": false,
+        "adv_pos": 20,
+        "preco": 11.62,
+        "media": 6.53,
+        "jogos": 23,
+        "nota": 6.39,
+        "minimo": 1.11
       }
     ],
     "TEC": [
