@@ -1,7 +1,7 @@
 {
   "rodada": 32,
   "mercado_aberto": false,
-  "jogadores_avaliados": 205,
+  "jogadores_avaliados": 218,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 149.29,
-      "nota": 87.69,
+      "custo": 153.13,
+      "nota": 87.7,
       "capitao": 63007,
       "time": [
         {
@@ -502,18 +502,18 @@
           "minimo": 1.0
         },
         {
-          "id": 116706,
-          "nome": "Andrés Gómez",
+          "id": 94583,
+          "nome": "Pedro",
           "pos": 5,
-          "clube": "VAS",
-          "adv": "COR",
+          "clube": "FLA",
+          "adv": "CAM",
           "casa": true,
-          "adv_pos": 17,
-          "preco": 11.76,
-          "media": 7.06,
-          "jogos": 25,
-          "nota": 7.64,
-          "minimo": 1.05
+          "adv_pos": 6,
+          "preco": 15.6,
+          "media": 7.9,
+          "jogos": 29,
+          "nota": 7.65,
+          "minimo": 1.23
         },
         {
           "id": 88963,
@@ -851,6 +851,20 @@
         "minimo": 1.0
       },
       {
+        "id": 94583,
+        "nome": "Pedro",
+        "pos": 5,
+        "clube": "FLA",
+        "adv": "CAM",
+        "casa": true,
+        "adv_pos": 6,
+        "preco": 15.6,
+        "media": 7.9,
+        "jogos": 29,
+        "nota": 7.65,
+        "minimo": 1.23
+      },
+      {
         "id": 116706,
         "nome": "Andrés Gómez",
         "pos": 5,
@@ -877,20 +891,6 @@
         "jogos": 9,
         "nota": 7.11,
         "minimo": 1.95
-      },
-      {
-        "id": 39148,
-        "nome": "Hulk",
-        "pos": 5,
-        "clube": "FLU",
-        "adv": "CHA",
-        "casa": false,
-        "adv_pos": 20,
-        "preco": 11.62,
-        "media": 6.53,
-        "jogos": 23,
-        "nota": 6.39,
-        "minimo": 1.11
       }
     ],
     "TEC": [
@@ -1066,18 +1066,18 @@
       "minimo": 1.0
     },
     {
-      "id": 144255,
-      "nome": "João Alencar",
-      "pos": 3,
-      "clube": "SAN",
-      "adv": "BAH",
+      "id": 84339,
+      "nome": "Bruno Melo",
+      "pos": 2,
+      "clube": "CFC",
+      "adv": "GRE",
       "casa": true,
-      "adv_pos": 7,
-      "preco": 2.03,
-      "media": 3.0,
-      "jogos": 1,
-      "nota": 3.2,
-      "minimo": 0.78
+      "adv_pos": 18,
+      "preco": 4.82,
+      "media": 2.77,
+      "jogos": 27,
+      "nota": 3.35,
+      "minimo": 0.41
     }
   ]
 }
