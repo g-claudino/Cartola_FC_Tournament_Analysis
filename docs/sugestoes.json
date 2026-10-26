@@ -6,7 +6,7 @@
     "100": {
       "formacao": "4-3-3",
       "custo": 99.96,
-      "nota": 71.33,
+      "nota": 71.42,
       "capitao": 116065,
       "time": [
         {
@@ -142,11 +142,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 5,
+          "adv_pos": 6,
           "preco": 12.32,
           "media": 8.58,
           "jogos": 28,
-          "nota": 8.18,
+          "nota": 8.27,
           "minimo": 1.0
         },
         {
@@ -182,7 +182,7 @@
     "140": {
       "formacao": "4-3-3",
       "custo": 139.94,
-      "nota": 85.48,
+      "nota": 85.57,
       "capitao": 63007,
       "time": [
         {
@@ -318,11 +318,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 5,
+          "adv_pos": 6,
           "preco": 12.32,
           "media": 8.58,
           "jogos": 28,
-          "nota": 8.18,
+          "nota": 8.27,
           "minimo": 1.0
         },
         {
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 149.29,
-      "nota": 87.51,
+      "custo": 153.13,
+      "nota": 87.7,
       "capitao": 63007,
       "time": [
         {
@@ -494,26 +494,26 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 5,
+          "adv_pos": 6,
           "preco": 12.32,
           "media": 8.58,
           "jogos": 28,
-          "nota": 8.18,
+          "nota": 8.27,
           "minimo": 1.0
         },
         {
-          "id": 116706,
-          "nome": "Andrés Gómez",
+          "id": 94583,
+          "nome": "Pedro",
           "pos": 5,
-          "clube": "VAS",
-          "adv": "COR",
+          "clube": "FLA",
+          "adv": "CAM",
           "casa": true,
-          "adv_pos": 17,
-          "preco": 11.76,
-          "media": 7.06,
-          "jogos": 25,
-          "nota": 7.64,
-          "minimo": 1.05
+          "adv_pos": 6,
+          "preco": 15.6,
+          "media": 7.9,
+          "jogos": 29,
+          "nota": 7.65,
+          "minimo": 1.23
         },
         {
           "id": 88963,
@@ -522,11 +522,11 @@
           "clube": "FLA",
           "adv": "CAM",
           "casa": true,
-          "adv_pos": 5,
+          "adv_pos": 6,
           "preco": 13.75,
           "media": 7.51,
           "jogos": 27,
-          "nota": 7.45,
+          "nota": 7.54,
           "minimo": 1.15
         }
       ]
@@ -597,11 +597,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 5,
+        "adv_pos": 6,
         "preco": 9.17,
         "media": 5.03,
         "jogos": 29,
-        "nota": 5.01,
+        "nota": 5.06,
         "minimo": 0.73
       }
     ],
@@ -727,11 +727,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 5,
+        "adv_pos": 6,
         "preco": 9.61,
         "media": 4.83,
         "jogos": 24,
-        "nota": 4.72,
+        "nota": 4.77,
         "minimo": 0.89
       },
       {
@@ -843,12 +843,26 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 5,
+        "adv_pos": 6,
         "preco": 12.32,
         "media": 8.58,
         "jogos": 28,
-        "nota": 8.18,
+        "nota": 8.27,
         "minimo": 1.0
+      },
+      {
+        "id": 94583,
+        "nome": "Pedro",
+        "pos": 5,
+        "clube": "FLA",
+        "adv": "CAM",
+        "casa": true,
+        "adv_pos": 6,
+        "preco": 15.6,
+        "media": 7.9,
+        "jogos": 29,
+        "nota": 7.65,
+        "minimo": 1.23
       },
       {
         "id": 116706,
@@ -863,20 +877,6 @@
         "jogos": 25,
         "nota": 7.64,
         "minimo": 1.05
-      },
-      {
-        "id": 94583,
-        "nome": "Pedro",
-        "pos": 5,
-        "clube": "FLA",
-        "adv": "CAM",
-        "casa": true,
-        "adv_pos": 5,
-        "preco": 15.6,
-        "media": 7.9,
-        "jogos": 29,
-        "nota": 7.57,
-        "minimo": 1.23
       },
       {
         "id": 114323,
@@ -901,11 +901,11 @@
         "clube": "FLA",
         "adv": "CAM",
         "casa": true,
-        "adv_pos": 5,
+        "adv_pos": 6,
         "preco": 13.75,
         "media": 7.51,
         "jogos": 27,
-        "nota": 7.45,
+        "nota": 7.54,
         "minimo": 1.15
       },
       {
@@ -974,11 +974,11 @@
       "clube": "CHA",
       "adv": "FLU",
       "casa": true,
-      "adv_pos": 6,
+      "adv_pos": 5,
       "preco": 4.96,
       "media": 4.26,
       "jogos": 16,
-      "nota": 4.17,
+      "nota": 4.12,
       "minimo": 0.64
     },
     {
@@ -988,11 +988,11 @@
       "clube": "CHA",
       "adv": "FLU",
       "casa": true,
-      "adv_pos": 6,
+      "adv_pos": 5,
       "preco": 4.8,
       "media": 3.93,
       "jogos": 27,
-      "nota": 3.94,
+      "nota": 3.9,
       "minimo": 0.41
     },
     {
