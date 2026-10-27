@@ -2482,7 +2482,7 @@
             "pos": 5,
             "clube": 266,
             "luxo": true,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": false
           },
@@ -2498,8 +2498,8 @@
         ]
       },
       "19429362": {
-        "pontos": 71.33,
-        "jogaram": 11,
+        "pontos": 74.38,
+        "jogaram": 12,
         "escalados": 12,
         "jogadores": [
           {
@@ -2516,9 +2516,14 @@
             "pos": 1,
             "clube": 280,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
-            "entrou": null
+            "entrou": {
+              "nome": "Léo Jardim",
+              "clube": 267,
+              "pontos": 0.6,
+              "luxo": false
+            }
           },
           {
             "nome": "Flaco López",
@@ -2607,8 +2612,13 @@
             "clube": 293,
             "capitao": true,
             "situacao": "jogou",
-            "pontos": -0.75,
-            "entrou": null
+            "pontos": -0.5,
+            "entrou": {
+              "nome": "Andrés Gómez",
+              "clube": 267,
+              "pontos": 1.7,
+              "luxo": true
+            }
           }
         ],
         "banco": [
@@ -2646,7 +2656,7 @@
             "luxo": false,
             "situacao": "jogou",
             "pontos": 0.6,
-            "entrou": false
+            "entrou": true
           },
           {
             "nome": "Andrés Gómez",
@@ -2655,12 +2665,12 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 1.7,
-            "entrou": false
+            "entrou": true
           }
         ]
       },
       "29436742": {
-        "pontos": 80.23,
+        "pontos": 87.23,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
@@ -2770,7 +2780,12 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": -0.5,
-            "entrou": null
+            "entrou": {
+              "nome": "Hulk",
+              "clube": 266,
+              "pontos": 6.5,
+              "luxo": true
+            }
           }
         ],
         "banco": [
@@ -2790,7 +2805,7 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 6.5,
-            "entrou": false
+            "entrou": true
           },
           {
             "nome": "Fábio",
@@ -2977,14 +2992,14 @@
             "pos": 5,
             "clube": 266,
             "luxo": true,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": false
           }
         ]
       },
       "283417": {
-        "pontos": 79.66,
+        "pontos": 85.56,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
@@ -3094,7 +3109,12 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": 1.7,
-            "entrou": null
+            "entrou": {
+              "nome": "Gabriel",
+              "clube": 277,
+              "pontos": 7.6,
+              "luxo": true
+            }
           }
         ],
         "banco": [
@@ -3114,7 +3134,7 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 7.6,
-            "entrou": false
+            "entrou": true
           },
           {
             "nome": "Josué",
@@ -3146,7 +3166,7 @@
         ]
       },
       "1380145": {
-        "pontos": 72.51,
+        "pontos": 77.31,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
@@ -3175,7 +3195,12 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": 1.7,
-            "entrou": null
+            "entrou": {
+              "nome": "Hulk",
+              "clube": 266,
+              "pontos": 6.5,
+              "luxo": true
+            }
           },
           {
             "nome": "Giay",
@@ -3276,12 +3301,12 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 6.5,
-            "entrou": false
+            "entrou": true
           }
         ]
       },
       "45022741": {
-        "pontos": 89.28,
+        "pontos": 90.38,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
@@ -3310,7 +3335,12 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": 6.5,
-            "entrou": null
+            "entrou": {
+              "nome": "Gabriel",
+              "clube": 277,
+              "pontos": 7.6,
+              "luxo": true
+            }
           },
           {
             "nome": "Fábio",
@@ -3402,7 +3432,7 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 7.6,
-            "entrou": false
+            "entrou": true
           },
           {
             "nome": "Ignácio",
@@ -3427,7 +3457,7 @@
             "pos": 2,
             "clube": 294,
             "luxo": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": false
           },
@@ -3443,7 +3473,7 @@
         ]
       },
       "46075154": {
-        "pontos": 61.45,
+        "pontos": 71.35,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
@@ -3535,7 +3565,12 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": -0.5,
-            "entrou": null
+            "entrou": {
+              "nome": "Samuel Lino",
+              "clube": 262,
+              "pontos": 9.4,
+              "luxo": true
+            }
           },
           {
             "nome": "Carrascal",
@@ -3582,7 +3617,7 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 9.4,
-            "entrou": false
+            "entrou": true
           },
           {
             "nome": "Luan Peres",
@@ -3605,37 +3640,10 @@
         ]
       },
       "1061200": {
-        "pontos": 42.55,
+        "pontos": 49.55,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
-          {
-            "nome": "Marcão",
-            "pos": 6,
-            "clube": 266,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 4.75,
-            "entrou": null
-          },
-          {
-            "nome": "Neymar",
-            "pos": 4,
-            "clube": 277,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.9,
-            "entrou": null
-          },
-          {
-            "nome": "Fábio",
-            "pos": 1,
-            "clube": 266,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": -0.7,
-            "entrou": null
-          },
           {
             "nome": "Arias",
             "pos": 4,
@@ -3652,6 +3660,33 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": 5.4,
+            "entrou": null
+          },
+          {
+            "nome": "Marcão",
+            "pos": 6,
+            "clube": 266,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 4.75,
+            "entrou": null
+          },
+          {
+            "nome": "Fábio",
+            "pos": 1,
+            "clube": 266,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": -0.7,
+            "entrou": null
+          },
+          {
+            "nome": "Neymar",
+            "pos": 4,
+            "clube": 277,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.9,
             "entrou": null
           },
           {
@@ -3691,6 +3726,15 @@
             "entrou": null
           },
           {
+            "nome": "Luciano Juba",
+            "pos": 2,
+            "clube": 265,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 10.0,
+            "entrou": null
+          },
+          {
             "nome": "Pedro",
             "pos": 5,
             "clube": 262,
@@ -3706,16 +3750,12 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": -0.5,
-            "entrou": null
-          },
-          {
-            "nome": "Luciano Juba",
-            "pos": 2,
-            "clube": 265,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 10.0,
-            "entrou": null
+            "entrou": {
+              "nome": "Hulk",
+              "clube": 266,
+              "pontos": 6.5,
+              "luxo": true
+            }
           }
         ],
         "banco": [
@@ -3735,6 +3775,15 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 6.5,
+            "entrou": true
+          },
+          {
+            "nome": "Carrascal",
+            "pos": 4,
+            "clube": 262,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 8.4,
             "entrou": false
           },
           {
@@ -3745,15 +3794,6 @@
             "situacao": "jogou",
             "pontos": 3.5,
             "entrou": false
-          },
-          {
-            "nome": "Carrascal",
-            "pos": 4,
-            "clube": 262,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 8.4,
-            "entrou": false
           }
         ]
       },
@@ -3763,12 +3803,12 @@
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Gustavo Henrique",
-            "pos": 3,
-            "clube": 264,
+            "nome": "Marcão",
+            "pos": 6,
+            "clube": 266,
             "capitao": false,
             "situacao": "jogou",
-            "pontos": 11.7,
+            "pontos": 4.75,
             "entrou": null
           },
           {
@@ -3781,30 +3821,30 @@
             "entrou": null
           },
           {
-            "nome": "Hulk",
-            "pos": 5,
-            "clube": 266,
-            "capitao": true,
-            "situacao": "jogou",
-            "pontos": 9.75,
-            "entrou": null
-          },
-          {
-            "nome": "Marcão",
-            "pos": 6,
-            "clube": 266,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 4.75,
-            "entrou": null
-          },
-          {
             "nome": "Flaco López",
             "pos": 5,
             "clube": 275,
             "capitao": false,
             "situacao": "jogou",
             "pontos": 7.0,
+            "entrou": null
+          },
+          {
+            "nome": "Gustavo Henrique",
+            "pos": 3,
+            "clube": 264,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 11.7,
+            "entrou": null
+          },
+          {
+            "nome": "Hulk",
+            "pos": 5,
+            "clube": 266,
+            "capitao": true,
+            "situacao": "jogou",
+            "pontos": 9.75,
             "entrou": null
           },
           {
@@ -3826,6 +3866,15 @@
             "entrou": null
           },
           {
+            "nome": "Rossi",
+            "pos": 1,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": -0.7,
+            "entrou": null
+          },
+          {
             "nome": "Bernabei",
             "pos": 2,
             "clube": 285,
@@ -3841,15 +3890,6 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": 3.3,
-            "entrou": null
-          },
-          {
-            "nome": "Rossi",
-            "pos": 1,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": -0.7,
             "entrou": null
           },
           {
@@ -3873,21 +3913,21 @@
         ],
         "banco": [
           {
-            "nome": "Gabriel",
-            "pos": 5,
-            "clube": 277,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 7.6,
-            "entrou": false
-          },
-          {
             "nome": "Murilo",
             "pos": 3,
             "clube": 275,
             "luxo": false,
             "situacao": "jogou",
             "pontos": 7.0,
+            "entrou": false
+          },
+          {
+            "nome": "Gabriel",
+            "pos": 5,
+            "clube": 277,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 7.6,
             "entrou": false
           },
           {
@@ -3920,17 +3960,89 @@
         ]
       },
       "18271822": {
-        "pontos": 50.11,
+        "pontos": 53.36,
         "jogaram": 12,
         "escalados": 12,
         "jogadores": [
           {
-            "nome": "Viveros",
-            "pos": 5,
-            "clube": 293,
-            "capitao": true,
+            "nome": "Lucas Paquetá",
+            "pos": 4,
+            "clube": 262,
+            "capitao": false,
             "situacao": "jogou",
-            "pontos": -0.75,
+            "pontos": 1.5,
+            "entrou": null
+          },
+          {
+            "nome": "Arias",
+            "pos": 4,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 4.3,
+            "entrou": null
+          },
+          {
+            "nome": "Igor Formiga",
+            "pos": 2,
+            "clube": 2305,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 1.5,
+            "entrou": null
+          },
+          {
+            "nome": "Gustavo Gómez",
+            "pos": 3,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 9.4,
+            "entrou": null
+          },
+          {
+            "nome": "Hulk",
+            "pos": 5,
+            "clube": 266,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 6.5,
+            "entrou": null
+          },
+          {
+            "nome": "Léo Pereira",
+            "pos": 3,
+            "clube": 262,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 2.4,
+            "entrou": null
+          },
+          {
+            "nome": "Carlos Miguel",
+            "pos": 1,
+            "clube": 275,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 8.9,
+            "entrou": null
+          },
+          {
+            "nome": "Cuiabano",
+            "pos": 2,
+            "clube": 267,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 3.0,
+            "entrou": null
+          },
+          {
+            "nome": "Bruno Duarte",
+            "pos": 5,
+            "clube": 267,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 1.9,
             "entrou": null
           },
           {
@@ -3952,115 +4064,21 @@
             "entrou": null
           },
           {
-            "nome": "Cuiabano",
-            "pos": 2,
-            "clube": 267,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 3.0,
-            "entrou": null
-          },
-          {
-            "nome": "Léo Pereira",
-            "pos": 3,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 2.4,
-            "entrou": null
-          },
-          {
-            "nome": "Bruno Duarte",
+            "nome": "Viveros",
             "pos": 5,
-            "clube": 267,
-            "capitao": false,
+            "clube": 293,
+            "capitao": true,
             "situacao": "jogou",
-            "pontos": 1.9,
-            "entrou": null
-          },
-          {
-            "nome": "Carlos Miguel",
-            "pos": 1,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 8.9,
-            "entrou": null
-          },
-          {
-            "nome": "Hulk",
-            "pos": 5,
-            "clube": 266,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 6.5,
-            "entrou": null
-          },
-          {
-            "nome": "Arias",
-            "pos": 4,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 4.3,
-            "entrou": null
-          },
-          {
-            "nome": "Gustavo Gómez",
-            "pos": 3,
-            "clube": 275,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 9.4,
-            "entrou": null
-          },
-          {
-            "nome": "Lucas Paquetá",
-            "pos": 4,
-            "clube": 262,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 1.5,
-            "entrou": null
-          },
-          {
-            "nome": "Igor Formiga",
-            "pos": 2,
-            "clube": 2305,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 1.5,
-            "entrou": null
+            "pontos": -0.5,
+            "entrou": {
+              "nome": "Mendoza",
+              "clube": 293,
+              "pontos": 2.5,
+              "luxo": true
+            }
           }
         ],
         "banco": [
-          {
-            "nome": "Carrascal",
-            "pos": 4,
-            "clube": 262,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": 8.4,
-            "entrou": false
-          },
-          {
-            "nome": "Mendoza",
-            "pos": 5,
-            "clube": 293,
-            "luxo": true,
-            "situacao": "jogou",
-            "pontos": 2.5,
-            "entrou": false
-          },
-          {
-            "nome": "Rossi",
-            "pos": 1,
-            "clube": 262,
-            "luxo": false,
-            "situacao": "jogou",
-            "pontos": -0.7,
-            "entrou": false
-          },
           {
             "nome": "Reinaldo",
             "pos": 2,
@@ -4077,6 +4095,33 @@
             "luxo": false,
             "situacao": "jogou",
             "pontos": 2.8,
+            "entrou": false
+          },
+          {
+            "nome": "Mendoza",
+            "pos": 5,
+            "clube": 293,
+            "luxo": true,
+            "situacao": "jogou",
+            "pontos": 2.5,
+            "entrou": true
+          },
+          {
+            "nome": "Carrascal",
+            "pos": 4,
+            "clube": 262,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": 8.4,
+            "entrou": false
+          },
+          {
+            "nome": "Rossi",
+            "pos": 1,
+            "clube": 262,
+            "luxo": false,
+            "situacao": "jogou",
+            "pontos": -0.7,
             "entrou": false
           }
         ]
@@ -4198,7 +4243,7 @@
         "banco": []
       },
       "25313159": {
-        "pontos": 47.1,
+        "pontos": 52.5,
         "jogaram": 11,
         "escalados": 12,
         "jogadores": [
@@ -4227,7 +4272,12 @@
             "capitao": false,
             "situacao": "jogou",
             "pontos": -0.7,
-            "entrou": null
+            "entrou": {
+              "nome": "Mycael",
+              "clube": 293,
+              "pontos": 4.7,
+              "luxo": true
+            }
           },
           {
             "nome": "Arias",
@@ -4302,7 +4352,7 @@
             "pos": 3,
             "clube": 266,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4324,14 +4374,14 @@
             "luxo": true,
             "situacao": "jogou",
             "pontos": 4.7,
-            "entrou": false
+            "entrou": true
           },
           {
             "nome": "Calleri",
             "pos": 5,
             "clube": 276,
             "luxo": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": false
           },
@@ -4340,7 +4390,7 @@
             "pos": 3,
             "clube": 293,
             "luxo": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": false
           },
@@ -4383,7 +4433,7 @@
             "pos": 1,
             "clube": 265,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4401,7 +4451,7 @@
             "pos": 4,
             "clube": 276,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4446,7 +4496,7 @@
             "pos": 5,
             "clube": 276,
             "capitao": true,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4473,7 +4523,7 @@
             "pos": 4,
             "clube": 265,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           }
@@ -4499,7 +4549,7 @@
             "pos": 3,
             "clube": 294,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4553,7 +4603,7 @@
             "pos": 5,
             "clube": 294,
             "capitao": true,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4606,7 +4656,7 @@
             "pos": 2,
             "clube": 287,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4678,7 +4728,7 @@
             "pos": 5,
             "clube": 280,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -4696,7 +4746,7 @@
             "pos": 1,
             "clube": 282,
             "capitao": false,
-            "situacao": "a_jogar",
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
