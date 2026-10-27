@@ -1,12 +1,12 @@
 {
   "rodada": 33,
   "mercado_aberto": true,
-  "jogadores_avaliados": 203,
+  "jogadores_avaliados": 202,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.68,
-      "nota": 70.24,
+      "custo": 99.43,
+      "nota": 70.08,
       "capitao": 98873,
       "time": [
         {
@@ -38,18 +38,18 @@
           "minimo": 9.47
         },
         {
-          "id": 94968,
-          "nome": "Juninho Capixaba",
+          "id": 130525,
+          "nome": "Pedro Lima",
           "pos": 2,
-          "clube": "RBB",
-          "adv": "CHA",
-          "casa": true,
-          "adv_pos": 20,
-          "preco": 12.01,
-          "media": 6.4,
-          "jogos": 27,
-          "nota": 7.3,
-          "minimo": 3.55
+          "clube": "SAO",
+          "adv": "BAH",
+          "casa": false,
+          "adv_pos": 7,
+          "preco": 11.22,
+          "media": 9.72,
+          "jogos": 5,
+          "nota": 6.87,
+          "minimo": 9.05
         },
         {
           "id": 130307,
@@ -80,20 +80,6 @@
           "minimo": 5.01
         },
         {
-          "id": 98517,
-          "nome": "Jean Lucas",
-          "pos": 4,
-          "clube": "BAH",
-          "adv": "SAO",
-          "casa": true,
-          "adv_pos": 9,
-          "preco": 8.61,
-          "media": 5.17,
-          "jogos": 26,
-          "nota": 5.22,
-          "minimo": 0.75
-        },
-        {
           "id": 104783,
           "nome": "Acevedo",
           "pos": 4,
@@ -106,6 +92,20 @@
           "jogos": 28,
           "nota": 4.77,
           "minimo": 1.25
+        },
+        {
+          "id": 141776,
+          "nome": "Gustavo Henrique",
+          "pos": 4,
+          "clube": "SAN",
+          "adv": "PAL",
+          "casa": true,
+          "adv_pos": 2,
+          "preco": 5.51,
+          "media": 4.53,
+          "jogos": 18,
+          "nota": 4.19,
+          "minimo": 7.17
         },
         {
           "id": 105068,
@@ -164,25 +164,25 @@
           "minimo": 1.72
         },
         {
-          "id": 39850,
-          "nome": "Vagner Mancini",
+          "id": 73476,
+          "nome": "Marcão",
           "pos": 6,
-          "clube": "RBB",
-          "adv": "CHA",
+          "clube": "FLU",
+          "adv": "INT",
           "casa": true,
-          "adv_pos": 20,
-          "preco": 8.18,
-          "media": 5.28,
-          "jogos": 30,
-          "nota": 6.32,
-          "minimo": 2.98
+          "adv_pos": 16,
+          "preco": 11.82,
+          "media": 6.93,
+          "jogos": 10,
+          "nota": 7.62,
+          "minimo": 5.3
         }
       ]
     },
     "140": {
       "formacao": "4-3-3",
       "custo": 139.99,
-      "nota": 79.08,
+      "nota": 79.1,
       "capitao": 98873,
       "time": [
         {
@@ -350,7 +350,7 @@
           "preco": 11.82,
           "media": 6.93,
           "jogos": 10,
-          "nota": 7.6,
+          "nota": 7.62,
           "minimo": 5.3
         }
       ]
@@ -358,7 +358,7 @@
     "180": {
       "formacao": "4-3-3",
       "custo": 142.55,
-      "nota": 79.17,
+      "nota": 79.19,
       "capitao": 98873,
       "time": [
         {
@@ -526,7 +526,7 @@
           "preco": 11.82,
           "media": 6.93,
           "jogos": 10,
-          "nota": 7.6,
+          "nota": 7.62,
           "minimo": 5.3
         }
       ]
@@ -807,18 +807,18 @@
         "minimo": 3.23
       },
       {
-        "id": 98517,
-        "nome": "Jean Lucas",
+        "id": 87863,
+        "nome": "Arrascaeta",
         "pos": 4,
-        "clube": "BAH",
-        "adv": "SAO",
-        "casa": true,
-        "adv_pos": 9,
-        "preco": 8.61,
-        "media": 5.17,
-        "jogos": 26,
-        "nota": 5.22,
-        "minimo": 0.75
+        "clube": "FLA",
+        "adv": "VAS",
+        "casa": false,
+        "adv_pos": 13,
+        "preco": 14.38,
+        "media": 5.63,
+        "jogos": 20,
+        "nota": 5.11,
+        "minimo": 9.97
       }
     ],
     "ATA": [
@@ -905,7 +905,7 @@
         "preco": 11.82,
         "media": 6.93,
         "jogos": 10,
-        "nota": 7.6,
+        "nota": 7.62,
         "minimo": 5.3
       },
       {
@@ -947,7 +947,7 @@
         "preco": 8.18,
         "media": 5.28,
         "jogos": 30,
-        "nota": 6.32,
+        "nota": 6.33,
         "minimo": 2.98
       },
       {
@@ -961,7 +961,7 @@
         "preco": 10.33,
         "media": 5.07,
         "jogos": 2,
-        "nota": 6.19,
+        "nota": 6.22,
         "minimo": 5.71
       }
     ]
@@ -994,20 +994,6 @@
       "jogos": 10,
       "nota": 4.33,
       "minimo": 5.51
-    },
-    {
-      "id": 115537,
-      "nome": "Marcos Victor",
-      "pos": 3,
-      "clube": "BAH",
-      "adv": "SAO",
-      "casa": true,
-      "adv_pos": 9,
-      "preco": 4.6,
-      "media": 3.75,
-      "jogos": 9,
-      "nota": 3.8,
-      "minimo": 2.06
     },
     {
       "id": 105068,
@@ -1078,6 +1064,20 @@
       "jogos": 28,
       "nota": 3.57,
       "minimo": 2.28
+    },
+    {
+      "id": 102911,
+      "nome": "Zé Ricardo",
+      "pos": 4,
+      "clube": "REM",
+      "adv": "BOT",
+      "casa": true,
+      "adv_pos": 11,
+      "preco": 4.69,
+      "media": 3.03,
+      "jogos": 29,
+      "nota": 3.25,
+      "minimo": 0.37
     }
   ]
 }
