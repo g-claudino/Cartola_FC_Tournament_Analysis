@@ -5,8 +5,8 @@
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.81,
-      "nota": 70.58,
+      "custo": 99.51,
+      "nota": 70.66,
       "capitao": 98873,
       "time": [
         {
@@ -66,18 +66,18 @@
           "minimo": 7.81
         },
         {
-          "id": 103523,
-          "nome": "Ignácio",
+          "id": 110750,
+          "nome": "Gustavo Marques",
           "pos": 3,
-          "clube": "FLU",
-          "adv": "INT",
+          "clube": "RBB",
+          "adv": "CHA",
           "casa": true,
-          "adv_pos": 16,
-          "preco": 6.86,
-          "media": 4.23,
-          "jogos": 16,
-          "nota": 4.62,
-          "minimo": 5.01
+          "adv_pos": 20,
+          "preco": 6.56,
+          "media": 4.06,
+          "jogos": 26,
+          "nota": 4.7,
+          "minimo": 0.57
         },
         {
           "id": 98672,
@@ -735,18 +735,18 @@
         "minimo": 10.66
       },
       {
-        "id": 103523,
-        "nome": "Ignácio",
+        "id": 110750,
+        "nome": "Gustavo Marques",
         "pos": 3,
-        "clube": "FLU",
-        "adv": "INT",
+        "clube": "RBB",
+        "adv": "CHA",
         "casa": true,
-        "adv_pos": 16,
-        "preco": 6.86,
-        "media": 4.23,
-        "jogos": 16,
-        "nota": 4.62,
-        "minimo": 5.01
+        "adv_pos": 20,
+        "preco": 6.56,
+        "media": 4.06,
+        "jogos": 26,
+        "nota": 4.7,
+        "minimo": 0.57
       }
     ],
     "MEI": [
@@ -996,6 +996,20 @@
       "minimo": 5.51
     },
     {
+      "id": 122573,
+      "nome": "Wallace Yan",
+      "pos": 5,
+      "clube": "RBB",
+      "adv": "CHA",
+      "casa": true,
+      "adv_pos": 20,
+      "preco": 4.33,
+      "media": 3.42,
+      "jogos": 13,
+      "nota": 3.95,
+      "minimo": 1.16
+    },
+    {
       "id": 105068,
       "nome": "Reinier",
       "pos": 4,
@@ -1064,20 +1078,6 @@
       "jogos": 28,
       "nota": 3.57,
       "minimo": 2.28
-    },
-    {
-      "id": 102911,
-      "nome": "Zé Ricardo",
-      "pos": 4,
-      "clube": "REM",
-      "adv": "BOT",
-      "casa": true,
-      "adv_pos": 11,
-      "preco": 4.69,
-      "media": 3.03,
-      "jogos": 29,
-      "nota": 3.25,
-      "minimo": 0.37
     }
   ]
 }
