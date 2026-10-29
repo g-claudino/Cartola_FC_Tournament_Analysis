@@ -182,7 +182,7 @@
     "140": {
       "formacao": "4-3-3",
       "custo": 138.87,
-      "nota": 79.41,
+      "nota": 79.48,
       "capitao": 98873,
       "time": [
         {
@@ -262,11 +262,11 @@
           "clube": "CRU",
           "adv": "CAM",
           "casa": false,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 14.95,
           "media": 7.62,
           "jogos": 28,
-          "nota": 6.46,
+          "nota": 6.53,
           "minimo": 1.22
         },
         {
@@ -358,7 +358,7 @@
     "180": {
       "formacao": "4-3-3",
       "custo": 138.87,
-      "nota": 79.41,
+      "nota": 79.48,
       "capitao": 98873,
       "time": [
         {
@@ -438,11 +438,11 @@
           "clube": "CRU",
           "adv": "CAM",
           "casa": false,
-          "adv_pos": 6,
+          "adv_pos": 7,
           "preco": 14.95,
           "media": 7.62,
           "jogos": 28,
-          "nota": 6.46,
+          "nota": 6.53,
           "minimo": 1.22
         },
         {
@@ -669,11 +669,11 @@
         "clube": "SAO",
         "adv": "BAH",
         "casa": false,
-        "adv_pos": 7,
+        "adv_pos": 6,
         "preco": 11.22,
         "media": 9.72,
         "jogos": 5,
-        "nota": 6.87,
+        "nota": 6.8,
         "minimo": 3.01
       }
     ],
@@ -757,11 +757,11 @@
         "clube": "CRU",
         "adv": "CAM",
         "casa": false,
-        "adv_pos": 6,
+        "adv_pos": 7,
         "preco": 14.95,
         "media": 7.62,
         "jogos": 28,
-        "nota": 6.46,
+        "nota": 6.53,
         "minimo": 1.22
       },
       {
@@ -1038,6 +1038,20 @@
       "minimo": 0.49
     },
     {
+      "id": 117404,
+      "nome": "Otávio",
+      "pos": 1,
+      "clube": "CRU",
+      "adv": "CAM",
+      "casa": false,
+      "adv_pos": 7,
+      "preco": 4.24,
+      "media": 4.1,
+      "jogos": 18,
+      "nota": 3.74,
+      "minimo": 0.5
+    },
+    {
       "id": 141131,
       "nome": "Vitão",
       "pos": 3,
@@ -1050,20 +1064,6 @@
       "jogos": 7,
       "nota": 3.73,
       "minimo": 1.03
-    },
-    {
-      "id": 117404,
-      "nome": "Otávio",
-      "pos": 1,
-      "clube": "CRU",
-      "adv": "CAM",
-      "casa": false,
-      "adv_pos": 6,
-      "preco": 4.24,
-      "media": 4.1,
-      "jogos": 18,
-      "nota": 3.69,
-      "minimo": 0.5
     },
     {
       "id": 95332,
