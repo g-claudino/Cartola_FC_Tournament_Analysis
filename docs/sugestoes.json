@@ -1,13 +1,13 @@
 {
   "rodada": 33,
   "mercado_aberto": false,
-  "jogadores_avaliados": 213,
+  "jogadores_avaliados": 216,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.94,
-      "nota": 70.78,
-      "capitao": 98873,
+      "custo": 99.99,
+      "nota": 71.55,
+      "capitao": 143193,
       "time": [
         {
           "id": 124264,
@@ -66,18 +66,18 @@
           "minimo": 1.36
         },
         {
-          "id": 115537,
-          "nome": "Marcos Victor",
+          "id": 103523,
+          "nome": "Ignácio",
           "pos": 3,
-          "clube": "BAH",
-          "adv": "SAO",
+          "clube": "FLU",
+          "adv": "INT",
           "casa": true,
-          "adv_pos": 10,
-          "preco": 4.6,
-          "media": 3.75,
-          "jogos": 9,
-          "nota": 3.84,
-          "minimo": 0.89
+          "adv_pos": 16,
+          "preco": 6.86,
+          "media": 4.23,
+          "jogos": 16,
+          "nota": 4.62,
+          "minimo": 0.88
         },
         {
           "id": 98672,
@@ -94,18 +94,18 @@
           "minimo": 0.87
         },
         {
-          "id": 98517,
-          "nome": "Jean Lucas",
+          "id": 104783,
+          "nome": "Acevedo",
           "pos": 4,
           "clube": "BAH",
           "adv": "SAO",
           "casa": true,
           "adv_pos": 10,
-          "preco": 8.61,
-          "media": 5.17,
-          "jogos": 26,
-          "nota": 5.27,
-          "minimo": 0.75
+          "preco": 6.9,
+          "media": 4.69,
+          "jogos": 28,
+          "nota": 4.82,
+          "minimo": 0.56
         },
         {
           "id": 141776,
@@ -122,18 +122,18 @@
           "minimo": 0.65
         },
         {
-          "id": 98873,
-          "nome": "Samuel Lino",
+          "id": 143193,
+          "nome": "Viveros",
           "pos": 5,
-          "clube": "FLA",
-          "adv": "VAS",
+          "clube": "CAP",
+          "adv": "GRE",
           "casa": false,
-          "adv_pos": 13,
-          "preco": 12.64,
-          "media": 8.61,
-          "jogos": 29,
-          "nota": 7.88,
-          "minimo": 1.0
+          "adv_pos": 17,
+          "preco": 12.14,
+          "media": 8.78,
+          "jogos": 27,
+          "nota": 8.32,
+          "minimo": 1.02
         },
         {
           "id": 112886,
@@ -181,9 +181,9 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 138.87,
-      "nota": 79.48,
-      "capitao": 98873,
+      "custo": 136.06,
+      "nota": 80.71,
+      "capitao": 143193,
       "time": [
         {
           "id": 91101,
@@ -298,6 +298,20 @@
           "minimo": 0.87
         },
         {
+          "id": 143193,
+          "nome": "Viveros",
+          "pos": 5,
+          "clube": "CAP",
+          "adv": "GRE",
+          "casa": false,
+          "adv_pos": 17,
+          "preco": 12.14,
+          "media": 8.78,
+          "jogos": 27,
+          "nota": 8.32,
+          "minimo": 1.02
+        },
+        {
           "id": 98873,
           "nome": "Samuel Lino",
           "pos": 5,
@@ -324,20 +338,6 @@
           "jogos": 28,
           "nota": 7.13,
           "minimo": 0.79
-        },
-        {
-          "id": 94583,
-          "nome": "Pedro",
-          "pos": 5,
-          "clube": "FLA",
-          "adv": "VAS",
-          "casa": false,
-          "adv_pos": 13,
-          "preco": 14.95,
-          "media": 7.71,
-          "jogos": 30,
-          "nota": 7.09,
-          "minimo": 1.15
         },
         {
           "id": 73476,
@@ -357,9 +357,9 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 138.87,
-      "nota": 79.48,
-      "capitao": 98873,
+      "custo": 136.06,
+      "nota": 80.71,
+      "capitao": 143193,
       "time": [
         {
           "id": 91101,
@@ -474,6 +474,20 @@
           "minimo": 0.87
         },
         {
+          "id": 143193,
+          "nome": "Viveros",
+          "pos": 5,
+          "clube": "CAP",
+          "adv": "GRE",
+          "casa": false,
+          "adv_pos": 17,
+          "preco": 12.14,
+          "media": 8.78,
+          "jogos": 27,
+          "nota": 8.32,
+          "minimo": 1.02
+        },
+        {
           "id": 98873,
           "nome": "Samuel Lino",
           "pos": 5,
@@ -500,20 +514,6 @@
           "jogos": 28,
           "nota": 7.13,
           "minimo": 0.79
-        },
-        {
-          "id": 94583,
-          "nome": "Pedro",
-          "pos": 5,
-          "clube": "FLA",
-          "adv": "VAS",
-          "casa": false,
-          "adv_pos": 13,
-          "preco": 14.95,
-          "media": 7.71,
-          "jogos": 30,
-          "nota": 7.09,
-          "minimo": 1.15
         },
         {
           "id": 73476,
@@ -823,6 +823,20 @@
     ],
     "ATA": [
       {
+        "id": 143193,
+        "nome": "Viveros",
+        "pos": 5,
+        "clube": "CAP",
+        "adv": "GRE",
+        "casa": false,
+        "adv_pos": 17,
+        "preco": 12.14,
+        "media": 8.78,
+        "jogos": 27,
+        "nota": 8.32,
+        "minimo": 1.02
+      },
+      {
         "id": 98873,
         "nome": "Samuel Lino",
         "pos": 5,
@@ -877,20 +891,6 @@
         "jogos": 24,
         "nota": 7.0,
         "minimo": 1.15
-      },
-      {
-        "id": 102928,
-        "nome": "Canobbio",
-        "pos": 5,
-        "clube": "FLU",
-        "adv": "INT",
-        "casa": true,
-        "adv_pos": 16,
-        "preco": 10.31,
-        "media": 6.42,
-        "jogos": 22,
-        "nota": 6.86,
-        "minimo": 1.03
       }
     ],
     "TEC": [
