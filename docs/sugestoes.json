@@ -1,12 +1,12 @@
 {
   "rodada": 33,
   "mercado_aberto": false,
-  "jogadores_avaliados": 208,
+  "jogadores_avaliados": 198,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.94,
-      "nota": 70.72,
+      "custo": 99.81,
+      "nota": 70.6,
       "capitao": 98873,
       "time": [
         {
@@ -66,18 +66,18 @@
           "minimo": 1.36
         },
         {
-          "id": 115537,
-          "nome": "Marcos Victor",
+          "id": 103523,
+          "nome": "Ignácio",
           "pos": 3,
-          "clube": "BAH",
-          "adv": "SAO",
+          "clube": "FLU",
+          "adv": "INT",
           "casa": true,
-          "adv_pos": 10,
-          "preco": 4.6,
-          "media": 3.75,
-          "jogos": 9,
-          "nota": 3.84,
-          "minimo": 0.89
+          "adv_pos": 15,
+          "preco": 6.86,
+          "media": 4.23,
+          "jogos": 16,
+          "nota": 4.57,
+          "minimo": 0.88
         },
         {
           "id": 98672,
@@ -94,32 +94,32 @@
           "minimo": 0.87
         },
         {
-          "id": 98517,
-          "nome": "Jean Lucas",
+          "id": 104783,
+          "nome": "Acevedo",
           "pos": 4,
           "clube": "BAH",
           "adv": "SAO",
           "casa": true,
           "adv_pos": 10,
-          "preco": 8.61,
-          "media": 5.17,
-          "jogos": 26,
-          "nota": 5.27,
-          "minimo": 0.75
+          "preco": 6.9,
+          "media": 4.69,
+          "jogos": 28,
+          "nota": 4.82,
+          "minimo": 0.56
         },
         {
-          "id": 141776,
-          "nome": "Gustavo Henrique",
+          "id": 105068,
+          "nome": "Reinier",
           "pos": 4,
-          "clube": "SAN",
-          "adv": "PAL",
+          "clube": "CAM",
+          "adv": "CRU",
           "casa": true,
-          "adv_pos": 2,
-          "preco": 5.51,
-          "media": 4.53,
-          "jogos": 18,
-          "nota": 4.19,
-          "minimo": 0.65
+          "adv_pos": 3,
+          "preco": 4.83,
+          "media": 3.97,
+          "jogos": 22,
+          "nota": 3.79,
+          "minimo": 0.49
         },
         {
           "id": 98873,
@@ -1010,20 +1010,6 @@
       "minimo": 0.65
     },
     {
-      "id": 115537,
-      "nome": "Marcos Victor",
-      "pos": 3,
-      "clube": "BAH",
-      "adv": "SAO",
-      "casa": true,
-      "adv_pos": 10,
-      "preco": 4.6,
-      "media": 3.75,
-      "jogos": 9,
-      "nota": 3.84,
-      "minimo": 0.89
-    },
-    {
       "id": 105068,
       "nome": "Reinier",
       "pos": 4,
@@ -1078,6 +1064,20 @@
       "jogos": 28,
       "nota": 3.53,
       "minimo": 0.41
+    },
+    {
+      "id": 104204,
+      "nome": "Edson Carioca",
+      "pos": 5,
+      "clube": "MIR",
+      "adv": "COR",
+      "casa": false,
+      "adv_pos": 18,
+      "preco": 4.89,
+      "media": 2.99,
+      "jogos": 19,
+      "nota": 3.06,
+      "minimo": 0.55
     }
   ]
 }
