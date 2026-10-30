@@ -3,23 +3,23 @@
   "em_andamento": 33,
   "parciais": {
     "26350318": {
-      "pontos": 62.44,
+      "pontos": 63.34,
       "jogaram": 12,
       "escalados": 12
     },
     "19429362": {
-      "pontos": 45.43,
-      "jogaram": 10,
+      "pontos": 54.53,
+      "jogaram": 11,
       "escalados": 12
     },
     "29436742": {
-      "pontos": 49.91,
+      "pontos": 50.41,
       "jogaram": 10,
       "escalados": 12
     },
     "300778": {
-      "pontos": 57.23,
-      "jogaram": 11,
+      "pontos": 66.33,
+      "jogaram": 12,
       "escalados": 12
     },
     "283417": {
@@ -28,23 +28,23 @@
       "escalados": 12
     },
     "1380145": {
-      "pontos": 64.91,
+      "pontos": 65.41,
       "jogaram": 10,
       "escalados": 12
     },
     "45022741": {
-      "pontos": 58.34,
+      "pontos": 59.24,
       "jogaram": 12,
       "escalados": 12
     },
     "46075154": {
-      "pontos": 75.08,
+      "pontos": 77.33,
       "jogaram": 11,
       "escalados": 12
     },
     "1061200": {
-      "pontos": 72.31,
-      "jogaram": 11,
+      "pontos": 81.41,
+      "jogaram": 12,
       "escalados": 12
     },
     "28924680": {
@@ -53,18 +53,18 @@
       "escalados": 12
     },
     "18271822": {
-      "pontos": 43.71,
+      "pontos": 43.41,
       "jogaram": 10,
       "escalados": 12
     },
     "49327835": {
-      "pontos": 44.68,
-      "jogaram": 9,
+      "pontos": 54.28,
+      "jogaram": 10,
       "escalados": 12
     },
     "25313159": {
-      "pontos": 46.2,
-      "jogaram": 7,
+      "pontos": 45.8,
+      "jogaram": 8,
       "escalados": 12
     },
     "51076565": {
@@ -78,7 +78,7 @@
       "escalados": 12
     },
     "51069766": {
-      "pontos": 30.55,
+      "pontos": 30.37,
       "jogaram": 6,
       "escalados": 12
     }
@@ -93,7 +93,7 @@
         "V": 3,
         "E": 0,
         "D": 0,
-        "PC": 253.45
+        "PC": 254.35
       },
       {
         "pos": 2,
@@ -103,7 +103,7 @@
         "V": 3,
         "E": 0,
         "D": 0,
-        "PC": 231.96
+        "PC": 232.46
       },
       {
         "pos": 3,
@@ -113,17 +113,17 @@
         "V": 2,
         "E": 0,
         "D": 1,
-        "PC": 245.56
+        "PC": 247.81
       },
       {
         "pos": 4,
         "nome": "CRV Vasco da Brahma ",
-        "P": 6,
+        "P": 3,
         "J": 3,
-        "V": 2,
+        "V": 1,
         "E": 0,
-        "D": 1,
-        "PC": 224.03
+        "D": 2,
+        "PC": 224.53
       },
       {
         "pos": 5,
@@ -133,10 +133,20 @@
         "V": 1,
         "E": 0,
         "D": 2,
-        "PC": 213.25
+        "PC": 222.35
       },
       {
         "pos": 6,
+        "nome": "FC Aerodynamics",
+        "P": 3,
+        "J": 3,
+        "V": 1,
+        "E": 0,
+        "D": 2,
+        "PC": 212.16
+      },
+      {
+        "pos": 7,
         "nome": "HABZ",
         "P": 3,
         "J": 3,
@@ -146,24 +156,14 @@
         "PC": 204.36
       },
       {
-        "pos": 7,
+        "pos": 8,
         "nome": "IdosoIludido",
         "P": 0,
         "J": 3,
         "V": 0,
         "E": 0,
         "D": 3,
-        "PC": 233.18
-      },
-      {
-        "pos": 8,
-        "nome": "FC Aerodynamics",
-        "P": 0,
-        "J": 3,
-        "V": 0,
-        "E": 0,
-        "D": 3,
-        "PC": 203.06
+        "PC": 234.08
       }
     ],
     "perdedores": [
@@ -175,7 +175,7 @@
         "V": 3,
         "E": 0,
         "D": 0,
-        "PC": 202.45
+        "PC": 211.55
       },
       {
         "pos": 2,
@@ -189,23 +189,23 @@
       },
       {
         "pos": 3,
-        "nome": "Boia FC",
-        "P": 6,
-        "J": 3,
-        "V": 2,
-        "E": 0,
-        "D": 1,
-        "PC": 188.29
-      },
-      {
-        "pos": 4,
         "nome": "Filhos de Ronielson",
         "P": 6,
         "J": 3,
         "V": 2,
         "E": 0,
         "D": 1,
-        "PC": 188.27
+        "PC": 197.87
+      },
+      {
+        "pos": 4,
+        "nome": "Boia FC",
+        "P": 6,
+        "J": 3,
+        "V": 2,
+        "E": 0,
+        "D": 1,
+        "PC": 187.89
       },
       {
         "pos": 5,
@@ -215,7 +215,7 @@
         "V": 1,
         "E": 0,
         "D": 2,
-        "PC": 141.52
+        "PC": 141.22
       },
       {
         "pos": 6,
@@ -225,7 +225,7 @@
         "V": 1,
         "E": 0,
         "D": 2,
-        "PC": 88.61
+        "PC": 88.43
       },
       {
         "pos": 7,
