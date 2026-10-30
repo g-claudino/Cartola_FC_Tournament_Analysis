@@ -6,7 +6,7 @@
     "100": {
       "formacao": "4-3-3",
       "custo": 99.99,
-      "nota": 71.56,
+      "nota": 71.47,
       "capitao": 143193,
       "time": [
         {
@@ -16,11 +16,11 @@
           "clube": "INT",
           "adv": "FLU",
           "casa": false,
-          "adv_pos": 5,
+          "adv_pos": 4,
           "preco": 4.77,
           "media": 10.2,
           "jogos": 1,
-          "nota": 4.95,
+          "nota": 4.9,
           "minimo": 2.12
         },
         {
@@ -58,11 +58,11 @@
           "clube": "GRE",
           "adv": "CAP",
           "casa": true,
-          "adv_pos": 4,
+          "adv_pos": 5,
           "preco": 7.57,
           "media": 5.66,
           "jogos": 10,
-          "nota": 5.09,
+          "nota": 5.14,
           "minimo": 1.36
         },
         {
@@ -128,11 +128,11 @@
           "clube": "CAP",
           "adv": "GRE",
           "casa": false,
-          "adv_pos": 16,
+          "adv_pos": 15,
           "preco": 12.14,
           "media": 8.78,
           "jogos": 27,
-          "nota": 8.24,
+          "nota": 8.15,
           "minimo": 1.02
         },
         {
@@ -181,8 +181,8 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 136.06,
-      "nota": 80.75,
+      "custo": 136.54,
+      "nota": 80.73,
       "capitao": 143193,
       "time": [
         {
@@ -214,18 +214,18 @@
           "minimo": 0.97
         },
         {
-          "id": 94968,
-          "nome": "Juninho Capixaba",
+          "id": 105531,
+          "nome": "Matheus Bidu",
           "pos": 2,
-          "clube": "RBB",
-          "adv": "CHA",
+          "clube": "COR",
+          "adv": "MIR",
           "casa": true,
-          "adv_pos": 20,
-          "preco": 12.01,
-          "media": 6.4,
-          "jogos": 27,
-          "nota": 7.3,
-          "minimo": 1.01
+          "adv_pos": 16,
+          "preco": 12.49,
+          "media": 6.72,
+          "jogos": 25,
+          "nota": 7.32,
+          "minimo": 1.12
         },
         {
           "id": 99274,
@@ -248,11 +248,11 @@
           "clube": "GRE",
           "adv": "CAP",
           "casa": true,
-          "adv_pos": 4,
+          "adv_pos": 5,
           "preco": 7.57,
           "media": 5.66,
           "jogos": 10,
-          "nota": 5.09,
+          "nota": 5.14,
           "minimo": 1.36
         },
         {
@@ -304,11 +304,11 @@
           "clube": "CAP",
           "adv": "GRE",
           "casa": false,
-          "adv_pos": 16,
+          "adv_pos": 15,
           "preco": 12.14,
           "media": 8.78,
           "jogos": 27,
-          "nota": 8.24,
+          "nota": 8.15,
           "minimo": 1.02
         },
         {
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 136.06,
-      "nota": 80.75,
+      "custo": 136.54,
+      "nota": 80.73,
       "capitao": 143193,
       "time": [
         {
@@ -390,18 +390,18 @@
           "minimo": 0.97
         },
         {
-          "id": 94968,
-          "nome": "Juninho Capixaba",
+          "id": 105531,
+          "nome": "Matheus Bidu",
           "pos": 2,
-          "clube": "RBB",
-          "adv": "CHA",
+          "clube": "COR",
+          "adv": "MIR",
           "casa": true,
-          "adv_pos": 20,
-          "preco": 12.01,
-          "media": 6.4,
-          "jogos": 27,
-          "nota": 7.3,
-          "minimo": 1.01
+          "adv_pos": 16,
+          "preco": 12.49,
+          "media": 6.72,
+          "jogos": 25,
+          "nota": 7.32,
+          "minimo": 1.12
         },
         {
           "id": 99274,
@@ -424,11 +424,11 @@
           "clube": "GRE",
           "adv": "CAP",
           "casa": true,
-          "adv_pos": 4,
+          "adv_pos": 5,
           "preco": 7.57,
           "media": 5.66,
           "jogos": 10,
-          "nota": 5.09,
+          "nota": 5.14,
           "minimo": 1.36
         },
         {
@@ -480,11 +480,11 @@
           "clube": "CAP",
           "adv": "GRE",
           "casa": false,
-          "adv_pos": 16,
+          "adv_pos": 15,
           "preco": 12.14,
           "media": 8.78,
           "jogos": 27,
-          "nota": 8.24,
+          "nota": 8.15,
           "minimo": 1.02
         },
         {
@@ -555,11 +555,11 @@
         "clube": "GRE",
         "adv": "CAP",
         "casa": true,
-        "adv_pos": 4,
+        "adv_pos": 5,
         "preco": 8.98,
         "media": 5.38,
         "jogos": 28,
-        "nota": 5.28,
+        "nota": 5.34,
         "minimo": 0.73
       },
       {
@@ -583,11 +583,11 @@
         "clube": "CAP",
         "adv": "GRE",
         "casa": false,
-        "adv_pos": 16,
+        "adv_pos": 15,
         "preco": 8.35,
         "media": 5.49,
         "jogos": 7,
-        "nota": 5.06,
+        "nota": 5.01,
         "minimo": 1.87
       },
       {
@@ -621,6 +621,20 @@
         "minimo": 0.97
       },
       {
+        "id": 105531,
+        "nome": "Matheus Bidu",
+        "pos": 2,
+        "clube": "COR",
+        "adv": "MIR",
+        "casa": true,
+        "adv_pos": 16,
+        "preco": 12.49,
+        "media": 6.72,
+        "jogos": 25,
+        "nota": 7.32,
+        "minimo": 1.12
+      },
+      {
         "id": 94968,
         "nome": "Juninho Capixaba",
         "pos": 2,
@@ -633,20 +647,6 @@
         "jogos": 27,
         "nota": 7.3,
         "minimo": 1.01
-      },
-      {
-        "id": 105531,
-        "nome": "Matheus Bidu",
-        "pos": 2,
-        "clube": "COR",
-        "adv": "MIR",
-        "casa": true,
-        "adv_pos": 15,
-        "preco": 12.49,
-        "media": 6.72,
-        "jogos": 25,
-        "nota": 7.25,
-        "minimo": 1.12
       },
       {
         "id": 116065,
@@ -699,11 +699,11 @@
         "clube": "GRE",
         "adv": "CAP",
         "casa": true,
-        "adv_pos": 4,
+        "adv_pos": 5,
         "preco": 7.57,
         "media": 5.66,
         "jogos": 10,
-        "nota": 5.09,
+        "nota": 5.14,
         "minimo": 1.36
       },
       {
@@ -727,11 +727,11 @@
         "clube": "COR",
         "adv": "MIR",
         "casa": true,
-        "adv_pos": 15,
+        "adv_pos": 16,
         "preco": 9.5,
         "media": 4.5,
         "jogos": 26,
-        "nota": 4.92,
+        "nota": 4.97,
         "minimo": 0.82
       },
       {
@@ -829,11 +829,11 @@
         "clube": "CAP",
         "adv": "GRE",
         "casa": false,
-        "adv_pos": 16,
+        "adv_pos": 15,
         "preco": 12.14,
         "media": 8.78,
         "jogos": 27,
-        "nota": 8.24,
+        "nota": 8.15,
         "minimo": 1.02
       },
       {
@@ -957,11 +957,11 @@
         "clube": "COR",
         "adv": "MIR",
         "casa": true,
-        "adv_pos": 15,
+        "adv_pos": 16,
         "preco": 10.33,
         "media": 5.07,
         "jogos": 2,
-        "nota": 6.22,
+        "nota": 6.28,
         "minimo": 4.75
       }
     ]
@@ -974,11 +974,11 @@
       "clube": "INT",
       "adv": "FLU",
       "casa": false,
-      "adv_pos": 5,
+      "adv_pos": 4,
       "preco": 4.77,
       "media": 10.2,
       "jogos": 1,
-      "nota": 4.95,
+      "nota": 4.9,
       "minimo": 2.12
     },
     {
