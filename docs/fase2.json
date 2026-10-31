@@ -1,119 +1,68 @@
 {
-  "ultima_rodada": 32,
-  "em_andamento": 33,
-  "parciais": {
-    "26350318": {
-      "pontos": 77.72,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "300778": {
-      "pontos": 67.93,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "1380145": {
-      "pontos": 101.21,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "45022741": {
-      "pontos": 79.52,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "1061200": {
-      "pontos": 83.01,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "28924680": {
-      "pontos": 83.66,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "18271822": {
-      "pontos": 74.61,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "25313159": {
-      "pontos": 92.95,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "51076565": {
-      "pontos": 9.5,
-      "jogaram": 6,
-      "escalados": 12
-    },
-    "9490259": {
-      "pontos": 4.5,
-      "jogaram": 1,
-      "escalados": 12
-    }
-  },
+  "ultima_rodada": 33,
+  "em_andamento": null,
+  "parciais": {},
   "chaves": {
     "principal": [
       {
         "pos": 1,
+        "nome": "davOLUTION",
+        "P": 9,
+        "J": 3,
+        "V": 3,
+        "E": 0,
+        "D": 0,
+        "PC": 274.63
+      },
+      {
+        "pos": 2,
         "nome": "The Little Tiger",
         "P": 9,
         "J": 3,
         "V": 3,
         "E": 0,
         "D": 0,
-        "PC": 268.26
-      },
-      {
-        "pos": 2,
-        "nome": "davOLUTION",
-        "P": 6,
-        "J": 2,
-        "V": 2,
-        "E": 0,
-        "D": 0,
-        "PC": 195.11
+        "PC": 272.96
       },
       {
         "pos": 3,
-        "nome": "CRV Vasco da Brahma ",
-        "P": 3,
-        "J": 2,
-        "V": 1,
+        "nome": "SC Ventures",
+        "P": 6,
+        "J": 3,
+        "V": 2,
         "E": 0,
         "D": 1,
-        "PC": 174.12
+        "PC": 272.81
       },
       {
         "pos": 4,
-        "nome": "SC Ventures",
-        "P": 3,
-        "J": 2,
-        "V": 1,
+        "nome": "CRV Vasco da Brahma ",
+        "P": 6,
+        "J": 3,
+        "V": 2,
         "E": 0,
         "D": 1,
-        "PC": 170.48
+        "PC": 254.43
       },
       {
         "pos": 5,
-        "nome": "HABZ",
+        "nome": "Soul Edge",
         "P": 3,
-        "J": 2,
+        "J": 3,
         "V": 1,
         "E": 0,
-        "D": 1,
-        "PC": 158.15
+        "D": 2,
+        "PC": 223.95
       },
       {
         "pos": 6,
-        "nome": "Soul Edge",
+        "nome": "HABZ",
         "P": 3,
-        "J": 2,
+        "J": 3,
         "V": 1,
         "E": 0,
-        "D": 1,
-        "PC": 156.02
+        "D": 2,
+        "PC": 208.41
       },
       {
         "pos": 7,
@@ -129,11 +78,11 @@
         "pos": 8,
         "nome": "FC Aerodynamics",
         "P": 0,
-        "J": 2,
+        "J": 3,
         "V": 0,
         "E": 0,
-        "D": 2,
-        "PC": 157.63
+        "D": 3,
+        "PC": 232.96
       }
     ],
     "perdedores": [
@@ -169,33 +118,33 @@
       },
       {
         "pos": 4,
+        "nome": "Filhos de Ronielson",
+        "P": 6,
+        "J": 3,
+        "V": 2,
+        "E": 0,
+        "D": 1,
+        "PC": 206.47
+      },
+      {
+        "pos": 5,
         "nome": "Trabalhador EC",
         "P": 3,
         "J": 3,
         "V": 1,
         "E": 0,
         "D": 2,
-        "PC": 172.42
-      },
-      {
-        "pos": 5,
-        "nome": "Filhos de Ronielson",
-        "P": 3,
-        "J": 2,
-        "V": 1,
-        "E": 0,
-        "D": 1,
-        "PC": 143.59
+        "PC": 174.17
       },
       {
         "pos": 6,
         "nome": " Kaneluduss FC",
         "P": 3,
-        "J": 2,
+        "J": 3,
         "V": 1,
         "E": 0,
-        "D": 1,
-        "PC": 58.06
+        "D": 2,
+        "PC": 88.75
       },
       {
         "pos": 7,
