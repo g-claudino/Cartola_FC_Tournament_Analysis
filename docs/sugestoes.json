@@ -1,12 +1,12 @@
 {
   "rodada": 34,
   "mercado_aberto": true,
-  "jogadores_avaliados": 200,
+  "jogadores_avaliados": 198,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.87,
-      "nota": 75.5,
+      "custo": 99.97,
+      "nota": 75.44,
       "capitao": 98873,
       "time": [
         {
@@ -80,20 +80,6 @@
           "minimo": 4.12
         },
         {
-          "id": 105436,
-          "nome": "Carrascal",
-          "pos": 4,
-          "clube": "FLA",
-          "adv": "GRE",
-          "casa": true,
-          "adv_pos": 15,
-          "preco": 11.72,
-          "media": 7.03,
-          "jogos": 24,
-          "nota": 7.4,
-          "minimo": 1.09
-        },
-        {
           "id": 68938,
           "nome": "Giovanni Augusto",
           "pos": 4,
@@ -108,18 +94,32 @@
           "minimo": 3.75
         },
         {
-          "id": 148215,
-          "nome": "Djhordney",
+          "id": 128431,
+          "nome": "João Cruz",
           "pos": 4,
-          "clube": "SAO",
-          "adv": "COR",
+          "clube": "CAP",
+          "adv": "VAS",
           "casa": true,
-          "adv_pos": 17,
-          "preco": 1.95,
-          "media": 1.61,
-          "jogos": 10,
-          "nota": 2.13,
-          "minimo": 2.51
+          "adv_pos": 13,
+          "preco": 6.02,
+          "media": 3.98,
+          "jogos": 24,
+          "nota": 4.25,
+          "minimo": 4.3
+        },
+        {
+          "id": 80129,
+          "nome": "Jadson",
+          "pos": 4,
+          "clube": "CAP",
+          "adv": "VAS",
+          "casa": true,
+          "adv_pos": 13,
+          "preco": 5.36,
+          "media": 3.48,
+          "jogos": 24,
+          "nota": 3.75,
+          "minimo": 0.5
         },
         {
           "id": 98873,
@@ -164,18 +164,18 @@
           "minimo": 3.48
         },
         {
-          "id": 87211,
-          "nome": "Eduardo Baptista",
+          "id": 110506,
+          "nome": "Abel Ferreira",
           "pos": 6,
-          "clube": "INT",
-          "adv": "CFC",
+          "clube": "PAL",
+          "adv": "REM",
           "casa": true,
-          "adv_pos": 11,
-          "preco": 9.73,
-          "media": 6.56,
-          "jogos": 4,
-          "nota": 6.8,
-          "minimo": 5.66
+          "adv_pos": 19,
+          "preco": 12.12,
+          "media": 7.13,
+          "jogos": 33,
+          "nota": 8.27,
+          "minimo": 6.19
         }
       ]
     },
