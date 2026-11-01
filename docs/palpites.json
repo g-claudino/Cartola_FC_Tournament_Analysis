@@ -18,7 +18,7 @@
       },
       "contexto": [
         "Chapecoense sem: Rafael Carvalheira",
-        "Mirassol sem: Bruno Santos, Negueba, Edson Carioca"
+        "Mirassol sem: Bruno Santos, Edson Carioca, Negueba"
       ]
     },
     {
@@ -195,9 +195,9 @@
       "fora": "Vasco da Gama",
       "casa_id": 275,
       "fora_id": 267,
-      "gc": null,
-      "gf": null,
-      "encerrado": false,
+      "gc": 1,
+      "gf": 0,
+      "encerrado": true,
       "previsao": {
         "gols_casa": 1.81,
         "gols_fora": 0.79,
