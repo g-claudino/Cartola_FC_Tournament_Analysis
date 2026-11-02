@@ -1,7 +1,7 @@
 {
   "rodada": 34,
   "mercado_aberto": true,
-  "jogadores_avaliados": 197,
+  "jogadores_avaliados": 195,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -947,7 +947,7 @@
         "preco": 9.73,
         "media": 6.56,
         "jogos": 4,
-        "nota": 6.8,
+        "nota": 6.82,
         "minimo": 5.66
       },
       {
@@ -961,7 +961,7 @@
         "preco": 12.0,
         "media": 6.89,
         "jogos": 11,
-        "nota": 6.57,
+        "nota": 6.58,
         "minimo": 6.52
       }
     ]
@@ -996,20 +996,6 @@
       "minimo": 5.34
     },
     {
-      "id": 141339,
-      "nome": "Paulo Roberto",
-      "pos": 5,
-      "clube": "CFC",
-      "adv": "INT",
-      "casa": false,
-      "adv_pos": 18,
-      "preco": 4.73,
-      "media": 3.54,
-      "jogos": 11,
-      "nota": 3.49,
-      "minimo": 0.8
-    },
-    {
       "id": 143153,
       "nome": "Tarzia",
       "pos": 5,
@@ -1022,6 +1008,20 @@
       "jogos": 24,
       "nota": 3.22,
       "minimo": 0.42
+    },
+    {
+      "id": 78855,
+      "nome": "Thiago Santos",
+      "pos": 3,
+      "clube": "CFC",
+      "adv": "INT",
+      "casa": false,
+      "adv_pos": 18,
+      "preco": 4.75,
+      "media": 3.08,
+      "jogos": 22,
+      "nota": 3.16,
+      "minimo": 0.48
     },
     {
       "id": 104519,
