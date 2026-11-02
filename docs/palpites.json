@@ -18,7 +18,7 @@
       },
       "contexto": [
         "Chapecoense sem: Rafael Carvalheira",
-        "Mirassol sem: Bruno Santos, Edson Carioca, Negueba"
+        "Mirassol sem: Bruno Santos, Negueba, Edson Carioca"
       ]
     },
     {
@@ -187,48 +187,7 @@
       ]
     }
   ],
-  "outros_hoje": [
-    {
-      "competicao": "Copa do Brasil",
-      "hora": "16:00",
-      "casa": "Palmeiras",
-      "fora": "Vasco da Gama",
-      "casa_id": 275,
-      "fora_id": 267,
-      "gc": 1,
-      "gf": 0,
-      "encerrado": true,
-      "previsao": {
-        "gols_casa": 1.81,
-        "gols_fora": 0.79,
-        "casa": 0.599,
-        "empate": 0.248,
-        "fora": 0.154,
-        "placar": "1 x 0",
-        "placar_prob": 0.135
-      }
-    },
-    {
-      "competicao": "Copa do Brasil",
-      "hora": "18:30",
-      "casa": "Grêmio",
-      "fora": "Atlético-MG",
-      "casa_id": 284,
-      "fora_id": 282,
-      "gc": 2,
-      "gf": 0,
-      "encerrado": true,
-      "previsao": {
-        "gols_casa": 1.44,
-        "gols_fora": 1.15,
-        "casa": 0.423,
-        "empate": 0.283,
-        "fora": 0.294,
-        "placar": "1 x 1",
-        "placar_prob": 0.124
-      }
-    }
-  ],
+  "outros_hoje": [],
   "historico": {
     "jogos": 258,
     "acerto": 0.484,
