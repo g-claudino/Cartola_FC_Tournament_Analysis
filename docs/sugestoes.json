@@ -1,12 +1,12 @@
 {
   "rodada": 34,
   "mercado_aberto": true,
-  "jogadores_avaliados": 192,
+  "jogadores_avaliados": 191,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.33,
-      "nota": 75.54,
+      "custo": 99.91,
+      "nota": 75.5,
       "capitao": 98873,
       "time": [
         {
@@ -38,18 +38,18 @@
           "minimo": 7.09
         },
         {
-          "id": 124526,
-          "nome": "Giay",
+          "id": 97868,
+          "nome": "Iago",
           "pos": 2,
-          "clube": "PAL",
-          "adv": "REM",
+          "clube": "SAO",
+          "adv": "COR",
           "casa": true,
-          "adv_pos": 19,
-          "preco": 8.44,
-          "media": 6.07,
-          "jogos": 26,
-          "nota": 6.87,
-          "minimo": 7.21
+          "adv_pos": 17,
+          "preco": 6.63,
+          "media": 4.85,
+          "jogos": 13,
+          "nota": 5.38,
+          "minimo": 0.99
         },
         {
           "id": 99274,
@@ -164,25 +164,25 @@
           "minimo": 3.48
         },
         {
-          "id": 87211,
-          "nome": "Eduardo Baptista",
+          "id": 110506,
+          "nome": "Abel Ferreira",
           "pos": 6,
-          "clube": "INT",
-          "adv": "CFC",
+          "clube": "PAL",
+          "adv": "REM",
           "casa": true,
-          "adv_pos": 11,
-          "preco": 9.73,
-          "media": 6.56,
-          "jogos": 4,
-          "nota": 6.82,
-          "minimo": 5.66
+          "adv_pos": 19,
+          "preco": 12.12,
+          "media": 7.13,
+          "jogos": 33,
+          "nota": 8.27,
+          "minimo": 6.19
         }
       ]
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.03,
-      "nota": 91.04,
+      "custo": 138.89,
+      "nota": 90.66,
       "capitao": 98873,
       "time": [
         {
@@ -214,18 +214,18 @@
           "minimo": 7.09
         },
         {
-          "id": 124526,
-          "nome": "Giay",
+          "id": 104649,
+          "nome": "Heitor",
           "pos": 2,
-          "clube": "PAL",
-          "adv": "REM",
+          "clube": "CHA",
+          "adv": "MIR",
           "casa": true,
-          "adv_pos": 19,
-          "preco": 8.44,
-          "media": 6.07,
-          "jogos": 26,
-          "nota": 6.87,
-          "minimo": 7.21
+          "adv_pos": 16,
+          "preco": 8.3,
+          "media": 7.05,
+          "jogos": 4,
+          "nota": 6.49,
+          "minimo": 3.43
         },
         {
           "id": 99274,
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 145.16,
-      "nota": 91.54,
+      "custo": 151.03,
+      "nota": 91.24,
       "capitao": 98873,
       "time": [
         {
@@ -390,18 +390,18 @@
           "minimo": 7.09
         },
         {
-          "id": 124526,
-          "nome": "Giay",
+          "id": 105531,
+          "nome": "Matheus Bidu",
           "pos": 2,
-          "clube": "PAL",
-          "adv": "REM",
-          "casa": true,
-          "adv_pos": 19,
-          "preco": 8.44,
-          "media": 6.07,
+          "clube": "COR",
+          "adv": "SAO",
+          "casa": false,
+          "adv_pos": 10,
+          "preco": 14.31,
+          "media": 7.31,
           "jogos": 26,
-          "nota": 6.87,
-          "minimo": 7.21
+          "nota": 6.57,
+          "minimo": 19.82
         },
         {
           "id": 99274,
@@ -621,20 +621,6 @@
         "minimo": 7.09
       },
       {
-        "id": 124526,
-        "nome": "Giay",
-        "pos": 2,
-        "clube": "PAL",
-        "adv": "REM",
-        "casa": true,
-        "adv_pos": 19,
-        "preco": 8.44,
-        "media": 6.07,
-        "jogos": 26,
-        "nota": 6.87,
-        "minimo": 7.21
-      },
-      {
         "id": 105531,
         "nome": "Matheus Bidu",
         "pos": 2,
@@ -647,6 +633,20 @@
         "jogos": 26,
         "nota": 6.57,
         "minimo": 19.82
+      },
+      {
+        "id": 104649,
+        "nome": "Heitor",
+        "pos": 2,
+        "clube": "CHA",
+        "adv": "MIR",
+        "casa": true,
+        "adv_pos": 16,
+        "preco": 8.3,
+        "media": 7.05,
+        "jogos": 4,
+        "nota": 6.49,
+        "minimo": 3.43
       },
       {
         "id": 110426,
@@ -982,6 +982,20 @@
       "minimo": 0.89
     },
     {
+      "id": 141131,
+      "nome": "Vitão",
+      "pos": 3,
+      "clube": "CAM",
+      "adv": "BOT",
+      "casa": false,
+      "adv_pos": 12,
+      "preco": 4.21,
+      "media": 3.54,
+      "jogos": 8,
+      "nota": 3.3,
+      "minimo": 0.88
+    },
+    {
       "id": 143153,
       "nome": "Tarzia",
       "pos": 5,
@@ -1064,20 +1078,6 @@
       "jogos": 28,
       "nota": 2.88,
       "minimo": 0.41
-    },
-    {
-      "id": 93637,
-      "nome": "Bruno Tubarão",
-      "pos": 2,
-      "clube": "CHA",
-      "adv": "MIR",
-      "casa": true,
-      "adv_pos": 16,
-      "preco": 3.01,
-      "media": 1.7,
-      "jogos": 5,
-      "nota": 2.87,
-      "minimo": 1.59
     }
   ]
 }
