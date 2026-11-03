@@ -58,7 +58,7 @@
       "escalados": 12
     },
     "49327835": {
-      "pontos": 0.5,
+      "pontos": 2.0,
       "jogaram": 1,
       "escalados": 12
     },
@@ -189,6 +189,16 @@
       },
       {
         "pos": 3,
+        "nome": "Filhos de Ronielson",
+        "P": 9,
+        "J": 4,
+        "V": 3,
+        "E": 0,
+        "D": 1,
+        "PC": 208.47
+      },
+      {
+        "pos": 4,
         "nome": "Boia FC",
         "P": 7,
         "J": 4,
@@ -196,16 +206,6 @@
         "E": 1,
         "D": 1,
         "PC": 235.04
-      },
-      {
-        "pos": 4,
-        "nome": "Filhos de Ronielson",
-        "P": 7,
-        "J": 4,
-        "V": 2,
-        "E": 1,
-        "D": 1,
-        "PC": 206.97
       },
       {
         "pos": 5,
@@ -229,16 +229,6 @@
       },
       {
         "pos": 7,
-        "nome": "TimedoBagulho",
-        "P": 1,
-        "J": 4,
-        "V": 0,
-        "E": 1,
-        "D": 3,
-        "PC": 80.8
-      },
-      {
-        "pos": 8,
         "nome": "Surpreendente A.F.C.",
         "P": 1,
         "J": 4,
@@ -246,6 +236,16 @@
         "E": 1,
         "D": 3,
         "PC": 55.96
+      },
+      {
+        "pos": 8,
+        "nome": "TimedoBagulho",
+        "P": 0,
+        "J": 4,
+        "V": 0,
+        "E": 0,
+        "D": 4,
+        "PC": 80.8
       }
     ]
   }
