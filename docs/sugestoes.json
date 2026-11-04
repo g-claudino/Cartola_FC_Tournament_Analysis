@@ -1,12 +1,12 @@
 {
   "rodada": 34,
   "mercado_aberto": false,
-  "jogadores_avaliados": 202,
+  "jogadores_avaliados": 208,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.98,
-      "nota": 75.2,
+      "custo": 99.86,
+      "nota": 75.28,
       "capitao": 98873,
       "time": [
         {
@@ -38,32 +38,18 @@
           "minimo": 2.68
         },
         {
-          "id": 97868,
-          "nome": "Iago",
+          "id": 104649,
+          "nome": "Heitor",
           "pos": 2,
-          "clube": "SAO",
-          "adv": "COR",
+          "clube": "CHA",
+          "adv": "MIR",
           "casa": true,
-          "adv_pos": 18,
-          "preco": 6.63,
-          "media": 4.85,
-          "jogos": 13,
-          "nota": 5.43,
-          "minimo": 0.99
-        },
-        {
-          "id": 63008,
-          "nome": "Rafael Tolói",
-          "pos": 3,
-          "clube": "SAO",
-          "adv": "COR",
-          "casa": true,
-          "adv_pos": 18,
-          "preco": 8.58,
-          "media": 5.19,
-          "jogos": 11,
-          "nota": 5.53,
-          "minimo": 1.44
+          "adv_pos": 12,
+          "preco": 8.3,
+          "media": 7.05,
+          "jogos": 4,
+          "nota": 6.23,
+          "minimo": 3.43
         },
         {
           "id": 141131,
@@ -78,6 +64,20 @@
           "jogos": 8,
           "nota": 3.34,
           "minimo": 0.88
+        },
+        {
+          "id": 146430,
+          "nome": "Justino",
+          "pos": 3,
+          "clube": "BOT",
+          "adv": "CAM",
+          "casa": true,
+          "adv_pos": 7,
+          "preco": 3.34,
+          "media": 2.75,
+          "jogos": 10,
+          "nota": 2.95,
+          "minimo": 0.61
         },
         {
           "id": 105436,
@@ -164,18 +164,18 @@
           "minimo": 0.37
         },
         {
-          "id": 92273,
-          "nome": "Odair Hellmann",
+          "id": 110506,
+          "nome": "Abel Ferreira",
           "pos": 6,
-          "clube": "CAP",
-          "adv": "VAS",
+          "clube": "PAL",
+          "adv": "REM",
           "casa": true,
-          "adv_pos": 14,
-          "preco": 8.67,
-          "media": 5.71,
-          "jogos": 30,
-          "nota": 6.41,
-          "minimo": 0.67
+          "adv_pos": 19,
+          "preco": 12.12,
+          "media": 7.13,
+          "jogos": 33,
+          "nota": 8.27,
+          "minimo": 0.86
         }
       ]
     },
@@ -1066,18 +1066,18 @@
       "minimo": 0.42
     },
     {
-      "id": 97460,
-      "nome": "João Victor",
+      "id": 146430,
+      "nome": "Justino",
       "pos": 3,
-      "clube": "MIR",
-      "adv": "CHA",
-      "casa": false,
-      "adv_pos": 20,
-      "preco": 4.58,
-      "media": 2.76,
-      "jogos": 27,
-      "nota": 2.92,
-      "minimo": 0.39
+      "clube": "BOT",
+      "adv": "CAM",
+      "casa": true,
+      "adv_pos": 7,
+      "preco": 3.34,
+      "media": 2.75,
+      "jogos": 10,
+      "nota": 2.95,
+      "minimo": 0.61
     }
   ]
 }
