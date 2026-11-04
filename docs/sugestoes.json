@@ -1,12 +1,12 @@
 {
   "rodada": 34,
   "mercado_aberto": false,
-  "jogadores_avaliados": 192,
+  "jogadores_avaliados": 200,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.91,
-      "nota": 75.72,
+      "custo": 99.95,
+      "nota": 75.06,
       "capitao": 98873,
       "time": [
         {
@@ -38,18 +38,18 @@
           "minimo": 2.68
         },
         {
-          "id": 97868,
-          "nome": "Iago",
+          "id": 113113,
+          "nome": "Benavídez",
           "pos": 2,
-          "clube": "SAO",
-          "adv": "COR",
+          "clube": "CAP",
+          "adv": "VAS",
           "casa": true,
-          "adv_pos": 18,
-          "preco": 6.63,
-          "media": 4.85,
-          "jogos": 13,
-          "nota": 5.43,
-          "minimo": 0.99
+          "adv_pos": 14,
+          "preco": 7.28,
+          "media": 5.22,
+          "jogos": 20,
+          "nota": 5.65,
+          "minimo": 0.79
         },
         {
           "id": 99274,
@@ -66,18 +66,18 @@
           "minimo": 1.08
         },
         {
-          "id": 130806,
-          "nome": "Kauan",
+          "id": 141131,
+          "nome": "Vitão",
           "pos": 3,
-          "clube": "CHA",
-          "adv": "MIR",
-          "casa": true,
-          "adv_pos": 12,
-          "preco": 2.63,
-          "media": 2.05,
-          "jogos": 11,
-          "nota": 2.5,
-          "minimo": 0.45
+          "clube": "CAM",
+          "adv": "BOT",
+          "casa": false,
+          "adv_pos": 13,
+          "preco": 4.21,
+          "media": 3.54,
+          "jogos": 8,
+          "nota": 3.34,
+          "minimo": 0.88
         },
         {
           "id": 105647,
@@ -108,18 +108,18 @@
           "minimo": 0.54
         },
         {
-          "id": 128431,
-          "nome": "João Cruz",
+          "id": 80129,
+          "nome": "Jadson",
           "pos": 4,
           "clube": "CAP",
           "adv": "VAS",
           "casa": true,
           "adv_pos": 14,
-          "preco": 6.02,
-          "media": 3.98,
+          "preco": 5.36,
+          "media": 3.48,
           "jogos": 24,
-          "nota": 4.29,
-          "minimo": 0.56
+          "nota": 3.79,
+          "minimo": 0.5
         },
         {
           "id": 98873,
@@ -150,18 +150,18 @@
           "minimo": 1.01
         },
         {
-          "id": 123101,
-          "nome": "Leozinho",
+          "id": 95332,
+          "nome": "Marcinho",
           "pos": 5,
-          "clube": "CAP",
-          "adv": "VAS",
+          "clube": "CHA",
+          "adv": "MIR",
           "casa": true,
-          "adv_pos": 14,
-          "preco": 6.21,
-          "media": 4.98,
-          "jogos": 19,
-          "nota": 5.26,
-          "minimo": 0.7
+          "adv_pos": 12,
+          "preco": 4.68,
+          "media": 3.76,
+          "jogos": 29,
+          "nota": 4.04,
+          "minimo": 0.37
         },
         {
           "id": 110506,
@@ -635,6 +635,20 @@
         "minimo": 1.24
       },
       {
+        "id": 116065,
+        "nome": "Cuiabano",
+        "pos": 2,
+        "clube": "VAS",
+        "adv": "CAP",
+        "casa": false,
+        "adv_pos": 5,
+        "preco": 12.66,
+        "media": 7.61,
+        "jogos": 21,
+        "nota": 6.39,
+        "minimo": 1.31
+      },
+      {
         "id": 104649,
         "nome": "Heitor",
         "pos": 2,
@@ -661,20 +675,6 @@
         "jogos": 29,
         "nota": 6.01,
         "minimo": 0.86
-      },
-      {
-        "id": 84816,
-        "nome": "Varela",
-        "pos": 2,
-        "clube": "FLA",
-        "adv": "GRE",
-        "casa": true,
-        "adv_pos": 17,
-        "preco": 8.66,
-        "media": 4.91,
-        "jogos": 24,
-        "nota": 5.53,
-        "minimo": 0.8
       }
     ],
     "ZAG": [
@@ -793,6 +793,20 @@
         "minimo": 1.37
       },
       {
+        "id": 124552,
+        "nome": "Lescano",
+        "pos": 4,
+        "clube": "VAS",
+        "adv": "CAP",
+        "casa": false,
+        "adv_pos": 5,
+        "preco": 12.1,
+        "media": 7.97,
+        "jogos": 7,
+        "nota": 5.7,
+        "minimo": 2.71
+      },
+      {
         "id": 105647,
         "nome": "Maurício",
         "pos": 4,
@@ -805,20 +819,6 @@
         "jogos": 28,
         "nota": 5.3,
         "minimo": 0.58
-      },
-      {
-        "id": 89274,
-        "nome": "Andreas Pereira",
-        "pos": 4,
-        "clube": "PAL",
-        "adv": "REM",
-        "casa": true,
-        "adv_pos": 19,
-        "preco": 10.8,
-        "media": 4.41,
-        "jogos": 31,
-        "nota": 5.0,
-        "minimo": 0.81
       }
     ],
     "ATA": [
@@ -1024,6 +1024,20 @@
       "minimo": 0.48
     },
     {
+      "id": 123445,
+      "nome": "Dantas",
+      "pos": 3,
+      "clube": "CAP",
+      "adv": "VAS",
+      "casa": true,
+      "adv_pos": 14,
+      "preco": 4.84,
+      "media": 2.52,
+      "jogos": 5,
+      "nota": 3.07,
+      "minimo": 1.31
+    },
+    {
       "id": 86292,
       "nome": "Bolasie",
       "pos": 5,
@@ -1064,20 +1078,6 @@
       "jogos": 27,
       "nota": 2.92,
       "minimo": 0.39
-    },
-    {
-      "id": 104693,
-      "nome": "Newton",
-      "pos": 4,
-      "clube": "SAO",
-      "adv": "COR",
-      "casa": true,
-      "adv_pos": 18,
-      "preco": 4.92,
-      "media": 2.42,
-      "jogos": 15,
-      "nota": 2.86,
-      "minimo": 0.67
     }
   ]
 }
