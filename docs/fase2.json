@@ -3,22 +3,22 @@
   "em_andamento": 34,
   "parciais": {
     "26350318": {
-      "pontos": 9.13,
+      "pontos": 24.36,
       "jogaram": 5,
       "escalados": 12
     },
     "19429362": {
-      "pontos": 16.2,
+      "pontos": 30.9,
       "jogaram": 7,
       "escalados": 12
     },
     "29436742": {
-      "pontos": 5.0,
+      "pontos": 27.45,
       "jogaram": 5,
       "escalados": 12
     },
     "300778": {
-      "pontos": 4.7,
+      "pontos": 5.5,
       "jogaram": 4,
       "escalados": 12
     },
@@ -28,17 +28,17 @@
       "escalados": 12
     },
     "1380145": {
-      "pontos": 11.5,
+      "pontos": 12.8,
       "jogaram": 5,
       "escalados": 12
     },
     "45022741": {
-      "pontos": 23.3,
+      "pontos": 43.95,
       "jogaram": 9,
       "escalados": 12
     },
     "46075154": {
-      "pontos": 25.63,
+      "pontos": 43.06,
       "jogaram": 10,
       "escalados": 12
     },
@@ -48,22 +48,22 @@
       "escalados": 12
     },
     "28924680": {
-      "pontos": 16.68,
+      "pontos": 18.78,
       "jogaram": 5,
       "escalados": 12
     },
     "18271822": {
-      "pontos": 11.5,
+      "pontos": 13.5,
       "jogaram": 5,
       "escalados": 12
     },
     "49327835": {
-      "pontos": 9.7,
+      "pontos": 23.2,
       "jogaram": 4,
       "escalados": 12
     },
     "25313159": {
-      "pontos": 5.0,
+      "pontos": 6.6,
       "jogaram": 2,
       "escalados": 12
     },
@@ -93,7 +93,7 @@
         "V": 4,
         "E": 0,
         "D": 0,
-        "PC": 297.93
+        "PC": 318.58
       },
       {
         "pos": 2,
@@ -103,7 +103,7 @@
         "V": 4,
         "E": 0,
         "D": 0,
-        "PC": 284.46
+        "PC": 285.76
       },
       {
         "pos": 3,
@@ -113,7 +113,7 @@
         "V": 3,
         "E": 0,
         "D": 1,
-        "PC": 298.44
+        "PC": 315.87
       },
       {
         "pos": 4,
@@ -123,7 +123,7 @@
         "V": 2,
         "E": 0,
         "D": 2,
-        "PC": 259.43
+        "PC": 281.88
       },
       {
         "pos": 5,
@@ -133,7 +133,7 @@
         "V": 1,
         "E": 0,
         "D": 3,
-        "PC": 257.59
+        "PC": 272.82
       },
       {
         "pos": 6,
@@ -143,7 +143,7 @@
         "V": 1,
         "E": 0,
         "D": 3,
-        "PC": 228.65
+        "PC": 229.45
       },
       {
         "pos": 7,
@@ -163,7 +163,7 @@
         "V": 0,
         "E": 0,
         "D": 4,
-        "PC": 249.16
+        "PC": 263.86
       }
     ],
     "perdedores": [
@@ -175,7 +175,7 @@
         "V": 4,
         "E": 0,
         "D": 0,
-        "PC": 231.78
+        "PC": 233.88
       },
       {
         "pos": 2,
@@ -185,10 +185,20 @@
         "V": 3,
         "E": 0,
         "D": 1,
-        "PC": 240.04
+        "PC": 241.64
       },
       {
         "pos": 3,
+        "nome": "Filhos de Ronielson",
+        "P": 9,
+        "J": 4,
+        "V": 3,
+        "E": 0,
+        "D": 1,
+        "PC": 229.67
+      },
+      {
+        "pos": 4,
         "nome": "SC dos Mano",
         "P": 9,
         "J": 4,
@@ -198,16 +208,6 @@
         "PC": 213.15
       },
       {
-        "pos": 4,
-        "nome": "Filhos de Ronielson",
-        "P": 6,
-        "J": 4,
-        "V": 2,
-        "E": 0,
-        "D": 2,
-        "PC": 216.17
-      },
-      {
         "pos": 5,
         "nome": "Trabalhador EC",
         "P": 3,
@@ -215,20 +215,10 @@
         "V": 1,
         "E": 0,
         "D": 3,
-        "PC": 185.67
+        "PC": 187.67
       },
       {
         "pos": 6,
-        "nome": "TimedoBagulho",
-        "P": 3,
-        "J": 4,
-        "V": 1,
-        "E": 0,
-        "D": 3,
-        "PC": 93.0
-      },
-      {
-        "pos": 7,
         "nome": " Kaneluduss FC",
         "P": 3,
         "J": 4,
@@ -238,7 +228,7 @@
         "PC": 88.75
       },
       {
-        "pos": 8,
+        "pos": 7,
         "nome": "Surpreendente A.F.C.",
         "P": 3,
         "J": 4,
@@ -246,6 +236,16 @@
         "E": 0,
         "D": 3,
         "PC": 75.36
+      },
+      {
+        "pos": 8,
+        "nome": "TimedoBagulho",
+        "P": 0,
+        "J": 4,
+        "V": 0,
+        "E": 0,
+        "D": 4,
+        "PC": 93.0
       }
     ]
   }
