@@ -9076,10 +9076,28 @@
         "escalados": 12,
         "jogadores": [
           {
+            "nome": "Danielzinho",
+            "pos": 4,
+            "clube": 276,
+            "capitao": false,
+            "situacao": "a_jogar",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
             "nome": "Artur",
             "pos": 5,
             "clube": 276,
             "capitao": true,
+            "situacao": "a_jogar",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Matheuzinho",
+            "pos": 4,
+            "clube": 287,
+            "capitao": false,
             "situacao": "a_jogar",
             "pontos": 0.0,
             "entrou": null
@@ -9112,45 +9130,9 @@
             "entrou": null
           },
           {
-            "nome": "Matheuzinho",
-            "pos": 4,
-            "clube": 287,
-            "capitao": false,
-            "situacao": "a_jogar",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Danielzinho",
-            "pos": 4,
-            "clube": 276,
-            "capitao": false,
-            "situacao": "a_jogar",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Jacy",
-            "pos": 3,
-            "clube": 294,
-            "capitao": false,
-            "situacao": "jogou",
-            "pontos": 4.2,
-            "entrou": null
-          },
-          {
             "nome": "Vitinho",
             "pos": 2,
             "clube": 263,
-            "capitao": false,
-            "situacao": "a_jogar",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Acevedo",
-            "pos": 4,
-            "clube": 265,
             "capitao": false,
             "situacao": "a_jogar",
             "pontos": 0.0,
@@ -9166,7 +9148,16 @@
             "entrou": null
           },
           {
-            "nome": "Everton Ribeiro",
+            "nome": "Jacy",
+            "pos": 3,
+            "clube": 294,
+            "capitao": false,
+            "situacao": "jogou",
+            "pontos": 4.2,
+            "entrou": null
+          },
+          {
+            "nome": "Acevedo",
             "pos": 4,
             "clube": 265,
             "capitao": false,
@@ -9180,6 +9171,15 @@
             "clube": 280,
             "capitao": false,
             "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Everton Ribeiro",
+            "pos": 4,
+            "clube": 265,
+            "capitao": false,
+            "situacao": "a_jogar",
             "pontos": 0.0,
             "entrou": null
           }
@@ -9317,20 +9317,20 @@
             "entrou": null
           },
           {
-            "nome": "Alan Patrick",
-            "pos": 4,
-            "clube": 285,
-            "capitao": false,
-            "situacao": "nao_jogou",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
             "nome": "Renan Lodi",
             "pos": 2,
             "clube": 282,
             "capitao": false,
             "situacao": "a_jogar",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Alan Patrick",
+            "pos": 4,
+            "clube": 285,
+            "capitao": false,
+            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
@@ -9344,8 +9344,26 @@
             "entrou": null
           },
           {
+            "nome": "Henry Mosquera",
+            "pos": 5,
+            "clube": 280,
+            "capitao": false,
+            "situacao": "nao_jogou",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
             "nome": "Eduardo Domínguez",
             "pos": 6,
+            "clube": 282,
+            "capitao": false,
+            "situacao": "a_jogar",
+            "pontos": 0.0,
+            "entrou": null
+          },
+          {
+            "nome": "Victor Hugo",
+            "pos": 4,
             "clube": 282,
             "capitao": false,
             "situacao": "a_jogar",
@@ -9362,29 +9380,11 @@
             "entrou": null
           },
           {
-            "nome": "Victor Hugo",
-            "pos": 4,
-            "clube": 282,
-            "capitao": false,
-            "situacao": "a_jogar",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
             "nome": "Hulk",
             "pos": 5,
             "clube": 266,
             "capitao": true,
             "situacao": "a_jogar",
-            "pontos": 0.0,
-            "entrou": null
-          },
-          {
-            "nome": "Henry Mosquera",
-            "pos": 5,
-            "clube": 280,
-            "capitao": false,
-            "situacao": "nao_jogou",
             "pontos": 0.0,
             "entrou": null
           },
