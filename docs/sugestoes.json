@@ -1,12 +1,12 @@
 {
   "rodada": 34,
   "mercado_aberto": false,
-  "jogadores_avaliados": 200,
+  "jogadores_avaliados": 202,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.95,
-      "nota": 75.06,
+      "custo": 99.98,
+      "nota": 75.2,
       "capitao": 98873,
       "time": [
         {
@@ -38,32 +38,32 @@
           "minimo": 2.68
         },
         {
-          "id": 113113,
-          "nome": "Benavídez",
+          "id": 97868,
+          "nome": "Iago",
           "pos": 2,
-          "clube": "CAP",
-          "adv": "VAS",
+          "clube": "SAO",
+          "adv": "COR",
           "casa": true,
-          "adv_pos": 14,
-          "preco": 7.28,
-          "media": 5.22,
-          "jogos": 20,
-          "nota": 5.65,
-          "minimo": 0.79
+          "adv_pos": 18,
+          "preco": 6.63,
+          "media": 4.85,
+          "jogos": 13,
+          "nota": 5.43,
+          "minimo": 0.99
         },
         {
-          "id": 99274,
-          "nome": "Alexander Barboza",
+          "id": 63008,
+          "nome": "Rafael Tolói",
           "pos": 3,
-          "clube": "PAL",
-          "adv": "REM",
+          "clube": "SAO",
+          "adv": "COR",
           "casa": true,
-          "adv_pos": 19,
-          "preco": 10.81,
-          "media": 6.4,
-          "jogos": 22,
-          "nota": 7.07,
-          "minimo": 1.08
+          "adv_pos": 18,
+          "preco": 8.58,
+          "media": 5.19,
+          "jogos": 11,
+          "nota": 5.53,
+          "minimo": 1.44
         },
         {
           "id": 141131,
@@ -78,6 +78,20 @@
           "jogos": 8,
           "nota": 3.34,
           "minimo": 0.88
+        },
+        {
+          "id": 105436,
+          "nome": "Carrascal",
+          "pos": 4,
+          "clube": "FLA",
+          "adv": "GRE",
+          "casa": true,
+          "adv_pos": 17,
+          "preco": 11.72,
+          "media": 7.03,
+          "jogos": 24,
+          "nota": 7.55,
+          "minimo": 1.09
         },
         {
           "id": 105647,
@@ -106,20 +120,6 @@
           "jogos": 23,
           "nota": 4.45,
           "minimo": 0.54
-        },
-        {
-          "id": 80129,
-          "nome": "Jadson",
-          "pos": 4,
-          "clube": "CAP",
-          "adv": "VAS",
-          "casa": true,
-          "adv_pos": 14,
-          "preco": 5.36,
-          "media": 3.48,
-          "jogos": 24,
-          "nota": 3.79,
-          "minimo": 0.5
         },
         {
           "id": 98873,
@@ -164,18 +164,18 @@
           "minimo": 0.37
         },
         {
-          "id": 110506,
-          "nome": "Abel Ferreira",
+          "id": 92273,
+          "nome": "Odair Hellmann",
           "pos": 6,
-          "clube": "PAL",
-          "adv": "REM",
+          "clube": "CAP",
+          "adv": "VAS",
           "casa": true,
-          "adv_pos": 19,
-          "preco": 12.12,
-          "media": 7.13,
-          "jogos": 33,
-          "nota": 8.27,
-          "minimo": 0.86
+          "adv_pos": 14,
+          "preco": 8.67,
+          "media": 5.71,
+          "jogos": 30,
+          "nota": 6.41,
+          "minimo": 0.67
         }
       ]
     },
@@ -707,6 +707,20 @@
         "minimo": 0.83
       },
       {
+        "id": 63008,
+        "nome": "Rafael Tolói",
+        "pos": 3,
+        "clube": "SAO",
+        "adv": "COR",
+        "casa": true,
+        "adv_pos": 18,
+        "preco": 8.58,
+        "media": 5.19,
+        "jogos": 11,
+        "nota": 5.53,
+        "minimo": 1.44
+      },
+      {
         "id": 83528,
         "nome": "Léo Pereira",
         "pos": 3,
@@ -733,20 +747,6 @@
         "jogos": 28,
         "nota": 5.0,
         "minimo": 0.66
-      },
-      {
-        "id": 97867,
-        "nome": "Léo Ortiz",
-        "pos": 3,
-        "clube": "FLA",
-        "adv": "GRE",
-        "casa": true,
-        "adv_pos": 17,
-        "preco": 9.08,
-        "media": 4.4,
-        "jogos": 26,
-        "nota": 4.92,
-        "minimo": 0.79
       }
     ],
     "MEI": [
@@ -879,18 +879,18 @@
         "minimo": 0.98
       },
       {
-        "id": 89840,
-        "nome": "Calleri",
+        "id": 103445,
+        "nome": "Kaio Jorge",
         "pos": 5,
-        "clube": "SAO",
-        "adv": "COR",
+        "clube": "CRU",
+        "adv": "BAH",
         "casa": true,
-        "adv_pos": 18,
-        "preco": 11.5,
-        "media": 5.59,
-        "jogos": 27,
-        "nota": 6.2,
-        "minimo": 0.97
+        "adv_pos": 6,
+        "preco": 12.17,
+        "media": 6.28,
+        "jogos": 25,
+        "nota": 6.09,
+        "minimo": 1.09
       }
     ],
     "TEC": [
