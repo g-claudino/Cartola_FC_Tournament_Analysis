@@ -5,7 +5,7 @@
       "casa": "Chapecoense",
       "fora": "Mirassol",
       "data": "2026-11-03 19:30",
-      "hoje": true,
+      "hoje": false,
       "local": "Arena Condá",
       "previsao": {
         "gols_casa": 1.47,
@@ -18,14 +18,14 @@
       },
       "contexto": [
         "Chapecoense sem: Rafael Carvalheira, Garcez",
-        "Mirassol sem: Bruno Santos, Negueba, Edson Carioca"
+        "Mirassol sem: Bruno Santos, Edson Carioca, Negueba"
       ]
     },
     {
       "casa": "Internacional",
       "fora": "Coritiba",
       "data": "2026-11-03 21:30",
-      "hoje": true,
+      "hoje": false,
       "local": "Beira-Rio",
       "previsao": {
         "gols_casa": 1.56,
@@ -45,7 +45,7 @@
       "casa": "Flamengo",
       "fora": "Grêmio",
       "data": "2026-11-04 19:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Maracanã",
       "previsao": {
         "gols_casa": 1.73,
@@ -67,7 +67,7 @@
       "casa": "Athletico-PR",
       "fora": "Vasco da Gama",
       "data": "2026-11-04 19:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Arena da Baixada",
       "previsao": {
         "gols_casa": 1.7,
@@ -89,7 +89,7 @@
       "casa": "Botafogo",
       "fora": "Atlético-MG",
       "data": "2026-11-04 21:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Nilton Santos (Engenhão)",
       "previsao": {
         "gols_casa": 1.46,
@@ -110,7 +110,7 @@
       "casa": "São Paulo",
       "fora": "Corinthians",
       "data": "2026-11-04 21:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Vila Belmiro",
       "previsao": {
         "gols_casa": 1.57,
@@ -162,7 +162,7 @@
         "placar_prob": 0.119
       },
       "contexto": [
-        "Cruzeiro sem: Felipe Morais, Matheus Pereira, Villalba, João Marcelo, William",
+        "Cruzeiro sem: Felipe Morais, Matheus Pereira, Villalba, William, João Marcelo",
         "Bahia sem: Léo Vieira"
       ]
     },
