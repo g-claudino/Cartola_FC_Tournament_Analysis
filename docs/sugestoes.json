@@ -1,12 +1,12 @@
 {
   "rodada": 34,
   "mercado_aberto": false,
-  "jogadores_avaliados": 205,
+  "jogadores_avaliados": 209,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.86,
-      "nota": 75.56,
+      "custo": 99.95,
+      "nota": 76.03,
       "capitao": 98873,
       "time": [
         {
@@ -38,32 +38,32 @@
           "minimo": 2.68
         },
         {
-          "id": 104649,
-          "nome": "Heitor",
+          "id": 145404,
+          "nome": "Arthur",
           "pos": 2,
-          "clube": "CHA",
-          "adv": "MIR",
+          "clube": "PAL",
+          "adv": "REM",
           "casa": true,
-          "adv_pos": 14,
-          "preco": 8.3,
-          "media": 7.05,
-          "jogos": 4,
-          "nota": 6.36,
-          "minimo": 3.43
+          "adv_pos": 19,
+          "preco": 5.52,
+          "media": 4.88,
+          "jogos": 23,
+          "nota": 5.6,
+          "minimo": 0.53
         },
         {
-          "id": 141131,
-          "nome": "Vitão",
+          "id": 71684,
+          "nome": "Gustavo Gómez",
           "pos": 3,
-          "clube": "CAM",
-          "adv": "BOT",
-          "casa": false,
-          "adv_pos": 11,
-          "preco": 4.21,
-          "media": 3.54,
-          "jogos": 8,
-          "nota": 3.27,
-          "minimo": 0.88
+          "clube": "PAL",
+          "adv": "REM",
+          "casa": true,
+          "adv_pos": 19,
+          "preco": 10.53,
+          "media": 5.7,
+          "jogos": 29,
+          "nota": 6.42,
+          "minimo": 0.83
         },
         {
           "id": 146430,
@@ -164,25 +164,25 @@
           "minimo": 0.37
         },
         {
-          "id": 110506,
-          "nome": "Abel Ferreira",
+          "id": 92273,
+          "nome": "Odair Hellmann",
           "pos": 6,
-          "clube": "PAL",
-          "adv": "REM",
+          "clube": "CAP",
+          "adv": "VAS",
           "casa": true,
-          "adv_pos": 19,
-          "preco": 12.12,
-          "media": 7.13,
-          "jogos": 33,
-          "nota": 8.27,
-          "minimo": 0.86
+          "adv_pos": 13,
+          "preco": 8.67,
+          "media": 5.71,
+          "jogos": 30,
+          "nota": 6.35,
+          "minimo": 0.67
         }
       ]
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 138.89,
-      "nota": 91.54,
+      "custo": 136.66,
+      "nota": 89.95,
       "capitao": 98873,
       "time": [
         {
@@ -228,20 +228,6 @@
           "minimo": 3.43
         },
         {
-          "id": 99274,
-          "nome": "Alexander Barboza",
-          "pos": 3,
-          "clube": "PAL",
-          "adv": "REM",
-          "casa": true,
-          "adv_pos": 19,
-          "preco": 10.81,
-          "media": 6.4,
-          "jogos": 22,
-          "nota": 7.07,
-          "minimo": 1.08
-        },
-        {
           "id": 71684,
           "nome": "Gustavo Gómez",
           "pos": 3,
@@ -254,6 +240,20 @@
           "jogos": 29,
           "nota": 6.42,
           "minimo": 0.83
+        },
+        {
+          "id": 63008,
+          "nome": "Rafael Tolói",
+          "pos": 3,
+          "clube": "SAO",
+          "adv": "COR",
+          "casa": true,
+          "adv_pos": 17,
+          "preco": 8.58,
+          "media": 5.19,
+          "jogos": 11,
+          "nota": 5.48,
+          "minimo": 1.44
         },
         {
           "id": 105436,
@@ -357,8 +357,8 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 151.03,
-      "nota": 92.42,
+      "custo": 148.8,
+      "nota": 90.83,
       "capitao": 98873,
       "time": [
         {
@@ -404,20 +404,6 @@
           "minimo": 1.24
         },
         {
-          "id": 99274,
-          "nome": "Alexander Barboza",
-          "pos": 3,
-          "clube": "PAL",
-          "adv": "REM",
-          "casa": true,
-          "adv_pos": 19,
-          "preco": 10.81,
-          "media": 6.4,
-          "jogos": 22,
-          "nota": 7.07,
-          "minimo": 1.08
-        },
-        {
           "id": 71684,
           "nome": "Gustavo Gómez",
           "pos": 3,
@@ -430,6 +416,20 @@
           "jogos": 29,
           "nota": 6.42,
           "minimo": 0.83
+        },
+        {
+          "id": 63008,
+          "nome": "Rafael Tolói",
+          "pos": 3,
+          "clube": "SAO",
+          "adv": "COR",
+          "casa": true,
+          "adv_pos": 17,
+          "preco": 8.58,
+          "media": 5.19,
+          "jogos": 11,
+          "nota": 5.48,
+          "minimo": 1.44
         },
         {
           "id": 105436,
@@ -679,20 +679,6 @@
     ],
     "ZAG": [
       {
-        "id": 99274,
-        "nome": "Alexander Barboza",
-        "pos": 3,
-        "clube": "PAL",
-        "adv": "REM",
-        "casa": true,
-        "adv_pos": 19,
-        "preco": 10.81,
-        "media": 6.4,
-        "jogos": 22,
-        "nota": 7.07,
-        "minimo": 1.08
-      },
-      {
         "id": 71684,
         "nome": "Gustavo Gómez",
         "pos": 3,
@@ -733,6 +719,20 @@
         "jogos": 26,
         "nota": 5.27,
         "minimo": 0.79
+      },
+      {
+        "id": 104085,
+        "nome": "Bruno Fuchs",
+        "pos": 3,
+        "clube": "PAL",
+        "adv": "REM",
+        "casa": true,
+        "adv_pos": 19,
+        "preco": 8.87,
+        "media": 4.85,
+        "jogos": 11,
+        "nota": 5.27,
+        "minimo": 1.49
       },
       {
         "id": 97653,
@@ -865,6 +865,20 @@
         "minimo": 1.26
       },
       {
+        "id": 114802,
+        "nome": "Vitor Roque",
+        "pos": 5,
+        "clube": "PAL",
+        "adv": "REM",
+        "casa": true,
+        "adv_pos": 19,
+        "preco": 13.96,
+        "media": 6.09,
+        "jogos": 19,
+        "nota": 6.66,
+        "minimo": 1.56
+      },
+      {
         "id": 130209,
         "nome": "Renê",
         "pos": 5,
@@ -877,20 +891,6 @@
         "jogos": 22,
         "nota": 6.44,
         "minimo": 0.98
-      },
-      {
-        "id": 103445,
-        "nome": "Kaio Jorge",
-        "pos": 5,
-        "clube": "CRU",
-        "adv": "BAH",
-        "casa": true,
-        "adv_pos": 6,
-        "preco": 12.17,
-        "media": 6.28,
-        "jogos": 25,
-        "nota": 6.09,
-        "minimo": 1.09
       }
     ],
     "TEC": [
