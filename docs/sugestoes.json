@@ -1,7 +1,7 @@
 {
   "rodada": 34,
   "mercado_aberto": false,
-  "jogadores_avaliados": 210,
+  "jogadores_avaliados": 214,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -996,20 +996,6 @@
       "minimo": 0.88
     },
     {
-      "id": 143153,
-      "nome": "Tarzia",
-      "pos": 5,
-      "clube": "VIT",
-      "adv": "FLU",
-      "casa": true,
-      "adv_pos": 4,
-      "preco": 4.5,
-      "media": 3.24,
-      "jogos": 24,
-      "nota": 3.22,
-      "minimo": 0.42
-    },
-    {
       "id": 78855,
       "nome": "Thiago Santos",
       "pos": 3,
@@ -1078,6 +1064,20 @@
       "jogos": 10,
       "nota": 2.95,
       "minimo": 0.61
+    },
+    {
+      "id": 114801,
+      "nome": "Danilo Pereira",
+      "pos": 5,
+      "clube": "BOT",
+      "adv": "CAM",
+      "casa": true,
+      "adv_pos": 7,
+      "preco": 4.96,
+      "media": 2.77,
+      "jogos": 8,
+      "nota": 2.92,
+      "minimo": 1.04
     }
   ]
 }
