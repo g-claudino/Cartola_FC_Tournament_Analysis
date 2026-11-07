@@ -1,144 +1,88 @@
 {
-  "ultima_rodada": 33,
-  "em_andamento": 34,
-  "parciais": {
-    "19429362": {
-      "pontos": 94.45,
-      "jogaram": 11,
-      "escalados": 12
-    },
-    "300778": {
-      "pontos": 99.05,
-      "jogaram": 11,
-      "escalados": 12
-    },
-    "283417": {
-      "pontos": 77.25,
-      "jogaram": 11,
-      "escalados": 12
-    },
-    "45022741": {
-      "pontos": 100.55,
-      "jogaram": 11,
-      "escalados": 12
-    },
-    "1061200": {
-      "pontos": 85.35,
-      "jogaram": 12,
-      "escalados": 12
-    },
-    "28924680": {
-      "pontos": 47.23,
-      "jogaram": 11,
-      "escalados": 12
-    },
-    "18271822": {
-      "pontos": 84.85,
-      "jogaram": 11,
-      "escalados": 12
-    },
-    "49327835": {
-      "pontos": 69.3,
-      "jogaram": 10,
-      "escalados": 12
-    },
-    "25313159": {
-      "pontos": 67.21,
-      "jogaram": 10,
-      "escalados": 12
-    },
-    "51076565": {
-      "pontos": 36.95,
-      "jogaram": 8,
-      "escalados": 12
-    },
-    "51069766": {
-      "pontos": 16.97,
-      "jogaram": 3,
-      "escalados": 12
-    }
-  },
+  "ultima_rodada": 34,
+  "em_andamento": null,
+  "parciais": {},
   "chaves": {
     "principal": [
       {
         "pos": 1,
         "nome": "davOLUTION",
-        "P": 9,
-        "J": 3,
-        "V": 3,
+        "P": 12,
+        "J": 4,
+        "V": 4,
         "E": 0,
         "D": 0,
-        "PC": 274.63
+        "PC": 400.48
       },
       {
         "pos": 2,
         "nome": "The Little Tiger",
         "P": 9,
-        "J": 3,
+        "J": 4,
         "V": 3,
         "E": 0,
-        "D": 0,
-        "PC": 272.96
+        "D": 1,
+        "PC": 369.01
       },
       {
         "pos": 3,
         "nome": "SC Ventures",
         "P": 6,
-        "J": 3,
+        "J": 4,
         "V": 2,
         "E": 0,
-        "D": 1,
-        "PC": 272.81
+        "D": 2,
+        "PC": 375.31
       },
       {
         "pos": 4,
         "nome": "CRV Vasco da Brahma ",
         "P": 6,
-        "J": 3,
+        "J": 4,
         "V": 2,
         "E": 0,
-        "D": 1,
-        "PC": 254.43
+        "D": 2,
+        "PC": 364.88
       },
       {
         "pos": 5,
         "nome": "Soul Edge",
-        "P": 3,
-        "J": 3,
-        "V": 1,
+        "P": 6,
+        "J": 4,
+        "V": 2,
         "E": 0,
         "D": 2,
-        "PC": 223.95
+        "PC": 350.1
       },
       {
         "pos": 6,
-        "nome": "HABZ",
+        "nome": "IdosoIludido",
         "P": 3,
-        "J": 3,
+        "J": 4,
         "V": 1,
         "E": 0,
-        "D": 2,
-        "PC": 208.41
+        "D": 3,
+        "PC": 349.41
       },
       {
         "pos": 7,
-        "nome": "IdosoIludido",
-        "P": 0,
-        "J": 3,
-        "V": 0,
+        "nome": "FC Aerodynamics",
+        "P": 3,
+        "J": 4,
+        "V": 1,
         "E": 0,
         "D": 3,
-        "PC": 248.46
+        "PC": 344.51
       },
       {
         "pos": 8,
-        "nome": "FC Aerodynamics",
-        "P": 0,
-        "J": 3,
-        "V": 0,
+        "nome": "HABZ",
+        "P": 3,
+        "J": 4,
+        "V": 1,
         "E": 0,
         "D": 3,
-        "PC": 232.96
+        "PC": 293.81
       }
     ],
     "perdedores": [
@@ -150,7 +94,7 @@
         "V": 4,
         "E": 0,
         "D": 0,
-        "PC": 298.5
+        "PC": 307.65
       },
       {
         "pos": 2,
@@ -160,7 +104,7 @@
         "V": 4,
         "E": 0,
         "D": 0,
-        "PC": 262.33
+        "PC": 284.53
       },
       {
         "pos": 3,
@@ -185,12 +129,12 @@
       {
         "pos": 5,
         "nome": "Trabalhador EC",
-        "P": 3,
-        "J": 3,
-        "V": 1,
+        "P": 6,
+        "J": 4,
+        "V": 2,
         "E": 0,
         "D": 2,
-        "PC": 174.17
+        "PC": 270.82
       },
       {
         "pos": 6,
@@ -216,11 +160,11 @@
         "pos": 8,
         "nome": "Surpreendente A.F.C.",
         "P": 0,
-        "J": 3,
+        "J": 4,
         "V": 0,
         "E": 0,
-        "D": 3,
-        "PC": 55.96
+        "D": 4,
+        "PC": 75.36
       }
     ]
   }
