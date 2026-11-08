@@ -95,7 +95,7 @@
         "placar_prob": 0.127
       },
       "contexto": [
-        "Corinthians sem: Raniele, Garro, Yuri Alberto, Lingard, Gabriel Paulista"
+        "Corinthians sem: Garro, Raniele, Yuri Alberto, Lingard, Gabriel Paulista"
       ]
     },
     {
@@ -155,7 +155,7 @@
       },
       "contexto": [
         "Vitória sem: Nathan Mendes, Ramon",
-        "Red Bull Bragantino sem: Lucas Barbosa, Fernando, Rodriguinho"
+        "Red Bull Bragantino sem: Fernando, Lucas Barbosa, Rodriguinho"
       ]
     },
     {
@@ -187,9 +187,9 @@
       "fora": "Grêmio",
       "casa_id": 282,
       "fora_id": 284,
-      "gc": null,
-      "gf": null,
-      "encerrado": false,
+      "gc": 1,
+      "gf": 1,
+      "encerrado": true,
       "previsao": {
         "gols_casa": 1.56,
         "gols_fora": 0.82,
