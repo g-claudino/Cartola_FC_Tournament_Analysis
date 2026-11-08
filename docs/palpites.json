@@ -18,7 +18,7 @@
       },
       "contexto": [
         "Coritiba sem: Lucas Ronier",
-        "Santos sem: Willian Arão, Thaciano, Barreal, Gabriel Brazão, Lucas Veríssimo"
+        "Santos sem: Thaciano, Willian Arão, Barreal, Gabriel Brazão, Lucas Veríssimo"
       ]
     },
     {
@@ -114,7 +114,7 @@
         "placar_prob": 0.114
       },
       "contexto": [
-        "Grêmio sem: Villasanti, Pavón, Diego Caito",
+        "Grêmio sem: Pavón, Villasanti, Diego Caito",
         "Bahia sem: Léo Vieira"
       ]
     },
@@ -182,22 +182,22 @@
   "outros_hoje": [
     {
       "competicao": "Copa do Brasil",
-      "hora": "18:00",
-      "casa": "Atlético-MG",
-      "fora": "Grêmio",
-      "casa_id": 282,
-      "fora_id": 284,
-      "gc": 1,
-      "gf": 1,
-      "encerrado": true,
+      "hora": "17:00",
+      "casa": "Vasco da Gama",
+      "fora": "Palmeiras",
+      "casa_id": 267,
+      "fora_id": 275,
+      "gc": null,
+      "gf": null,
+      "encerrado": false,
       "previsao": {
-        "gols_casa": 1.56,
-        "gols_fora": 0.82,
-        "casa": 0.534,
+        "gols_casa": 1.03,
+        "gols_fora": 1.56,
+        "casa": 0.242,
         "empate": 0.276,
-        "fora": 0.19,
-        "placar": "1 x 0",
-        "placar_prob": 0.145
+        "fora": 0.482,
+        "placar": "1 x 1",
+        "placar_prob": 0.121
       }
     }
   ],
