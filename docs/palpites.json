@@ -18,7 +18,7 @@
       },
       "contexto": [
         "Coritiba sem: Lucas Ronier",
-        "Santos sem: Thaciano, Willian Arão, Barreal, Gabriel Brazão, Lucas Veríssimo"
+        "Santos sem: Willian Arão, Thaciano, Barreal, Gabriel Brazão, Lucas Veríssimo"
       ]
     },
     {
@@ -76,7 +76,7 @@
         "placar_prob": 0.129
       },
       "contexto": [
-        "Cruzeiro sem: Felipe Morais, Jonathan Jesus, João Marcelo, Kauã Moraes"
+        "Cruzeiro sem: Felipe Morais, Jonathan Jesus, Kauã Moraes, João Marcelo"
       ]
     },
     {
@@ -114,7 +114,7 @@
         "placar_prob": 0.114
       },
       "contexto": [
-        "Grêmio sem: Pavón, Villasanti, Diego Caito",
+        "Grêmio sem: Villasanti, Pavón, Diego Caito",
         "Bahia sem: Léo Vieira"
       ]
     },
@@ -174,33 +174,12 @@
         "placar_prob": 0.125
       },
       "contexto": [
-        "São Paulo sem: Newton, Marcos Antônio, Ferreira, Luciano, Sabino",
+        "São Paulo sem: Newton, Ferreira, Marcos Antônio, Luciano, Sabino",
         "Fluminense sem: Martinelli, John Kennedy"
       ]
     }
   ],
-  "outros_hoje": [
-    {
-      "competicao": "Copa do Brasil",
-      "hora": "17:00",
-      "casa": "Vasco da Gama",
-      "fora": "Palmeiras",
-      "casa_id": 267,
-      "fora_id": 275,
-      "gc": 2,
-      "gf": 1,
-      "encerrado": true,
-      "previsao": {
-        "gols_casa": 1.03,
-        "gols_fora": 1.56,
-        "casa": 0.242,
-        "empate": 0.276,
-        "fora": 0.482,
-        "placar": "1 x 1",
-        "placar_prob": 0.121
-      }
-    }
-  ],
+  "outros_hoje": [],
   "historico": {
     "jogos": 268,
     "acerto": 0.493,
