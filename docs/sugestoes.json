@@ -1,12 +1,12 @@
 {
   "rodada": 35,
   "mercado_aberto": true,
-  "jogadores_avaliados": 191,
+  "jogadores_avaliados": 190,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.78,
-      "nota": 72.81,
+      "custo": 99.65,
+      "nota": 72.98,
       "capitao": 98873,
       "time": [
         {
@@ -52,18 +52,18 @@
           "minimo": -3.23
         },
         {
-          "id": 130307,
-          "nome": "Wallace",
+          "id": 118655,
+          "nome": "Saldivia",
           "pos": 3,
-          "clube": "GRE",
-          "adv": "BAH",
+          "clube": "VAS",
+          "adv": "INT",
           "casa": true,
-          "adv_pos": 6,
-          "preco": 8.28,
-          "media": 6.24,
-          "jogos": 11,
-          "nota": 5.74,
-          "minimo": 1.39
+          "adv_pos": 16,
+          "preco": 6.15,
+          "media": 4.24,
+          "jogos": 16,
+          "nota": 4.65,
+          "minimo": 2.86
         },
         {
           "id": 115537,
@@ -94,18 +94,18 @@
           "minimo": 2.64
         },
         {
-          "id": 104783,
-          "nome": "Acevedo",
+          "id": 105436,
+          "nome": "Carrascal",
           "pos": 4,
-          "clube": "BAH",
-          "adv": "GRE",
-          "casa": false,
-          "adv_pos": 18,
-          "preco": 7.17,
-          "media": 4.62,
-          "jogos": 30,
-          "nota": 4.55,
-          "minimo": 3.22
+          "clube": "FLA",
+          "adv": "CAP",
+          "casa": true,
+          "adv_pos": 5,
+          "preco": 11.35,
+          "media": 6.97,
+          "jogos": 25,
+          "nota": 6.62,
+          "minimo": 5.61
         },
         {
           "id": 141776,
@@ -164,25 +164,25 @@
           "minimo": 2.68
         },
         {
-          "id": 128177,
-          "nome": "Pedro Emanuel",
+          "id": 106147,
+          "nome": "Thiago Carpini",
           "pos": 6,
-          "clube": "VAS",
-          "adv": "INT",
+          "clube": "REM",
+          "adv": "CHA",
           "casa": true,
-          "adv_pos": 16,
-          "preco": 10.62,
-          "media": 6.24,
-          "jogos": 14,
-          "nota": 7.02,
-          "minimo": 6.32
+          "adv_pos": 20,
+          "preco": 8.44,
+          "media": 4.99,
+          "jogos": 6,
+          "nota": 6.21,
+          "minimo": 3.45
         }
       ]
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.37,
-      "nota": 83.83,
+      "custo": 139.78,
+      "nota": 84.04,
       "capitao": 98873,
       "time": [
         {
@@ -270,20 +270,6 @@
           "minimo": 2.46
         },
         {
-          "id": 96610,
-          "nome": "Matheus Pereira",
-          "pos": 4,
-          "clube": "CRU",
-          "adv": "PAL",
-          "casa": true,
-          "adv_pos": 2,
-          "preco": 13.64,
-          "media": 7.43,
-          "jogos": 29,
-          "nota": 6.86,
-          "minimo": 1.08
-        },
-        {
           "id": 124552,
           "nome": "Lescano",
           "pos": 4,
@@ -296,6 +282,20 @@
           "jogos": 8,
           "nota": 6.71,
           "minimo": 2.64
+        },
+        {
+          "id": 105436,
+          "nome": "Carrascal",
+          "pos": 4,
+          "clube": "FLA",
+          "adv": "CAP",
+          "casa": true,
+          "adv_pos": 5,
+          "preco": 11.35,
+          "media": 6.97,
+          "jogos": 25,
+          "nota": 6.62,
+          "minimo": 5.61
         },
         {
           "id": 98873,
@@ -340,25 +340,25 @@
           "minimo": 3.26
         },
         {
-          "id": 128177,
-          "nome": "Pedro Emanuel",
+          "id": 88963,
+          "nome": "Leonardo Jardim",
           "pos": 6,
-          "clube": "VAS",
-          "adv": "INT",
+          "clube": "FLA",
+          "adv": "CAP",
           "casa": true,
-          "adv_pos": 16,
-          "preco": 10.62,
-          "media": 6.24,
-          "jogos": 14,
-          "nota": 7.02,
-          "minimo": 6.32
+          "adv_pos": 5,
+          "preco": 13.32,
+          "media": 7.5,
+          "jogos": 30,
+          "nota": 7.47,
+          "minimo": 7.68
         }
       ]
     },
     "180": {
-      "formacao": "4-3-3",
-      "custo": 145.99,
-      "nota": 85.07,
+      "formacao": "4-4-2",
+      "custo": 148.24,
+      "nota": 85.1,
       "capitao": 98873,
       "time": [
         {
@@ -474,6 +474,20 @@
           "minimo": 2.64
         },
         {
+          "id": 105436,
+          "nome": "Carrascal",
+          "pos": 4,
+          "clube": "FLA",
+          "adv": "CAP",
+          "casa": true,
+          "adv_pos": 5,
+          "preco": 11.35,
+          "media": 6.97,
+          "jogos": 25,
+          "nota": 6.62,
+          "minimo": 5.61
+        },
+        {
           "id": 98873,
           "nome": "Samuel Lino",
           "pos": 5,
@@ -500,20 +514,6 @@
           "jogos": 32,
           "nota": 8.07,
           "minimo": 19.04
-        },
-        {
-          "id": 130209,
-          "nome": "Renê",
-          "pos": 5,
-          "clube": "VIT",
-          "adv": "RBB",
-          "casa": true,
-          "adv_pos": 8,
-          "preco": 9.1,
-          "media": 6.71,
-          "jogos": 23,
-          "nota": 6.59,
-          "minimo": 3.26
         },
         {
           "id": 88963,
@@ -793,6 +793,20 @@
         "minimo": 2.64
       },
       {
+        "id": 105436,
+        "nome": "Carrascal",
+        "pos": 4,
+        "clube": "FLA",
+        "adv": "CAP",
+        "casa": true,
+        "adv_pos": 5,
+        "preco": 11.35,
+        "media": 6.97,
+        "jogos": 25,
+        "nota": 6.62,
+        "minimo": 5.61
+      },
+      {
         "id": 87863,
         "nome": "Arrascaeta",
         "pos": 4,
@@ -805,20 +819,6 @@
         "jogos": 22,
         "nota": 5.05,
         "minimo": 2.1
-      },
-      {
-        "id": 68899,
-        "nome": "Philippe Coutinho",
-        "pos": 4,
-        "clube": "SAN",
-        "adv": "CFC",
-        "casa": false,
-        "adv_pos": 13,
-        "preco": 11.47,
-        "media": 6.09,
-        "jogos": 8,
-        "nota": 5.01,
-        "minimo": 2.37
       }
     ],
     "ATA": [
