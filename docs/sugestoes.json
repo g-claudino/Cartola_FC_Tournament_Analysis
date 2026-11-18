@@ -1,12 +1,12 @@
 {
   "rodada": 35,
-  "mercado_aberto": true,
-  "jogadores_avaliados": 199,
+  "mercado_aberto": false,
+  "jogadores_avaliados": 208,
   "times": {
     "100": {
       "formacao": "4-3-3",
       "custo": 99.65,
-      "nota": 72.98,
+      "nota": 73.01,
       "capitao": 98873,
       "time": [
         {
@@ -21,7 +21,7 @@
           "media": 6.9,
           "jogos": 3,
           "nota": 5.19,
-          "minimo": 4.6
+          "minimo": 2.68
         },
         {
           "id": 130525,
@@ -35,7 +35,7 @@
           "media": 9.5,
           "jogos": 7,
           "nota": 7.86,
-          "minimo": 8.41
+          "minimo": 2.58
         },
         {
           "id": 97795,
@@ -49,7 +49,7 @@
           "media": 4.75,
           "jogos": 28,
           "nota": 5.54,
-          "minimo": -3.23
+          "minimo": 0.43
         },
         {
           "id": 118655,
@@ -63,7 +63,7 @@
           "media": 4.24,
           "jogos": 16,
           "nota": 4.65,
-          "minimo": 2.86
+          "minimo": 0.79
         },
         {
           "id": 115537,
@@ -91,7 +91,7 @@
           "media": 7.09,
           "jogos": 8,
           "nota": 6.71,
-          "minimo": 2.64
+          "minimo": 2.09
         },
         {
           "id": 105436,
@@ -105,7 +105,7 @@
           "media": 6.97,
           "jogos": 25,
           "nota": 6.62,
-          "minimo": 5.61
+          "minimo": 1.02
         },
         {
           "id": 141776,
@@ -114,11 +114,11 @@
           "clube": "SAN",
           "adv": "CFC",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 12,
           "preco": 5.64,
           "media": 4.71,
           "jogos": 19,
-          "nota": 4.31,
+          "nota": 4.27,
           "minimo": 0.64
         },
         {
@@ -133,7 +133,7 @@
           "media": 9.33,
           "jogos": 31,
           "nota": 8.92,
-          "minimo": 16.51
+          "minimo": 1.06
         },
         {
           "id": 130209,
@@ -142,12 +142,12 @@
           "clube": "VIT",
           "adv": "RBB",
           "casa": true,
-          "adv_pos": 8,
+          "adv_pos": 9,
           "preco": 9.1,
           "media": 6.71,
           "jogos": 23,
-          "nota": 6.59,
-          "minimo": 3.26
+          "nota": 6.66,
+          "minimo": 0.87
         },
         {
           "id": 105048,
@@ -161,7 +161,7 @@
           "media": 5.29,
           "jogos": 27,
           "nota": 6.0,
-          "minimo": 2.68
+          "minimo": 0.57
         },
         {
           "id": 106147,
@@ -175,14 +175,14 @@
           "media": 4.99,
           "jogos": 6,
           "nota": 6.21,
-          "minimo": 3.45
+          "minimo": 2.07
         }
       ]
     },
     "140": {
       "formacao": "4-3-3",
       "custo": 139.7,
-      "nota": 84.78,
+      "nota": 84.7,
       "capitao": 98873,
       "time": [
         {
@@ -197,7 +197,7 @@
           "media": 5.9,
           "jogos": 24,
           "nota": 5.83,
-          "minimo": 3.69
+          "minimo": 0.78
         },
         {
           "id": 116065,
@@ -211,7 +211,7 @@
           "media": 7.58,
           "jogos": 22,
           "nota": 8.15,
-          "minimo": 6.98
+          "minimo": 1.25
         },
         {
           "id": 130525,
@@ -225,7 +225,7 @@
           "media": 9.5,
           "jogos": 7,
           "nota": 7.86,
-          "minimo": 8.41
+          "minimo": 2.58
         },
         {
           "id": 130307,
@@ -262,11 +262,11 @@
           "clube": "SAN",
           "adv": "CFC",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 12,
           "preco": 18.37,
           "media": 9.57,
           "jogos": 15,
-          "nota": 8.2,
+          "nota": 8.12,
           "minimo": 2.46
         },
         {
@@ -281,7 +281,7 @@
           "media": 7.09,
           "jogos": 8,
           "nota": 6.71,
-          "minimo": 2.64
+          "minimo": 2.09
         },
         {
           "id": 105436,
@@ -295,7 +295,7 @@
           "media": 6.97,
           "jogos": 25,
           "nota": 6.62,
-          "minimo": 5.61
+          "minimo": 1.02
         },
         {
           "id": 98873,
@@ -309,7 +309,7 @@
           "media": 9.33,
           "jogos": 31,
           "nota": 8.92,
-          "minimo": 16.51
+          "minimo": 1.06
         },
         {
           "id": 94583,
@@ -323,7 +323,7 @@
           "media": 8.4,
           "jogos": 32,
           "nota": 8.07,
-          "minimo": 19.04
+          "minimo": 1.27
         },
         {
           "id": 116706,
@@ -337,7 +337,7 @@
           "media": 6.76,
           "jogos": 27,
           "nota": 7.28,
-          "minimo": 4.78
+          "minimo": 0.98
         },
         {
           "id": 128177,
@@ -351,14 +351,14 @@
           "media": 6.24,
           "jogos": 14,
           "nota": 7.02,
-          "minimo": 6.32
+          "minimo": 1.5
         }
       ]
     },
     "180": {
       "formacao": "4-3-3",
       "custo": 148.61,
-      "nota": 86.26,
+      "nota": 86.18,
       "capitao": 98873,
       "time": [
         {
@@ -373,7 +373,7 @@
           "media": 5.9,
           "jogos": 24,
           "nota": 5.83,
-          "minimo": 3.69
+          "minimo": 0.78
         },
         {
           "id": 116065,
@@ -387,7 +387,7 @@
           "media": 7.58,
           "jogos": 22,
           "nota": 8.15,
-          "minimo": 6.98
+          "minimo": 1.25
         },
         {
           "id": 130525,
@@ -401,7 +401,7 @@
           "media": 9.5,
           "jogos": 7,
           "nota": 7.86,
-          "minimo": 8.41
+          "minimo": 2.58
         },
         {
           "id": 130307,
@@ -438,11 +438,11 @@
           "clube": "SAN",
           "adv": "CFC",
           "casa": false,
-          "adv_pos": 13,
+          "adv_pos": 12,
           "preco": 18.37,
           "media": 9.57,
           "jogos": 15,
-          "nota": 8.2,
+          "nota": 8.12,
           "minimo": 2.46
         },
         {
@@ -471,7 +471,7 @@
           "media": 7.09,
           "jogos": 8,
           "nota": 6.71,
-          "minimo": 2.64
+          "minimo": 2.09
         },
         {
           "id": 98873,
@@ -485,7 +485,7 @@
           "media": 9.33,
           "jogos": 31,
           "nota": 8.92,
-          "minimo": 16.51
+          "minimo": 1.06
         },
         {
           "id": 94583,
@@ -499,7 +499,7 @@
           "media": 8.4,
           "jogos": 32,
           "nota": 8.07,
-          "minimo": 19.04
+          "minimo": 1.27
         },
         {
           "id": 116706,
@@ -513,7 +513,7 @@
           "media": 6.76,
           "jogos": 27,
           "nota": 7.28,
-          "minimo": 4.78
+          "minimo": 0.98
         },
         {
           "id": 88963,
@@ -527,7 +527,7 @@
           "media": 7.5,
           "jogos": 30,
           "nota": 7.47,
-          "minimo": 7.68
+          "minimo": 1.02
         }
       ]
     }
@@ -546,7 +546,7 @@
         "media": 5.9,
         "jogos": 24,
         "nota": 5.83,
-        "minimo": 3.69
+        "minimo": 0.78
       },
       {
         "id": 104118,
@@ -555,12 +555,12 @@
         "clube": "VIT",
         "adv": "RBB",
         "casa": true,
-        "adv_pos": 8,
+        "adv_pos": 9,
         "preco": 8.88,
         "media": 5.45,
         "jogos": 27,
-        "nota": 5.58,
-        "minimo": 2.61
+        "nota": 5.64,
+        "minimo": 0.75
       },
       {
         "id": 71631,
@@ -602,7 +602,7 @@
         "media": 6.9,
         "jogos": 3,
         "nota": 5.19,
-        "minimo": 4.6
+        "minimo": 2.68
       }
     ],
     "LAT": [
@@ -618,7 +618,7 @@
         "media": 7.58,
         "jogos": 22,
         "nota": 8.15,
-        "minimo": 6.98
+        "minimo": 1.25
       },
       {
         "id": 130525,
@@ -632,7 +632,7 @@
         "media": 9.5,
         "jogos": 7,
         "nota": 7.86,
-        "minimo": 8.41
+        "minimo": 2.58
       },
       {
         "id": 105531,
@@ -641,12 +641,12 @@
         "clube": "COR",
         "adv": "BOT",
         "casa": true,
-        "adv_pos": 12,
+        "adv_pos": 13,
         "preco": 12.54,
         "media": 7.32,
         "jogos": 27,
-        "nota": 7.65,
-        "minimo": 7.48
+        "nota": 7.73,
+        "minimo": 1.05
       },
       {
         "id": 107093,
@@ -660,7 +660,7 @@
         "media": 7.1,
         "jogos": 30,
         "nota": 6.98,
-        "minimo": 4.89
+        "minimo": 0.86
       },
       {
         "id": 101727,
@@ -669,11 +669,11 @@
         "clube": "COR",
         "adv": "BOT",
         "casa": true,
-        "adv_pos": 12,
+        "adv_pos": 13,
         "preco": 11.85,
         "media": 6.25,
         "jogos": 27,
-        "nota": 6.6,
+        "nota": 6.66,
         "minimo": 0.99
       }
     ],
@@ -718,7 +718,7 @@
         "media": 6.11,
         "jogos": 23,
         "nota": 5.05,
-        "minimo": 0.71
+        "minimo": 0.96
       },
       {
         "id": 78248,
@@ -727,12 +727,12 @@
         "clube": "COR",
         "adv": "BOT",
         "casa": true,
-        "adv_pos": 12,
+        "adv_pos": 13,
         "preco": 8.84,
         "media": 4.67,
         "jogos": 28,
-        "nota": 4.96,
-        "minimo": 5.57
+        "nota": 5.01,
+        "minimo": 0.72
       },
       {
         "id": 63008,
@@ -746,7 +746,7 @@
         "media": 5.17,
         "jogos": 12,
         "nota": 4.8,
-        "minimo": 4.76
+        "minimo": 1.28
       }
     ],
     "MEI": [
@@ -757,11 +757,11 @@
         "clube": "SAN",
         "adv": "CFC",
         "casa": false,
-        "adv_pos": 13,
+        "adv_pos": 12,
         "preco": 18.37,
         "media": 9.57,
         "jogos": 15,
-        "nota": 8.2,
+        "nota": 8.12,
         "minimo": 2.46
       },
       {
@@ -790,7 +790,7 @@
         "media": 7.09,
         "jogos": 8,
         "nota": 6.71,
-        "minimo": 2.64
+        "minimo": 2.09
       },
       {
         "id": 105436,
@@ -804,7 +804,7 @@
         "media": 6.97,
         "jogos": 25,
         "nota": 6.62,
-        "minimo": 5.61
+        "minimo": 1.02
       },
       {
         "id": 99440,
@@ -813,12 +813,12 @@
         "clube": "VIT",
         "adv": "RBB",
         "casa": true,
-        "adv_pos": 8,
+        "adv_pos": 9,
         "preco": 9.21,
         "media": 5.23,
         "jogos": 16,
-        "nota": 5.07,
-        "minimo": 5.08
+        "nota": 5.12,
+        "minimo": 1.18
       }
     ],
     "ATA": [
@@ -834,7 +834,7 @@
         "media": 9.33,
         "jogos": 31,
         "nota": 8.92,
-        "minimo": 16.51
+        "minimo": 1.06
       },
       {
         "id": 94583,
@@ -848,7 +848,7 @@
         "media": 8.4,
         "jogos": 32,
         "nota": 8.07,
-        "minimo": 19.04
+        "minimo": 1.27
       },
       {
         "id": 116706,
@@ -862,7 +862,7 @@
         "media": 6.76,
         "jogos": 27,
         "nota": 7.28,
-        "minimo": 4.78
+        "minimo": 0.98
       },
       {
         "id": 130209,
@@ -871,12 +871,12 @@
         "clube": "VIT",
         "adv": "RBB",
         "casa": true,
-        "adv_pos": 8,
+        "adv_pos": 9,
         "preco": 9.1,
         "media": 6.71,
         "jogos": 23,
-        "nota": 6.59,
-        "minimo": 3.26
+        "nota": 6.66,
+        "minimo": 0.87
       },
       {
         "id": 114323,
@@ -890,7 +890,7 @@
         "media": 6.16,
         "jogos": 12,
         "nota": 6.29,
-        "minimo": 5.4
+        "minimo": 1.56
       }
     ],
     "TEC": [
@@ -906,7 +906,21 @@
         "media": 7.5,
         "jogos": 30,
         "nota": 7.47,
-        "minimo": 7.68
+        "minimo": 1.02
+      },
+      {
+        "id": 86787,
+        "nome": "Clarence Seedorf",
+        "pos": 6,
+        "clube": "COR",
+        "adv": "BOT",
+        "casa": true,
+        "adv_pos": 13,
+        "preco": 11.03,
+        "media": 6.83,
+        "jogos": 4,
+        "nota": 7.04,
+        "minimo": 4.51
       },
       {
         "id": 128177,
@@ -920,21 +934,7 @@
         "media": 6.24,
         "jogos": 14,
         "nota": 7.02,
-        "minimo": 6.32
-      },
-      {
-        "id": 86787,
-        "nome": "Clarence Seedorf",
-        "pos": 6,
-        "clube": "COR",
-        "adv": "BOT",
-        "casa": true,
-        "adv_pos": 12,
-        "preco": 11.03,
-        "media": 6.83,
-        "jogos": 4,
-        "nota": 6.96,
-        "minimo": 6.65
+        "minimo": 1.5
       },
       {
         "id": 127273,
@@ -948,7 +948,7 @@
         "media": 6.85,
         "jogos": 25,
         "nota": 6.62,
-        "minimo": 7.67
+        "minimo": 1.08
       },
       {
         "id": 73476,
@@ -962,7 +962,7 @@
         "media": 7.1,
         "jogos": 12,
         "nota": 6.45,
-        "minimo": 8.66
+        "minimo": 1.97
       }
     ]
   },
@@ -979,7 +979,7 @@
       "media": 4.16,
       "jogos": 20,
       "nota": 4.07,
-      "minimo": 0.92
+      "minimo": 0.44
     },
     {
       "id": 144255,
@@ -988,11 +988,11 @@
       "clube": "SAN",
       "adv": "CFC",
       "casa": false,
-      "adv_pos": 13,
+      "adv_pos": 12,
       "preco": 3.53,
       "media": 3.67,
       "jogos": 3,
-      "nota": 3.33,
+      "nota": 3.3,
       "minimo": 1.59
     },
     {
@@ -1002,12 +1002,12 @@
       "clube": "CFC",
       "adv": "SAN",
       "casa": true,
-      "adv_pos": 9,
+      "adv_pos": 8,
       "preco": 4.5,
       "media": 3.08,
       "jogos": 23,
-      "nota": 3.28,
-      "minimo": 2.99
+      "nota": 3.25,
+      "minimo": 0.44
     },
     {
       "id": 130806,
@@ -1021,7 +1021,7 @@
       "media": 3.02,
       "jogos": 12,
       "nota": 3.15,
-      "minimo": 10.41
+      "minimo": 0.68
     },
     {
       "id": 146430,
@@ -1035,7 +1035,7 @@
       "media": 3.09,
       "jogos": 11,
       "nota": 3.15,
-      "minimo": 5.23
+      "minimo": 0.73
     },
     {
       "id": 100804,
@@ -1063,7 +1063,7 @@
       "media": 3.04,
       "jogos": 14,
       "nota": 3.01,
-      "minimo": 2.38
+      "minimo": 0.68
     },
     {
       "id": 84339,
@@ -1072,12 +1072,12 @@
       "clube": "CFC",
       "adv": "SAN",
       "casa": true,
-      "adv_pos": 9,
+      "adv_pos": 8,
       "preco": 4.73,
       "media": 2.6,
       "jogos": 29,
-      "nota": 2.89,
-      "minimo": 0.12
+      "nota": 2.86,
+      "minimo": 0.38
     }
   ]
 }
