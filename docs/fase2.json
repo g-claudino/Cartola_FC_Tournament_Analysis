@@ -18,8 +18,8 @@
       "escalados": 12
     },
     "300778": {
-      "pontos": 58.05,
-      "jogaram": 7,
+      "pontos": 68.12,
+      "jogaram": 11,
       "escalados": 12
     },
     "283417": {
@@ -28,33 +28,33 @@
       "escalados": 12
     },
     "1380145": {
-      "pontos": 40.49,
-      "jogaram": 9,
+      "pontos": 52.49,
+      "jogaram": 11,
       "escalados": 12
     },
     "45022741": {
-      "pontos": 41.74,
-      "jogaram": 8,
+      "pontos": 47.34,
+      "jogaram": 12,
       "escalados": 12
     },
     "46075154": {
-      "pontos": 53.14,
-      "jogaram": 9,
+      "pontos": 60.04,
+      "jogaram": 12,
       "escalados": 12
     },
     "1061200": {
-      "pontos": 25.85,
-      "jogaram": 8,
+      "pontos": 35.42,
+      "jogaram": 11,
       "escalados": 12
     },
     "28924680": {
-      "pontos": 32.89,
-      "jogaram": 9,
+      "pontos": 31.59,
+      "jogaram": 11,
       "escalados": 12
     },
     "18271822": {
-      "pontos": 34.7,
-      "jogaram": 5,
+      "pontos": 44.77,
+      "jogaram": 10,
       "escalados": 12
     },
     "49327835": {
@@ -63,13 +63,13 @@
       "escalados": 12
     },
     "25313159": {
-      "pontos": 21.58,
-      "jogaram": 7,
+      "pontos": 20.28,
+      "jogaram": 8,
       "escalados": 12
     },
     "51076565": {
-      "pontos": 10.0,
-      "jogaram": 5,
+      "pontos": 10.2,
+      "jogaram": 6,
       "escalados": 12
     },
     "9490259": {
@@ -79,7 +79,7 @@
     },
     "51069766": {
       "pontos": 0.0,
-      "jogaram": 0,
+      "jogaram": 1,
       "escalados": 12
     }
   },
@@ -93,7 +93,7 @@
         "V": 4,
         "E": 0,
         "D": 1,
-        "PC": 442.22
+        "PC": 447.82
       },
       {
         "pos": 2,
@@ -103,10 +103,20 @@
         "V": 4,
         "E": 0,
         "D": 1,
-        "PC": 409.5
+        "PC": 421.5
       },
       {
         "pos": 3,
+        "nome": "SC Ventures",
+        "P": 9,
+        "J": 5,
+        "V": 3,
+        "E": 0,
+        "D": 2,
+        "PC": 435.35
+      },
+      {
+        "pos": 4,
         "nome": "CRV Vasco da Brahma ",
         "P": 9,
         "J": 5,
@@ -116,34 +126,24 @@
         "PC": 430.67
       },
       {
-        "pos": 4,
-        "nome": "SC Ventures",
+        "pos": 5,
+        "nome": "Soul Edge",
         "P": 9,
         "J": 5,
         "V": 3,
         "E": 0,
         "D": 2,
-        "PC": 428.45
-      },
-      {
-        "pos": 5,
-        "nome": "IdosoIludido",
-        "P": 6,
-        "J": 5,
-        "V": 2,
-        "E": 0,
-        "D": 3,
-        "PC": 416.51
+        "PC": 418.22
       },
       {
         "pos": 6,
-        "nome": "Soul Edge",
-        "P": 6,
+        "nome": "IdosoIludido",
+        "P": 3,
         "J": 5,
-        "V": 2,
+        "V": 1,
         "E": 0,
-        "D": 3,
-        "PC": 408.15
+        "D": 4,
+        "PC": 416.51
       },
       {
         "pos": 7,
@@ -169,43 +169,43 @@
     "perdedores": [
       {
         "pos": 1,
+        "nome": "SC dos Mano",
+        "P": 15,
+        "J": 5,
+        "V": 5,
+        "E": 0,
+        "D": 0,
+        "PC": 343.07
+      },
+      {
+        "pos": 2,
         "nome": "Alegria26 FC",
         "P": 15,
         "J": 5,
         "V": 5,
         "E": 0,
         "D": 0,
-        "PC": 317.42
-      },
-      {
-        "pos": 2,
-        "nome": "SC dos Mano",
-        "P": 12,
-        "J": 5,
-        "V": 4,
-        "E": 0,
-        "D": 1,
-        "PC": 333.5
+        "PC": 316.12
       },
       {
         "pos": 3,
-        "nome": "Filhos de Ronielson",
-        "P": 12,
-        "J": 5,
-        "V": 4,
-        "E": 0,
-        "D": 1,
-        "PC": 310.79
-      },
-      {
-        "pos": 4,
         "nome": "Trabalhador EC",
         "P": 9,
         "J": 5,
         "V": 3,
         "E": 0,
         "D": 2,
-        "PC": 305.52
+        "PC": 315.59
+      },
+      {
+        "pos": 4,
+        "nome": "Filhos de Ronielson",
+        "P": 9,
+        "J": 5,
+        "V": 3,
+        "E": 0,
+        "D": 2,
+        "PC": 310.79
       },
       {
         "pos": 5,
@@ -215,7 +215,7 @@
         "V": 2,
         "E": 0,
         "D": 3,
-        "PC": 323.83
+        "PC": 322.53
       },
       {
         "pos": 6,
@@ -245,7 +245,7 @@
         "V": 0,
         "E": 0,
         "D": 5,
-        "PC": 127.25
+        "PC": 127.45
       }
     ]
   }
