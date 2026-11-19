@@ -5,7 +5,7 @@
       "casa": "Coritiba",
       "fora": "Santos",
       "data": "2026-11-18 19:30",
-      "hoje": true,
+      "hoje": false,
       "local": "Couto Pereira",
       "previsao": {
         "gols_casa": 1.43,
@@ -25,7 +25,7 @@
       "casa": "Remo",
       "fora": "Chapecoense",
       "data": "2026-11-18 20:00",
-      "hoje": true,
+      "hoje": false,
       "local": "Mangueirão",
       "previsao": {
         "gols_casa": 1.58,
@@ -44,7 +44,7 @@
       "casa": "Flamengo",
       "fora": "Athletico-PR",
       "data": "2026-11-18 20:30",
-      "hoje": true,
+      "hoje": false,
       "local": "Maracanã",
       "previsao": {
         "gols_casa": 1.8,
@@ -63,7 +63,7 @@
       "casa": "Cruzeiro",
       "fora": "Palmeiras",
       "data": "2026-11-18 20:30",
-      "hoje": true,
+      "hoje": false,
       "local": "Mineirão",
       "previsao": {
         "gols_casa": 1.14,
@@ -83,7 +83,7 @@
       "casa": "Corinthians",
       "fora": "Botafogo",
       "data": "2026-11-18 21:30",
-      "hoje": true,
+      "hoje": false,
       "local": "Neo Química Arena",
       "previsao": {
         "gols_casa": 1.39,
@@ -103,7 +103,7 @@
       "casa": "Grêmio",
       "fora": "Bahia",
       "data": "2026-11-18 21:30",
-      "hoje": true,
+      "hoje": false,
       "local": "Arena do Grêmio",
       "previsao": {
         "gols_casa": 1.56,
@@ -122,7 +122,7 @@
       "casa": "Vasco da Gama",
       "fora": "Internacional",
       "data": "2026-11-19 19:30",
-      "hoje": false,
+      "hoje": true,
       "local": "São Januário",
       "previsao": {
         "gols_casa": 1.46,
@@ -142,7 +142,7 @@
       "casa": "Vitória",
       "fora": "Red Bull Bragantino",
       "data": "2026-11-19 19:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Barradão",
       "previsao": {
         "gols_casa": 1.27,
@@ -162,7 +162,7 @@
       "casa": "São Paulo",
       "fora": "Fluminense",
       "data": "2026-11-19 21:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Morumbis",
       "previsao": {
         "gols_casa": 1.46,
@@ -174,7 +174,7 @@
         "placar_prob": 0.125
       },
       "contexto": [
-        "São Paulo sem: Ferreira, Marcos Antônio, Sabino",
+        "São Paulo sem: Marcos Antônio, Ferreira, Sabino",
         "Fluminense sem: John Kennedy"
       ]
     }
