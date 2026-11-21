@@ -5,7 +5,7 @@
       "casa": "Palmeiras",
       "fora": "Flamengo",
       "data": "2026-11-21 16:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Nubank Parque",
       "previsao": {
         "gols_casa": 1.45,
@@ -25,7 +25,7 @@
       "casa": "Bahia",
       "fora": "Coritiba",
       "data": "2026-11-21 17:30",
-      "hoje": false,
+      "hoje": true,
       "local": "Arena Fonte Nova",
       "previsao": {
         "gols_casa": 1.67,
@@ -45,7 +45,7 @@
       "casa": "Chapecoense",
       "fora": "Cruzeiro",
       "data": "2026-11-21 21:00",
-      "hoje": false,
+      "hoje": true,
       "local": "Arena Condá",
       "previsao": {
         "gols_casa": 1.57,
@@ -98,7 +98,7 @@
       },
       "contexto": [
         "Fluminense sem: John Kennedy",
-        "Mirassol sem: Negueba, Neto Moura, Edson Carioca"
+        "Mirassol sem: Neto Moura, Negueba, Edson Carioca"
       ]
     },
     {
@@ -117,8 +117,8 @@
         "placar_prob": 0.114
       },
       "contexto": [
-        "Red Bull Bragantino sem: Fernando, Matheus Fernandes, Rodriguinho",
-        "Vasco da Gama sem: Tchê Tchê, Nuno Moreira, Barros"
+        "Red Bull Bragantino sem: Matheus Fernandes, Fernando, Rodriguinho",
+        "Vasco da Gama sem: Tchê Tchê, Barros, Nuno Moreira"
       ]
     },
     {
@@ -182,7 +182,20 @@
       ]
     }
   ],
-  "outros_hoje": [],
+  "outros_hoje": [
+    {
+      "competicao": "Sul-Americana",
+      "hora": "19:30",
+      "casa": "Atlético-MG",
+      "fora": "Boca Juniors",
+      "casa_id": 282,
+      "fora_id": null,
+      "gc": null,
+      "gf": null,
+      "encerrado": false,
+      "previsao": null
+    }
+  ],
   "historico": {
     "jogos": 278,
     "acerto": 0.496,
