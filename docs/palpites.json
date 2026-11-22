@@ -98,7 +98,7 @@
       },
       "contexto": [
         "Fluminense sem: John Kennedy",
-        "Mirassol sem: Neto Moura, Negueba, Edson Carioca"
+        "Mirassol sem: Negueba, Neto Moura, Edson Carioca"
       ]
     },
     {
@@ -117,7 +117,7 @@
         "placar_prob": 0.114
       },
       "contexto": [
-        "Red Bull Bragantino sem: Fernando, Matheus Fernandes, Rodriguinho",
+        "Red Bull Bragantino sem: Matheus Fernandes, Fernando, Rodriguinho",
         "Vasco da Gama sem: Tchê Tchê, Nuno Moreira, Barros"
       ]
     },
@@ -190,9 +190,9 @@
       "fora": "Boca Juniors",
       "casa_id": 282,
       "fora_id": null,
-      "gc": null,
-      "gf": null,
-      "encerrado": false,
+      "gc": 0,
+      "gf": 2,
+      "encerrado": true,
       "previsao": null
     }
   ],
