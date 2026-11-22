@@ -1,7 +1,7 @@
 {
   "rodada": 36,
   "mercado_aberto": false,
-  "jogadores_avaliados": 209,
+  "jogadores_avaliados": 212,
   "times": {
     "100": {
       "formacao": "4-3-3",
@@ -1052,6 +1052,20 @@
       "minimo": 0.37
     },
     {
+      "id": 111246,
+      "nome": "Alix Vinicius",
+      "pos": 3,
+      "clube": "RBB",
+      "adv": "VAS",
+      "casa": true,
+      "adv_pos": 10,
+      "preco": 4.89,
+      "media": 2.81,
+      "jogos": 23,
+      "nota": 3.06,
+      "minimo": 0.47
+    },
+    {
       "id": 130806,
       "nome": "Kauan",
       "pos": 3,
@@ -1064,20 +1078,6 @@
       "jogos": 13,
       "nota": 2.93,
       "minimo": 0.43
-    },
-    {
-      "id": 123445,
-      "nome": "Dantas",
-      "pos": 3,
-      "clube": "CAP",
-      "adv": "REM",
-      "casa": true,
-      "adv_pos": 19,
-      "preco": 4.52,
-      "media": 2.13,
-      "jogos": 6,
-      "nota": 2.9,
-      "minimo": 1.12
     }
   ]
 }
