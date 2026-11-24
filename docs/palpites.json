@@ -1,193 +1,153 @@
 {
-  "rodada": 36,
+  "rodada": 37,
   "jogos": [
     {
-      "casa": "Palmeiras",
-      "fora": "Flamengo",
-      "data": "2026-11-21 16:30",
+      "casa": "Botafogo",
+      "fora": "Bahia",
+      "data": "2026-11-28 21:00",
       "hoje": false,
-      "local": "Nubank Parque",
+      "local": "Nilton Santos (Engenhão)",
       "previsao": {
-        "gols_casa": 1.45,
-        "gols_fora": 1.28,
-        "casa": 0.399,
-        "empate": 0.277,
-        "fora": 0.324,
+        "gols_casa": 1.49,
+        "gols_fora": 1.35,
+        "casa": 0.396,
+        "empate": 0.272,
+        "fora": 0.332,
+        "placar": "1 x 1",
+        "placar_prob": 0.117
+      },
+      "contexto": [
+        "Botafogo sem: Marçal, Ferraresi",
+        "Bahia sem: Acevedo, Léo Vieira"
+      ]
+    },
+    {
+      "casa": "Coritiba",
+      "fora": "Flamengo",
+      "data": "2026-11-29 16:00",
+      "hoje": false,
+      "local": "Couto Pereira",
+      "previsao": {
+        "gols_casa": 1.02,
+        "gols_fora": 1.83,
+        "casa": 0.203,
+        "empate": 0.251,
+        "fora": 0.546,
+        "placar": "1 x 1",
+        "placar_prob": 0.108
+      },
+      "contexto": [
+        "Coritiba sem: Lucas Ronier",
+        "Flamengo sem: Alex Sandro"
+      ]
+    },
+    {
+      "casa": "Vitória",
+      "fora": "Santos",
+      "data": "2026-11-29 16:00",
+      "hoje": false,
+      "local": "Barradão",
+      "previsao": {
+        "gols_casa": 1.46,
+        "gols_fora": 1.25,
+        "casa": 0.407,
+        "empate": 0.278,
+        "fora": 0.315,
         "placar": "1 x 1",
         "placar_prob": 0.121
       },
       "contexto": [
-        "Palmeiras sem: Alexander Barboza",
-        "Flamengo sem: Erick Pulgar, Léo Pereira"
+        "Vitória sem: Emmanuel Martínez, Nathan Mendes",
+        "Santos sem: Barreal, Gabriel Brazão, Lucas Veríssimo"
       ]
     },
     {
-      "casa": "Bahia",
-      "fora": "Coritiba",
-      "data": "2026-11-21 17:30",
+      "casa": "Corinthians",
+      "fora": "Grêmio",
+      "data": "2026-11-29 18:30",
       "hoje": false,
-      "local": "Arena Fonte Nova",
+      "local": "Neo Química Arena",
       "previsao": {
-        "gols_casa": 1.67,
-        "gols_fora": 1.08,
-        "casa": 0.495,
-        "empate": 0.265,
-        "fora": 0.239,
-        "placar": "1 x 1",
-        "placar_prob": 0.115
-      },
-      "contexto": [
-        "Bahia sem: Léo Vieira",
-        "Coritiba sem: Lucas Ronier, Jacy"
-      ]
-    },
-    {
-      "casa": "Chapecoense",
-      "fora": "Cruzeiro",
-      "data": "2026-11-21 21:00",
-      "hoje": false,
-      "local": "Arena Condá",
-      "previsao": {
-        "gols_casa": 1.57,
-        "gols_fora": 2.09,
-        "casa": 0.283,
-        "empate": 0.234,
-        "fora": 0.483,
-        "placar": "1 x 2",
-        "placar_prob": 0.088
-      },
-      "contexto": [
-        "Chapecoense sem: Yago Felipe, Giovanni Augusto, Rafael Carvalheira, Garcez",
-        "Cruzeiro sem: Kaio Jorge, Gerson, João Marcelo"
-      ]
-    },
-    {
-      "casa": "Athletico-PR",
-      "fora": "Remo",
-      "data": "2026-11-22 16:00",
-      "hoje": false,
-      "local": "Arena da Baixada",
-      "previsao": {
-        "gols_casa": 1.92,
-        "gols_fora": 0.95,
-        "casa": 0.582,
-        "empate": 0.241,
-        "fora": 0.177,
+        "gols_casa": 1.3,
+        "gols_fora": 0.8,
+        "casa": 0.47,
+        "empate": 0.307,
+        "fora": 0.223,
         "placar": "1 x 0",
-        "placar_prob": 0.109
+        "placar_prob": 0.159
       },
       "contexto": [
-        "Athletico-PR sem: Viveros, Claudinho",
-        "Remo sem: Picco"
+        "Corinthians sem: Garro",
+        "Grêmio sem: Enamorado, Noriega"
       ]
     },
     {
-      "casa": "Fluminense",
-      "fora": "Mirassol",
-      "data": "2026-11-22 18:30",
+      "casa": "Mirassol",
+      "fora": "Athletico-PR",
+      "data": "2026-11-29 18:30",
       "hoje": false,
-      "local": "Maracanã",
+      "local": "Maião",
       "previsao": {
-        "gols_casa": 1.7,
-        "gols_fora": 0.92,
-        "casa": 0.541,
-        "empate": 0.262,
-        "fora": 0.197,
-        "placar": "1 x 0",
-        "placar_prob": 0.124
-      },
-      "contexto": [
-        "Fluminense sem: John Kennedy",
-        "Mirassol sem: Negueba, Neto Moura, Edson Carioca"
-      ]
-    },
-    {
-      "casa": "Red Bull Bragantino",
-      "fora": "Vasco da Gama",
-      "data": "2026-11-22 19:30",
-      "hoje": false,
-      "local": "Cícero de Souza Marques",
-      "previsao": {
-        "gols_casa": 1.69,
-        "gols_fora": 1.09,
-        "casa": 0.499,
-        "empate": 0.263,
-        "fora": 0.237,
+        "gols_casa": 1.4,
+        "gols_fora": 1.31,
+        "casa": 0.379,
+        "empate": 0.279,
+        "fora": 0.342,
         "placar": "1 x 1",
-        "placar_prob": 0.114
+        "placar_prob": 0.122
       },
       "contexto": [
-        "Red Bull Bragantino sem: Matheus Fernandes, Fernando, Rodriguinho",
-        "Vasco da Gama sem: Tchê Tchê, Barros, Nuno Moreira"
+        "Mirassol sem: Negueba, Edson Carioca, Wallisson",
+        "Athletico-PR sem: Viveros, Claudinho"
       ]
     },
     {
       "casa": "Internacional",
-      "fora": "Vitória",
-      "data": "2026-11-23 19:30",
+      "fora": "Red Bull Bragantino",
+      "data": "2026-11-29 18:30",
       "hoje": false,
       "local": "Beira-Rio",
       "previsao": {
-        "gols_casa": 1.67,
-        "gols_fora": 0.85,
-        "casa": 0.55,
-        "empate": 0.265,
-        "fora": 0.185,
-        "placar": "1 x 0",
-        "placar_prob": 0.134
-      },
-      "contexto": [
-        "Internacional sem: Alan Patrick, Bernabei",
-        "Vitória sem: Nathan Mendes, Mateus Silva"
-      ]
-    },
-    {
-      "casa": "Botafogo",
-      "fora": "São Paulo",
-      "data": "2026-11-23 20:00",
-      "hoje": false,
-      "local": "Nilton Santos (Engenhão)",
-      "previsao": {
-        "gols_casa": 1.56,
+        "gols_casa": 1.28,
         "gols_fora": 1.03,
-        "casa": 0.482,
-        "empate": 0.275,
-        "fora": 0.243,
+        "casa": 0.407,
+        "empate": 0.301,
+        "fora": 0.292,
         "placar": "1 x 1",
-        "placar_prob": 0.12
+        "placar_prob": 0.131
       },
       "contexto": [
-        "Botafogo sem: Huguinho",
-        "São Paulo sem: Marcos Antônio, Rafael Tolói, Sabino"
+        "Internacional sem: Alerrandro, Bernabei",
+        "Red Bull Bragantino sem: Matheus Fernandes, Wallace Yan, Rodriguinho"
       ]
     },
     {
-      "casa": "Santos",
-      "fora": "Grêmio",
-      "data": "2026-11-23 21:00",
+      "casa": "Atlético-MG",
+      "fora": "Vasco da Gama",
+      "data": "2026-11-29 19:30",
       "hoje": false,
-      "local": "Morumbis",
+      "local": "Arena MRV",
       "previsao": {
-        "gols_casa": 1.43,
-        "gols_fora": 0.9,
-        "casa": 0.48,
-        "empate": 0.291,
-        "fora": 0.229,
-        "placar": "1 x 0",
-        "placar_prob": 0.14
+        "gols_casa": 1.6,
+        "gols_fora": 1.05,
+        "casa": 0.487,
+        "empate": 0.272,
+        "fora": 0.241,
+        "placar": "1 x 1",
+        "placar_prob": 0.119
       },
       "contexto": [
-        "Santos sem: Gustavo Henrique, Gabriel Brazão, Lucas Veríssimo",
-        "Grêmio sem: Enamorado"
+        "Atlético-MG sem: Alan Franco, Reinier, Maycon, Minda",
+        "Vasco da Gama sem: Tchê Tchê, Nuno Moreira, Barros, Paulo Henrique, Robert Renan"
       ]
     }
   ],
   "outros_hoje": [],
   "historico": {
-    "jogos": 278,
-    "acerto": 0.496,
-    "logloss": 1.027,
-    "logloss_base": 1.051
+    "jogos": 287,
+    "acerto": 0.495,
+    "logloss": 1.029,
+    "logloss_base": 1.055
   },
-  "rodadas_usadas": 35
+  "rodadas_usadas": 36
 }
