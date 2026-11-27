@@ -1,27 +1,27 @@
 {
   "rodada": 37,
   "mercado_aberto": true,
-  "jogadores_avaliados": 160,
+  "jogadores_avaliados": 149,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.99,
-      "nota": 69.4,
-      "capitao": 98873,
+      "custo": 99.78,
+      "nota": 69.58,
+      "capitao": 105531,
       "time": [
         {
-          "id": 124264,
-          "nome": "Kauan Jesus",
+          "id": 91101,
+          "nome": "Ronaldo",
           "pos": 1,
-          "clube": "INT",
-          "adv": "RBB",
-          "casa": true,
-          "adv_pos": 8,
-          "preco": 5.07,
-          "media": 4.3,
-          "jogos": 5,
-          "nota": 4.4,
-          "minimo": 1.48
+          "clube": "BAH",
+          "adv": "BOT",
+          "casa": false,
+          "adv_pos": 14,
+          "preco": 8.76,
+          "media": 6.12,
+          "jogos": 26,
+          "nota": 5.81,
+          "minimo": 4.71
         },
         {
           "id": 105531,
@@ -38,18 +38,18 @@
           "minimo": 1.02
         },
         {
-          "id": 111879,
-          "nome": "Mateus Silva",
+          "id": 98720,
+          "nome": "Angileri",
           "pos": 2,
-          "clube": "VIT",
-          "adv": "SAN",
+          "clube": "COR",
+          "adv": "GRE",
           "casa": true,
-          "adv_pos": 9,
-          "preco": 8.67,
-          "media": 6.14,
-          "jogos": 13,
-          "nota": 6.05,
-          "minimo": 1.3
+          "adv_pos": 16,
+          "preco": 7.01,
+          "media": 5.28,
+          "jogos": 15,
+          "nota": 5.74,
+          "minimo": 0.95
         },
         {
           "id": 130307,
@@ -80,6 +80,20 @@
           "minimo": 0.3
         },
         {
+          "id": 68685,
+          "nome": "Alan Patrick",
+          "pos": 4,
+          "clube": "INT",
+          "adv": "RBB",
+          "casa": true,
+          "adv_pos": 8,
+          "preco": 7.2,
+          "media": 4.55,
+          "jogos": 28,
+          "nota": 4.59,
+          "minimo": 0.59
+        },
+        {
           "id": 141776,
           "nome": "Gustavo Henrique",
           "pos": 4,
@@ -108,32 +122,18 @@
           "minimo": 0.45
         },
         {
-          "id": 106822,
-          "nome": "Rodrigo Nestor",
-          "pos": 4,
-          "clube": "BAH",
-          "adv": "BOT",
-          "casa": false,
-          "adv_pos": 14,
-          "preco": 6.07,
-          "media": 4.2,
-          "jogos": 28,
-          "nota": 3.98,
-          "minimo": 2.45
-        },
-        {
-          "id": 98873,
-          "nome": "Samuel Lino",
+          "id": 130209,
+          "nome": "Renê",
           "pos": 5,
-          "clube": "FLA",
-          "adv": "CFC",
-          "casa": false,
-          "adv_pos": 12,
-          "preco": 14.72,
-          "media": 9.68,
-          "jogos": 33,
-          "nota": 8.8,
-          "minimo": 18.27
+          "clube": "VIT",
+          "adv": "SAN",
+          "casa": true,
+          "adv_pos": 9,
+          "preco": 11.35,
+          "media": 7.31,
+          "jogos": 25,
+          "nota": 7.27,
+          "minimo": 15.72
         },
         {
           "id": 98909,
@@ -181,185 +181,9 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.98,
-      "nota": 82.46,
-      "capitao": 98873,
-      "time": [
-        {
-          "id": 91101,
-          "nome": "Ronaldo",
-          "pos": 1,
-          "clube": "BAH",
-          "adv": "BOT",
-          "casa": false,
-          "adv_pos": 14,
-          "preco": 8.76,
-          "media": 6.12,
-          "jogos": 26,
-          "nota": 5.81,
-          "minimo": 4.71
-        },
-        {
-          "id": 105531,
-          "nome": "Matheus Bidu",
-          "pos": 2,
-          "clube": "COR",
-          "adv": "GRE",
-          "casa": true,
-          "adv_pos": 16,
-          "preco": 12.56,
-          "media": 7.31,
-          "jogos": 28,
-          "nota": 7.96,
-          "minimo": 1.02
-        },
-        {
-          "id": 101727,
-          "nome": "Matheuzinho",
-          "pos": 2,
-          "clube": "COR",
-          "adv": "GRE",
-          "casa": true,
-          "adv_pos": 16,
-          "preco": 11.07,
-          "media": 6.29,
-          "jogos": 28,
-          "nota": 6.91,
-          "minimo": 0.9
-        },
-        {
-          "id": 130307,
-          "nome": "Wallace",
-          "pos": 3,
-          "clube": "GRE",
-          "adv": "COR",
-          "casa": false,
-          "adv_pos": 15,
-          "preco": 8.85,
-          "media": 6.87,
-          "jogos": 13,
-          "nota": 6.14,
-          "minimo": 9.89
-        },
-        {
-          "id": 92182,
-          "nome": "Juninho",
-          "pos": 3,
-          "clube": "INT",
-          "adv": "RBB",
-          "casa": true,
-          "adv_pos": 8,
-          "preco": 5.91,
-          "media": 4.43,
-          "jogos": 16,
-          "nota": 4.44,
-          "minimo": 0.3
-        },
-        {
-          "id": 63007,
-          "nome": "Neymar",
-          "pos": 4,
-          "clube": "SAN",
-          "adv": "VIT",
-          "casa": false,
-          "adv_pos": 13,
-          "preco": 18.46,
-          "media": 9.2,
-          "jogos": 17,
-          "nota": 8.0,
-          "minimo": 7.76
-        },
-        {
-          "id": 105436,
-          "nome": "Carrascal",
-          "pos": 4,
-          "clube": "FLA",
-          "adv": "CFC",
-          "casa": false,
-          "adv_pos": 12,
-          "preco": 10.91,
-          "media": 6.94,
-          "jogos": 27,
-          "nota": 6.28,
-          "minimo": 2.44
-        },
-        {
-          "id": 99440,
-          "nome": "Baralhas",
-          "pos": 4,
-          "clube": "VIT",
-          "adv": "SAN",
-          "casa": true,
-          "adv_pos": 9,
-          "preco": 10.42,
-          "media": 5.75,
-          "jogos": 18,
-          "nota": 5.63,
-          "minimo": 10.96
-        },
-        {
-          "id": 98873,
-          "nome": "Samuel Lino",
-          "pos": 5,
-          "clube": "FLA",
-          "adv": "CFC",
-          "casa": false,
-          "adv_pos": 12,
-          "preco": 14.72,
-          "media": 9.68,
-          "jogos": 33,
-          "nota": 8.8,
-          "minimo": 18.27
-        },
-        {
-          "id": 94583,
-          "nome": "Pedro",
-          "pos": 5,
-          "clube": "FLA",
-          "adv": "CFC",
-          "casa": false,
-          "adv_pos": 12,
-          "preco": 15.02,
-          "media": 8.05,
-          "jogos": 34,
-          "nota": 7.37,
-          "minimo": 2.43
-        },
-        {
-          "id": 130209,
-          "nome": "Renê",
-          "pos": 5,
-          "clube": "VIT",
-          "adv": "SAN",
-          "casa": true,
-          "adv_pos": 9,
-          "preco": 11.35,
-          "media": 7.31,
-          "jogos": 25,
-          "nota": 7.27,
-          "minimo": 15.72
-        },
-        {
-          "id": 86787,
-          "nome": "Clarence Seedorf",
-          "pos": 6,
-          "clube": "COR",
-          "adv": "GRE",
-          "casa": true,
-          "adv_pos": 16,
-          "preco": 11.95,
-          "media": 7.56,
-          "jogos": 5,
-          "nota": 7.85,
-          "minimo": 3.21
-        }
-      ]
-    },
-    "180": {
-      "formacao": "4-3-3",
-      "custo": 143.12,
-      "nota": 83.25,
-      "capitao": 98873,
+      "custo": 139.25,
+      "nota": 80.73,
+      "capitao": 63007,
       "time": [
         {
           "id": 91101,
@@ -446,18 +270,18 @@
           "minimo": 7.76
         },
         {
-          "id": 105436,
-          "nome": "Carrascal",
+          "id": 107231,
+          "nome": "Danilo",
           "pos": 4,
-          "clube": "FLA",
-          "adv": "CFC",
-          "casa": false,
-          "adv_pos": 12,
-          "preco": 10.91,
-          "media": 6.94,
-          "jogos": 27,
-          "nota": 6.28,
-          "minimo": 2.44
+          "clube": "BOT",
+          "adv": "BAH",
+          "casa": true,
+          "adv_pos": 6,
+          "preco": 12.79,
+          "media": 6.4,
+          "jogos": 24,
+          "nota": 6.15,
+          "minimo": 3.09
         },
         {
           "id": 99440,
@@ -472,20 +296,6 @@
           "jogos": 18,
           "nota": 5.63,
           "minimo": 10.96
-        },
-        {
-          "id": 98873,
-          "nome": "Samuel Lino",
-          "pos": 5,
-          "clube": "FLA",
-          "adv": "CFC",
-          "casa": false,
-          "adv_pos": 12,
-          "preco": 14.72,
-          "media": 9.68,
-          "jogos": 33,
-          "nota": 8.8,
-          "minimo": 18.27
         },
         {
           "id": 94583,
@@ -514,6 +324,196 @@
           "jogos": 25,
           "nota": 7.27,
           "minimo": 15.72
+        },
+        {
+          "id": 98909,
+          "nome": "Cuello",
+          "pos": 5,
+          "clube": "CAM",
+          "adv": "VAS",
+          "casa": true,
+          "adv_pos": 11,
+          "preco": 8.97,
+          "media": 6.26,
+          "jogos": 25,
+          "nota": 6.41,
+          "minimo": 0.81
+        },
+        {
+          "id": 86787,
+          "nome": "Clarence Seedorf",
+          "pos": 6,
+          "clube": "COR",
+          "adv": "GRE",
+          "casa": true,
+          "adv_pos": 16,
+          "preco": 11.95,
+          "media": 7.56,
+          "jogos": 5,
+          "nota": 7.85,
+          "minimo": 3.21
+        }
+      ]
+    },
+    "180": {
+      "formacao": "4-3-3",
+      "custo": 143.94,
+      "nota": 81.44,
+      "capitao": 63007,
+      "time": [
+        {
+          "id": 91101,
+          "nome": "Ronaldo",
+          "pos": 1,
+          "clube": "BAH",
+          "adv": "BOT",
+          "casa": false,
+          "adv_pos": 14,
+          "preco": 8.76,
+          "media": 6.12,
+          "jogos": 26,
+          "nota": 5.81,
+          "minimo": 4.71
+        },
+        {
+          "id": 105531,
+          "nome": "Matheus Bidu",
+          "pos": 2,
+          "clube": "COR",
+          "adv": "GRE",
+          "casa": true,
+          "adv_pos": 16,
+          "preco": 12.56,
+          "media": 7.31,
+          "jogos": 28,
+          "nota": 7.96,
+          "minimo": 1.02
+        },
+        {
+          "id": 101727,
+          "nome": "Matheuzinho",
+          "pos": 2,
+          "clube": "COR",
+          "adv": "GRE",
+          "casa": true,
+          "adv_pos": 16,
+          "preco": 11.07,
+          "media": 6.29,
+          "jogos": 28,
+          "nota": 6.91,
+          "minimo": 0.9
+        },
+        {
+          "id": 130307,
+          "nome": "Wallace",
+          "pos": 3,
+          "clube": "GRE",
+          "adv": "COR",
+          "casa": false,
+          "adv_pos": 15,
+          "preco": 8.85,
+          "media": 6.87,
+          "jogos": 13,
+          "nota": 6.14,
+          "minimo": 9.89
+        },
+        {
+          "id": 78248,
+          "nome": "Gustavo Henrique",
+          "pos": 3,
+          "clube": "COR",
+          "adv": "GRE",
+          "casa": true,
+          "adv_pos": 16,
+          "preco": 9.05,
+          "media": 4.73,
+          "jogos": 29,
+          "nota": 5.23,
+          "minimo": 0.72
+        },
+        {
+          "id": 63007,
+          "nome": "Neymar",
+          "pos": 4,
+          "clube": "SAN",
+          "adv": "VIT",
+          "casa": false,
+          "adv_pos": 13,
+          "preco": 18.46,
+          "media": 9.2,
+          "jogos": 17,
+          "nota": 8.0,
+          "minimo": 7.76
+        },
+        {
+          "id": 107231,
+          "nome": "Danilo",
+          "pos": 4,
+          "clube": "BOT",
+          "adv": "BAH",
+          "casa": true,
+          "adv_pos": 6,
+          "preco": 12.79,
+          "media": 6.4,
+          "jogos": 24,
+          "nota": 6.15,
+          "minimo": 3.09
+        },
+        {
+          "id": 99440,
+          "nome": "Baralhas",
+          "pos": 4,
+          "clube": "VIT",
+          "adv": "SAN",
+          "casa": true,
+          "adv_pos": 9,
+          "preco": 10.42,
+          "media": 5.75,
+          "jogos": 18,
+          "nota": 5.63,
+          "minimo": 10.96
+        },
+        {
+          "id": 94583,
+          "nome": "Pedro",
+          "pos": 5,
+          "clube": "FLA",
+          "adv": "CFC",
+          "casa": false,
+          "adv_pos": 12,
+          "preco": 15.02,
+          "media": 8.05,
+          "jogos": 34,
+          "nota": 7.37,
+          "minimo": 2.43
+        },
+        {
+          "id": 130209,
+          "nome": "Renê",
+          "pos": 5,
+          "clube": "VIT",
+          "adv": "SAN",
+          "casa": true,
+          "adv_pos": 9,
+          "preco": 11.35,
+          "media": 7.31,
+          "jogos": 25,
+          "nota": 7.27,
+          "minimo": 15.72
+        },
+        {
+          "id": 118844,
+          "nome": "Kaio César",
+          "pos": 5,
+          "clube": "COR",
+          "adv": "GRE",
+          "casa": true,
+          "adv_pos": 16,
+          "preco": 13.66,
+          "media": 6.69,
+          "jogos": 22,
+          "nota": 7.12,
+          "minimo": 1.36
         },
         {
           "id": 86787,
@@ -707,20 +707,6 @@
         "minimo": 0.72
       },
       {
-        "id": 87887,
-        "nome": "Balbuena",
-        "pos": 3,
-        "clube": "GRE",
-        "adv": "COR",
-        "casa": false,
-        "adv_pos": 15,
-        "preco": 8.33,
-        "media": 5.67,
-        "jogos": 12,
-        "nota": 5.14,
-        "minimo": 5.93
-      },
-      {
         "id": 92182,
         "nome": "Juninho",
         "pos": 3,
@@ -747,6 +733,20 @@
         "jogos": 28,
         "nota": 4.23,
         "minimo": 0.69
+      },
+      {
+        "id": 110750,
+        "nome": "Gustavo Marques",
+        "pos": 3,
+        "clube": "RBB",
+        "adv": "INT",
+        "casa": false,
+        "adv_pos": 18,
+        "preco": 7.81,
+        "media": 4.07,
+        "jogos": 28,
+        "nota": 4.08,
+        "minimo": 8.89
       }
     ],
     "MEI": [
@@ -765,18 +765,18 @@
         "minimo": 7.76
       },
       {
-        "id": 105436,
-        "nome": "Carrascal",
+        "id": 107231,
+        "nome": "Danilo",
         "pos": 4,
-        "clube": "FLA",
-        "adv": "CFC",
-        "casa": false,
-        "adv_pos": 12,
-        "preco": 10.91,
-        "media": 6.94,
-        "jogos": 27,
-        "nota": 6.28,
-        "minimo": 2.44
+        "clube": "BOT",
+        "adv": "BAH",
+        "casa": true,
+        "adv_pos": 6,
+        "preco": 12.79,
+        "media": 6.4,
+        "jogos": 24,
+        "nota": 6.15,
+        "minimo": 3.09
       },
       {
         "id": 99440,
@@ -807,35 +807,21 @@
         "minimo": 2.85
       },
       {
-        "id": 87863,
-        "nome": "Arrascaeta",
+        "id": 68685,
+        "nome": "Alan Patrick",
         "pos": 4,
-        "clube": "FLA",
-        "adv": "CFC",
-        "casa": false,
-        "adv_pos": 12,
-        "preco": 13.14,
-        "media": 5.09,
-        "jogos": 24,
-        "nota": 4.64,
-        "minimo": 5.37
+        "clube": "INT",
+        "adv": "RBB",
+        "casa": true,
+        "adv_pos": 8,
+        "preco": 7.2,
+        "media": 4.55,
+        "jogos": 28,
+        "nota": 4.59,
+        "minimo": 0.59
       }
     ],
     "ATA": [
-      {
-        "id": 98873,
-        "nome": "Samuel Lino",
-        "pos": 5,
-        "clube": "FLA",
-        "adv": "CFC",
-        "casa": false,
-        "adv_pos": 12,
-        "preco": 14.72,
-        "media": 9.68,
-        "jogos": 33,
-        "nota": 8.8,
-        "minimo": 18.27
-      },
       {
         "id": 94583,
         "nome": "Pedro",
@@ -891,6 +877,20 @@
         "jogos": 25,
         "nota": 6.41,
         "minimo": 0.81
+      },
+      {
+        "id": 112886,
+        "nome": "Lucas Barbosa",
+        "pos": 5,
+        "clube": "RBB",
+        "adv": "INT",
+        "casa": false,
+        "adv_pos": 18,
+        "preco": 9.93,
+        "media": 6.4,
+        "jogos": 30,
+        "nota": 6.23,
+        "minimo": 5.23
       }
     ],
     "TEC": [
@@ -968,6 +968,20 @@
   },
   "baratos": [
     {
+      "id": 141131,
+      "nome": "Vitão",
+      "pos": 3,
+      "clube": "CAM",
+      "adv": "VAS",
+      "casa": true,
+      "adv_pos": 11,
+      "preco": 4.7,
+      "media": 3.55,
+      "jogos": 9,
+      "nota": 3.74,
+      "minimo": 0.91
+    },
+    {
       "id": 103967,
       "nome": "Bruno Santos",
       "pos": 5,
@@ -980,20 +994,6 @@
       "jogos": 14,
       "nota": 3.18,
       "minimo": 2.13
-    },
-    {
-      "id": 146430,
-      "nome": "Justino",
-      "pos": 3,
-      "clube": "BOT",
-      "adv": "BAH",
-      "casa": true,
-      "adv_pos": 6,
-      "preco": 3.45,
-      "media": 2.9,
-      "jogos": 13,
-      "nota": 3.03,
-      "minimo": 0.31
     },
     {
       "id": 141400,
@@ -1022,20 +1022,6 @@
       "jogos": 20,
       "nota": 2.86,
       "minimo": 0.46
-    },
-    {
-      "id": 144255,
-      "nome": "João Alencar",
-      "pos": 3,
-      "clube": "SAN",
-      "adv": "VIT",
-      "casa": false,
-      "adv_pos": 13,
-      "preco": 2.87,
-      "media": 2.82,
-      "jogos": 5,
-      "nota": 2.86,
-      "minimo": 0.13
     },
     {
       "id": 94514,
@@ -1078,6 +1064,20 @@
       "jogos": 29,
       "nota": 2.69,
       "minimo": 0.1
+    },
+    {
+      "id": 115986,
+      "nome": "Denilson",
+      "pos": 4,
+      "clube": "MIR",
+      "adv": "CAP",
+      "casa": true,
+      "adv_pos": 5,
+      "preco": 4.33,
+      "media": 2.64,
+      "jogos": 23,
+      "nota": 2.68,
+      "minimo": 0.42
     }
   ]
 }
