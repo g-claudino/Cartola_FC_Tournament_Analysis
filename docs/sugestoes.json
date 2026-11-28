@@ -1,27 +1,27 @@
 {
   "rodada": 37,
   "mercado_aberto": true,
-  "jogadores_avaliados": 149,
+  "jogadores_avaliados": 150,
   "times": {
     "100": {
       "formacao": "4-3-3",
-      "custo": 99.78,
-      "nota": 69.58,
-      "capitao": 105531,
+      "custo": 99.46,
+      "nota": 69.7,
+      "capitao": 98873,
       "time": [
         {
-          "id": 91101,
-          "nome": "Ronaldo",
+          "id": 124264,
+          "nome": "Kauan Jesus",
           "pos": 1,
-          "clube": "BAH",
-          "adv": "BOT",
-          "casa": false,
-          "adv_pos": 14,
-          "preco": 8.76,
-          "media": 6.12,
-          "jogos": 26,
-          "nota": 5.81,
-          "minimo": 4.71
+          "clube": "INT",
+          "adv": "RBB",
+          "casa": true,
+          "adv_pos": 8,
+          "preco": 5.07,
+          "media": 4.3,
+          "jogos": 5,
+          "nota": 4.4,
+          "minimo": 1.48
         },
         {
           "id": 105531,
@@ -122,18 +122,18 @@
           "minimo": 0.45
         },
         {
-          "id": 130209,
-          "nome": "Renê",
+          "id": 98873,
+          "nome": "Samuel Lino",
           "pos": 5,
-          "clube": "VIT",
-          "adv": "SAN",
-          "casa": true,
-          "adv_pos": 9,
-          "preco": 11.35,
-          "media": 7.31,
-          "jogos": 25,
-          "nota": 7.27,
-          "minimo": 15.72
+          "clube": "FLA",
+          "adv": "CFC",
+          "casa": false,
+          "adv_pos": 12,
+          "preco": 14.72,
+          "media": 9.68,
+          "jogos": 33,
+          "nota": 8.8,
+          "minimo": 18.27
         },
         {
           "id": 98909,
@@ -181,9 +181,9 @@
     },
     "140": {
       "formacao": "4-3-3",
-      "custo": 139.25,
-      "nota": 80.73,
-      "capitao": 63007,
+      "custo": 138.95,
+      "nota": 82.16,
+      "capitao": 98873,
       "time": [
         {
           "id": 91101,
@@ -298,18 +298,18 @@
           "minimo": 10.96
         },
         {
-          "id": 94583,
-          "nome": "Pedro",
+          "id": 98873,
+          "nome": "Samuel Lino",
           "pos": 5,
           "clube": "FLA",
           "adv": "CFC",
           "casa": false,
           "adv_pos": 12,
-          "preco": 15.02,
-          "media": 8.05,
-          "jogos": 34,
-          "nota": 7.37,
-          "minimo": 2.43
+          "preco": 14.72,
+          "media": 9.68,
+          "jogos": 33,
+          "nota": 8.8,
+          "minimo": 18.27
         },
         {
           "id": 130209,
@@ -357,9 +357,9 @@
     },
     "180": {
       "formacao": "4-3-3",
-      "custo": 143.94,
-      "nota": 81.44,
-      "capitao": 63007,
+      "custo": 145.0,
+      "nota": 83.12,
+      "capitao": 98873,
       "time": [
         {
           "id": 91101,
@@ -474,6 +474,20 @@
           "minimo": 10.96
         },
         {
+          "id": 98873,
+          "nome": "Samuel Lino",
+          "pos": 5,
+          "clube": "FLA",
+          "adv": "CFC",
+          "casa": false,
+          "adv_pos": 12,
+          "preco": 14.72,
+          "media": 9.68,
+          "jogos": 33,
+          "nota": 8.8,
+          "minimo": 18.27
+        },
+        {
           "id": 94583,
           "nome": "Pedro",
           "pos": 5,
@@ -500,20 +514,6 @@
           "jogos": 25,
           "nota": 7.27,
           "minimo": 15.72
-        },
-        {
-          "id": 118844,
-          "nome": "Kaio César",
-          "pos": 5,
-          "clube": "COR",
-          "adv": "GRE",
-          "casa": true,
-          "adv_pos": 16,
-          "preco": 13.66,
-          "media": 6.69,
-          "jogos": 22,
-          "nota": 7.12,
-          "minimo": 1.36
         },
         {
           "id": 86787,
@@ -721,20 +721,6 @@
         "minimo": 0.3
       },
       {
-        "id": 83528,
-        "nome": "Léo Pereira",
-        "pos": 3,
-        "clube": "FLA",
-        "adv": "CFC",
-        "casa": false,
-        "adv_pos": 12,
-        "preco": 8.51,
-        "media": 4.52,
-        "jogos": 28,
-        "nota": 4.23,
-        "minimo": 0.69
-      },
-      {
         "id": 110750,
         "nome": "Gustavo Marques",
         "pos": 3,
@@ -747,6 +733,20 @@
         "jogos": 28,
         "nota": 4.08,
         "minimo": 8.89
+      },
+      {
+        "id": 115537,
+        "nome": "Marcos Victor",
+        "pos": 3,
+        "clube": "BAH",
+        "adv": "BOT",
+        "casa": false,
+        "adv_pos": 14,
+        "preco": 5.02,
+        "media": 4.33,
+        "jogos": 13,
+        "nota": 4.04,
+        "minimo": 0.76
       }
     ],
     "MEI": [
@@ -823,6 +823,20 @@
     ],
     "ATA": [
       {
+        "id": 98873,
+        "nome": "Samuel Lino",
+        "pos": 5,
+        "clube": "FLA",
+        "adv": "CFC",
+        "casa": false,
+        "adv_pos": 12,
+        "preco": 14.72,
+        "media": 9.68,
+        "jogos": 33,
+        "nota": 8.8,
+        "minimo": 18.27
+      },
+      {
         "id": 94583,
         "nome": "Pedro",
         "pos": 5,
@@ -877,20 +891,6 @@
         "jogos": 25,
         "nota": 6.41,
         "minimo": 0.81
-      },
-      {
-        "id": 112886,
-        "nome": "Lucas Barbosa",
-        "pos": 5,
-        "clube": "RBB",
-        "adv": "INT",
-        "casa": false,
-        "adv_pos": 18,
-        "preco": 9.93,
-        "media": 6.4,
-        "jogos": 30,
-        "nota": 6.23,
-        "minimo": 5.23
       }
     ],
     "TEC": [
