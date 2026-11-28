@@ -5,7 +5,7 @@
       "casa": "Botafogo",
       "fora": "Bahia",
       "data": "2026-11-28 21:00",
-      "hoje": false,
+      "hoje": true,
       "local": "Nilton Santos (Engenhão)",
       "previsao": {
         "gols_casa": 1.49,
@@ -138,11 +138,24 @@
       },
       "contexto": [
         "Atlético-MG sem: Alan Franco, Reinier, Maycon, Minda",
-        "Vasco da Gama sem: Barros, Nuno Moreira, Paulo Henrique, Robert Renan"
+        "Vasco da Gama sem: Nuno Moreira, Barros, Paulo Henrique, Robert Renan"
       ]
     }
   ],
-  "outros_hoje": [],
+  "outros_hoje": [
+    {
+      "competicao": "Libertadores",
+      "hora": "17:00",
+      "casa": "Palmeiras",
+      "fora": "Estudiantes de La Plata",
+      "casa_id": 275,
+      "fora_id": null,
+      "gc": null,
+      "gf": null,
+      "encerrado": false,
+      "previsao": null
+    }
+  ],
   "historico": {
     "jogos": 287,
     "acerto": 0.495,
